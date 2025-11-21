@@ -2,10 +2,10 @@
 
 ## Equipo
 
-- Carlos Salas [Gh](https://github.com/csalas-alarcon)
-- David Muñoz [Gh](https://github.com)
-- Linxi Jiang [Gh](https://github.com/Linxi-Jiang)
-- Stefano Bia [Gh](https://github.com/Stefano-UA)
+- Carlos Salas - [Gh](https://github.com/csalas-alarcon)
+- David Muñoz - [Gh](https://github.com)
+- Linxi Jiang - [Gh](https://github.com/Linxi-Jiang)
+- Stefano Bia - [Gh](https://github.com/Stefano-UA)
 
 ## Apartados
 
