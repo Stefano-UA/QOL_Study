@@ -84,6 +84,10 @@ por **CCAA** y sin tener en cuenta el **Sexo** de las personas.
 La agregación de datos la realizaremos basandonos en las siguientes columnas.
 Estas columnas deben tener **exactamente** el nombre indicado y sus valores tienen que estar **formateados** como se indica.
 
+### Year
+
+Contiene el año en formato YYYY como valor. Ej. 2025.
+
 ### CCAA
 
 Contiene una de las siguientes Comunidades Autónomas como valor:
@@ -106,10 +110,6 @@ Contiene una de las siguientes Comunidades Autónomas como valor:
 - navarra
 - pais_vasco
 - rioja
-
-### Year
-
-Contiene el año en formato YYYY como valor. Ej. 2025.
 
 ## Limpieza General de Datos
 
