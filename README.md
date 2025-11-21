@@ -9,14 +9,14 @@
 
 ## Apartados
 
-1. [X] Temática y Preguntas
-2. [~] Obtención de Datos
-3. [~] Diseño Conceptual, Lógico y Físico
-4. [~] Extracción y Preparación de Datos (pentaho)
-5. [ ] Transformación de Datos (tripletas)
-6. [ ] Visualizaciones 
-7. [ ] Memoria del Trabajo
-8. [~] Repositorio GitHub
+1. - [X] Temática y Preguntas
+2. - [ ] Obtención de Datos
+3. - [ ] Diseño Conceptual, Lógico y Físico
+4. - [ ] Extracción y Preparación de Datos (pentaho)
+5. - [ ] Transformación de Datos (tripletas)
+6. - [ ] Visualizaciones 
+7. - [ ] Memoria del Trabajo
+8. - [ ] Repositorio GitHub
 
 ### Revisiones
 
