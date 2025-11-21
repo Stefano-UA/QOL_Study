@@ -111,6 +111,42 @@ Contiene una de las siguientes Comunidades Autónomas como valor:
 
 Contiene el año en formato YYYY como valor. Ej. 2025.
 
+## Limpieza General de Datos
+
+A la hora de procesar los datos, con las trasnformaciones de pentaho,
+realizaremos las siguientes operaciones de limpieza, en orden.
+
+### String operations
+
+- *Trim type*: **both** -> Quita los espacios sobrantes al principio y al final de la cadena.
+- *Lower/Upper*: **lower** -> Normaliza todos los caracteres a minusculas.
+- *Remove Sepcial Character*: **carriage return & line feed** -> Quita los caracteres especiales *\cr* y *\n*.
+
+### Replace in string
+
+Reemplazaremos ciertos caracteres con otros siguiendo:
+
+| Reemplazar | Remplazo |
+|:-----:|:--:|
+| à o á | a |
+| è o é | e |
+| ì o í | i |
+| ò o ó | o |
+| ù o ú | u |
+| ñ | ny |
+| ' ' | _ |
+
+### Other
+
+Todo lo demás que tengamos que hacer con los datos.
+
+### Sort rows
+
+Finalmente, ordenaremos los datos por las siguientes columnas:
+
+1. [**Descendente**] Year
+2. [**Ascendente**] CCAA
+
 ## Last Edited
 
 21/11/25 - Stefano
