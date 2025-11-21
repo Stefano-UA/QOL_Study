@@ -134,7 +134,7 @@ Reemplazaremos ciertos caracteres con otros siguiendo:
 | ò o ó | o |
 | ù o ú | u |
 | ñ | ny |
-| ' ' | _ |
+| '&nbsp;' | _ |
 
 ### Other
 
