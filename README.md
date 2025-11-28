@@ -25,14 +25,14 @@ Las casillas **marcadas** con una *X* indican que ese miembro del equipo le ha d
 
 | Apartado | Salas | David | Linxi | Stefano |
 |:-:|:-----------------------:|:-----------------------:|:-----------------------:|:-----------------------:|
-| 1 | <ul><li>- [ ]</li></ul> | <ul><li>- [ ]</li></ul> | <ul><li>- [ ]</li></ul> | <ul><li>- [X]</li></ul> |
-| 2 | <ul><li>- [ ]</li></ul> | <ul><li>- [ ]</li></ul> | <ul><li>- [ ]</li></ul> | <ul><li>- [ ]</li></ul> |
-| 3 | <ul><li>- [ ]</li></ul> | <ul><li>- [ ]</li></ul> | <ul><li>- [ ]</li></ul> | <ul><li>- [ ]</li></ul> |
-| 4 | <ul><li>- [ ]</li></ul> | <ul><li>- [ ]</li></ul> | <ul><li>- [ ]</li></ul> | <ul><li>- [ ]</li></ul> |
-| 5 | <ul><li>- [ ]</li></ul> | <ul><li>- [ ]</li></ul> | <ul><li>- [ ]</li></ul> | <ul><li>- [ ]</li></ul> |
-| 6 | <ul><li>- [ ]</li></ul> | <ul><li>- [ ]</li></ul> | <ul><li>- [ ]</li></ul> | <ul><li>- [ ]</li></ul> |
-| 7 | <ul><li>- [ ]</li></ul> | <ul><li>- [ ]</li></ul> | <ul><li>- [ ]</li></ul> | <ul><li>- [ ]</li></ul> |
-| 8 | <ul><li>- [ ]</li></ul> | <ul><li>- [ ]</li></ul> | <ul><li>- [ ]</li></ul> | <ul><li>- [ ]</li></ul> |
+| 1 | - [X] | - [ ] | - [ ] | - [X] |
+| 2 | - [ ] | - [ ] | - [ ] | - [ ] |
+| 3 | - [ ] | - [ ] | - [ ] | - [ ] |
+| 4 | - [ ] | - [ ] | - [ ] | - [ ] |
+| 5 | - [ ] | - [ ] | - [ ] | - [ ] |
+| 6 | - [ ] | - [ ] | - [ ] | - [ ] |
+| 7 | - [ ] | - [ ] | - [ ] | - [ ] |
+| 8 | - [ ] | - [ ] | - [ ] | - [ ] |
 
 ## Estructura del Repositorio
 
