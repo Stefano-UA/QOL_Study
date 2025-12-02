@@ -1,13 +1,25 @@
 #!/bin/bash
+echo "funciona"
 
 scandir="../../data/pollution"
 
 for region in "$scandir"/*/; do
-    #echo same_format.py "$(basename "$region")" "$(realpath "$region"/*.csv)"
     for file in "$region"/*.csv; do
-        if [ "$file" != "${file// /}" ]; then
-            mv "$file" "${file// /}"
-        fi
         
+        # Skip if file doesn't exist
+        [ -e "$file" ] || continue
+
+        # Remove spaces in filename
+        cleaned="${file// /}"
+        if [ "$file" != "$cleaned" ]; then
+            mv "$file" "$cleaned"
+            file="$cleaned"
+        fi 
+
+        echo "Processing: $file"
+
+        # Run python script for the file
+        python3 experimento.py "$(basename "$region")" "$(realpath "$file")"
+
     done
 done
