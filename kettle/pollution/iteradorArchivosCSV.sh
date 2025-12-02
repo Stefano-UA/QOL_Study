@@ -19,7 +19,7 @@ for region in "$scandir"/*/; do
         echo "Processing: $file"
 
         # Run python script for the file
-        python3 experimento.py "$(basename "$region")" "$(realpath "$file")"
+        python3 cribado.py "$(basename "$region")" "$(realpath "$file")"
 
     done
 done

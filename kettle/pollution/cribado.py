@@ -4,29 +4,27 @@ import pandas as pd
 EXPECTED_COLUMNS = [ 'date', ' pm25', ' pm10', ' o3', ' no2', ' so2', ' co']
 
 def main():
-    # Expect: region, file_path
+    # Comprobamos los argumentos
     if len(sys.argv) !=3:
-        print("Usage: same_format.py <region> <file.csv>")
+        print("Uso: same_format.py <region> <file.csv>")
         sys.exit(1)
         
-    region = sys.argv[1]
     file_path = sys.argv[2]
     
+    # Probamos a leer
     try:
         df = pd.read_csv(file_path)
-        print("EXITO")
     except Exception as e:
-        print(f"ERROR: Could not read {file_path}: {e}")
+        print(f"ERROR: No se pudo leer {file_path}: {e}")
         sys.exit(1)
         
-    # Check if all expectes columns re present
+    # Ver que columnas faltan
     missing = [col for col in EXPECTED_COLUMNS if col not in df.columns]
-    print(df.columns)
+    print(f"Las columnas DEBERIAN ser: {[columna for columna in df.columns]}")
     if not missing:
-        print(f"{file_path}: good")
+        print(f"TODO CORRECTO en: \n{file_path}")
     else:
-        print(f"{file_path}: missing columns -> {missing}")
+        print(f"Y FALTAN -> {missing} en: \n{file_path}")
         
 if __name__ == "__main__":
     main()
-    print("THIS EXECUTED")
