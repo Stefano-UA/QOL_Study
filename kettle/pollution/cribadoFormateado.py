@@ -1,7 +1,7 @@
 import sys 
 import pandas as pd 
 
-EXPECTED_COLUMNS = [ 'date', ' pm25', ' pm10', ' o3', ' no2', ' so2', ' co']
+EXPECTED_COLUMNS = [ 'date', 'pm25', 'pm10', 'o3', 'no2', 'so2', 'co']
 
 def main():
     # Comprobamos los argumentos
