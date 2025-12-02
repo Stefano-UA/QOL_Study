@@ -34,8 +34,13 @@ def main():
     # Reordenamos las columnas - Paso 3
     df = df[EXPECTED_COLUMNS]
     
-    # Guardamos los Resultados - Paso 4
-    df.to_csv(file_path, index= False)
+    # Guardamos los Resultados CON SEMICOLON - Paso 4
+    try:
+        df.to_csv(file_path, sep=';', index=False)
+    except Exception as e:
+        print(f"ERROR al guardar con semicolon {file_path}: {e}")
+        df.to_csv(file_path, index= False)
+        
     print(f"ARREGLADO el archivo: {file_path}")
     
 if __name__ == "__main__":
