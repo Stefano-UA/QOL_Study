@@ -3,6 +3,7 @@
 scandir="../../data/pollution"
 
 for region in "$scandir"/*/; do
+    nom_region="$(basename "$region")"
     for file in "$region"/*.csv; do
         
         # Nos lo saltamos sino existe
@@ -20,8 +21,11 @@ for region in "$scandir"/*/; do
         # Procesando con python:
         echo "CRIBADO:"
         python3 cribado.py "$(basename "$region")" "$(realpath "$file")"
-        #echo "FORMATEO: COLUMNAS"
-        #python3 formateador.py "$(basename "$region")" "$(realpath "$file")"
-
+        echo "FORMATEO: COLUMNAS"
+        if [ "$nom_region" == "castilla_mancha" ]; then
+            python3 formateador.py "$(basename "$region")" "$(realpath "$file")"
+        else
+            python3 formateador.py "$(basename "$region")" "$(realpath "$file")"
+        fi
     done
 done
