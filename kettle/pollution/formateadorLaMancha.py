@@ -1,13 +1,14 @@
 import sys
 import pandas as pd
-from formateador.py import limpiar_columas
 
 EXPECTED_COLUMNS = ['date', 'pm25', 'pm10', 'o3', 'no2', 'so2', 'co']
 
+def limpiar_columas(col):
+    return col.replace(" ", "")
 
 def main():
-    if len(sys.argv) != 3:
-        print("Uso: formateadorLaMancha.py <region> <file.csv>")
+    if len(sys.argv) != 2:
+        print("Uso: formateadorLaMancha.py <file.csv>")
         sys.exit(1)
 
     file_path = sys.argv[1]
@@ -25,8 +26,8 @@ def main():
     # Esquema SDS011 
     dic_cols = {
         "timestamp": "date",
-        "p2": "pm25",  # PM2.5
-        "p1": "pm10",  # PM10
+        "P2": "pm25",  # PM2.5
+        "P1": "pm10",  # PM10
     }
 
     # Creamos un nuevo DataFrame
@@ -48,7 +49,7 @@ def main():
 
     # Sobreescribir archivos.
     try:
-        new_df.to_csv(file_path, index=False)
+        new_df.to_csv(file_path, sep=';', index=False)
     except Exception as e:
         print(f"ERROR: No se pudo sobreescribir el archivo: {e}")
         sys.exit(1)

@@ -23,8 +23,10 @@ for region in "$scandir"/*/; do
         python3 cribadoInicial.py "$(basename "$region")" "$(realpath "$file")"
         echo "FORMATEO: COLUMNAS"
         if [ "$nom_region" == "castilla_mancha" ]; then
-            python3 formateadorLaMancha.py "$(basename "$region")" "$(realpath "$file")"
+            echo "JALIBU"
+            python3 formateadorLaMancha.py "$(realpath "$file")"
         else
+            echo "NO PASA NADA"
             python3 formateador.py "$(basename "$region")" "$(realpath "$file")"
         fi
         echo "POST_CAMBIOS"
