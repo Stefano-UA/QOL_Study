@@ -19,13 +19,16 @@ for region in "$scandir"/*/; do
         echo "Processing: $file"
 
         # Procesando con python:
-        echo "CRIBADO:"
-        python3 cribado.py "$(basename "$region")" "$(realpath "$file")"
+        echo "CRIBADO INICIAL:"
+        python3 cribadoInicial.py "$(basename "$region")" "$(realpath "$file")"
         echo "FORMATEO: COLUMNAS"
         if [ "$nom_region" == "castilla_mancha" ]; then
-            python3 formateador.py "$(basename "$region")" "$(realpath "$file")"
+            python3 formateadorLaMancha.py "$(basename "$region")" "$(realpath "$file")"
         else
             python3 formateador.py "$(basename "$region")" "$(realpath "$file")"
         fi
+        echo "POST_CAMBIOS"
+        python3 cribadoFormateado.py "$(basename "$region")" "$(realpath "$file")"
+        
     done
 done
