@@ -12,19 +12,17 @@ def main():
     region = sys.argv[1]
     file_path = sys.argv[2]
 
-    # Verificar archivo
     if not os.path.isfile(file_path):
         print(f"ERROR: Archivo no encontrado: {file_path}")
         sys.exit(1)
 
-    # Leer CSV
     try:
-        df = pd.read_csv(file_path)
+        df = pd.read_csv(file_path, sep=';')
     except Exception as e:
         print(f"ERROR: No se pudo leer {file_path}: {e}")
         sys.exit(1)
 
-    # Filtrar solo columnas esperadas
+    # Asegurarse de que todas las columnas existan
     expected_cols = ['pm25'] + CONTAMINANTES
     for col in expected_cols:
         if col not in df.columns:
@@ -32,24 +30,20 @@ def main():
 
     # Calcular ratios
     ratios = {}
-    for pollutant in CONTAMINANTES:
-        valid_rows = df[['pm25', pollutant]].dropna()
-        valid_rows = valid_rows[valid_rows['pm25'] > 0]
-        valid_rows = valid_rows[valid_rows[pollutant] > 0]
+    for pol in CONTAMINANTES:
+        valid_rows = df[['pm25', pol]].dropna()
+        valid_rows['pm25'] = pd.to_numeric(valid_rows['pm25'], errors='coerce')
+        valid_rows[pol] = pd.to_numeric(valid_rows[pol], errors='coerce')
+        valid_rows = valid_rows[(valid_rows['pm25'] > 0) & (valid_rows[pol] > 0)]
 
         if not valid_rows.empty:
-            mean_pm25 = valid_rows['pm25'].astype(float).mean()
-            mean_pollutant = valid_rows[pollutant].astype(float).mean()
-            ratio = mean_pm25 / mean_pollutant if mean_pollutant != 0 else 0
+            ratios[pol] = valid_rows['pm25'].mean() / valid_rows[pol].mean()
         else:
-            ratio = 0
+            ratios[pol] = 0
 
-        ratios[pollutant] = ratio
-
-    # Determinar ID (primeros 10 caracteres del nombre del archivo)
+    # ID = primeros 10 caracteres del nombre del archivo
     id_row = os.path.basename(file_path)[:10]
 
-    # Archivo de salida
     region_folder = os.path.join("../../data/pollution", region)
     os.makedirs(region_folder, exist_ok=True)
     out_csv = os.path.join(region_folder, f"{region}_ratios.csv")
@@ -57,14 +51,21 @@ def main():
     # Crear o leer CSV de salida
     if os.path.isfile(out_csv):
         try:
-            df_out = pd.read_csv(out_csv)
+            df_out = pd.read_csv(out_csv, sep=';')
         except Exception as e:
             print(f"ERROR: No se pudo leer {out_csv}: {e}")
             sys.exit(1)
     else:
         df_out = pd.DataFrame(columns=['id'] + CONTAMINANTES)
 
-    # Verificar si ID ya existe
+    # Asegurarse de que las columnas existan
+    if 'id' not in df_out.columns:
+        df_out['id'] = pd.Series(dtype=str)
+    for pol in CONTAMINANTES:
+        if pol not in df_out.columns:
+            df_out[pol] = pd.NA
+
+    # Saltar si ID ya existe
     if id_row in df_out['id'].astype(str).values:
         print(f"ID {id_row} ya existe en {out_csv}, saltando...")
         return
@@ -74,7 +75,6 @@ def main():
     new_row.update(ratios)
     df_out = pd.concat([df_out, pd.DataFrame([new_row])], ignore_index=True)
 
-    # Guardar CSV
     try:
         df_out.to_csv(out_csv, sep=';', index=False)
         print(f"Ratios guardados en {out_csv}")
