@@ -62,7 +62,7 @@ done
 
 super_csv="../../data/pollution/super.csv"
 
-# Overwrite super.csv if it exists
+# Crear super.csv si no existe
 echo "date;region;pm25;pm10;o3;no2;so2;co" > "$super_csv"
 
 for region in "$scandir"/*/; do
@@ -71,8 +71,9 @@ for region in "$scandir"/*/; do
 
         [ -e "$file" ] || continue
 
-        # Append rows to super.csv with region column and date as year
-        # Skip the header of each file (NR>1)
+        # Añadir filas a super.csv
+        # añadiendo columna region, simplificando fecha.
+        # Nos Saltamos el cabezal.
         awk -F';' -v OFS=';' -v region="$nom_region" 'NR>1 {
             split($1,d,"-");   # assuming $1 is date
             year=d[1];
@@ -83,3 +84,7 @@ for region in "$scandir"/*/; do
 done
 
 echo "Super CSV created at $super_csv"
+
+# QUINTO PASO - FACTORIZACIÓN
+echo "Generando total_polution.csv agregando por año y región..."
+python3 total_polution.py
