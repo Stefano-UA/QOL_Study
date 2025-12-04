@@ -57,3 +57,29 @@ for region in "$scandir"/*/; do
         python3 inferenciaContaminantes.py "$nom_region" "$(realpath "$file")"
     done 
 done 
+
+# CUARTO LOOP - AGREGACIÓN
+
+super_csv="../../data/pollution/super.csv"
+
+# Overwrite super.csv if it exists
+echo "date;region;pm25;pm10;o3;no2;so2;co" > "$super_csv"
+
+for region in "$scandir"/*/; do
+    nom_region="$(basename "$region")"
+    for file in "$region"/*.csv; do
+
+        [ -e "$file" ] || continue
+
+        # Append rows to super.csv with region column and date as year
+        # Skip the header of each file (NR>1)
+        awk -F';' -v OFS=';' -v region="$nom_region" 'NR>1 {
+            split($1,d,"-");   # assuming $1 is date
+            year=d[1];
+            print year, region, $2, $3, $4, $5, $6, $7
+        }' "$file" >> "$super_csv"
+
+    done
+done
+
+echo "Super CSV created at $super_csv"
