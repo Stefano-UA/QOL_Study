@@ -1,0 +1,6 @@
+castilla_leon
+madrid
+aragon
+comunidad_valenciana
+murcia
+andalucia
