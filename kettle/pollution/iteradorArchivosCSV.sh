@@ -88,3 +88,7 @@ echo "Super CSV created at $super_csv"
 # QUINTO PASO - FACTORIZACIÓN
 echo "Generando total_polution.csv agregando por año y región..."
 python3 total_polution.py
+
+# SEXTO (ÚLTIMO) PASO - Esquematización
+
+python3 esquematizador.py
