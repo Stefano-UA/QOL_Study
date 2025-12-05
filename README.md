@@ -3,7 +3,7 @@
 ## Equipo
 
 - Carlos Salas - [Gh](https://github.com/csalas-alarcon)
-- David Muñoz - [Gh](https://github.com)
+- David Muñoz - [Gh](https://github.com/oppangangnamsta)
 - Linxi Jiang - [Gh](https://github.com/Linxi-Jiang)
 - Stefano Bia - [Gh](https://github.com/Stefano-UA)
 
@@ -50,7 +50,7 @@ Las casillas **marcadas** con una *X* indican que ese miembro del equipo le ha d
     - /*logic.mwb*: Diseño lógico, modelo de MySQL Workbench
     - /*physic.sql*: Diseño físico
 - ./**dist**: Agregados de datos final
-    - /**kettle**: Agregados generados por las transformaciones de Pentaho
+    - /**kettle**: Agregados generados por las transformaciones de Pentaho y Python
 - ./**docs**: Documentación del trabajo
     - /*Memoria.pdf*: Memoria final del trabajo
     - /*Memoria.odt*: Memoria del trabajo
@@ -59,6 +59,9 @@ Las casillas **marcadas** con una *X* indican que ese miembro del equipo le ha d
     - [NOTE] Idealmente las transformaciones compartiran nombre con los archivos sobre los que trabajan
     - /*.ktr*:
     - /*.kjb*:
+- ./**schema**: Modelos Semánticos
+    - /*.ttl*:
+    - /*.rdf*:
 - ./**visuals**: Visualizaciones de datos
     - /**gen**: Código para generar las visualizaciones
     - /*.png*
@@ -75,7 +78,7 @@ Haremos uso de los siguientes datos para tratar de responder a estas preguntas.
 Los datos agregaran la información por **Año**, fijandonos a poder ser en los más *recientes*,
 por **CCAA** y sin tener en cuenta el **Sexo** de las personas.
 
-- Contaminación del aire -> *pollution*
+- Contaminación del aire -> *pollution/*
 - Cantidad de población -> *pob_ccaa.csv*
 - Indice de calidad de vida -> *qol_ccaa.xslx*
 - Índice de precios de consumo -> *ipc_ccaa.csv*
@@ -103,22 +106,22 @@ Contiene una de las siguientes Comunidades Autónomas como valor:
 - canarias
 - cantabria
 - castilla_leon
-- castilla_la_mancha
+- castilla_mancha
 - catalunya
 - ceuta
-- melilla
 - comunidad_valenciana
 - extremadura
 - galicia
+- la_rioja
 - madrid
+- mellila
 - murcia
 - navarra
 - pais_vasco
-- rioja
 
 ## Limpieza General de Datos
 
-A la hora de procesar los datos, con las trasnformaciones de pentaho,
+A la hora de procesar los datos, con las transformaciones de pentaho,
 realizaremos las siguientes operaciones de limpieza, en orden.
 
 ### String operations
@@ -154,6 +157,7 @@ Finalmente, ordenaremos los datos por las siguientes columnas:
 
 ## Last Edited
 
+5/12/25 - Carlos
 21/11/25 - Stefano
 
 
