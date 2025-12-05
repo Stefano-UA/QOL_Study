@@ -32,6 +32,7 @@ def main():
     ratios = {}
     for pol in CONTAMINANTES:
         valid_rows = df[['pm25', pol]].dropna()
+        valid_rows = valid_rows.copy()
         valid_rows['pm25'] = pd.to_numeric(valid_rows['pm25'], errors='coerce')
         valid_rows[pol] = pd.to_numeric(valid_rows[pol], errors='coerce')
         valid_rows = valid_rows[(valid_rows['pm25'] > 0) & (valid_rows[pol] > 0)]
@@ -44,7 +45,7 @@ def main():
     # ID = primeros 10 caracteres del nombre del archivo
     id_row = os.path.basename(file_path)[:10]
 
-    region_folder = os.path.join("../../data/pollution", region)
+    region_folder = os.path.join("../../temp/pollution", region)
     os.makedirs(region_folder, exist_ok=True)
     out_csv = os.path.join(region_folder, f"{region}_ratios.csv")
 

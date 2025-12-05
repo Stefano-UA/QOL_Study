@@ -29,7 +29,7 @@ for region in "$scandir"/*/; do
         python3 cribadoInicial.py "$nom_region" "$(realpath "$file")"
 
         echo "FORMATEO: COLUMNAS"
-        if [ "$nom_region" == "castilla_mancha" ]; then
+        if [ "$file" == "../../temp/pollution/castilla_mancha/2025-11-06_sds011_sensor_83475.csv" ]; then
             python3 formateadorLaMancha.py "$(realpath "$file")"
         else
             echo "NO PASA NADA"
@@ -58,28 +58,29 @@ done
 for region in "$scandir"/*/; do 
     nom_region="$(basename "$region")"
     for file in "$region"/*.csv; do 
-
         [ -e "$file" ] || continue 
 
         echo "INFERENCIA PM25 en \n$file"
         python3 inferencia25.py "$nom_region" "$(realpath "$file")"
         echo "INFERENCIA CONTAMINANTES en \n$file"
-        python3 inferenciaContaminantes.py "$nom_region" "$(realpath "$file")"
+        inferred_file="${file%.csv}_inferred.csv"
+        python3 inferenciaContaminantes.py "$nom_region" "$(realpath "$inferred_file")"
     done 
 done 
 
 # CUARTO LOOP - AGREGACIÓN
 
-super_csv="../../temp/pollution/super.csv"
+SUPER_CSV="../../temp/pollution/super.csv"
 
 # Crear super.csv si no existe
-echo "date;region;pm25;pm10;o3;no2;so2;co" > "$super_csv"
+echo "date;region;pm25;pm10;o3;no2;so2;co" > "$SUPER_CSV"
 
 for region in "$scandir"/*/; do
     nom_region="$(basename "$region")"
     for file in "$region"/*.csv; do
+        inferred_file="${file%.csv}_inferred.csv"
 
-        [ -e "$file" ] || continue
+        [ -e "$inferred_file" ] || continue
 
         # Añadir filas a super.csv
         # añadiendo columna region, simplificando fecha.
@@ -88,17 +89,16 @@ for region in "$scandir"/*/; do
             split($1,d,"-");   # assuming $1 is date
             year=d[1];
             print year, region, $2, $3, $4, $5, $6, $7
-        }' "$file" >> "$super_csv"
+        }' "$inferred_file" >> "$SUPER_CSV"
 
     done
 done
 
-echo "Super CSV created at $super_csv"
+echo "Super CSV created at $SUPER_CSV"
 
 # QUINTO PASO - FACTORIZACIÓN
 echo "Generando total_polution.csv agregando por año y región..."
 python3 agregador.py
 
 # SEXTO (ÚLTIMO) PASO - Esquematización
-
 python3 esquematizador.py
