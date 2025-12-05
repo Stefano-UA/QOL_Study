@@ -1,6 +1,11 @@
 #!/bin/bash
 
-scandir="../../data/pollution"
+# PRELIMINAR - COPIAMOS LA INFORMACIÓN
+rm -rf ../../temp/pollution
+mkdir -p .././temp/pollution
+cp -r ../../data/pollution/* ../../temp/pollution/
+
+scandir="../../temp/pollution"
 
 # PRIMER LOOP- FORMATEO y RATIOS
 for region in "$scandir"/*/; do
@@ -39,6 +44,11 @@ for region in "$scandir"/*/; do
     done
 done
 
+# INTERMEDIO, COPIAMOS VECINOS
+cp vecinos/baleares_vecinos.txt ../../temp/pollution/balares/
+cp vecinos/cantabria_vecinos.txt ../../temp/pollution/cantabria/
+cp vecinos/castilla_mancha_vecinos.txt ../../temp/pollution/castilla_mancha/
+
 # SEGUNDO LOOP - ARREGLO RATOS
 for region in "$scandir"/*/; do 
     python3 inferenciaVecinos.py "$region"
@@ -60,7 +70,7 @@ done
 
 # CUARTO LOOP - AGREGACIÓN
 
-super_csv="../../data/pollution/super.csv"
+super_csv="../../temp/pollution/super.csv"
 
 # Crear super.csv si no existe
 echo "date;region;pm25;pm10;o3;no2;so2;co" > "$super_csv"
