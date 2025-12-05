@@ -46,8 +46,9 @@ Las casillas **marcadas** con una *X* indican que ese miembro del equipo le ha d
     - /*qol_ccaa_ex.xslx*: Indice de calidad de vida por CCAA con muchos datos extra
 - ./**design**: Diseños del almacen de datos
     - /*conceptual.md*: Diseño conceptual
-    - /*logic.png*: Diesño lógico
-    - /*physic.db*: Diseño físico
+    - /*logic.png*: Diseño lógico
+    - /*logic.mwb*: Diseño lógico, modelo de MySQL Workbench
+    - /*physic.sql*: Diseño físico
 - ./**dist**: Agregados de datos final
 - ./**docs**: Documentación del trabajo
     - /*Memoria.pdf*: Memoria final del trabajo
