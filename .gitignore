@@ -1,0 +1,9 @@
+# Logs
+logs
+*.log
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# Python cache
+__pycache__
