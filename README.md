@@ -50,10 +50,12 @@ Las casillas **marcadas** con una *X* indican que ese miembro del equipo le ha d
     - /*logic.mwb*: Diseño lógico, modelo de MySQL Workbench
     - /*physic.sql*: Diseño físico
 - ./**dist**: Agregados de datos final
+    - /**kettle**: Agregados generados por las transformaciones de Pentaho
 - ./**docs**: Documentación del trabajo
     - /*Memoria.pdf*: Memoria final del trabajo
     - /*Memoria.odt*: Memoria del trabajo
-- ./**kettle**: Trabajos y transformaciones de Pentaho
+- ./**kettle**: Trabajos y transformaciones
+    - /**pollution**: Trabajos y transformaciones de pollution hechos en Python
     - [NOTE] Idealmente las transformaciones compartiran nombre con los archivos sobre los que trabajan
     - /*.ktr*:
     - /*.kjb*:
@@ -93,6 +95,7 @@ Contiene el año en formato YYYY como valor. Ej. 2025.
 
 Contiene una de las siguientes Comunidades Autónomas como valor:
 
+- total_nacional
 - andalucia 
 - aragon
 - asturias
@@ -100,9 +103,10 @@ Contiene una de las siguientes Comunidades Autónomas como valor:
 - canarias
 - cantabria
 - castilla_leon
-- castilla_mancha
+- castilla_la_mancha
 - catalunya
-- ceuta_melilla
+- ceuta
+- melilla
 - comunidad_valenciana
 - extremadura
 - galicia
