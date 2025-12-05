@@ -618,7 +618,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>/run/media/wisker/Sundial/sundial/vsty/ythree/aypd/trabajo/data/ipc_ccaa.csv</filename>
+    <filename>${Internal.Entry.Current.Directory}/../data/ipc_ccaa.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -2652,7 +2652,7 @@
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>/run/media/wisker/Sundial/sundial/vsty/ythree/aypd/trabajo/dist/kettle/ipca_ccaa</name>
+      <name>${Internal.Entry.Current.Directory}/../dist/kettle/ipca_ccaa</name>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>csv</extention>
