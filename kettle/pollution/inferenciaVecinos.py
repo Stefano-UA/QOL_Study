@@ -52,7 +52,7 @@ def main():
     # Load neighbour ratios
     vecinos_dfs = {}
     for vecino in vecinos:
-        vecino_csv = os.path.join("../../data/pollution", vecino, f"{vecino}_ratios.csv")
+        vecino_csv = os.path.join("../../temp/pollution", vecino, f"{vecino}_ratios.csv")
         if os.path.isfile(vecino_csv):
             try:
                 df = pd.read_csv(vecino_csv, sep=';')

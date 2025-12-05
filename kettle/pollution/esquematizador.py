@@ -11,9 +11,9 @@ EX = Namespace("http://example.org/pollution/")
 # -----------------------------
 # Input / Output
 # -----------------------------
-INPUT_CSV = "../../data/pollution/total_polution.csv"
-OUTPUT_TTL = "../../data/pollution/total_polution.ttl"
-OUTPUT_RDF = "../../data/pollution/total_polution.rdf"
+INPUT_CSV = "../../temp/pollution/total_pollution.csv"
+OUTPUT_TTL = "../../schema/pollution/total_pollution.ttl"
+OUTPUT_RDF = "../../schema/pollution/total_pollution.rdf"
 
 # -----------------------------
 # Unit codes (confirmed)

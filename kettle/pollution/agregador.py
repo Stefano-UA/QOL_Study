@@ -3,8 +3,8 @@
 import pandas as pd
 
 # Paths
-super_csv_path = "../../data/pollution/super.csv"
-total_csv_path = "../../data/pollution/total_polution.csv"
+super_csv_path = "../../temp/pollution/super.csv"
+total_csv_path = "../../dist/total_pollution.csv"
 
 # Read super.csv
 try:
@@ -26,7 +26,7 @@ agg_df = agg_df.sort_values(by=['region', 'date'])
 
 # Save to total_polution.csv
 try:
-    agg_df.to_csv(total_csv_path, sep=';', index=False)
+    agg_df.to_csv(total_csv_path, sep='\t', index=False)
     print(f"Aggregated total CSV saved to {total_csv_path}")
 except Exception as e:
     print(f"ERROR: Could not save {total_csv_path}: {e}")

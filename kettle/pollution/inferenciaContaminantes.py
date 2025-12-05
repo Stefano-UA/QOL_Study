@@ -63,7 +63,7 @@ def main():
             df[col] = pd.NA
 
     # Load ratios CSV
-    ratio_csv = os.path.join("../../data/pollution", region, f"{region}_ratios.csv")
+    ratio_csv = os.path.join("../../temp/pollution", region, f"{region}_ratios.csv")
     if not os.path.isfile(ratio_csv):
         print(f"ERROR: Ratios file not found → {ratio_csv}")
         sys.exit(1)

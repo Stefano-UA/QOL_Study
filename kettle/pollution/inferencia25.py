@@ -20,7 +20,7 @@ def is_valid_number(x):
 def load_ratios(region, file_path):
     """Load the ratio row for the given file (first 10 chars as ID)."""
     base_id = os.path.basename(file_path)[:10]
-    ratio_csv = os.path.join("../../data/pollution", region, f"{region}_ratios.csv")
+    ratio_csv = os.path.join("../../temp/pollution", region, f"{region}_ratios.csv")
 
     if not os.path.isfile(ratio_csv):
         print(f"ERROR: RATIOS FILE NOT FOUND → {ratio_csv}")
