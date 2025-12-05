@@ -4,7 +4,7 @@ import pandas as pd
 
 # Paths
 super_csv_path = "../../temp/pollution/super.csv"
-total_csv_path = "../../dist/total_pollution.csv"
+total_csv_path = "../../dist/kettle/total_pollution.csv"
 
 # Read super.csv
 try:
