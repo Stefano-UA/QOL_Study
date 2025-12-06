@@ -14,7 +14,7 @@
 3. - [ ] Diseño Conceptual, Lógico y Físico
 4. - [ ] Extracción y Preparación de Datos (pentaho)
 5. - [ ] Transformación de Datos (tripletas)
-6. - [ ] Visualizaciones 
+6. - [ ] Visualizaciones
 7. - [ ] Memoria del Trabajo
 8. - [ ] Repositorio GitHub
 
@@ -99,14 +99,14 @@ Contiene el año en formato YYYY como valor. Ej. 2025.
 Contiene una de las siguientes Comunidades Autónomas como valor:
 
 - total_nacional
-- andalucia 
+- andalucia
 - aragon
 - asturias
 - baleares
 - canarias
 - cantabria
 - castilla_leon
-- castilla_mancha
+- castilla_la_mancha
 - catalunya
 - ceuta
 - comunidad_valenciana
