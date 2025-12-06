@@ -2,7 +2,7 @@ import pandas as pd
 
 # Rutas
 super_csv_path = "../../temp/pollution/super.csv"
-total_csv_path = "../../dist/kettle/total_pollution.csv"
+total_csv_path = "../../dist/kettle/pollution.csv"
 
 # Leemos super.csv
 try:
@@ -32,7 +32,7 @@ agg_df_ccaa = agg_df[agg_df['region'] != 'total_nacional']
 
 # Calculamos promedio por año
 nacional_df = agg_df_ccaa.groupby('date', as_index=False)[pollutants].mean()
-nacional_df['region'] = 'Nacional'  # O 'total_nacional', según convención
+nacional_df['region'] = 'total_nacional'  # O 'total_nacional', según convención
 
 # Añadimos al dataframe original
 agg_df = pd.concat([agg_df, nacional_df], ignore_index=True)

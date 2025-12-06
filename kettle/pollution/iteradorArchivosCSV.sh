@@ -95,6 +95,7 @@ for region in "$scandir"/*/; do
         awk -F';' -v OFS=';' -v region="$nom_region" 'NR>1 {
             split($1,d,"[-/]");   # assuming $1 is date
             year=d[1];
+            if (r=="castilla_mancha") r="castilla_la_mancha"
             print year, region, $2, $3, $4, $5, $6, $7
         }' "$inferred_file" >> "$SUPER_CSV"
 

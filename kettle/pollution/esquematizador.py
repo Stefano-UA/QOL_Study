@@ -38,7 +38,7 @@ PROPERTY_RESOURCES = {
 ccaa_wikidata_map = {
     "andalucia": "Q5718", "aragon": "Q4040", "asturias": "Q3934",
     "baleares": "Q4071", "canarias": "Q5709", "cantabria": "Q3946",
-    "castilla_mancha": "Q5748", "castilla_leon": "Q5739",
+    "castilla_la_mancha": "Q5748", "castilla_leon": "Q5739",
     "catalunya": "Q5705", "ceuta": "Q5823", "comunidad_valenciana": "Q5720",
     "extremadura": "Q5777", "galicia": "Q3911", "la_rioja": "Q5727",
     "madrid": "Q5756", "melilla": "Q5831", "murcia": "Q5768",
