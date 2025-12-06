@@ -35,7 +35,7 @@ for index, row in df.iterrows():
     ttl_content += f"{subject} a schema:Observation ;\n"
     
     # Propiedad específica
-    ttl_content += f"    schema:measuredProperty ex:inequality_{var_clean} ;\n"
+    ttl_content += f"    schema:measuredProperty ex:{var_clean} ;\n"
     
     # Fecha
     ttl_content += f'    schema:observationDate "{year}"^^xsd:gYear ;\n'

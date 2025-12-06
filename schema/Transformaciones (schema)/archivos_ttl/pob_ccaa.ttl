@@ -3,481 +3,481 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 ex:andalucia_2021_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:value "8484804"^^xsd:float .
 
 ex:aragon_2021_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_aragon ;
     schema:value "1331938"^^xsd:float .
 
 ex:asturias_2021_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_asturias ;
     schema:value "1012117"^^xsd:float .
 
 ex:baleares_2021_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:value "1183415"^^xsd:float .
 
 ex:canarias_2021_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_canarias ;
     schema:value "2178924"^^xsd:float .
 
 ex:cantabria_2021_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:value "584708"^^xsd:float .
 
 ex:castilla_la_mancha_2021_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_la_mancha ;
     schema:value "2052505"^^xsd:float .
 
 ex:castilla_leon_2021_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_leon ;
     schema:value "2385223"^^xsd:float .
 
 ex:catalunya_2021_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_catalunya ;
     schema:value "7749896"^^xsd:float .
 
 ex:ceuta_2021_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:value "84071"^^xsd:float .
 
 ex:comunidad_valenciana_2021_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_comunidad_valenciana ;
     schema:value "5067911"^^xsd:float .
 
 ex:extremadura_2021_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:value "1061636"^^xsd:float .
 
 ex:galicia_2021_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_galicia ;
     schema:value "2698177"^^xsd:float .
 
 ex:madrid_2021_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_madrid ;
     schema:value "6726640"^^xsd:float .
 
 ex:melilla_2021_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_melilla ;
     schema:value "86450"^^xsd:float .
 
 ex:murcia_2021_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_murcia ;
     schema:value "1518279"^^xsd:float .
 
 ex:navarra_2021_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_navarra ;
     schema:value "662032"^^xsd:float .
 
 ex:pais_vasco_2021_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_pais_vasco ;
     schema:value "2212628"^^xsd:float .
 
 ex:rioja_2021_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_rioja ;
     schema:value "319444"^^xsd:float .
 
 ex:total_2021_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_total ;
     schema:value "47400798"^^xsd:float .
 
 ex:andalucia_2022_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:value "8511167"^^xsd:float .
 
 ex:aragon_2022_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_aragon ;
     schema:value "1328215"^^xsd:float .
 
 ex:asturias_2022_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_asturias ;
     schema:value "1004960"^^xsd:float .
 
 ex:baleares_2022_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:value "1187043"^^xsd:float .
 
 ex:canarias_2022_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_canarias ;
     schema:value "2185607"^^xsd:float .
 
 ex:cantabria_2022_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:value "585450"^^xsd:float .
 
 ex:castilla_la_mancha_2022_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_la_mancha ;
     schema:value "2058278"^^xsd:float .
 
 ex:castilla_leon_2022_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_leon ;
     schema:value "2375583"^^xsd:float .
 
 ex:catalunya_2022_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_catalunya ;
     schema:value "7761823"^^xsd:float .
 
 ex:ceuta_2022_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:value "83051"^^xsd:float .
 
 ex:comunidad_valenciana_2022_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_comunidad_valenciana ;
     schema:value "5108116"^^xsd:float .
 
 ex:extremadura_2022_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:value "1056808"^^xsd:float .
 
 ex:galicia_2022_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_galicia ;
     schema:value "2692825"^^xsd:float .
 
 ex:madrid_2022_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_madrid ;
     schema:value "6743254"^^xsd:float .
 
 ex:melilla_2022_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_melilla ;
     schema:value "84932"^^xsd:float .
 
 ex:murcia_2022_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_murcia ;
     schema:value "1529658"^^xsd:float .
 
 ex:navarra_2022_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_navarra ;
     schema:value "664514"^^xsd:float .
 
 ex:pais_vasco_2022_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_pais_vasco ;
     schema:value "2205826"^^xsd:float .
 
 ex:rioja_2022_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_rioja ;
     schema:value "319617"^^xsd:float .
 
 ex:total_2022_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_total ;
     schema:value "47486727"^^xsd:float .
 
 ex:andalucia_2023_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:value "8584147"^^xsd:float .
 
 ex:aragon_2023_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_aragon ;
     schema:value "1341289"^^xsd:float .
 
 ex:asturias_2023_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_asturias ;
     schema:value "1006060"^^xsd:float .
 
 ex:baleares_2023_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:value "1209906"^^xsd:float .
 
 ex:canarias_2023_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_canarias ;
     schema:value "2213016"^^xsd:float .
 
 ex:cantabria_2023_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:value "588387"^^xsd:float .
 
 ex:castilla_la_mancha_2023_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_la_mancha ;
     schema:value "2084086"^^xsd:float .
 
 ex:castilla_leon_2023_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_leon ;
     schema:value "2383703"^^xsd:float .
 
 ex:catalunya_2023_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_catalunya ;
     schema:value "7901963"^^xsd:float .
 
 ex:ceuta_2023_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:value "83052"^^xsd:float .
 
 ex:comunidad_valenciana_2023_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_comunidad_valenciana ;
     schema:value "5216195"^^xsd:float .
 
 ex:extremadura_2023_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:value "1054306"^^xsd:float .
 
 ex:galicia_2023_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_galicia ;
     schema:value "2699424"^^xsd:float .
 
 ex:madrid_2023_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_madrid ;
     schema:value "6871903"^^xsd:float .
 
 ex:melilla_2023_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_melilla ;
     schema:value "85493"^^xsd:float .
 
 ex:murcia_2023_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_murcia ;
     schema:value "1551692"^^xsd:float .
 
 ex:navarra_2023_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_navarra ;
     schema:value "672155"^^xsd:float .
 
 ex:pais_vasco_2023_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_pais_vasco ;
     schema:value "2216302"^^xsd:float .
 
 ex:rioja_2023_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_rioja ;
     schema:value "322282"^^xsd:float .
 
 ex:total_2023_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_total ;
     schema:value "48085361"^^xsd:float .
 
 ex:andalucia_2024_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:value "8631862"^^xsd:float .
 
 ex:aragon_2024_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_aragon ;
     schema:value "1351591"^^xsd:float .
 
 ex:asturias_2024_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_asturias ;
     schema:value "1009599"^^xsd:float .
 
 ex:baleares_2024_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:value "1231768"^^xsd:float .
 
 ex:canarias_2024_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_canarias ;
     schema:value "2238754"^^xsd:float .
 
 ex:cantabria_2024_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:value "590851"^^xsd:float .
 
 ex:castilla_la_mancha_2024_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_la_mancha ;
     schema:value "2104433"^^xsd:float .
 
 ex:castilla_leon_2024_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_leon ;
     schema:value "2391682"^^xsd:float .
 
 ex:catalunya_2024_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_catalunya ;
     schema:value "8012231"^^xsd:float .
 
 ex:ceuta_2024_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:value "83179"^^xsd:float .
 
 ex:comunidad_valenciana_2024_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_comunidad_valenciana ;
     schema:value "5319285"^^xsd:float .
 
 ex:extremadura_2024_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:value "1054681"^^xsd:float .
 
 ex:galicia_2024_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_galicia ;
     schema:value "2705833"^^xsd:float .
 
 ex:madrid_2024_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_madrid ;
     schema:value "7009268"^^xsd:float .
 
 ex:melilla_2024_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_melilla ;
     schema:value "85985"^^xsd:float .
 
 ex:murcia_2024_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_murcia ;
     schema:value "1568492"^^xsd:float .
 
 ex:navarra_2024_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_navarra ;
     schema:value "678333"^^xsd:float .
 
 ex:pais_vasco_2024_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_pais_vasco ;
     schema:value "2227684"^^xsd:float .
 
 ex:rioja_2024_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_rioja ;
     schema:value "324184"^^xsd:float .
 
 ex:total_2024_population a schema:Observation ;
-    schema:measuredProperty ex:demographic_population ;
+    schema:measuredProperty ex:population ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_total ;
     schema:value "48619695"^^xsd:float .

@@ -3,2041 +3,2041 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 ex:andalucia_2008_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2008"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:value "97.9101463667"^^xsd:float .
 
 ex:aragon_2008_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2008"^^xsd:gYear ;
     schema:observedNode ex:Region_aragon ;
     schema:value "102.3316421128"^^xsd:float .
 
 ex:asturias_2008_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2008"^^xsd:gYear ;
     schema:observedNode ex:Region_asturias ;
     schema:value "102.6772749197"^^xsd:float .
 
 ex:baleares_2008_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2008"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:value "100.9042790201"^^xsd:float .
 
 ex:canarias_2008_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2008"^^xsd:gYear ;
     schema:observedNode ex:Region_canarias ;
     schema:value "97.8262021336"^^xsd:float .
 
 ex:cantabria_2008_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2008"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:value "102.3335114387"^^xsd:float .
 
 ex:castilla_la_mancha_2008_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2008"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_la_mancha ;
     schema:value "100.1024525567"^^xsd:float .
 
 ex:castilla_leon_2008_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2008"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_leon ;
     schema:value "99.0622201464"^^xsd:float .
 
 ex:catalunya_2008_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2008"^^xsd:gYear ;
     schema:observedNode ex:Region_catalunya ;
     schema:value "100.3227409391"^^xsd:float .
 
 ex:ceuta_2008_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2008"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:value "96.7930242044"^^xsd:float .
 
 ex:comunidad_valenciana_2008_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2008"^^xsd:gYear ;
     schema:observedNode ex:Region_comunidad_valenciana ;
     schema:value "100.6479439866"^^xsd:float .
 
 ex:extremadura_2008_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2008"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:value "98.8910302491"^^xsd:float .
 
 ex:galicia_2008_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2008"^^xsd:gYear ;
     schema:observedNode ex:Region_galicia ;
     schema:value "97.4494213737"^^xsd:float .
 
 ex:madrid_2008_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2008"^^xsd:gYear ;
     schema:observedNode ex:Region_madrid ;
     schema:value "100.6569357448"^^xsd:float .
 
 ex:melilla_2008_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2008"^^xsd:gYear ;
     schema:observedNode ex:Region_melilla ;
     schema:value "98.5754519793"^^xsd:float .
 
 ex:murcia_2008_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2008"^^xsd:gYear ;
     schema:observedNode ex:Region_murcia ;
     schema:value "100.350001474"^^xsd:float .
 
 ex:navarra_2008_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2008"^^xsd:gYear ;
     schema:observedNode ex:Region_navarra ;
     schema:value "105.1153747494"^^xsd:float .
 
 ex:pais_vasco_2008_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2008"^^xsd:gYear ;
     schema:observedNode ex:Region_pais_vasco ;
     schema:value "101.8325309051"^^xsd:float .
 
 ex:rioja_2008_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2008"^^xsd:gYear ;
     schema:observedNode ex:Region_rioja ;
     schema:value "103.3018667088"^^xsd:float .
 
 ex:total_nacional_2008_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2008"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:value "100.0"^^xsd:float .
 
 ex:andalucia_2009_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2009"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:value "97.4774344068"^^xsd:float .
 
 ex:aragon_2009_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2009"^^xsd:gYear ;
     schema:observedNode ex:Region_aragon ;
     schema:value "102.7111359142"^^xsd:float .
 
 ex:asturias_2009_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2009"^^xsd:gYear ;
     schema:observedNode ex:Region_asturias ;
     schema:value "102.1632054092"^^xsd:float .
 
 ex:baleares_2009_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2009"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:value "100.8379626081"^^xsd:float .
 
 ex:canarias_2009_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2009"^^xsd:gYear ;
     schema:observedNode ex:Region_canarias ;
     schema:value "97.1167116256"^^xsd:float .
 
 ex:cantabria_2009_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2009"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:value "101.9234415382"^^xsd:float .
 
 ex:castilla_la_mancha_2009_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2009"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_la_mancha ;
     schema:value "99.831446767"^^xsd:float .
 
 ex:castilla_leon_2009_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2009"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_leon ;
     schema:value "98.9335110479"^^xsd:float .
 
 ex:catalunya_2009_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2009"^^xsd:gYear ;
     schema:observedNode ex:Region_catalunya ;
     schema:value "99.6336577538"^^xsd:float .
 
 ex:ceuta_2009_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2009"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:value "97.3216786273"^^xsd:float .
 
 ex:comunidad_valenciana_2009_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2009"^^xsd:gYear ;
     schema:observedNode ex:Region_comunidad_valenciana ;
     schema:value "100.681155458"^^xsd:float .
 
 ex:extremadura_2009_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2009"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:value "98.5396786579"^^xsd:float .
 
 ex:galicia_2009_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2009"^^xsd:gYear ;
     schema:observedNode ex:Region_galicia ;
     schema:value "96.7166288523"^^xsd:float .
 
 ex:madrid_2009_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2009"^^xsd:gYear ;
     schema:observedNode ex:Region_madrid ;
     schema:value "100.337919811"^^xsd:float .
 
 ex:melilla_2009_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2009"^^xsd:gYear ;
     schema:observedNode ex:Region_melilla ;
     schema:value "98.2394349161"^^xsd:float .
 
 ex:murcia_2009_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2009"^^xsd:gYear ;
     schema:observedNode ex:Region_murcia ;
     schema:value "99.2977983981"^^xsd:float .
 
 ex:navarra_2009_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2009"^^xsd:gYear ;
     schema:observedNode ex:Region_navarra ;
     schema:value "104.8267117694"^^xsd:float .
 
 ex:pais_vasco_2009_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2009"^^xsd:gYear ;
     schema:observedNode ex:Region_pais_vasco ;
     schema:value "102.058390675"^^xsd:float .
 
 ex:rioja_2009_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2009"^^xsd:gYear ;
     schema:observedNode ex:Region_rioja ;
     schema:value "103.2383756123"^^xsd:float .
 
 ex:total_nacional_2009_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2009"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:value "99.6345693643"^^xsd:float .
 
 ex:andalucia_2010_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2010"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:value "97.7496540237"^^xsd:float .
 
 ex:aragon_2010_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2010"^^xsd:gYear ;
     schema:observedNode ex:Region_aragon ;
     schema:value "102.8373595504"^^xsd:float .
 
 ex:asturias_2010_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2010"^^xsd:gYear ;
     schema:observedNode ex:Region_asturias ;
     schema:value "102.4969545774"^^xsd:float .
 
 ex:baleares_2010_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2010"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:value "101.3079897835"^^xsd:float .
 
 ex:canarias_2010_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2010"^^xsd:gYear ;
     schema:observedNode ex:Region_canarias ;
     schema:value "97.7407005079"^^xsd:float .
 
 ex:cantabria_2010_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2010"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:value "101.7578546713"^^xsd:float .
 
 ex:castilla_la_mancha_2010_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2010"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_la_mancha ;
     schema:value "100.316749432"^^xsd:float .
 
 ex:castilla_leon_2010_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2010"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_leon ;
     schema:value "98.9832337011"^^xsd:float .
 
 ex:catalunya_2010_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2010"^^xsd:gYear ;
     schema:observedNode ex:Region_catalunya ;
     schema:value "100.2736180322"^^xsd:float .
 
 ex:ceuta_2010_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2010"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:value "96.9548554755"^^xsd:float .
 
 ex:comunidad_valenciana_2010_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2010"^^xsd:gYear ;
     schema:observedNode ex:Region_comunidad_valenciana ;
     schema:value "101.0416645447"^^xsd:float .
 
 ex:extremadura_2010_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2010"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:value "98.35108277"^^xsd:float .
 
 ex:galicia_2010_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2010"^^xsd:gYear ;
     schema:observedNode ex:Region_galicia ;
     schema:value "96.9369240158"^^xsd:float .
 
 ex:madrid_2010_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2010"^^xsd:gYear ;
     schema:observedNode ex:Region_madrid ;
     schema:value "100.8508982226"^^xsd:float .
 
 ex:melilla_2010_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2010"^^xsd:gYear ;
     schema:observedNode ex:Region_melilla ;
     schema:value "97.4647299905"^^xsd:float .
 
 ex:murcia_2010_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2010"^^xsd:gYear ;
     schema:observedNode ex:Region_murcia ;
     schema:value "99.1661544006"^^xsd:float .
 
 ex:navarra_2010_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2010"^^xsd:gYear ;
     schema:observedNode ex:Region_navarra ;
     schema:value "104.7893232497"^^xsd:float .
 
 ex:pais_vasco_2010_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2010"^^xsd:gYear ;
     schema:observedNode ex:Region_pais_vasco ;
     schema:value "101.9157419033"^^xsd:float .
 
 ex:rioja_2010_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2010"^^xsd:gYear ;
     schema:observedNode ex:Region_rioja ;
     schema:value "103.6229034108"^^xsd:float .
 
 ex:total_nacional_2010_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2010"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:value "99.9651315252"^^xsd:float .
 
 ex:andalucia_2011_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2011"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:value "97.651952402"^^xsd:float .
 
 ex:aragon_2011_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2011"^^xsd:gYear ;
     schema:observedNode ex:Region_aragon ;
     schema:value "102.9013772542"^^xsd:float .
 
 ex:asturias_2011_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2011"^^xsd:gYear ;
     schema:observedNode ex:Region_asturias ;
     schema:value "102.8999781491"^^xsd:float .
 
 ex:baleares_2011_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2011"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:value "101.1589343267"^^xsd:float .
 
 ex:canarias_2011_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2011"^^xsd:gYear ;
     schema:observedNode ex:Region_canarias ;
     schema:value "97.6640352382"^^xsd:float .
 
 ex:cantabria_2011_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2011"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:value "101.8692619546"^^xsd:float .
 
 ex:castilla_la_mancha_2011_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2011"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_la_mancha ;
     schema:value "100.5267209955"^^xsd:float .
 
 ex:castilla_leon_2011_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2011"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_leon ;
     schema:value "99.1828146745"^^xsd:float .
 
 ex:catalunya_2011_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2011"^^xsd:gYear ;
     schema:observedNode ex:Region_catalunya ;
     schema:value "101.1070734056"^^xsd:float .
 
 ex:ceuta_2011_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2011"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:value "96.8355402995"^^xsd:float .
 
 ex:comunidad_valenciana_2011_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2011"^^xsd:gYear ;
     schema:observedNode ex:Region_comunidad_valenciana ;
     schema:value "101.6228016185"^^xsd:float .
 
 ex:extremadura_2011_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2011"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:value "98.8898989817"^^xsd:float .
 
 ex:galicia_2011_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2011"^^xsd:gYear ;
     schema:observedNode ex:Region_galicia ;
     schema:value "97.0394190511"^^xsd:float .
 
 ex:madrid_2011_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2011"^^xsd:gYear ;
     schema:observedNode ex:Region_madrid ;
     schema:value "101.197793958"^^xsd:float .
 
 ex:melilla_2011_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2011"^^xsd:gYear ;
     schema:observedNode ex:Region_melilla ;
     schema:value "100.2132803561"^^xsd:float .
 
 ex:murcia_2011_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2011"^^xsd:gYear ;
     schema:observedNode ex:Region_murcia ;
     schema:value "100.1658688596"^^xsd:float .
 
 ex:navarra_2011_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2011"^^xsd:gYear ;
     schema:observedNode ex:Region_navarra ;
     schema:value "104.8361341673"^^xsd:float .
 
 ex:pais_vasco_2011_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2011"^^xsd:gYear ;
     schema:observedNode ex:Region_pais_vasco ;
     schema:value "101.7633884104"^^xsd:float .
 
 ex:rioja_2011_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2011"^^xsd:gYear ;
     schema:observedNode ex:Region_rioja ;
     schema:value "102.8447821184"^^xsd:float .
 
 ex:total_nacional_2011_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2011"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:value "100.2598432652"^^xsd:float .
 
 ex:andalucia_2012_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2012"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:value "97.8995710498"^^xsd:float .
 
 ex:aragon_2012_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2012"^^xsd:gYear ;
     schema:observedNode ex:Region_aragon ;
     schema:value "103.1080735887"^^xsd:float .
 
 ex:asturias_2012_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2012"^^xsd:gYear ;
     schema:observedNode ex:Region_asturias ;
     schema:value "103.4524609648"^^xsd:float .
 
 ex:baleares_2012_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2012"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:value "101.8782116204"^^xsd:float .
 
 ex:canarias_2012_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2012"^^xsd:gYear ;
     schema:observedNode ex:Region_canarias ;
     schema:value "97.3502411669"^^xsd:float .
 
 ex:cantabria_2012_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2012"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:value "102.2460661031"^^xsd:float .
 
 ex:castilla_la_mancha_2012_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2012"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_la_mancha ;
     schema:value "100.3888624452"^^xsd:float .
 
 ex:castilla_leon_2012_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2012"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_leon ;
     schema:value "99.4710162136"^^xsd:float .
 
 ex:catalunya_2012_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2012"^^xsd:gYear ;
     schema:observedNode ex:Region_catalunya ;
     schema:value "100.2991324889"^^xsd:float .
 
 ex:ceuta_2012_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2012"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:value "95.8414305933"^^xsd:float .
 
 ex:comunidad_valenciana_2012_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2012"^^xsd:gYear ;
     schema:observedNode ex:Region_comunidad_valenciana ;
     schema:value "101.2750965559"^^xsd:float .
 
 ex:extremadura_2012_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2012"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:value "98.7989343302"^^xsd:float .
 
 ex:galicia_2012_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2012"^^xsd:gYear ;
     schema:observedNode ex:Region_galicia ;
     schema:value "96.8006217825"^^xsd:float .
 
 ex:madrid_2012_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2012"^^xsd:gYear ;
     schema:observedNode ex:Region_madrid ;
     schema:value "101.3264784847"^^xsd:float .
 
 ex:melilla_2012_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2012"^^xsd:gYear ;
     schema:observedNode ex:Region_melilla ;
     schema:value "99.4943516488"^^xsd:float .
 
 ex:murcia_2012_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2012"^^xsd:gYear ;
     schema:observedNode ex:Region_murcia ;
     schema:value "99.5261393256"^^xsd:float .
 
 ex:navarra_2012_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2012"^^xsd:gYear ;
     schema:observedNode ex:Region_navarra ;
     schema:value "104.9966134313"^^xsd:float .
 
 ex:pais_vasco_2012_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2012"^^xsd:gYear ;
     schema:observedNode ex:Region_pais_vasco ;
     schema:value "102.0158679973"^^xsd:float .
 
 ex:rioja_2012_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2012"^^xsd:gYear ;
     schema:observedNode ex:Region_rioja ;
     schema:value "103.2570363551"^^xsd:float .
 
 ex:total_nacional_2012_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2012"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:value "100.1625625445"^^xsd:float .
 
 ex:andalucia_2013_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2013"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:value "97.6762240488"^^xsd:float .
 
 ex:aragon_2013_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2013"^^xsd:gYear ;
     schema:observedNode ex:Region_aragon ;
     schema:value "102.1374037874"^^xsd:float .
 
 ex:asturias_2013_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2013"^^xsd:gYear ;
     schema:observedNode ex:Region_asturias ;
     schema:value "102.4171115186"^^xsd:float .
 
 ex:baleares_2013_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2013"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:value "101.0033483765"^^xsd:float .
 
 ex:canarias_2013_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2013"^^xsd:gYear ;
     schema:observedNode ex:Region_canarias ;
     schema:value "97.3387982621"^^xsd:float .
 
 ex:cantabria_2013_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2013"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:value "101.8539468845"^^xsd:float .
 
 ex:castilla_la_mancha_2013_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2013"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_la_mancha ;
     schema:value "100.1032661927"^^xsd:float .
 
 ex:castilla_leon_2013_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2013"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_leon ;
     schema:value "99.4753287908"^^xsd:float .
 
 ex:catalunya_2013_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2013"^^xsd:gYear ;
     schema:observedNode ex:Region_catalunya ;
     schema:value "100.6343333057"^^xsd:float .
 
 ex:ceuta_2013_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2013"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:value "95.1280149795"^^xsd:float .
 
 ex:comunidad_valenciana_2013_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2013"^^xsd:gYear ;
     schema:observedNode ex:Region_comunidad_valenciana ;
     schema:value "101.3852803632"^^xsd:float .
 
 ex:extremadura_2013_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2013"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:value "97.7541750353"^^xsd:float .
 
 ex:galicia_2013_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2013"^^xsd:gYear ;
     schema:observedNode ex:Region_galicia ;
     schema:value "96.5802004544"^^xsd:float .
 
 ex:madrid_2013_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2013"^^xsd:gYear ;
     schema:observedNode ex:Region_madrid ;
     schema:value "100.4259594671"^^xsd:float .
 
 ex:melilla_2013_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2013"^^xsd:gYear ;
     schema:observedNode ex:Region_melilla ;
     schema:value "98.5701195189"^^xsd:float .
 
 ex:murcia_2013_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2013"^^xsd:gYear ;
     schema:observedNode ex:Region_murcia ;
     schema:value "99.450700631"^^xsd:float .
 
 ex:navarra_2013_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2013"^^xsd:gYear ;
     schema:observedNode ex:Region_navarra ;
     schema:value "104.8884201741"^^xsd:float .
 
 ex:pais_vasco_2013_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2013"^^xsd:gYear ;
     schema:observedNode ex:Region_pais_vasco ;
     schema:value "101.6194902118"^^xsd:float .
 
 ex:rioja_2013_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2013"^^xsd:gYear ;
     schema:observedNode ex:Region_rioja ;
     schema:value "103.5019081138"^^xsd:float .
 
 ex:total_nacional_2013_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2013"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:value "99.9108305825"^^xsd:float .
 
 ex:andalucia_2014_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:value "97.5392113703"^^xsd:float .
 
 ex:aragon_2014_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_aragon ;
     schema:value "102.9002139619"^^xsd:float .
 
 ex:asturias_2014_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_asturias ;
     schema:value "103.1629346898"^^xsd:float .
 
 ex:baleares_2014_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:value "101.196319945"^^xsd:float .
 
 ex:canarias_2014_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_canarias ;
     schema:value "97.3987721758"^^xsd:float .
 
 ex:cantabria_2014_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:value "102.3260808282"^^xsd:float .
 
 ex:castilla_la_mancha_2014_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_la_mancha ;
     schema:value "100.5755632593"^^xsd:float .
 
 ex:castilla_leon_2014_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_leon ;
     schema:value "99.5175420744"^^xsd:float .
 
 ex:catalunya_2014_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_catalunya ;
     schema:value "101.0469428626"^^xsd:float .
 
 ex:ceuta_2014_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:value "94.5177120848"^^xsd:float .
 
 ex:comunidad_valenciana_2014_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_comunidad_valenciana ;
     schema:value "101.1865304019"^^xsd:float .
 
 ex:extremadura_2014_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:value "98.1684932039"^^xsd:float .
 
 ex:galicia_2014_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_galicia ;
     schema:value "96.3834677979"^^xsd:float .
 
 ex:madrid_2014_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_madrid ;
     schema:value "100.9453580659"^^xsd:float .
 
 ex:melilla_2014_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_melilla ;
     schema:value "98.049692233"^^xsd:float .
 
 ex:murcia_2014_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_murcia ;
     schema:value "99.2017006752"^^xsd:float .
 
 ex:navarra_2014_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_navarra ;
     schema:value "104.7299017865"^^xsd:float .
 
 ex:pais_vasco_2014_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_pais_vasco ;
     schema:value "102.2719166277"^^xsd:float .
 
 ex:rioja_2014_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_rioja ;
     schema:value "103.4186233107"^^xsd:float .
 
 ex:total_nacional_2014_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:value "100.0899887114"^^xsd:float .
 
 ex:andalucia_2015_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:value "98.2242026809"^^xsd:float .
 
 ex:aragon_2015_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_aragon ;
     schema:value "102.9476570726"^^xsd:float .
 
 ex:asturias_2015_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_asturias ;
     schema:value "102.8080190496"^^xsd:float .
 
 ex:baleares_2015_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:value "101.7947773872"^^xsd:float .
 
 ex:canarias_2015_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_canarias ;
     schema:value "97.1033907385"^^xsd:float .
 
 ex:cantabria_2015_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:value "102.422537115"^^xsd:float .
 
 ex:castilla_la_mancha_2015_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_la_mancha ;
     schema:value "100.1586929907"^^xsd:float .
 
 ex:castilla_leon_2015_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_leon ;
     schema:value "99.6973963373"^^xsd:float .
 
 ex:catalunya_2015_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_catalunya ;
     schema:value "100.9793274808"^^xsd:float .
 
 ex:ceuta_2015_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:value "96.6594448777"^^xsd:float .
 
 ex:comunidad_valenciana_2015_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_comunidad_valenciana ;
     schema:value "101.5496901591"^^xsd:float .
 
 ex:extremadura_2015_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:value "98.779746723"^^xsd:float .
 
 ex:galicia_2015_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_galicia ;
     schema:value "96.9726688173"^^xsd:float .
 
 ex:madrid_2015_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_madrid ;
     schema:value "101.3224233095"^^xsd:float .
 
 ex:melilla_2015_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_melilla ;
     schema:value "98.2234788191"^^xsd:float .
 
 ex:murcia_2015_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_murcia ;
     schema:value "99.2794403491"^^xsd:float .
 
 ex:navarra_2015_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_navarra ;
     schema:value "104.9106959402"^^xsd:float .
 
 ex:pais_vasco_2015_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_pais_vasco ;
     schema:value "102.7081555552"^^xsd:float .
 
 ex:rioja_2015_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_rioja ;
     schema:value "103.7349498631"^^xsd:float .
 
 ex:total_nacional_2015_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:value "100.3660845182"^^xsd:float .
 
 ex:andalucia_2016_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:value "98.400413608"^^xsd:float .
 
 ex:aragon_2016_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_aragon ;
     schema:value "103.1947557341"^^xsd:float .
 
 ex:asturias_2016_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_asturias ;
     schema:value "102.8406958229"^^xsd:float .
 
 ex:baleares_2016_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:value "102.4183581546"^^xsd:float .
 
 ex:canarias_2016_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_canarias ;
     schema:value "97.4039935282"^^xsd:float .
 
 ex:cantabria_2016_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:value "102.3314088561"^^xsd:float .
 
 ex:castilla_la_mancha_2016_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_la_mancha ;
     schema:value "100.2193911715"^^xsd:float .
 
 ex:castilla_leon_2016_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_leon ;
     schema:value "99.819723481"^^xsd:float .
 
 ex:catalunya_2016_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_catalunya ;
     schema:value "101.567555378"^^xsd:float .
 
 ex:ceuta_2016_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:value "97.0037919489"^^xsd:float .
 
 ex:comunidad_valenciana_2016_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_comunidad_valenciana ;
     schema:value "101.7644630723"^^xsd:float .
 
 ex:extremadura_2016_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:value "98.8191377844"^^xsd:float .
 
 ex:galicia_2016_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_galicia ;
     schema:value "97.3940517332"^^xsd:float .
 
 ex:madrid_2016_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_madrid ;
     schema:value "101.5485563111"^^xsd:float .
 
 ex:melilla_2016_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_melilla ;
     schema:value "97.8172795153"^^xsd:float .
 
 ex:murcia_2016_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_murcia ;
     schema:value "99.5709221215"^^xsd:float .
 
 ex:navarra_2016_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_navarra ;
     schema:value "105.4887424351"^^xsd:float .
 
 ex:pais_vasco_2016_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_pais_vasco ;
     schema:value "103.0375741223"^^xsd:float .
 
 ex:rioja_2016_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_rioja ;
     schema:value "103.9291521943"^^xsd:float .
 
 ex:total_nacional_2016_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:value "100.6503841737"^^xsd:float .
 
 ex:andalucia_2017_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:value "98.9506095673"^^xsd:float .
 
 ex:aragon_2017_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_aragon ;
     schema:value "103.7162527685"^^xsd:float .
 
 ex:asturias_2017_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_asturias ;
     schema:value "103.365707707"^^xsd:float .
 
 ex:baleares_2017_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:value "102.4280157394"^^xsd:float .
 
 ex:canarias_2017_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_canarias ;
     schema:value "97.9885907839"^^xsd:float .
 
 ex:cantabria_2017_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:value "103.9551438366"^^xsd:float .
 
 ex:castilla_la_mancha_2017_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_la_mancha ;
     schema:value "101.0728954376"^^xsd:float .
 
 ex:castilla_leon_2017_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_leon ;
     schema:value "99.9299492098"^^xsd:float .
 
 ex:catalunya_2017_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_catalunya ;
     schema:value "101.8007573897"^^xsd:float .
 
 ex:ceuta_2017_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:value "97.869120366"^^xsd:float .
 
 ex:comunidad_valenciana_2017_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_comunidad_valenciana ;
     schema:value "102.1048303458"^^xsd:float .
 
 ex:extremadura_2017_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:value "99.288975413"^^xsd:float .
 
 ex:galicia_2017_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_galicia ;
     schema:value "97.843624215"^^xsd:float .
 
 ex:madrid_2017_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_madrid ;
     schema:value "102.2511806669"^^xsd:float .
 
 ex:melilla_2017_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_melilla ;
     schema:value "100.2895934887"^^xsd:float .
 
 ex:murcia_2017_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_murcia ;
     schema:value "99.6649999876"^^xsd:float .
 
 ex:navarra_2017_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_navarra ;
     schema:value "106.1467019665"^^xsd:float .
 
 ex:pais_vasco_2017_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_pais_vasco ;
     schema:value "103.0329300469"^^xsd:float .
 
 ex:rioja_2017_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_rioja ;
     schema:value "104.5033058165"^^xsd:float .
 
 ex:total_nacional_2017_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:value "101.0968155266"^^xsd:float .
 
 ex:andalucia_2018_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:value "98.5385812594"^^xsd:float .
 
 ex:aragon_2018_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_aragon ;
     schema:value "104.5687060129"^^xsd:float .
 
 ex:asturias_2018_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_asturias ;
     schema:value "103.1698092355"^^xsd:float .
 
 ex:baleares_2018_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:value "103.8590199858"^^xsd:float .
 
 ex:canarias_2018_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_canarias ;
     schema:value "100.0512992323"^^xsd:float .
 
 ex:cantabria_2018_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:value "104.3922205515"^^xsd:float .
 
 ex:castilla_la_mancha_2018_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_la_mancha ;
     schema:value "101.0322997092"^^xsd:float .
 
 ex:castilla_leon_2018_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_leon ;
     schema:value "101.9836140569"^^xsd:float .
 
 ex:catalunya_2018_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_catalunya ;
     schema:value "102.2895393893"^^xsd:float .
 
 ex:ceuta_2018_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:value "97.662266449"^^xsd:float .
 
 ex:comunidad_valenciana_2018_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_comunidad_valenciana ;
     schema:value "103.0496810231"^^xsd:float .
 
 ex:extremadura_2018_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:value "101.5332928004"^^xsd:float .
 
 ex:galicia_2018_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_galicia ;
     schema:value "99.9591937036"^^xsd:float .
 
 ex:madrid_2018_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_madrid ;
     schema:value "102.0069514196"^^xsd:float .
 
 ex:melilla_2018_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_melilla ;
     schema:value "101.0135690192"^^xsd:float .
 
 ex:murcia_2018_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_murcia ;
     schema:value "99.9653153799"^^xsd:float .
 
 ex:navarra_2018_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_navarra ;
     schema:value "104.706994021"^^xsd:float .
 
 ex:pais_vasco_2018_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_pais_vasco ;
     schema:value "102.1937097798"^^xsd:float .
 
 ex:rioja_2018_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_rioja ;
     schema:value "104.0725248331"^^xsd:float .
 
 ex:total_nacional_2018_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:value "101.5840554229"^^xsd:float .
 
 ex:andalucia_2019_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:value "99.052681829"^^xsd:float .
 
 ex:aragon_2019_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_aragon ;
     schema:value "104.9144965304"^^xsd:float .
 
 ex:asturias_2019_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_asturias ;
     schema:value "102.9159136867"^^xsd:float .
 
 ex:baleares_2019_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:value "103.8867945206"^^xsd:float .
 
 ex:canarias_2019_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_canarias ;
     schema:value "100.4054109413"^^xsd:float .
 
 ex:cantabria_2019_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:value "104.564544059"^^xsd:float .
 
 ex:castilla_la_mancha_2019_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_la_mancha ;
     schema:value "101.6310082648"^^xsd:float .
 
 ex:castilla_leon_2019_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_leon ;
     schema:value "102.3817236814"^^xsd:float .
 
 ex:catalunya_2019_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_catalunya ;
     schema:value "102.2496795193"^^xsd:float .
 
 ex:ceuta_2019_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:value "97.6504308448"^^xsd:float .
 
 ex:comunidad_valenciana_2019_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_comunidad_valenciana ;
     schema:value "103.4088775103"^^xsd:float .
 
 ex:extremadura_2019_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:value "101.5988595093"^^xsd:float .
 
 ex:galicia_2019_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_galicia ;
     schema:value "100.401236512"^^xsd:float .
 
 ex:madrid_2019_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_madrid ;
     schema:value "102.5746327503"^^xsd:float .
 
 ex:melilla_2019_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_melilla ;
     schema:value "101.0740487468"^^xsd:float .
 
 ex:murcia_2019_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_murcia ;
     schema:value "100.2055882739"^^xsd:float .
 
 ex:navarra_2019_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_navarra ;
     schema:value "105.358060818"^^xsd:float .
 
 ex:pais_vasco_2019_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_pais_vasco ;
     schema:value "102.3625434577"^^xsd:float .
 
 ex:rioja_2019_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_rioja ;
     schema:value "104.8730963458"^^xsd:float .
 
 ex:total_nacional_2019_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:value "101.9065917343"^^xsd:float .
 
 ex:andalucia_2020_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:value "98.6302048253"^^xsd:float .
 
 ex:aragon_2020_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_aragon ;
     schema:value "104.8847568896"^^xsd:float .
 
 ex:asturias_2020_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_asturias ;
     schema:value "103.335098541"^^xsd:float .
 
 ex:baleares_2020_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:value "104.3653624319"^^xsd:float .
 
 ex:canarias_2020_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_canarias ;
     schema:value "98.8735902327"^^xsd:float .
 
 ex:cantabria_2020_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:value "104.2746670747"^^xsd:float .
 
 ex:castilla_la_mancha_2020_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_la_mancha ;
     schema:value "101.5412142713"^^xsd:float .
 
 ex:castilla_leon_2020_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_leon ;
     schema:value "101.8709962763"^^xsd:float .
 
 ex:catalunya_2020_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_catalunya ;
     schema:value "101.975583578"^^xsd:float .
 
 ex:ceuta_2020_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:value "97.8184431302"^^xsd:float .
 
 ex:comunidad_valenciana_2020_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_comunidad_valenciana ;
     schema:value "103.0352795746"^^xsd:float .
 
 ex:extremadura_2020_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:value "101.1439395144"^^xsd:float .
 
 ex:galicia_2020_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_galicia ;
     schema:value "100.3865571142"^^xsd:float .
 
 ex:madrid_2020_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_madrid ;
     schema:value "102.2939452652"^^xsd:float .
 
 ex:melilla_2020_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_melilla ;
     schema:value "100.2251956289"^^xsd:float .
 
 ex:murcia_2020_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_murcia ;
     schema:value "99.9762402289"^^xsd:float .
 
 ex:navarra_2020_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_navarra ;
     schema:value "105.7478686425"^^xsd:float .
 
 ex:pais_vasco_2020_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_pais_vasco ;
     schema:value "102.7906264161"^^xsd:float .
 
 ex:rioja_2020_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_rioja ;
     schema:value "104.7655399636"^^xsd:float .
 
 ex:total_nacional_2020_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:value "101.6336970849"^^xsd:float .
 
 ex:andalucia_2021_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:value "98.848313883"^^xsd:float .
 
 ex:aragon_2021_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_aragon ;
     schema:value "104.2515630537"^^xsd:float .
 
 ex:asturias_2021_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_asturias ;
     schema:value "102.9626276787"^^xsd:float .
 
 ex:baleares_2021_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:value "103.6001512112"^^xsd:float .
 
 ex:canarias_2021_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_canarias ;
     schema:value "98.8224068073"^^xsd:float .
 
 ex:cantabria_2021_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:value "103.8990589314"^^xsd:float .
 
 ex:castilla_la_mancha_2021_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_la_mancha ;
     schema:value "101.2862706416"^^xsd:float .
 
 ex:castilla_leon_2021_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_leon ;
     schema:value "101.9028997544"^^xsd:float .
 
 ex:catalunya_2021_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_catalunya ;
     schema:value "101.7797814832"^^xsd:float .
 
 ex:ceuta_2021_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:value "97.477031767"^^xsd:float .
 
 ex:comunidad_valenciana_2021_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_comunidad_valenciana ;
     schema:value "103.0704075426"^^xsd:float .
 
 ex:extremadura_2021_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:value "101.3867450646"^^xsd:float .
 
 ex:galicia_2021_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_galicia ;
     schema:value "100.286470418"^^xsd:float .
 
 ex:madrid_2021_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_madrid ;
     schema:value "102.2359536218"^^xsd:float .
 
 ex:melilla_2021_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_melilla ;
     schema:value "99.7293070435"^^xsd:float .
 
 ex:murcia_2021_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_murcia ;
     schema:value "99.8160451937"^^xsd:float .
 
 ex:navarra_2021_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_navarra ;
     schema:value "105.6803409181"^^xsd:float .
 
 ex:pais_vasco_2021_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_pais_vasco ;
     schema:value "102.9064258018"^^xsd:float .
 
 ex:rioja_2021_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_rioja ;
     schema:value "104.6029105933"^^xsd:float .
 
 ex:total_nacional_2021_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:value "101.5592927842"^^xsd:float .
 
 ex:andalucia_2022_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:value "99.1035856806"^^xsd:float .
 
 ex:aragon_2022_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_aragon ;
     schema:value "103.6844826749"^^xsd:float .
 
 ex:asturias_2022_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_asturias ;
     schema:value "102.7553152379"^^xsd:float .
 
 ex:baleares_2022_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:value "102.4594596087"^^xsd:float .
 
 ex:canarias_2022_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_canarias ;
     schema:value "98.3008493706"^^xsd:float .
 
 ex:cantabria_2022_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:value "103.2839241757"^^xsd:float .
 
 ex:castilla_la_mancha_2022_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_la_mancha ;
     schema:value "101.3474815169"^^xsd:float .
 
 ex:castilla_leon_2022_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_leon ;
     schema:value "101.3988918056"^^xsd:float .
 
 ex:catalunya_2022_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_catalunya ;
     schema:value "100.6573216753"^^xsd:float .
 
 ex:ceuta_2022_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:value "95.9756545929"^^xsd:float .
 
 ex:comunidad_valenciana_2022_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_comunidad_valenciana ;
     schema:value "102.3516147512"^^xsd:float .
 
 ex:extremadura_2022_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:value "101.2003516043"^^xsd:float .
 
 ex:galicia_2022_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_galicia ;
     schema:value "99.6600194692"^^xsd:float .
 
 ex:madrid_2022_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_madrid ;
     schema:value "101.9795926513"^^xsd:float .
 
 ex:melilla_2022_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_melilla ;
     schema:value "98.7855997412"^^xsd:float .
 
 ex:murcia_2022_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_murcia ;
     schema:value "99.4740066381"^^xsd:float .
 
 ex:navarra_2022_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_navarra ;
     schema:value "105.209050839"^^xsd:float .
 
 ex:pais_vasco_2022_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_pais_vasco ;
     schema:value "103.3992385223"^^xsd:float .
 
 ex:rioja_2022_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_rioja ;
     schema:value "104.2952854973"^^xsd:float .
 
 ex:total_nacional_2022_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:value "101.1387721954"^^xsd:float .
 
 ex:andalucia_2023_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:value "99.3943159155"^^xsd:float .
 
 ex:aragon_2023_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_aragon ;
     schema:value "103.5380761168"^^xsd:float .
 
 ex:asturias_2023_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_asturias ;
     schema:value "102.4259883035"^^xsd:float .
 
 ex:baleares_2023_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:value "102.3585484872"^^xsd:float .
 
 ex:canarias_2023_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_canarias ;
     schema:value "98.7225739615"^^xsd:float .
 
 ex:cantabria_2023_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:value "103.3868276899"^^xsd:float .
 
 ex:castilla_la_mancha_2023_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_la_mancha ;
     schema:value "101.1184323312"^^xsd:float .
 
 ex:castilla_leon_2023_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_leon ;
     schema:value "101.4102638315"^^xsd:float .
 
 ex:catalunya_2023_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_catalunya ;
     schema:value "100.9515204087"^^xsd:float .
 
 ex:ceuta_2023_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:value "95.8348745584"^^xsd:float .
 
 ex:comunidad_valenciana_2023_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_comunidad_valenciana ;
     schema:value "102.0633366374"^^xsd:float .
 
 ex:extremadura_2023_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:value "101.1538013579"^^xsd:float .
 
 ex:galicia_2023_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_galicia ;
     schema:value "99.2993766437"^^xsd:float .
 
 ex:madrid_2023_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_madrid ;
     schema:value "101.992818566"^^xsd:float .
 
 ex:melilla_2023_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_melilla ;
     schema:value "99.5766845669"^^xsd:float .
 
 ex:murcia_2023_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_murcia ;
     schema:value "100.1715568368"^^xsd:float .
 
 ex:navarra_2023_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_navarra ;
     schema:value "104.9352636527"^^xsd:float .
 
 ex:pais_vasco_2023_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_pais_vasco ;
     schema:value "103.5434024085"^^xsd:float .
 
 ex:rioja_2023_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_rioja ;
     schema:value "103.8336285784"^^xsd:float .
 
 ex:total_nacional_2023_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:value "101.2026141343"^^xsd:float .
 
 ex:andalucia_2024_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:value "99.5430284815"^^xsd:float .
 
 ex:aragon_2024_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_aragon ;
     schema:value "103.3876273554"^^xsd:float .
 
 ex:asturias_2024_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_asturias ;
     schema:value "102.9033482938"^^xsd:float .
 
 ex:baleares_2024_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:value "103.130586569"^^xsd:float .
 
 ex:canarias_2024_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_canarias ;
     schema:value "99.3767481339"^^xsd:float .
 
 ex:cantabria_2024_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:value "103.4230676054"^^xsd:float .
 
 ex:castilla_la_mancha_2024_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_la_mancha ;
     schema:value "101.1142602847"^^xsd:float .
 
 ex:castilla_leon_2024_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_leon ;
     schema:value "101.5163652062"^^xsd:float .
 
 ex:catalunya_2024_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_catalunya ;
     schema:value "101.3052156942"^^xsd:float .
 
 ex:ceuta_2024_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:value "97.9058268986"^^xsd:float .
 
 ex:comunidad_valenciana_2024_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_comunidad_valenciana ;
     schema:value "102.2662378983"^^xsd:float .
 
 ex:extremadura_2024_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:value "101.4312367673"^^xsd:float .
 
 ex:galicia_2024_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_galicia ;
     schema:value "99.6651243072"^^xsd:float .
 
 ex:madrid_2024_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_madrid ;
     schema:value "102.2778233496"^^xsd:float .
 
 ex:melilla_2024_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_melilla ;
     schema:value "98.9517943068"^^xsd:float .
 
 ex:murcia_2024_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_murcia ;
     schema:value "100.36403643"^^xsd:float .
 
 ex:navarra_2024_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_navarra ;
     schema:value "105.1866084463"^^xsd:float .
 
 ex:pais_vasco_2024_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_pais_vasco ;
     schema:value "103.7354424322"^^xsd:float .
 
 ex:rioja_2024_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_rioja ;
     schema:value "103.9126617141"^^xsd:float .
 
 ex:total_nacional_2024_quality_of_life a schema:Observation ;
-    schema:measuredProperty ex:social_quality_of_life ;
+    schema:measuredProperty ex:quality_of_life ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:value "101.4672225858"^^xsd:float .

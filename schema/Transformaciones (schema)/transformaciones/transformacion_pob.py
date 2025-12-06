@@ -36,7 +36,7 @@ for index, row in df.iterrows():
     ttl_content += f"{subject} a schema:Observation ;\n"
     
     # Prefijo semántico 'demographic_'
-    ttl_content += f"    schema:measuredProperty ex:demographic_{var_clean} ;\n"
+    ttl_content += f"    schema:measuredProperty ex:{var_clean} ;\n"
     
     ttl_content += f'    schema:observationDate "{year}"^^xsd:gYear ;\n'
     ttl_content += f"    schema:observedNode ex:Region_{ccaa_clean} ;\n"
