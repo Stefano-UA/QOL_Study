@@ -3,22 +3,18 @@ from rdflib import Graph, Namespace, Literal, RDF, URIRef
 from rdflib.namespace import XSD
 import re
 
-# -----------------------------
-# Namespaces
-# -----------------------------
+# Namespaces RDF utilizados
 SCHEMA = Namespace("https://schema.org/")
-EX = Namespace("http://example.org/pollution/")
+BASE_URI = "https://csalas-alarcon.github.io/Grupo3_ADP/"
+EX = Namespace(BASE_URI + "ontology/")
 
-# -----------------------------
-# Input / Output
-# -----------------------------
+
+# Rutas
 INPUT_CSV = "../../dist/kettle/total_pollution.csv"
 OUTPUT_TTL = "../../schema/total_pollution.ttl"
 OUTPUT_RDF = "../../schema/total_pollution.rdf"
 
-# -----------------------------
-# Unit codes (confirmed)
-# -----------------------------
+# Códigos de Unidades Estadarizados
 UNIT_MAP = {
     "pm25": "UGM3",
     "pm10": "UGM3",
@@ -28,9 +24,7 @@ UNIT_MAP = {
     "co": "PPM"
 }
 
-# -----------------------------
-# Pollutants mapping -> resource names
-# -----------------------------
+# Recursos RDF
 PROPERTY_RESOURCES = {
     "pm25": EX.PM25,
     "pm10": EX.PM10,
@@ -40,50 +34,45 @@ PROPERTY_RESOURCES = {
     "co": EX.CO
 }
 
-# -----------------------------
-# Load CSV
-# -----------------------------
+# Cargar CSV
 df = pd.read_csv(INPUT_CSV, sep='\t')
 
-# -----------------------------
-# RDF Graph
-# -----------------------------
+# Grafo RDF
 g = Graph()
 g.bind("schema", SCHEMA)
 g.bind("ex", EX)
 
-# -----------------------------
-# Convert rows into Observations
-# -----------------------------
+# Convertimos filas en observaciones RDF
 for idx, row in df.iterrows():
     year = str(row["date"])
     region_name = str(row["region"])
 
-    # Clean region_name: remove spaces, collapse multiple underscores
+    # Limpiamos el nombre
     region_name_clean = re.sub("_+", "_", str(row["region"]).strip().replace(" ", "_"))
     region_name_original = str(row["region"]).strip()  # Keep original for label
 
-    # URI for the region resource
+    # URI para el recurso de la Región
     region_uri = EX[f"Region_{region_name_clean}"]
 
-    # Create region resource (optional, but useful)
+    # Creamos el recurso de la región.
     g.add((region_uri, RDF.type, SCHEMA.Place))
     g.add((region_uri, SCHEMA.name, Literal(region_name_original)))
 
-    # For each pollutant, create an Observation
+    # Crear observación por contaminante
     for pol in PROPERTY_RESOURCES.keys():
         value = row[pol]
 
-        # Skip missing values just in case
+        # Nos saltamos valores erroneos
         if pd.isna(value):
             continue
 
-        # Clean pollutant name
+        # Limpianos el nombre
         pol_clean = re.sub("_+", "_", str(pol).strip().replace(" ", "_"))
 
-        # URI for the observation
+        # URI de la observación
         obs_uri = EX[f"{region_name_clean}_{year}_{pol_clean}"]
 
+        # Añadimos triples RDF
         g.add((obs_uri, RDF.type, SCHEMA.Observation))
         g.add((obs_uri, SCHEMA.observedNode, region_uri))
         g.add((obs_uri, SCHEMA.observationDate, Literal(year, datatype=XSD.gYear)))
@@ -92,14 +81,11 @@ for idx, row in df.iterrows():
         g.add((obs_uri, SCHEMA.unitCode, Literal(UNIT_MAP[pol])))
 
 
-# -----------------------------
-# Save to Turtle
-# -----------------------------
+
+# Guardar como Turtle
 g.serialize(destination=OUTPUT_TTL, format='turtle')
 
-# -----------------------------
-# Save to RDF/XML
-# -----------------------------
+# Guardar como RDF/XML
 g.serialize(destination=OUTPUT_RDF, format='xml')
 
 print(f"Generated:\n - {OUTPUT_TTL}\n - {OUTPUT_RDF}")
