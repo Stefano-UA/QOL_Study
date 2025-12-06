@@ -5,6 +5,13 @@ rm -rf ../../temp/pollution
 mkdir -p ../../temp/pollution
 cp -r ../../data/pollution/* ../../temp/pollution/
 
+# PRELIMINAR - ENTORNO PYTHON
+python3 -m venv .venv
+source .venv/bin/activate
+pip install --quiet -r requirements.txt
+
+
+
 scandir="../../temp/pollution"
 
 # PRIMER LOOP- FORMATEO y RATIOS
@@ -102,3 +109,8 @@ python3 agregador.py
 
 # SEXTO (ÚLTIMO) PASO - Esquematización
 python3 esquematizador.py
+
+# LIMPIEZA
+deactivate
+
+rm -rf .venv
