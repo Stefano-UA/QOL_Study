@@ -564,7 +564,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>${Internal.Entry.Current.Directory}/../data/pibc_ccaa.csv</filename>
+    <filename>${Internal.Entry.Current.Directory}/../../data/pibc_ccaa.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -586,7 +586,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>14</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
@@ -597,7 +597,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>57</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
@@ -608,7 +608,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>15</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
@@ -619,7 +619,7 @@
         <currency>USD</currency>
         <decimal>.</decimal>
         <group>,</group>
-        <length>6</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
@@ -1865,7 +1865,7 @@
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>${Internal.Entry.Current.Directory}/../dist/kettle/pibc_ccaa</name>
+      <name>${Internal.Entry.Current.Directory}/../../dist/kettle/pibc_ccaa</name>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>csv</extention>

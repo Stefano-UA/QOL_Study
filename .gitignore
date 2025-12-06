@@ -11,3 +11,6 @@ __pycache__
 # Folder for temporal data
 temp
 tmp
+
+# Python venv
+.venv
