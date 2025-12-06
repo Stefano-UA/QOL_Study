@@ -1,0 +1,4084 @@
+@prefix ex: <https://github.com/csalas-alarcon/Grupo3_ADP/> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:andalucia_2008_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_andalucia ;
+    schema:value "6"^^xsd:float .
+
+ex:andalucia_2008_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_andalucia ;
+    schema:value "33.8"^^xsd:float .
+
+ex:aragon_2008_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_aragon ;
+    schema:value "4.7"^^xsd:float .
+
+ex:aragon_2008_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_aragon ;
+    schema:value "27.6"^^xsd:float .
+
+ex:asturias_2008_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_asturias ;
+    schema:value "4.9"^^xsd:float .
+
+ex:asturias_2008_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_asturias ;
+    schema:value "30.4"^^xsd:float .
+
+ex:baleares_2008_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_baleares ;
+    schema:value "5.9"^^xsd:float .
+
+ex:baleares_2008_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_baleares ;
+    schema:value "32.1"^^xsd:float .
+
+ex:canarias_2008_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_canarias ;
+    schema:value "5.6"^^xsd:float .
+
+ex:canarias_2008_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_canarias ;
+    schema:value "31.7"^^xsd:float .
+
+ex:cantabria_2008_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_cantabria ;
+    schema:value "4.8"^^xsd:float .
+
+ex:cantabria_2008_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_cantabria ;
+    schema:value "29.1"^^xsd:float .
+
+ex:castilla_la_mancha_2008_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_la_mancha ;
+    schema:value "5.1"^^xsd:float .
+
+ex:castilla_la_mancha_2008_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_la_mancha ;
+    schema:value "31.7"^^xsd:float .
+
+ex:castilla_leon_2008_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_leon ;
+    schema:value "4.5"^^xsd:float .
+
+ex:castilla_leon_2008_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_leon ;
+    schema:value "28.8"^^xsd:float .
+
+ex:catalunya_2008_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_catalunya ;
+    schema:value "5.2"^^xsd:float .
+
+ex:catalunya_2008_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_catalunya ;
+    schema:value "31.1"^^xsd:float .
+
+ex:ceuta_2008_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_ceuta ;
+    schema:value "10.9"^^xsd:float .
+
+ex:ceuta_2008_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_ceuta ;
+    schema:value "39.8"^^xsd:float .
+
+ex:comunidad_valenciana_2008_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_comunidad_valenciana ;
+    schema:value "5.7"^^xsd:float .
+
+ex:comunidad_valenciana_2008_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_comunidad_valenciana ;
+    schema:value "32.2"^^xsd:float .
+
+ex:extremadura_2008_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_extremadura ;
+    schema:value "5"^^xsd:float .
+
+ex:extremadura_2008_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_extremadura ;
+    schema:value "32.2"^^xsd:float .
+
+ex:galicia_2008_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_galicia ;
+    schema:value "4.6"^^xsd:float .
+
+ex:galicia_2008_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_galicia ;
+    schema:value "29.4"^^xsd:float .
+
+ex:madrid_2008_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_madrid ;
+    schema:value "5.6"^^xsd:float .
+
+ex:madrid_2008_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_madrid ;
+    schema:value "31.9"^^xsd:float .
+
+ex:melilla_2008_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_melilla ;
+    schema:value "6.4"^^xsd:float .
+
+ex:melilla_2008_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_melilla ;
+    schema:value "30.2"^^xsd:float .
+
+ex:murcia_2008_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_murcia ;
+    schema:value "5.1"^^xsd:float .
+
+ex:murcia_2008_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_murcia ;
+    schema:value "30.6"^^xsd:float .
+
+ex:navarra_2008_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_navarra ;
+    schema:value "4.2"^^xsd:float .
+
+ex:navarra_2008_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_navarra ;
+    schema:value "27.2"^^xsd:float .
+
+ex:pais_vasco_2008_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_pais_vasco ;
+    schema:value "4.8"^^xsd:float .
+
+ex:pais_vasco_2008_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_pais_vasco ;
+    schema:value "29.6"^^xsd:float .
+
+ex:rioja_2008_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_rioja ;
+    schema:value "4.3"^^xsd:float .
+
+ex:rioja_2008_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_rioja ;
+    schema:value "28.5"^^xsd:float .
+
+ex:total_nacional_2008_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_total_nacional ;
+    schema:value "5.6"^^xsd:float .
+
+ex:total_nacional_2008_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2008"^^xsd:gYear ;
+    schema:observedNode ex:Region_total_nacional ;
+    schema:value "32.4"^^xsd:float .
+
+ex:andalucia_2009_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_andalucia ;
+    schema:value "6"^^xsd:float .
+
+ex:andalucia_2009_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_andalucia ;
+    schema:value "33"^^xsd:float .
+
+ex:aragon_2009_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_aragon ;
+    schema:value "4.4"^^xsd:float .
+
+ex:aragon_2009_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_aragon ;
+    schema:value "27.8"^^xsd:float .
+
+ex:asturias_2009_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_asturias ;
+    schema:value "5.1"^^xsd:float .
+
+ex:asturias_2009_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_asturias ;
+    schema:value "30.6"^^xsd:float .
+
+ex:baleares_2009_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_baleares ;
+    schema:value "6.3"^^xsd:float .
+
+ex:baleares_2009_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_baleares ;
+    schema:value "33.2"^^xsd:float .
+
+ex:canarias_2009_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_canarias ;
+    schema:value "6.3"^^xsd:float .
+
+ex:canarias_2009_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_canarias ;
+    schema:value "33.2"^^xsd:float .
+
+ex:cantabria_2009_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_cantabria ;
+    schema:value "5.7"^^xsd:float .
+
+ex:cantabria_2009_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_cantabria ;
+    schema:value "30.6"^^xsd:float .
+
+ex:castilla_la_mancha_2009_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_la_mancha ;
+    schema:value "4.9"^^xsd:float .
+
+ex:castilla_la_mancha_2009_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_la_mancha ;
+    schema:value "29.7"^^xsd:float .
+
+ex:castilla_leon_2009_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_leon ;
+    schema:value "5.1"^^xsd:float .
+
+ex:castilla_leon_2009_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_leon ;
+    schema:value "30.1"^^xsd:float .
+
+ex:catalunya_2009_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_catalunya ;
+    schema:value "5.8"^^xsd:float .
+
+ex:catalunya_2009_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_catalunya ;
+    schema:value "32.3"^^xsd:float .
+
+ex:ceuta_2009_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_ceuta ;
+    schema:value "15"^^xsd:float .
+
+ex:ceuta_2009_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_ceuta ;
+    schema:value "41.4"^^xsd:float .
+
+ex:comunidad_valenciana_2009_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_comunidad_valenciana ;
+    schema:value "5.3"^^xsd:float .
+
+ex:comunidad_valenciana_2009_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_comunidad_valenciana ;
+    schema:value "31"^^xsd:float .
+
+ex:extremadura_2009_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_extremadura ;
+    schema:value "5.6"^^xsd:float .
+
+ex:extremadura_2009_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_extremadura ;
+    schema:value "32.6"^^xsd:float .
+
+ex:galicia_2009_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_galicia ;
+    schema:value "4.6"^^xsd:float .
+
+ex:galicia_2009_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_galicia ;
+    schema:value "28.7"^^xsd:float .
+
+ex:madrid_2009_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_madrid ;
+    schema:value "6.3"^^xsd:float .
+
+ex:madrid_2009_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_madrid ;
+    schema:value "33.5"^^xsd:float .
+
+ex:melilla_2009_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_melilla ;
+    schema:value "9.9"^^xsd:float .
+
+ex:melilla_2009_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_melilla ;
+    schema:value "34.2"^^xsd:float .
+
+ex:murcia_2009_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_murcia ;
+    schema:value "5.7"^^xsd:float .
+
+ex:murcia_2009_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_murcia ;
+    schema:value "31.9"^^xsd:float .
+
+ex:navarra_2009_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_navarra ;
+    schema:value "4.7"^^xsd:float .
+
+ex:navarra_2009_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_navarra ;
+    schema:value "28.7"^^xsd:float .
+
+ex:pais_vasco_2009_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_pais_vasco ;
+    schema:value "5.2"^^xsd:float .
+
+ex:pais_vasco_2009_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_pais_vasco ;
+    schema:value "30.2"^^xsd:float .
+
+ex:rioja_2009_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_rioja ;
+    schema:value "5.1"^^xsd:float .
+
+ex:rioja_2009_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_rioja ;
+    schema:value "31.5"^^xsd:float .
+
+ex:total_nacional_2009_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_total_nacional ;
+    schema:value "5.9"^^xsd:float .
+
+ex:total_nacional_2009_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2009"^^xsd:gYear ;
+    schema:observedNode ex:Region_total_nacional ;
+    schema:value "32.9"^^xsd:float .
+
+ex:andalucia_2010_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_andalucia ;
+    schema:value "6.2"^^xsd:float .
+
+ex:andalucia_2010_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_andalucia ;
+    schema:value "33.3"^^xsd:float .
+
+ex:aragon_2010_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_aragon ;
+    schema:value "4.2"^^xsd:float .
+
+ex:aragon_2010_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_aragon ;
+    schema:value "26.6"^^xsd:float .
+
+ex:asturias_2010_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_asturias ;
+    schema:value "4.7"^^xsd:float .
+
+ex:asturias_2010_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_asturias ;
+    schema:value "29.9"^^xsd:float .
+
+ex:baleares_2010_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_baleares ;
+    schema:value "6.9"^^xsd:float .
+
+ex:baleares_2010_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_baleares ;
+    schema:value "34.4"^^xsd:float .
+
+ex:canarias_2010_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_canarias ;
+    schema:value "6.7"^^xsd:float .
+
+ex:canarias_2010_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_canarias ;
+    schema:value "33"^^xsd:float .
+
+ex:cantabria_2010_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_cantabria ;
+    schema:value "5.3"^^xsd:float .
+
+ex:cantabria_2010_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_cantabria ;
+    schema:value "30.7"^^xsd:float .
+
+ex:castilla_la_mancha_2010_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_la_mancha ;
+    schema:value "5.8"^^xsd:float .
+
+ex:castilla_la_mancha_2010_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_la_mancha ;
+    schema:value "34.5"^^xsd:float .
+
+ex:castilla_leon_2010_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_leon ;
+    schema:value "5.2"^^xsd:float .
+
+ex:castilla_leon_2010_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_leon ;
+    schema:value "29.7"^^xsd:float .
+
+ex:catalunya_2010_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_catalunya ;
+    schema:value "6.1"^^xsd:float .
+
+ex:catalunya_2010_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_catalunya ;
+    schema:value "33.6"^^xsd:float .
+
+ex:ceuta_2010_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_ceuta ;
+    schema:value "8.3"^^xsd:float .
+
+ex:ceuta_2010_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_ceuta ;
+    schema:value "36.8"^^xsd:float .
+
+ex:comunidad_valenciana_2010_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_comunidad_valenciana ;
+    schema:value "6.2"^^xsd:float .
+
+ex:comunidad_valenciana_2010_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_comunidad_valenciana ;
+    schema:value "33.2"^^xsd:float .
+
+ex:extremadura_2010_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_extremadura ;
+    schema:value "5.6"^^xsd:float .
+
+ex:extremadura_2010_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_extremadura ;
+    schema:value "34"^^xsd:float .
+
+ex:galicia_2010_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_galicia ;
+    schema:value "5"^^xsd:float .
+
+ex:galicia_2010_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_galicia ;
+    schema:value "30.2"^^xsd:float .
+
+ex:madrid_2010_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_madrid ;
+    schema:value "5.9"^^xsd:float .
+
+ex:madrid_2010_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_madrid ;
+    schema:value "32.2"^^xsd:float .
+
+ex:melilla_2010_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_melilla ;
+    schema:value "7.6"^^xsd:float .
+
+ex:melilla_2010_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_melilla ;
+    schema:value "34.2"^^xsd:float .
+
+ex:murcia_2010_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_murcia ;
+    schema:value "5.8"^^xsd:float .
+
+ex:murcia_2010_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_murcia ;
+    schema:value "31.5"^^xsd:float .
+
+ex:navarra_2010_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_navarra ;
+    schema:value "5.3"^^xsd:float .
+
+ex:navarra_2010_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_navarra ;
+    schema:value "30.5"^^xsd:float .
+
+ex:pais_vasco_2010_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_pais_vasco ;
+    schema:value "6.1"^^xsd:float .
+
+ex:pais_vasco_2010_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_pais_vasco ;
+    schema:value "31.6"^^xsd:float .
+
+ex:rioja_2010_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_rioja ;
+    schema:value "5.5"^^xsd:float .
+
+ex:rioja_2010_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_rioja ;
+    schema:value "30"^^xsd:float .
+
+ex:total_nacional_2010_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_total_nacional ;
+    schema:value "6.2"^^xsd:float .
+
+ex:total_nacional_2010_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2010"^^xsd:gYear ;
+    schema:observedNode ex:Region_total_nacional ;
+    schema:value "33.5"^^xsd:float .
+
+ex:andalucia_2011_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_andalucia ;
+    schema:value "7.3"^^xsd:float .
+
+ex:andalucia_2011_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_andalucia ;
+    schema:value "35.1"^^xsd:float .
+
+ex:aragon_2011_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_aragon ;
+    schema:value "5.3"^^xsd:float .
+
+ex:aragon_2011_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_aragon ;
+    schema:value "29.6"^^xsd:float .
+
+ex:asturias_2011_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_asturias ;
+    schema:value "4.9"^^xsd:float .
+
+ex:asturias_2011_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_asturias ;
+    schema:value "29.2"^^xsd:float .
+
+ex:baleares_2011_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_baleares ;
+    schema:value "9.2"^^xsd:float .
+
+ex:baleares_2011_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_baleares ;
+    schema:value "36.5"^^xsd:float .
+
+ex:canarias_2011_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_canarias ;
+    schema:value "6.8"^^xsd:float .
+
+ex:canarias_2011_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_canarias ;
+    schema:value "34"^^xsd:float .
+
+ex:cantabria_2011_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_cantabria ;
+    schema:value "7.2"^^xsd:float .
+
+ex:cantabria_2011_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_cantabria ;
+    schema:value "33.9"^^xsd:float .
+
+ex:castilla_la_mancha_2011_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_la_mancha ;
+    schema:value "5.7"^^xsd:float .
+
+ex:castilla_la_mancha_2011_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_la_mancha ;
+    schema:value "33.7"^^xsd:float .
+
+ex:castilla_leon_2011_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_leon ;
+    schema:value "4.9"^^xsd:float .
+
+ex:castilla_leon_2011_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_leon ;
+    schema:value "29.8"^^xsd:float .
+
+ex:catalunya_2011_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_catalunya ;
+    schema:value "5.6"^^xsd:float .
+
+ex:catalunya_2011_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_catalunya ;
+    schema:value "32.1"^^xsd:float .
+
+ex:ceuta_2011_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_ceuta ;
+    schema:value "8.1"^^xsd:float .
+
+ex:ceuta_2011_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_ceuta ;
+    schema:value "36"^^xsd:float .
+
+ex:comunidad_valenciana_2011_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_comunidad_valenciana ;
+    schema:value "6"^^xsd:float .
+
+ex:comunidad_valenciana_2011_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_comunidad_valenciana ;
+    schema:value "33.4"^^xsd:float .
+
+ex:extremadura_2011_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_extremadura ;
+    schema:value "5.5"^^xsd:float .
+
+ex:extremadura_2011_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_extremadura ;
+    schema:value "33.2"^^xsd:float .
+
+ex:galicia_2011_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_galicia ;
+    schema:value "5"^^xsd:float .
+
+ex:galicia_2011_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_galicia ;
+    schema:value "30.1"^^xsd:float .
+
+ex:madrid_2011_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_madrid ;
+    schema:value "6.1"^^xsd:float .
+
+ex:madrid_2011_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_madrid ;
+    schema:value "34.1"^^xsd:float .
+
+ex:melilla_2011_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_melilla ;
+    schema:value "10.7"^^xsd:float .
+
+ex:melilla_2011_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_melilla ;
+    schema:value "39.5"^^xsd:float .
+
+ex:murcia_2011_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_murcia ;
+    schema:value "4.7"^^xsd:float .
+
+ex:murcia_2011_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_murcia ;
+    schema:value "29.7"^^xsd:float .
+
+ex:navarra_2011_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_navarra ;
+    schema:value "4.7"^^xsd:float .
+
+ex:navarra_2011_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_navarra ;
+    schema:value "29.9"^^xsd:float .
+
+ex:pais_vasco_2011_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_pais_vasco ;
+    schema:value "6.3"^^xsd:float .
+
+ex:pais_vasco_2011_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_pais_vasco ;
+    schema:value "32.6"^^xsd:float .
+
+ex:rioja_2011_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_rioja ;
+    schema:value "6.2"^^xsd:float .
+
+ex:rioja_2011_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_rioja ;
+    schema:value "31.5"^^xsd:float .
+
+ex:total_nacional_2011_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_total_nacional ;
+    schema:value "6.3"^^xsd:float .
+
+ex:total_nacional_2011_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2011"^^xsd:gYear ;
+    schema:observedNode ex:Region_total_nacional ;
+    schema:value "34"^^xsd:float .
+
+ex:andalucia_2012_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_andalucia ;
+    schema:value "6.2"^^xsd:float .
+
+ex:andalucia_2012_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_andalucia ;
+    schema:value "34"^^xsd:float .
+
+ex:aragon_2012_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_aragon ;
+    schema:value "5.3"^^xsd:float .
+
+ex:aragon_2012_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_aragon ;
+    schema:value "30"^^xsd:float .
+
+ex:asturias_2012_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_asturias ;
+    schema:value "5.2"^^xsd:float .
+
+ex:asturias_2012_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_asturias ;
+    schema:value "30"^^xsd:float .
+
+ex:baleares_2012_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_baleares ;
+    schema:value "6.9"^^xsd:float .
+
+ex:baleares_2012_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_baleares ;
+    schema:value "34.2"^^xsd:float .
+
+ex:canarias_2012_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_canarias ;
+    schema:value "7.1"^^xsd:float .
+
+ex:canarias_2012_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_canarias ;
+    schema:value "34.4"^^xsd:float .
+
+ex:cantabria_2012_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_cantabria ;
+    schema:value "5.3"^^xsd:float .
+
+ex:cantabria_2012_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_cantabria ;
+    schema:value "31.1"^^xsd:float .
+
+ex:castilla_la_mancha_2012_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_la_mancha ;
+    schema:value "6.8"^^xsd:float .
+
+ex:castilla_la_mancha_2012_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_la_mancha ;
+    schema:value "34.6"^^xsd:float .
+
+ex:castilla_leon_2012_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_leon ;
+    schema:value "5"^^xsd:float .
+
+ex:castilla_leon_2012_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_leon ;
+    schema:value "29.9"^^xsd:float .
+
+ex:catalunya_2012_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_catalunya ;
+    schema:value "6.2"^^xsd:float .
+
+ex:catalunya_2012_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_catalunya ;
+    schema:value "32.6"^^xsd:float .
+
+ex:ceuta_2012_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_ceuta ;
+    schema:value "10.8"^^xsd:float .
+
+ex:ceuta_2012_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_ceuta ;
+    schema:value "41.6"^^xsd:float .
+
+ex:comunidad_valenciana_2012_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_comunidad_valenciana ;
+    schema:value "6.7"^^xsd:float .
+
+ex:comunidad_valenciana_2012_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_comunidad_valenciana ;
+    schema:value "34"^^xsd:float .
+
+ex:extremadura_2012_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_extremadura ;
+    schema:value "6.3"^^xsd:float .
+
+ex:extremadura_2012_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_extremadura ;
+    schema:value "32.8"^^xsd:float .
+
+ex:galicia_2012_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_galicia ;
+    schema:value "5.4"^^xsd:float .
+
+ex:galicia_2012_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_galicia ;
+    schema:value "31.1"^^xsd:float .
+
+ex:madrid_2012_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_madrid ;
+    schema:value "6.5"^^xsd:float .
+
+ex:madrid_2012_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_madrid ;
+    schema:value "33.9"^^xsd:float .
+
+ex:melilla_2012_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_melilla ;
+    schema:value "5.4"^^xsd:float .
+
+ex:melilla_2012_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_melilla ;
+    schema:value "33.7"^^xsd:float .
+
+ex:murcia_2012_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_murcia ;
+    schema:value "5.1"^^xsd:float .
+
+ex:murcia_2012_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_murcia ;
+    schema:value "29.7"^^xsd:float .
+
+ex:navarra_2012_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_navarra ;
+    schema:value "4.8"^^xsd:float .
+
+ex:navarra_2012_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_navarra ;
+    schema:value "30.3"^^xsd:float .
+
+ex:pais_vasco_2012_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_pais_vasco ;
+    schema:value "6.5"^^xsd:float .
+
+ex:pais_vasco_2012_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_pais_vasco ;
+    schema:value "31.9"^^xsd:float .
+
+ex:rioja_2012_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_rioja ;
+    schema:value "5.9"^^xsd:float .
+
+ex:rioja_2012_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_rioja ;
+    schema:value "31.8"^^xsd:float .
+
+ex:total_nacional_2012_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_total_nacional ;
+    schema:value "6.5"^^xsd:float .
+
+ex:total_nacional_2012_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2012"^^xsd:gYear ;
+    schema:observedNode ex:Region_total_nacional ;
+    schema:value "34.2"^^xsd:float .
+
+ex:andalucia_2013_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_andalucia ;
+    schema:value "6.6"^^xsd:float .
+
+ex:andalucia_2013_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_andalucia ;
+    schema:value "34"^^xsd:float .
+
+ex:aragon_2013_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_aragon ;
+    schema:value "5.6"^^xsd:float .
+
+ex:aragon_2013_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_aragon ;
+    schema:value "31.8"^^xsd:float .
+
+ex:asturias_2013_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_asturias ;
+    schema:value "5.1"^^xsd:float .
+
+ex:asturias_2013_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_asturias ;
+    schema:value "29.1"^^xsd:float .
+
+ex:baleares_2013_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_baleares ;
+    schema:value "7.1"^^xsd:float .
+
+ex:baleares_2013_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_baleares ;
+    schema:value "33.8"^^xsd:float .
+
+ex:canarias_2013_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_canarias ;
+    schema:value "7"^^xsd:float .
+
+ex:canarias_2013_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_canarias ;
+    schema:value "32.8"^^xsd:float .
+
+ex:cantabria_2013_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_cantabria ;
+    schema:value "5.2"^^xsd:float .
+
+ex:cantabria_2013_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_cantabria ;
+    schema:value "30.3"^^xsd:float .
+
+ex:castilla_la_mancha_2013_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_la_mancha ;
+    schema:value "6.5"^^xsd:float .
+
+ex:castilla_la_mancha_2013_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_la_mancha ;
+    schema:value "33.6"^^xsd:float .
+
+ex:castilla_leon_2013_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_leon ;
+    schema:value "5.2"^^xsd:float .
+
+ex:castilla_leon_2013_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_leon ;
+    schema:value "30.5"^^xsd:float .
+
+ex:catalunya_2013_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_catalunya ;
+    schema:value "5.7"^^xsd:float .
+
+ex:catalunya_2013_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_catalunya ;
+    schema:value "31.9"^^xsd:float .
+
+ex:ceuta_2013_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_ceuta ;
+    schema:value "10.9"^^xsd:float .
+
+ex:ceuta_2013_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_ceuta ;
+    schema:value "43.9"^^xsd:float .
+
+ex:comunidad_valenciana_2013_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_comunidad_valenciana ;
+    schema:value "6.5"^^xsd:float .
+
+ex:comunidad_valenciana_2013_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_comunidad_valenciana ;
+    schema:value "33.2"^^xsd:float .
+
+ex:extremadura_2013_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_extremadura ;
+    schema:value "5.7"^^xsd:float .
+
+ex:extremadura_2013_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_extremadura ;
+    schema:value "32"^^xsd:float .
+
+ex:galicia_2013_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_galicia ;
+    schema:value "4.8"^^xsd:float .
+
+ex:galicia_2013_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_galicia ;
+    schema:value "30"^^xsd:float .
+
+ex:madrid_2013_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_madrid ;
+    schema:value "6.1"^^xsd:float .
+
+ex:madrid_2013_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_madrid ;
+    schema:value "32.9"^^xsd:float .
+
+ex:melilla_2013_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_melilla ;
+    schema:value "10.1"^^xsd:float .
+
+ex:melilla_2013_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_melilla ;
+    schema:value "42.5"^^xsd:float .
+
+ex:murcia_2013_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_murcia ;
+    schema:value "6.5"^^xsd:float .
+
+ex:murcia_2013_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_murcia ;
+    schema:value "31.1"^^xsd:float .
+
+ex:navarra_2013_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_navarra ;
+    schema:value "4.5"^^xsd:float .
+
+ex:navarra_2013_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_navarra ;
+    schema:value "28.3"^^xsd:float .
+
+ex:pais_vasco_2013_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_pais_vasco ;
+    schema:value "5.2"^^xsd:float .
+
+ex:pais_vasco_2013_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_pais_vasco ;
+    schema:value "29.5"^^xsd:float .
+
+ex:rioja_2013_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_rioja ;
+    schema:value "6.8"^^xsd:float .
+
+ex:rioja_2013_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_rioja ;
+    schema:value "31.7"^^xsd:float .
+
+ex:total_nacional_2013_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_total_nacional ;
+    schema:value "6.3"^^xsd:float .
+
+ex:total_nacional_2013_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2013"^^xsd:gYear ;
+    schema:observedNode ex:Region_total_nacional ;
+    schema:value "33.7"^^xsd:float .
+
+ex:andalucia_2014_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_andalucia ;
+    schema:value "7.1"^^xsd:float .
+
+ex:andalucia_2014_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_andalucia ;
+    schema:value "35.2"^^xsd:float .
+
+ex:aragon_2014_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_aragon ;
+    schema:value "6"^^xsd:float .
+
+ex:aragon_2014_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_aragon ;
+    schema:value "32.8"^^xsd:float .
+
+ex:asturias_2014_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_asturias ;
+    schema:value "6.3"^^xsd:float .
+
+ex:asturias_2014_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_asturias ;
+    schema:value "31.7"^^xsd:float .
+
+ex:baleares_2014_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_baleares ;
+    schema:value "8.9"^^xsd:float .
+
+ex:baleares_2014_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_baleares ;
+    schema:value "34.9"^^xsd:float .
+
+ex:canarias_2014_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_canarias ;
+    schema:value "7.7"^^xsd:float .
+
+ex:canarias_2014_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_canarias ;
+    schema:value "33.6"^^xsd:float .
+
+ex:cantabria_2014_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_cantabria ;
+    schema:value "4.8"^^xsd:float .
+
+ex:cantabria_2014_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_cantabria ;
+    schema:value "28.4"^^xsd:float .
+
+ex:castilla_la_mancha_2014_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_la_mancha ;
+    schema:value "6.2"^^xsd:float .
+
+ex:castilla_la_mancha_2014_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_la_mancha ;
+    schema:value "33.2"^^xsd:float .
+
+ex:castilla_leon_2014_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_leon ;
+    schema:value "6.2"^^xsd:float .
+
+ex:castilla_leon_2014_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_leon ;
+    schema:value "32.5"^^xsd:float .
+
+ex:catalunya_2014_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_catalunya ;
+    schema:value "6.5"^^xsd:float .
+
+ex:catalunya_2014_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_catalunya ;
+    schema:value "33"^^xsd:float .
+
+ex:ceuta_2014_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_ceuta ;
+    schema:value "9.2"^^xsd:float .
+
+ex:ceuta_2014_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_ceuta ;
+    schema:value "43.2"^^xsd:float .
+
+ex:comunidad_valenciana_2014_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_comunidad_valenciana ;
+    schema:value "5.8"^^xsd:float .
+
+ex:comunidad_valenciana_2014_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_comunidad_valenciana ;
+    schema:value "32.6"^^xsd:float .
+
+ex:extremadura_2014_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_extremadura ;
+    schema:value "5.7"^^xsd:float .
+
+ex:extremadura_2014_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_extremadura ;
+    schema:value "31.6"^^xsd:float .
+
+ex:galicia_2014_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_galicia ;
+    schema:value "5"^^xsd:float .
+
+ex:galicia_2014_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_galicia ;
+    schema:value "30.7"^^xsd:float .
+
+ex:madrid_2014_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_madrid ;
+    schema:value "6.5"^^xsd:float .
+
+ex:madrid_2014_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_madrid ;
+    schema:value "33.7"^^xsd:float .
+
+ex:melilla_2014_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_melilla ;
+    schema:value "10.1"^^xsd:float .
+
+ex:melilla_2014_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_melilla ;
+    schema:value "41"^^xsd:float .
+
+ex:murcia_2014_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_murcia ;
+    schema:value "6.1"^^xsd:float .
+
+ex:murcia_2014_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_murcia ;
+    schema:value "33.7"^^xsd:float .
+
+ex:navarra_2014_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_navarra ;
+    schema:value "4.9"^^xsd:float .
+
+ex:navarra_2014_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_navarra ;
+    schema:value "28.1"^^xsd:float .
+
+ex:pais_vasco_2014_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_pais_vasco ;
+    schema:value "5.2"^^xsd:float .
+
+ex:pais_vasco_2014_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_pais_vasco ;
+    schema:value "29.3"^^xsd:float .
+
+ex:rioja_2014_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_rioja ;
+    schema:value "6.4"^^xsd:float .
+
+ex:rioja_2014_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_rioja ;
+    schema:value "31.9"^^xsd:float .
+
+ex:total_nacional_2014_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_total_nacional ;
+    schema:value "6.8"^^xsd:float .
+
+ex:total_nacional_2014_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2014"^^xsd:gYear ;
+    schema:observedNode ex:Region_total_nacional ;
+    schema:value "34.7"^^xsd:float .
+
+ex:andalucia_2015_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_andalucia ;
+    schema:value "7"^^xsd:float .
+
+ex:andalucia_2015_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_andalucia ;
+    schema:value "35"^^xsd:float .
+
+ex:aragon_2015_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_aragon ;
+    schema:value "5.4"^^xsd:float .
+
+ex:aragon_2015_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_aragon ;
+    schema:value "31.6"^^xsd:float .
+
+ex:asturias_2015_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_asturias ;
+    schema:value "5.2"^^xsd:float .
+
+ex:asturias_2015_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_asturias ;
+    schema:value "30.2"^^xsd:float .
+
+ex:baleares_2015_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_baleares ;
+    schema:value "9.1"^^xsd:float .
+
+ex:baleares_2015_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_baleares ;
+    schema:value "34.7"^^xsd:float .
+
+ex:canarias_2015_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_canarias ;
+    schema:value "10.1"^^xsd:float .
+
+ex:canarias_2015_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_canarias ;
+    schema:value "35.9"^^xsd:float .
+
+ex:cantabria_2015_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_cantabria ;
+    schema:value "4.3"^^xsd:float .
+
+ex:cantabria_2015_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_cantabria ;
+    schema:value "27.2"^^xsd:float .
+
+ex:castilla_la_mancha_2015_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_la_mancha ;
+    schema:value "6.7"^^xsd:float .
+
+ex:castilla_la_mancha_2015_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_la_mancha ;
+    schema:value "33.4"^^xsd:float .
+
+ex:castilla_leon_2015_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_leon ;
+    schema:value "5.6"^^xsd:float .
+
+ex:castilla_leon_2015_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_leon ;
+    schema:value "31.1"^^xsd:float .
+
+ex:catalunya_2015_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_catalunya ;
+    schema:value "6.1"^^xsd:float .
+
+ex:catalunya_2015_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_catalunya ;
+    schema:value "32.3"^^xsd:float .
+
+ex:ceuta_2015_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_ceuta ;
+    schema:value "7.1"^^xsd:float .
+
+ex:ceuta_2015_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_ceuta ;
+    schema:value "35"^^xsd:float .
+
+ex:comunidad_valenciana_2015_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_comunidad_valenciana ;
+    schema:value "6.4"^^xsd:float .
+
+ex:comunidad_valenciana_2015_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_comunidad_valenciana ;
+    schema:value "33"^^xsd:float .
+
+ex:extremadura_2015_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_extremadura ;
+    schema:value "5.8"^^xsd:float .
+
+ex:extremadura_2015_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_extremadura ;
+    schema:value "32.2"^^xsd:float .
+
+ex:galicia_2015_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_galicia ;
+    schema:value "5.5"^^xsd:float .
+
+ex:galicia_2015_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_galicia ;
+    schema:value "31.5"^^xsd:float .
+
+ex:madrid_2015_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_madrid ;
+    schema:value "6.9"^^xsd:float .
+
+ex:madrid_2015_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_madrid ;
+    schema:value "34.7"^^xsd:float .
+
+ex:melilla_2015_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_melilla ;
+    schema:value "7.4"^^xsd:float .
+
+ex:melilla_2015_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_melilla ;
+    schema:value "35"^^xsd:float .
+
+ex:murcia_2015_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_murcia ;
+    schema:value "6.6"^^xsd:float .
+
+ex:murcia_2015_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_murcia ;
+    schema:value "33.3"^^xsd:float .
+
+ex:navarra_2015_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_navarra ;
+    schema:value "4.8"^^xsd:float .
+
+ex:navarra_2015_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_navarra ;
+    schema:value "26.2"^^xsd:float .
+
+ex:pais_vasco_2015_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_pais_vasco ;
+    schema:value "5.4"^^xsd:float .
+
+ex:pais_vasco_2015_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_pais_vasco ;
+    schema:value "30.2"^^xsd:float .
+
+ex:rioja_2015_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_rioja ;
+    schema:value "5.5"^^xsd:float .
+
+ex:rioja_2015_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_rioja ;
+    schema:value "31.1"^^xsd:float .
+
+ex:total_nacional_2015_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_total_nacional ;
+    schema:value "6.9"^^xsd:float .
+
+ex:total_nacional_2015_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2015"^^xsd:gYear ;
+    schema:observedNode ex:Region_total_nacional ;
+    schema:value "34.6"^^xsd:float .
+
+ex:andalucia_2016_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_andalucia ;
+    schema:value "7.2"^^xsd:float .
+
+ex:andalucia_2016_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_andalucia ;
+    schema:value "36.1"^^xsd:float .
+
+ex:aragon_2016_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_aragon ;
+    schema:value "5.1"^^xsd:float .
+
+ex:aragon_2016_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_aragon ;
+    schema:value "30.4"^^xsd:float .
+
+ex:asturias_2016_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_asturias ;
+    schema:value "5.1"^^xsd:float .
+
+ex:asturias_2016_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_asturias ;
+    schema:value "29.2"^^xsd:float .
+
+ex:baleares_2016_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_baleares ;
+    schema:value "6.1"^^xsd:float .
+
+ex:baleares_2016_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_baleares ;
+    schema:value "33.6"^^xsd:float .
+
+ex:canarias_2016_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_canarias ;
+    schema:value "8.8"^^xsd:float .
+
+ex:canarias_2016_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_canarias ;
+    schema:value "38.1"^^xsd:float .
+
+ex:cantabria_2016_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_cantabria ;
+    schema:value "4.8"^^xsd:float .
+
+ex:cantabria_2016_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_cantabria ;
+    schema:value "30"^^xsd:float .
+
+ex:castilla_la_mancha_2016_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_la_mancha ;
+    schema:value "6.4"^^xsd:float .
+
+ex:castilla_la_mancha_2016_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_la_mancha ;
+    schema:value "33.9"^^xsd:float .
+
+ex:castilla_leon_2016_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_leon ;
+    schema:value "5.1"^^xsd:float .
+
+ex:castilla_leon_2016_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_leon ;
+    schema:value "30.5"^^xsd:float .
+
+ex:catalunya_2016_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_catalunya ;
+    schema:value "5.6"^^xsd:float .
+
+ex:catalunya_2016_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_catalunya ;
+    schema:value "31.4"^^xsd:float .
+
+ex:ceuta_2016_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_ceuta ;
+    schema:value "6.3"^^xsd:float .
+
+ex:ceuta_2016_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_ceuta ;
+    schema:value "35.6"^^xsd:float .
+
+ex:comunidad_valenciana_2016_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_comunidad_valenciana ;
+    schema:value "6"^^xsd:float .
+
+ex:comunidad_valenciana_2016_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_comunidad_valenciana ;
+    schema:value "32.5"^^xsd:float .
+
+ex:extremadura_2016_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_extremadura ;
+    schema:value "5.4"^^xsd:float .
+
+ex:extremadura_2016_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_extremadura ;
+    schema:value "32.3"^^xsd:float .
+
+ex:galicia_2016_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_galicia ;
+    schema:value "5.5"^^xsd:float .
+
+ex:galicia_2016_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_galicia ;
+    schema:value "31.5"^^xsd:float .
+
+ex:madrid_2016_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_madrid ;
+    schema:value "7.2"^^xsd:float .
+
+ex:madrid_2016_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_madrid ;
+    schema:value "35"^^xsd:float .
+
+ex:melilla_2016_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_melilla ;
+    schema:value "8.2"^^xsd:float .
+
+ex:melilla_2016_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_melilla ;
+    schema:value "33.5"^^xsd:float .
+
+ex:murcia_2016_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_murcia ;
+    schema:value "5.9"^^xsd:float .
+
+ex:murcia_2016_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_murcia ;
+    schema:value "32"^^xsd:float .
+
+ex:navarra_2016_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_navarra ;
+    schema:value "4.6"^^xsd:float .
+
+ex:navarra_2016_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_navarra ;
+    schema:value "27.7"^^xsd:float .
+
+ex:pais_vasco_2016_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_pais_vasco ;
+    schema:value "5"^^xsd:float .
+
+ex:pais_vasco_2016_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_pais_vasco ;
+    schema:value "29.1"^^xsd:float .
+
+ex:rioja_2016_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_rioja ;
+    schema:value "4.6"^^xsd:float .
+
+ex:rioja_2016_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_rioja ;
+    schema:value "28.5"^^xsd:float .
+
+ex:total_nacional_2016_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_total_nacional ;
+    schema:value "6.6"^^xsd:float .
+
+ex:total_nacional_2016_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2016"^^xsd:gYear ;
+    schema:observedNode ex:Region_total_nacional ;
+    schema:value "34.5"^^xsd:float .
+
+ex:andalucia_2017_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_andalucia ;
+    schema:value "6.9"^^xsd:float .
+
+ex:andalucia_2017_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_andalucia ;
+    schema:value "35.5"^^xsd:float .
+
+ex:aragon_2017_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_aragon ;
+    schema:value "4.6"^^xsd:float .
+
+ex:aragon_2017_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_aragon ;
+    schema:value "28.8"^^xsd:float .
+
+ex:asturias_2017_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_asturias ;
+    schema:value "5.5"^^xsd:float .
+
+ex:asturias_2017_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_asturias ;
+    schema:value "31.4"^^xsd:float .
+
+ex:baleares_2017_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_baleares ;
+    schema:value "8.2"^^xsd:float .
+
+ex:baleares_2017_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_baleares ;
+    schema:value "37.8"^^xsd:float .
+
+ex:canarias_2017_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_canarias ;
+    schema:value "7"^^xsd:float .
+
+ex:canarias_2017_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_canarias ;
+    schema:value "33.8"^^xsd:float .
+
+ex:cantabria_2017_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_cantabria ;
+    schema:value "4.9"^^xsd:float .
+
+ex:cantabria_2017_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_cantabria ;
+    schema:value "29.7"^^xsd:float .
+
+ex:castilla_la_mancha_2017_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_la_mancha ;
+    schema:value "6.3"^^xsd:float .
+
+ex:castilla_la_mancha_2017_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_la_mancha ;
+    schema:value "33.2"^^xsd:float .
+
+ex:castilla_leon_2017_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_leon ;
+    schema:value "4.7"^^xsd:float .
+
+ex:castilla_leon_2017_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_leon ;
+    schema:value "28.5"^^xsd:float .
+
+ex:catalunya_2017_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_catalunya ;
+    schema:value "5.7"^^xsd:float .
+
+ex:catalunya_2017_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_catalunya ;
+    schema:value "31.8"^^xsd:float .
+
+ex:ceuta_2017_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_ceuta ;
+    schema:value "11.5"^^xsd:float .
+
+ex:ceuta_2017_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_ceuta ;
+    schema:value "39.8"^^xsd:float .
+
+ex:comunidad_valenciana_2017_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_comunidad_valenciana ;
+    schema:value "6.6"^^xsd:float .
+
+ex:comunidad_valenciana_2017_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_comunidad_valenciana ;
+    schema:value "33.2"^^xsd:float .
+
+ex:extremadura_2017_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_extremadura ;
+    schema:value "5.9"^^xsd:float .
+
+ex:extremadura_2017_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_extremadura ;
+    schema:value "33.5"^^xsd:float .
+
+ex:galicia_2017_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_galicia ;
+    schema:value "5.8"^^xsd:float .
+
+ex:galicia_2017_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_galicia ;
+    schema:value "30.8"^^xsd:float .
+
+ex:madrid_2017_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_madrid ;
+    schema:value "7.7"^^xsd:float .
+
+ex:madrid_2017_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_madrid ;
+    schema:value "35.1"^^xsd:float .
+
+ex:melilla_2017_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_melilla ;
+    schema:value "7.1"^^xsd:float .
+
+ex:melilla_2017_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_melilla ;
+    schema:value "33.3"^^xsd:float .
+
+ex:murcia_2017_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_murcia ;
+    schema:value "5.6"^^xsd:float .
+
+ex:murcia_2017_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_murcia ;
+    schema:value "31.4"^^xsd:float .
+
+ex:navarra_2017_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_navarra ;
+    schema:value "4.4"^^xsd:float .
+
+ex:navarra_2017_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_navarra ;
+    schema:value "26.5"^^xsd:float .
+
+ex:pais_vasco_2017_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_pais_vasco ;
+    schema:value "5.1"^^xsd:float .
+
+ex:pais_vasco_2017_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_pais_vasco ;
+    schema:value "29.6"^^xsd:float .
+
+ex:rioja_2017_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_rioja ;
+    schema:value "4.5"^^xsd:float .
+
+ex:rioja_2017_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_rioja ;
+    schema:value "28.3"^^xsd:float .
+
+ex:total_nacional_2017_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_total_nacional ;
+    schema:value "6.6"^^xsd:float .
+
+ex:total_nacional_2017_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2017"^^xsd:gYear ;
+    schema:observedNode ex:Region_total_nacional ;
+    schema:value "34.1"^^xsd:float .
+
+ex:andalucia_2018_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_andalucia ;
+    schema:value "6.5"^^xsd:float .
+
+ex:andalucia_2018_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_andalucia ;
+    schema:value "34.9"^^xsd:float .
+
+ex:aragon_2018_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_aragon ;
+    schema:value "4.3"^^xsd:float .
+
+ex:aragon_2018_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_aragon ;
+    schema:value "27.3"^^xsd:float .
+
+ex:asturias_2018_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_asturias ;
+    schema:value "4.8"^^xsd:float .
+
+ex:asturias_2018_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_asturias ;
+    schema:value "28.8"^^xsd:float .
+
+ex:baleares_2018_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_baleares ;
+    schema:value "5.5"^^xsd:float .
+
+ex:baleares_2018_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_baleares ;
+    schema:value "32.8"^^xsd:float .
+
+ex:canarias_2018_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_canarias ;
+    schema:value "7"^^xsd:float .
+
+ex:canarias_2018_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_canarias ;
+    schema:value "33.9"^^xsd:float .
+
+ex:cantabria_2018_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_cantabria ;
+    schema:value "5.3"^^xsd:float .
+
+ex:cantabria_2018_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_cantabria ;
+    schema:value "29.9"^^xsd:float .
+
+ex:castilla_la_mancha_2018_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_la_mancha ;
+    schema:value "6.6"^^xsd:float .
+
+ex:castilla_la_mancha_2018_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_la_mancha ;
+    schema:value "34.2"^^xsd:float .
+
+ex:castilla_leon_2018_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_leon ;
+    schema:value "4.8"^^xsd:float .
+
+ex:castilla_leon_2018_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_leon ;
+    schema:value "29.9"^^xsd:float .
+
+ex:catalunya_2018_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_catalunya ;
+    schema:value "5.2"^^xsd:float .
+
+ex:catalunya_2018_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_catalunya ;
+    schema:value "30.3"^^xsd:float .
+
+ex:ceuta_2018_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_ceuta ;
+    schema:value "10.3"^^xsd:float .
+
+ex:ceuta_2018_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_ceuta ;
+    schema:value "42.2"^^xsd:float .
+
+ex:comunidad_valenciana_2018_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_comunidad_valenciana ;
+    schema:value "5.6"^^xsd:float .
+
+ex:comunidad_valenciana_2018_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_comunidad_valenciana ;
+    schema:value "31.5"^^xsd:float .
+
+ex:extremadura_2018_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_extremadura ;
+    schema:value "4.8"^^xsd:float .
+
+ex:extremadura_2018_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_extremadura ;
+    schema:value "30.6"^^xsd:float .
+
+ex:galicia_2018_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_galicia ;
+    schema:value "5.4"^^xsd:float .
+
+ex:galicia_2018_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_galicia ;
+    schema:value "30.9"^^xsd:float .
+
+ex:madrid_2018_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_madrid ;
+    schema:value "6.3"^^xsd:float .
+
+ex:madrid_2018_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_madrid ;
+    schema:value "33.4"^^xsd:float .
+
+ex:melilla_2018_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_melilla ;
+    schema:value "9.1"^^xsd:float .
+
+ex:melilla_2018_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_melilla ;
+    schema:value "37.3"^^xsd:float .
+
+ex:murcia_2018_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_murcia ;
+    schema:value "5.9"^^xsd:float .
+
+ex:murcia_2018_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_murcia ;
+    schema:value "31.7"^^xsd:float .
+
+ex:navarra_2018_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_navarra ;
+    schema:value "4.1"^^xsd:float .
+
+ex:navarra_2018_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_navarra ;
+    schema:value "24.7"^^xsd:float .
+
+ex:pais_vasco_2018_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_pais_vasco ;
+    schema:value "5.1"^^xsd:float .
+
+ex:pais_vasco_2018_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_pais_vasco ;
+    schema:value "30"^^xsd:float .
+
+ex:rioja_2018_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_rioja ;
+    schema:value "5.7"^^xsd:float .
+
+ex:rioja_2018_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_rioja ;
+    schema:value "30.5"^^xsd:float .
+
+ex:total_nacional_2018_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_total_nacional ;
+    schema:value "6"^^xsd:float .
+
+ex:total_nacional_2018_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2018"^^xsd:gYear ;
+    schema:observedNode ex:Region_total_nacional ;
+    schema:value "33.2"^^xsd:float .
+
+ex:andalucia_2019_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_andalucia ;
+    schema:value "6.1"^^xsd:float .
+
+ex:andalucia_2019_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_andalucia ;
+    schema:value "33.4"^^xsd:float .
+
+ex:aragon_2019_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_aragon ;
+    schema:value "4.7"^^xsd:float .
+
+ex:aragon_2019_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_aragon ;
+    schema:value "27.5"^^xsd:float .
+
+ex:asturias_2019_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_asturias ;
+    schema:value "7.8"^^xsd:float .
+
+ex:asturias_2019_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_asturias ;
+    schema:value "34.7"^^xsd:float .
+
+ex:baleares_2019_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_baleares ;
+    schema:value "4.8"^^xsd:float .
+
+ex:baleares_2019_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_baleares ;
+    schema:value "29.2"^^xsd:float .
+
+ex:canarias_2019_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_canarias ;
+    schema:value "5.3"^^xsd:float .
+
+ex:canarias_2019_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_canarias ;
+    schema:value "30.3"^^xsd:float .
+
+ex:cantabria_2019_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_cantabria ;
+    schema:value "5.2"^^xsd:float .
+
+ex:cantabria_2019_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_cantabria ;
+    schema:value "30.4"^^xsd:float .
+
+ex:castilla_la_mancha_2019_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_la_mancha ;
+    schema:value "5.5"^^xsd:float .
+
+ex:castilla_la_mancha_2019_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_la_mancha ;
+    schema:value "31.2"^^xsd:float .
+
+ex:castilla_leon_2019_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_leon ;
+    schema:value "4.5"^^xsd:float .
+
+ex:castilla_leon_2019_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_leon ;
+    schema:value "27.7"^^xsd:float .
+
+ex:catalunya_2019_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_catalunya ;
+    schema:value "5.6"^^xsd:float .
+
+ex:catalunya_2019_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_catalunya ;
+    schema:value "31.2"^^xsd:float .
+
+ex:ceuta_2019_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_ceuta ;
+    schema:value "11.5"^^xsd:float .
+
+ex:ceuta_2019_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_ceuta ;
+    schema:value "41.9"^^xsd:float .
+
+ex:comunidad_valenciana_2019_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_comunidad_valenciana ;
+    schema:value "5.6"^^xsd:float .
+
+ex:comunidad_valenciana_2019_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_comunidad_valenciana ;
+    schema:value "31.4"^^xsd:float .
+
+ex:extremadura_2019_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_extremadura ;
+    schema:value "4.8"^^xsd:float .
+
+ex:extremadura_2019_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_extremadura ;
+    schema:value "29.8"^^xsd:float .
+
+ex:galicia_2019_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_galicia ;
+    schema:value "5.2"^^xsd:float .
+
+ex:galicia_2019_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_galicia ;
+    schema:value "30.5"^^xsd:float .
+
+ex:madrid_2019_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_madrid ;
+    schema:value "6.5"^^xsd:float .
+
+ex:madrid_2019_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_madrid ;
+    schema:value "34.7"^^xsd:float .
+
+ex:melilla_2019_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_melilla ;
+    schema:value "13.9"^^xsd:float .
+
+ex:melilla_2019_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_melilla ;
+    schema:value "40.7"^^xsd:float .
+
+ex:murcia_2019_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_murcia ;
+    schema:value "4.7"^^xsd:float .
+
+ex:murcia_2019_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_murcia ;
+    schema:value "28.9"^^xsd:float .
+
+ex:navarra_2019_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_navarra ;
+    schema:value "3.9"^^xsd:float .
+
+ex:navarra_2019_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_navarra ;
+    schema:value "24.3"^^xsd:float .
+
+ex:pais_vasco_2019_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_pais_vasco ;
+    schema:value "5.3"^^xsd:float .
+
+ex:pais_vasco_2019_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_pais_vasco ;
+    schema:value "29.4"^^xsd:float .
+
+ex:rioja_2019_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_rioja ;
+    schema:value "5"^^xsd:float .
+
+ex:rioja_2019_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_rioja ;
+    schema:value "29.3"^^xsd:float .
+
+ex:total_nacional_2019_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_total_nacional ;
+    schema:value "5.9"^^xsd:float .
+
+ex:total_nacional_2019_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2019"^^xsd:gYear ;
+    schema:observedNode ex:Region_total_nacional ;
+    schema:value "33"^^xsd:float .
+
+ex:andalucia_2020_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_andalucia ;
+    schema:value "5.3"^^xsd:float .
+
+ex:andalucia_2020_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_andalucia ;
+    schema:value "30.8"^^xsd:float .
+
+ex:aragon_2020_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_aragon ;
+    schema:value "4.7"^^xsd:float .
+
+ex:aragon_2020_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_aragon ;
+    schema:value "27.4"^^xsd:float .
+
+ex:asturias_2020_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_asturias ;
+    schema:value "7.3"^^xsd:float .
+
+ex:asturias_2020_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_asturias ;
+    schema:value "34"^^xsd:float .
+
+ex:baleares_2020_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_baleares ;
+    schema:value "4.6"^^xsd:float .
+
+ex:baleares_2020_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_baleares ;
+    schema:value "26.5"^^xsd:float .
+
+ex:canarias_2020_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_canarias ;
+    schema:value "6.9"^^xsd:float .
+
+ex:canarias_2020_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_canarias ;
+    schema:value "33.1"^^xsd:float .
+
+ex:cantabria_2020_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_cantabria ;
+    schema:value "5.3"^^xsd:float .
+
+ex:cantabria_2020_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_cantabria ;
+    schema:value "30.8"^^xsd:float .
+
+ex:castilla_la_mancha_2020_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_la_mancha ;
+    schema:value "4.8"^^xsd:float .
+
+ex:castilla_la_mancha_2020_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_la_mancha ;
+    schema:value "28.9"^^xsd:float .
+
+ex:castilla_leon_2020_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_leon ;
+    schema:value "4.5"^^xsd:float .
+
+ex:castilla_leon_2020_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_leon ;
+    schema:value "27.9"^^xsd:float .
+
+ex:catalunya_2020_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_catalunya ;
+    schema:value "6.2"^^xsd:float .
+
+ex:catalunya_2020_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_catalunya ;
+    schema:value "31.7"^^xsd:float .
+
+ex:ceuta_2020_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_ceuta ;
+    schema:value "10.7"^^xsd:float .
+
+ex:ceuta_2020_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_ceuta ;
+    schema:value "40"^^xsd:float .
+
+ex:comunidad_valenciana_2020_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_comunidad_valenciana ;
+    schema:value "6.6"^^xsd:float .
+
+ex:comunidad_valenciana_2020_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_comunidad_valenciana ;
+    schema:value "32.3"^^xsd:float .
+
+ex:extremadura_2020_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_extremadura ;
+    schema:value "4.5"^^xsd:float .
+
+ex:extremadura_2020_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_extremadura ;
+    schema:value "28"^^xsd:float .
+
+ex:galicia_2020_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_galicia ;
+    schema:value "5.3"^^xsd:float .
+
+ex:galicia_2020_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_galicia ;
+    schema:value "29.7"^^xsd:float .
+
+ex:madrid_2020_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_madrid ;
+    schema:value "5.8"^^xsd:float .
+
+ex:madrid_2020_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_madrid ;
+    schema:value "32.9"^^xsd:float .
+
+ex:melilla_2020_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_melilla ;
+    schema:value "15"^^xsd:float .
+
+ex:melilla_2020_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_melilla ;
+    schema:value "43.9"^^xsd:float .
+
+ex:murcia_2020_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_murcia ;
+    schema:value "4.7"^^xsd:float .
+
+ex:murcia_2020_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_murcia ;
+    schema:value "28.8"^^xsd:float .
+
+ex:navarra_2020_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_navarra ;
+    schema:value "4.5"^^xsd:float .
+
+ex:navarra_2020_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_navarra ;
+    schema:value "27.3"^^xsd:float .
+
+ex:pais_vasco_2020_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_pais_vasco ;
+    schema:value "4.8"^^xsd:float .
+
+ex:pais_vasco_2020_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_pais_vasco ;
+    schema:value "28.8"^^xsd:float .
+
+ex:rioja_2020_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_rioja ;
+    schema:value "4.7"^^xsd:float .
+
+ex:rioja_2020_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_rioja ;
+    schema:value "28.2"^^xsd:float .
+
+ex:total_nacional_2020_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_total_nacional ;
+    schema:value "5.8"^^xsd:float .
+
+ex:total_nacional_2020_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2020"^^xsd:gYear ;
+    schema:observedNode ex:Region_total_nacional ;
+    schema:value "32.1"^^xsd:float .
+
+ex:andalucia_2021_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_andalucia ;
+    schema:value "6.8"^^xsd:float .
+
+ex:andalucia_2021_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_andalucia ;
+    schema:value "34.3"^^xsd:float .
+
+ex:aragon_2021_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_aragon ;
+    schema:value "4.9"^^xsd:float .
+
+ex:aragon_2021_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_aragon ;
+    schema:value "28.7"^^xsd:float .
+
+ex:asturias_2021_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_asturias ;
+    schema:value "6"^^xsd:float .
+
+ex:asturias_2021_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_asturias ;
+    schema:value "31.7"^^xsd:float .
+
+ex:baleares_2021_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_baleares ;
+    schema:value "5.1"^^xsd:float .
+
+ex:baleares_2021_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_baleares ;
+    schema:value "28.5"^^xsd:float .
+
+ex:canarias_2021_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_canarias ;
+    schema:value "8.2"^^xsd:float .
+
+ex:canarias_2021_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_canarias ;
+    schema:value "35"^^xsd:float .
+
+ex:cantabria_2021_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_cantabria ;
+    schema:value "4.8"^^xsd:float .
+
+ex:cantabria_2021_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_cantabria ;
+    schema:value "29.8"^^xsd:float .
+
+ex:castilla_la_mancha_2021_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_la_mancha ;
+    schema:value "5.7"^^xsd:float .
+
+ex:castilla_la_mancha_2021_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_la_mancha ;
+    schema:value "31.7"^^xsd:float .
+
+ex:castilla_leon_2021_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_leon ;
+    schema:value "5.1"^^xsd:float .
+
+ex:castilla_leon_2021_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_leon ;
+    schema:value "29.5"^^xsd:float .
+
+ex:catalunya_2021_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_catalunya ;
+    schema:value "5.5"^^xsd:float .
+
+ex:catalunya_2021_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_catalunya ;
+    schema:value "30.9"^^xsd:float .
+
+ex:ceuta_2021_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_ceuta ;
+    schema:value "9.5"^^xsd:float .
+
+ex:ceuta_2021_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_ceuta ;
+    schema:value "39.7"^^xsd:float .
+
+ex:comunidad_valenciana_2021_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_comunidad_valenciana ;
+    schema:value "6.2"^^xsd:float .
+
+ex:comunidad_valenciana_2021_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_comunidad_valenciana ;
+    schema:value "32.2"^^xsd:float .
+
+ex:extremadura_2021_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_extremadura ;
+    schema:value "5.1"^^xsd:float .
+
+ex:extremadura_2021_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_extremadura ;
+    schema:value "30.5"^^xsd:float .
+
+ex:galicia_2021_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_galicia ;
+    schema:value "5.1"^^xsd:float .
+
+ex:galicia_2021_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_galicia ;
+    schema:value "29.2"^^xsd:float .
+
+ex:madrid_2021_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_madrid ;
+    schema:value "6.3"^^xsd:float .
+
+ex:madrid_2021_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_madrid ;
+    schema:value "33.4"^^xsd:float .
+
+ex:melilla_2021_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_melilla ;
+    schema:value "14.1"^^xsd:float .
+
+ex:melilla_2021_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_melilla ;
+    schema:value "41.2"^^xsd:float .
+
+ex:murcia_2021_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_murcia ;
+    schema:value "5.3"^^xsd:float .
+
+ex:murcia_2021_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_murcia ;
+    schema:value "30.1"^^xsd:float .
+
+ex:navarra_2021_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_navarra ;
+    schema:value "5.1"^^xsd:float .
+
+ex:navarra_2021_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_navarra ;
+    schema:value "28.7"^^xsd:float .
+
+ex:pais_vasco_2021_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_pais_vasco ;
+    schema:value "5"^^xsd:float .
+
+ex:pais_vasco_2021_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_pais_vasco ;
+    schema:value "29.3"^^xsd:float .
+
+ex:rioja_2021_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_rioja ;
+    schema:value "5.1"^^xsd:float .
+
+ex:rioja_2021_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_rioja ;
+    schema:value "29.3"^^xsd:float .
+
+ex:total_nacional_2021_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_total_nacional ;
+    schema:value "6.2"^^xsd:float .
+
+ex:total_nacional_2021_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2021"^^xsd:gYear ;
+    schema:observedNode ex:Region_total_nacional ;
+    schema:value "33"^^xsd:float .
+
+ex:andalucia_2022_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_andalucia ;
+    schema:value "6"^^xsd:float .
+
+ex:andalucia_2022_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_andalucia ;
+    schema:value "32.8"^^xsd:float .
+
+ex:aragon_2022_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_aragon ;
+    schema:value "4.4"^^xsd:float .
+
+ex:aragon_2022_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_aragon ;
+    schema:value "27.3"^^xsd:float .
+
+ex:asturias_2022_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_asturias ;
+    schema:value "5.7"^^xsd:float .
+
+ex:asturias_2022_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_asturias ;
+    schema:value "31.1"^^xsd:float .
+
+ex:baleares_2022_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_baleares ;
+    schema:value "4.9"^^xsd:float .
+
+ex:baleares_2022_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_baleares ;
+    schema:value "28.3"^^xsd:float .
+
+ex:canarias_2022_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_canarias ;
+    schema:value "6.3"^^xsd:float .
+
+ex:canarias_2022_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_canarias ;
+    schema:value "33.2"^^xsd:float .
+
+ex:cantabria_2022_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_cantabria ;
+    schema:value "4.9"^^xsd:float .
+
+ex:cantabria_2022_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_cantabria ;
+    schema:value "30.3"^^xsd:float .
+
+ex:castilla_la_mancha_2022_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_la_mancha ;
+    schema:value "4.9"^^xsd:float .
+
+ex:castilla_la_mancha_2022_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_la_mancha ;
+    schema:value "29.9"^^xsd:float .
+
+ex:castilla_leon_2022_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_leon ;
+    schema:value "4.9"^^xsd:float .
+
+ex:castilla_leon_2022_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_leon ;
+    schema:value "29.2"^^xsd:float .
+
+ex:catalunya_2022_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_catalunya ;
+    schema:value "5.2"^^xsd:float .
+
+ex:catalunya_2022_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_catalunya ;
+    schema:value "30"^^xsd:float .
+
+ex:ceuta_2022_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_ceuta ;
+    schema:value "11"^^xsd:float .
+
+ex:ceuta_2022_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_ceuta ;
+    schema:value "42.4"^^xsd:float .
+
+ex:comunidad_valenciana_2022_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_comunidad_valenciana ;
+    schema:value "5.2"^^xsd:float .
+
+ex:comunidad_valenciana_2022_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_comunidad_valenciana ;
+    schema:value "30.7"^^xsd:float .
+
+ex:extremadura_2022_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_extremadura ;
+    schema:value "4.6"^^xsd:float .
+
+ex:extremadura_2022_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_extremadura ;
+    schema:value "29.4"^^xsd:float .
+
+ex:galicia_2022_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_galicia ;
+    schema:value "4.5"^^xsd:float .
+
+ex:galicia_2022_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_galicia ;
+    schema:value "28"^^xsd:float .
+
+ex:madrid_2022_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_madrid ;
+    schema:value "5.7"^^xsd:float .
+
+ex:madrid_2022_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_madrid ;
+    schema:value "32.4"^^xsd:float .
+
+ex:melilla_2022_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_melilla ;
+    schema:value "12.4"^^xsd:float .
+
+ex:melilla_2022_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_melilla ;
+    schema:value "41.2"^^xsd:float .
+
+ex:murcia_2022_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_murcia ;
+    schema:value "5.2"^^xsd:float .
+
+ex:murcia_2022_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_murcia ;
+    schema:value "29.3"^^xsd:float .
+
+ex:navarra_2022_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_navarra ;
+    schema:value "5.4"^^xsd:float .
+
+ex:navarra_2022_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_navarra ;
+    schema:value "30"^^xsd:float .
+
+ex:pais_vasco_2022_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_pais_vasco ;
+    schema:value "5"^^xsd:float .
+
+ex:pais_vasco_2022_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_pais_vasco ;
+    schema:value "29.4"^^xsd:float .
+
+ex:rioja_2022_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_rioja ;
+    schema:value "4.8"^^xsd:float .
+
+ex:rioja_2022_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_rioja ;
+    schema:value "28.2"^^xsd:float .
+
+ex:total_nacional_2022_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_total_nacional ;
+    schema:value "5.6"^^xsd:float .
+
+ex:total_nacional_2022_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2022"^^xsd:gYear ;
+    schema:observedNode ex:Region_total_nacional ;
+    schema:value "32"^^xsd:float .
+
+ex:andalucia_2023_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_andalucia ;
+    schema:value "5.9"^^xsd:float .
+
+ex:andalucia_2023_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_andalucia ;
+    schema:value "32.6"^^xsd:float .
+
+ex:aragon_2023_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_aragon ;
+    schema:value "4.3"^^xsd:float .
+
+ex:aragon_2023_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_aragon ;
+    schema:value "27.2"^^xsd:float .
+
+ex:asturias_2023_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_asturias ;
+    schema:value "5.4"^^xsd:float .
+
+ex:asturias_2023_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_asturias ;
+    schema:value "30.5"^^xsd:float .
+
+ex:baleares_2023_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_baleares ;
+    schema:value "5.1"^^xsd:float .
+
+ex:baleares_2023_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_baleares ;
+    schema:value "28.5"^^xsd:float .
+
+ex:canarias_2023_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_canarias ;
+    schema:value "5.3"^^xsd:float .
+
+ex:canarias_2023_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_canarias ;
+    schema:value "31.1"^^xsd:float .
+
+ex:cantabria_2023_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_cantabria ;
+    schema:value "4.6"^^xsd:float .
+
+ex:cantabria_2023_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_cantabria ;
+    schema:value "28.7"^^xsd:float .
+
+ex:castilla_la_mancha_2023_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_la_mancha ;
+    schema:value "5"^^xsd:float .
+
+ex:castilla_la_mancha_2023_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_la_mancha ;
+    schema:value "29.6"^^xsd:float .
+
+ex:castilla_leon_2023_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_leon ;
+    schema:value "5.1"^^xsd:float .
+
+ex:castilla_leon_2023_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_leon ;
+    schema:value "29.4"^^xsd:float .
+
+ex:catalunya_2023_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_catalunya ;
+    schema:value "5"^^xsd:float .
+
+ex:catalunya_2023_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_catalunya ;
+    schema:value "29.9"^^xsd:float .
+
+ex:ceuta_2023_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_ceuta ;
+    schema:value "9.6"^^xsd:float .
+
+ex:ceuta_2023_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_ceuta ;
+    schema:value "40.4"^^xsd:float .
+
+ex:comunidad_valenciana_2023_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_comunidad_valenciana ;
+    schema:value "5.6"^^xsd:float .
+
+ex:comunidad_valenciana_2023_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_comunidad_valenciana ;
+    schema:value "31.1"^^xsd:float .
+
+ex:extremadura_2023_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_extremadura ;
+    schema:value "4.6"^^xsd:float .
+
+ex:extremadura_2023_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_extremadura ;
+    schema:value "28.7"^^xsd:float .
+
+ex:galicia_2023_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_galicia ;
+    schema:value "4.4"^^xsd:float .
+
+ex:galicia_2023_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_galicia ;
+    schema:value "27.4"^^xsd:float .
+
+ex:madrid_2023_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_madrid ;
+    schema:value "5.3"^^xsd:float .
+
+ex:madrid_2023_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_madrid ;
+    schema:value "31.6"^^xsd:float .
+
+ex:melilla_2023_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_melilla ;
+    schema:value "11.5"^^xsd:float .
+
+ex:melilla_2023_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_melilla ;
+    schema:value "41.1"^^xsd:float .
+
+ex:murcia_2023_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_murcia ;
+    schema:value "4.5"^^xsd:float .
+
+ex:murcia_2023_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_murcia ;
+    schema:value "28.3"^^xsd:float .
+
+ex:navarra_2023_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_navarra ;
+    schema:value "5.5"^^xsd:float .
+
+ex:navarra_2023_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_navarra ;
+    schema:value "30.1"^^xsd:float .
+
+ex:pais_vasco_2023_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_pais_vasco ;
+    schema:value "5"^^xsd:float .
+
+ex:pais_vasco_2023_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_pais_vasco ;
+    schema:value "30.1"^^xsd:float .
+
+ex:rioja_2023_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_rioja ;
+    schema:value "4.6"^^xsd:float .
+
+ex:rioja_2023_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_rioja ;
+    schema:value "28.3"^^xsd:float .
+
+ex:total_nacional_2023_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_total_nacional ;
+    schema:value "5.5"^^xsd:float .
+
+ex:total_nacional_2023_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2023"^^xsd:gYear ;
+    schema:observedNode ex:Region_total_nacional ;
+    schema:value "31.5"^^xsd:float .
+
+ex:andalucia_2024_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_andalucia ;
+    schema:value "5.5"^^xsd:float .
+
+ex:andalucia_2024_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_andalucia ;
+    schema:value "31.4"^^xsd:float .
+
+ex:aragon_2024_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_aragon ;
+    schema:value "4.4"^^xsd:float .
+
+ex:aragon_2024_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_aragon ;
+    schema:value "27.1"^^xsd:float .
+
+ex:asturias_2024_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_asturias ;
+    schema:value "4.6"^^xsd:float .
+
+ex:asturias_2024_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_asturias ;
+    schema:value "28.1"^^xsd:float .
+
+ex:baleares_2024_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_baleares ;
+    schema:value "4.6"^^xsd:float .
+
+ex:baleares_2024_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_baleares ;
+    schema:value "28.7"^^xsd:float .
+
+ex:canarias_2024_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_canarias ;
+    schema:value "5.7"^^xsd:float .
+
+ex:canarias_2024_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_canarias ;
+    schema:value "31.6"^^xsd:float .
+
+ex:cantabria_2024_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_cantabria ;
+    schema:value "4.7"^^xsd:float .
+
+ex:cantabria_2024_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_cantabria ;
+    schema:value "28.5"^^xsd:float .
+
+ex:castilla_la_mancha_2024_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_la_mancha ;
+    schema:value "4.9"^^xsd:float .
+
+ex:castilla_la_mancha_2024_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_la_mancha ;
+    schema:value "29.7"^^xsd:float .
+
+ex:castilla_leon_2024_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_leon ;
+    schema:value "5.1"^^xsd:float .
+
+ex:castilla_leon_2024_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_castilla_leon ;
+    schema:value "29.8"^^xsd:float .
+
+ex:catalunya_2024_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_catalunya ;
+    schema:value "4.7"^^xsd:float .
+
+ex:catalunya_2024_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_catalunya ;
+    schema:value "29"^^xsd:float .
+
+ex:ceuta_2024_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_ceuta ;
+    schema:value "9.4"^^xsd:float .
+
+ex:ceuta_2024_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_ceuta ;
+    schema:value "39.9"^^xsd:float .
+
+ex:comunidad_valenciana_2024_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_comunidad_valenciana ;
+    schema:value "5.7"^^xsd:float .
+
+ex:comunidad_valenciana_2024_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_comunidad_valenciana ;
+    schema:value "31.7"^^xsd:float .
+
+ex:extremadura_2024_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_extremadura ;
+    schema:value "4.6"^^xsd:float .
+
+ex:extremadura_2024_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_extremadura ;
+    schema:value "28.8"^^xsd:float .
+
+ex:galicia_2024_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_galicia ;
+    schema:value "4.2"^^xsd:float .
+
+ex:galicia_2024_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_galicia ;
+    schema:value "26.8"^^xsd:float .
+
+ex:madrid_2024_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_madrid ;
+    schema:value "5.5"^^xsd:float .
+
+ex:madrid_2024_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_madrid ;
+    schema:value "31.8"^^xsd:float .
+
+ex:melilla_2024_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_melilla ;
+    schema:value "10.6"^^xsd:float .
+
+ex:melilla_2024_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_melilla ;
+    schema:value "42.3"^^xsd:float .
+
+ex:murcia_2024_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_murcia ;
+    schema:value "5.1"^^xsd:float .
+
+ex:murcia_2024_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_murcia ;
+    schema:value "29.4"^^xsd:float .
+
+ex:navarra_2024_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_navarra ;
+    schema:value "5.5"^^xsd:float .
+
+ex:navarra_2024_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_navarra ;
+    schema:value "30.7"^^xsd:float .
+
+ex:pais_vasco_2024_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_pais_vasco ;
+    schema:value "4.7"^^xsd:float .
+
+ex:pais_vasco_2024_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_pais_vasco ;
+    schema:value "29.1"^^xsd:float .
+
+ex:rioja_2024_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_rioja ;
+    schema:value "4.8"^^xsd:float .
+
+ex:rioja_2024_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_rioja ;
+    schema:value "29"^^xsd:float .
+
+ex:total_nacional_2024_desigualdad_s80_s20 a schema:Observation ;
+    schema:measuredProperty ex:inequality_desigualdad_s80_s20 ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_total_nacional ;
+    schema:value "5.4"^^xsd:float .
+
+ex:total_nacional_2024_gini a schema:Observation ;
+    schema:measuredProperty ex:inequality_gini ;
+    schema:observationDate "2024"^^xsd:gYear ;
+    schema:observedNode ex:Region_total_nacional ;
+    schema:value "31.2"^^xsd:float .
+
