@@ -56,6 +56,25 @@ cp vecinos/baleares_vecinos.txt ../../temp/pollution/balares/
 cp vecinos/cantabria_vecinos.txt ../../temp/pollution/cantabria/
 cp vecinos/castilla_mancha_vecinos.txt ../../temp/pollution/castilla_mancha/
 
+cp vecinos/baleares_vecinos.txt ../../temp/pollution/andalucia/
+cp vecinos/baleares_vecinos.txt ../../temp/pollution/aragon/
+cp vecinos/baleares_vecinos.txt ../../temp/pollution/asturias/
+cp vecinos/baleares_vecinos.txt ../../temp/pollution/canarias/
+cp vecinos/baleares_vecinos.txt ../../temp/pollution/castilla_leon/
+cp vecinos/baleares_vecinos.txt ../../temp/pollution/catalunya/
+cp vecinos/baleares_vecinos.txt ../../temp/pollution/ceuta/
+cp vecinos/baleares_vecinos.txt ../../temp/pollution/comunidad_valenciana/
+cp vecinos/baleares_vecinos.txt ../../temp/pollution/extremadura/
+cp vecinos/baleares_vecinos.txt ../../temp/pollution/galicia/
+cp vecinos/baleares_vecinos.txt ../../temp/pollution/la_rioja/
+cp vecinos/baleares_vecinos.txt ../../temp/pollution/madrid/
+cp vecinos/baleares_vecinos.txt ../../temp/pollution/melilla/
+cp vecinos/baleares_vecinos.txt ../../temp/pollution/murcia/
+cp vecinos/baleares_vecinos.txt ../../temp/pollution/navarra/
+cp vecinos/baleares_vecinos.txt ../../temp/pollution/pais_vasco/
+
+
+
 # SEGUNDO LOOP - ARREGLO RATOS
 for region in "$scandir"/*/; do 
     python3 inferenciaVecinos.py "$region"
@@ -96,6 +115,7 @@ for region in "$scandir"/*/; do
             split($1,d,"[-/]");   # assuming $1 is date
             year=d[1];
             if (r=="castilla_mancha") r="castilla_la_mancha"
+            if (r=="la_rioja") r="rioja"
             print year, region, $2, $3, $4, $5, $6, $7
         }' "$inferred_file" >> "$SUPER_CSV"
 

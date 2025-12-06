@@ -6,6 +6,35 @@ CONTAMINANTES = ["pm10", "o3", "no2", "so2", "co"]
 
 
 # Funciones Auxiliares
+def load_neighbor_ratios(region, pollutant, df_ratios):
+    """
+    If a ratio for the file_id is not valid, look for neighbors in vecinos.txt.
+    Returns a valid ratio if found, otherwise None.
+    """
+    vecinos_file = os.path.join("../../temp/pollution", region, "vecinos.txt")
+    if not os.path.isfile(vecinos_file):
+        return None
+
+    with open(vecinos_file, 'r') as f:
+        neighbors = [line.strip() for line in f if line.strip()]
+
+    # Try neighbors in order
+    for neighbor in neighbors:
+        neighbor_csv = os.path.join("../../temp/pollution", neighbor, f"{neighbor}_ratios.csv")
+        if not os.path.isfile(neighbor_csv):
+            continue
+
+        try:
+            df_neighbor = pd.read_csv(neighbor_csv, sep=';')
+        except:
+            continue
+
+        # Take the first valid ratio for the pollutant
+        valid_ratios = df_neighbor[pollutant][df_neighbor[pollutant].apply(is_valid_number)]
+        if not valid_ratios.empty:
+            return float(valid_ratios.iloc[0])
+    return None
+
 def is_valid_number(x):
     try:
         v = float(x)
@@ -14,7 +43,7 @@ def is_valid_number(x):
         return False
 
 
-def get_ratio_for_pollutant(df_ratios, file_id, pollutant):
+def get_ratio_for_pollutant(df_ratios, file_id, pollutant, region):
     # Probamos nuestra fila
     match = df_ratios[df_ratios["id"].astype(str) == file_id]
     if not match.empty and is_valid_number(match.iloc[0][pollutant]) and float(match.iloc[0][pollutant]) > 0:
@@ -25,8 +54,10 @@ def get_ratio_for_pollutant(df_ratios, file_id, pollutant):
         if is_valid_number(row[pollutant]) and float(row[pollutant]) > 0:
             return float(row[pollutant])
 
-    # Fracaso
-    return None
+    # If no valid ratio found in own CSV, try neighbors
+    neighbor_ratio = load_neighbor_ratios(region, pollutant, df_ratios)
+    return neighbor_ratio
+
 
 
 def main():
@@ -88,7 +119,7 @@ def main():
             if is_valid_number(row[pollutant]):
                 continue 
 
-            ratio = get_ratio_for_pollutant(df_ratios, file_id, pollutant)
+            ratio = get_ratio_for_pollutant(df_ratios, file_id, pollutant, region)
             if ratio is None:
                 print(f"ERROR: No se puede inferir {pollutant} para la fila {idx} en {file_path} por que no hay ratio valido")
                 sys.exit(1)

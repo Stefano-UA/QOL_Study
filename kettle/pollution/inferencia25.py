@@ -113,7 +113,7 @@ def main():
             new_rows.append(row)
             continue
 
-        # CASE E — BORRAMOS (no se pude inferir)
+        # CASE D — BORRAMOS (no se pude inferir)
         continue
 
     # Escribimos en archivo de salida
