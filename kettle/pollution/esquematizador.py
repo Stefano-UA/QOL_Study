@@ -1,6 +1,7 @@
 import pandas as pd
 from rdflib import Graph, Namespace, Literal, RDF, URIRef
 from rdflib.namespace import XSD
+import re
 
 # -----------------------------
 # Namespaces
@@ -11,7 +12,7 @@ EX = Namespace("http://example.org/pollution/")
 # -----------------------------
 # Input / Output
 # -----------------------------
-INPUT_CSV = "../../dist/kettle/pollution/total_pollution.csv"
+INPUT_CSV = "../../dist/kettle/total_pollution.csv"
 OUTPUT_TTL = "../../schema/total_pollution.ttl"
 OUTPUT_RDF = "../../schema/total_pollution.rdf"
 
@@ -42,7 +43,7 @@ PROPERTY_RESOURCES = {
 # -----------------------------
 # Load CSV
 # -----------------------------
-df = pd.read_csv(INPUT_CSV, sep=';')
+df = pd.read_csv(INPUT_CSV, sep='\t')
 
 # -----------------------------
 # RDF Graph
@@ -58,22 +59,30 @@ for idx, row in df.iterrows():
     year = str(row["date"])
     region_name = str(row["region"])
 
-    # URI for the region (as a resource)
-    region_uri = EX[f"Region_{region_name}"]
+    # Clean region_name: remove spaces, collapse multiple underscores
+    region_name_clean = re.sub("_+", "_", str(row["region"]).strip().replace(" ", "_"))
+    region_name_original = str(row["region"]).strip()  # Keep original for label
+
+    # URI for the region resource
+    region_uri = EX[f"Region_{region_name_clean}"]
 
     # Create region resource (optional, but useful)
     g.add((region_uri, RDF.type, SCHEMA.Place))
-    g.add((region_uri, SCHEMA.name, Literal(region_name)))
+    g.add((region_uri, SCHEMA.name, Literal(region_name_original)))
 
     # For each pollutant, create an Observation
     for pol in PROPERTY_RESOURCES.keys():
         value = row[pol]
 
-        # Skip missing values just in case (should not happen)
+        # Skip missing values just in case
         if pd.isna(value):
             continue
 
-        obs_uri = EX[f"{region_name}_{year}_{pol}"]
+        # Clean pollutant name
+        pol_clean = re.sub("_+", "_", str(pol).strip().replace(" ", "_"))
+
+        # URI for the observation
+        obs_uri = EX[f"{region_name_clean}_{year}_{pol_clean}"]
 
         g.add((obs_uri, RDF.type, SCHEMA.Observation))
         g.add((obs_uri, SCHEMA.observedNode, region_uri))
@@ -81,6 +90,7 @@ for idx, row in df.iterrows():
         g.add((obs_uri, SCHEMA.measuredProperty, PROPERTY_RESOURCES[pol]))
         g.add((obs_uri, SCHEMA.value, Literal(float(value), datatype=XSD.float)))
         g.add((obs_uri, SCHEMA.unitCode, Literal(UNIT_MAP[pol])))
+
 
 # -----------------------------
 # Save to Turtle

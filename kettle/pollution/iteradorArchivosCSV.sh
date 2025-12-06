@@ -2,7 +2,7 @@
 
 # PRELIMINAR - COPIAMOS LA INFORMACIÓN
 rm -rf ../../temp/pollution
-mkdir -p .././temp/pollution
+mkdir -p ../../temp/pollution
 cp -r ../../data/pollution/* ../../temp/pollution/
 
 scandir="../../temp/pollution"
@@ -86,7 +86,7 @@ for region in "$scandir"/*/; do
         # añadiendo columna region, simplificando fecha.
         # Nos Saltamos el cabezal.
         awk -F';' -v OFS=';' -v region="$nom_region" 'NR>1 {
-            split($1,d,"-");   # assuming $1 is date
+            split($1,d,"[-/]");   # assuming $1 is date
             year=d[1];
             print year, region, $2, $3, $4, $5, $6, $7
         }' "$inferred_file" >> "$SUPER_CSV"
