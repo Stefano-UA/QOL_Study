@@ -1,0 +1,3923 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_andalucia_2002> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2002"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.9"^^xsd:float,
+        "71.9023333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_andalucia_2003> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2003"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.6"^^xsd:float,
+        "74.05225"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_andalucia_2004> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2004"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.1"^^xsd:float,
+        "76.2609166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_andalucia_2005> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2005"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.6"^^xsd:float,
+        "78.7675"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_andalucia_2006> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2006"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.9"^^xsd:float,
+        "81.54775"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_andalucia_2007> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2007"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "4.2"^^xsd:float,
+        "83.8045"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_andalucia_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.3"^^xsd:float,
+        "87.1641666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_andalucia_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.6"^^xsd:float,
+        "86.7600833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_andalucia_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.2"^^xsd:float,
+        "88.3139166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_andalucia_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.1"^^xsd:float,
+        "91.1585833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_andalucia_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.6"^^xsd:float,
+        "93.1281666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_andalucia_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.3"^^xsd:float,
+        "94.3136666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_andalucia_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-1.2"^^xsd:float,
+        "94.0525833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_andalucia_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.0"^^xsd:float,
+        "93.5376666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_andalucia_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.6"^^xsd:float,
+        "93.3656666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_andalucia_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.1"^^xsd:float,
+        "95.1825833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_andalucia_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.0"^^xsd:float,
+        "96.68125"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_andalucia_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.5"^^xsd:float,
+        "97.157"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_andalucia_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.3"^^xsd:float,
+        "96.9560833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_andalucia_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "6.7"^^xsd:float,
+        "100.0"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_andalucia_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "6.2"^^xsd:float,
+        "108.6751666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_andalucia_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.3"^^xsd:float,
+        "112.9320833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_andalucia_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.7"^^xsd:float,
+        "115.9906666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_andalucia_2025> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2025"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.6"^^xsd:float,
+        "118.7394444444"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_aragon_2002> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2002"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "4.1"^^xsd:float,
+        "71.3498333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_aragon_2003> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2003"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.4"^^xsd:float,
+        "73.446"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_aragon_2004> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2004"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.2"^^xsd:float,
+        "75.4646666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_aragon_2005> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2005"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.8"^^xsd:float,
+        "78.0841666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_aragon_2006> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2006"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.9"^^xsd:float,
+        "80.9906666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_aragon_2007> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2007"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "4.4"^^xsd:float,
+        "83.354"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_aragon_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.6"^^xsd:float,
+        "87.0485"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_aragon_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.8"^^xsd:float,
+        "86.701"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_aragon_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.9"^^xsd:float,
+        "88.25725"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_aragon_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.4"^^xsd:float,
+        "91.0523333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_aragon_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.7"^^xsd:float,
+        "93.2036666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_aragon_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.2"^^xsd:float,
+        "94.4249166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_aragon_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-1.2"^^xsd:float,
+        "94.1384166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_aragon_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.1"^^xsd:float,
+        "93.4590833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_aragon_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.6"^^xsd:float,
+        "93.2235833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_aragon_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.9"^^xsd:float,
+        "94.9098333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_aragon_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.2"^^xsd:float,
+        "96.49375"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_aragon_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.8"^^xsd:float,
+        "97.1559166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_aragon_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.6"^^xsd:float,
+        "96.6825833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_aragon_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "7.2"^^xsd:float,
+        "99.9999166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_aragon_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "5.9"^^xsd:float,
+        "108.9784166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_aragon_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.5"^^xsd:float,
+        "112.2168333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_aragon_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.1"^^xsd:float,
+        "115.3785"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_aragon_2025> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2025"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.6"^^xsd:float,
+        "118.191"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_asturias_2002> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2002"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.8"^^xsd:float,
+        "72.1818333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_asturias_2003> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2003"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.4"^^xsd:float,
+        "74.3248333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_asturias_2004> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2004"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.1"^^xsd:float,
+        "76.4951666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_asturias_2005> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2005"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.5"^^xsd:float,
+        "78.8615"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_asturias_2006> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2006"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.4"^^xsd:float,
+        "81.4776666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_asturias_2007> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2007"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "4.1"^^xsd:float,
+        "83.6095"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_asturias_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.6"^^xsd:float,
+        "87.1558333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_asturias_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.7"^^xsd:float,
+        "86.7684166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_asturias_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.2"^^xsd:float,
+        "88.46925"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_asturias_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.7"^^xsd:float,
+        "91.6123333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_asturias_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.6"^^xsd:float,
+        "93.6925"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_asturias_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.2"^^xsd:float,
+        "94.9770833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_asturias_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-1.1"^^xsd:float,
+        "94.6658333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_asturias_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.2"^^xsd:float,
+        "94.05725"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_asturias_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.6"^^xsd:float,
+        "93.9551666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_asturias_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.9"^^xsd:float,
+        "95.62825"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_asturias_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.1"^^xsd:float,
+        "97.0960833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_asturias_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.4"^^xsd:float,
+        "97.5533333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_asturias_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.6"^^xsd:float,
+        "97.0589166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_asturias_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "6.2"^^xsd:float,
+        "100.0"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_asturias_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "5.8"^^xsd:float,
+        "108.40575"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_asturias_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.9"^^xsd:float,
+        "112.0770833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_asturias_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.1"^^xsd:float,
+        "115.2795833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_asturias_2025> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2025"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.8"^^xsd:float,
+        "118.2398888889"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_baleares_2002> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2002"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "4.5"^^xsd:float,
+        "71.3040833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_baleares_2003> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2003"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.3"^^xsd:float,
+        "73.4236666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_baleares_2004> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2004"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.0"^^xsd:float,
+        "75.441"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_baleares_2005> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2005"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.5"^^xsd:float,
+        "77.7711666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_baleares_2006> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2006"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.8"^^xsd:float,
+        "80.4699166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_baleares_2007> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2007"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.9"^^xsd:float,
+        "82.6134166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_baleares_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.3"^^xsd:float,
+        "85.7795833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_baleares_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.8"^^xsd:float,
+        "85.633"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_baleares_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.7"^^xsd:float,
+        "87.0914166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_baleares_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.3"^^xsd:float,
+        "89.5791666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_baleares_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.1"^^xsd:float,
+        "91.8179166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_baleares_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.5"^^xsd:float,
+        "93.2465"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_baleares_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.8"^^xsd:float,
+        "93.4378333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_baleares_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.3"^^xsd:float,
+        "93.3425833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_baleares_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.6"^^xsd:float,
+        "93.2135833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_baleares_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.3"^^xsd:float,
+        "95.19775"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_baleares_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.7"^^xsd:float,
+        "96.6143333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_baleares_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.0"^^xsd:float,
+        "97.0795"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_baleares_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.4"^^xsd:float,
+        "96.78925"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_baleares_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "6.5"^^xsd:float,
+        "99.9999166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_baleares_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "5.5"^^xsd:float,
+        "108.1225"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_baleares_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.3"^^xsd:float,
+        "112.3270833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_baleares_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.4"^^xsd:float,
+        "115.6333333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_baleares_2025> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2025"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.4"^^xsd:float,
+        "118.9291111111"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_canarias_2002> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2002"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.2"^^xsd:float,
+        "76.6946666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_canarias_2003> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2003"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.9"^^xsd:float,
+        "78.4184166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_canarias_2004> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2004"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.5"^^xsd:float,
+        "80.19625"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_canarias_2005> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2005"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.8"^^xsd:float,
+        "82.1959166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_canarias_2006> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2006"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.0"^^xsd:float,
+        "84.569"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_canarias_2007> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2007"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "4.3"^^xsd:float,
+        "86.5398333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_canarias_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.6"^^xsd:float,
+        "90.36325"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_canarias_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.4"^^xsd:float,
+        "89.45025"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_canarias_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.0"^^xsd:float,
+        "90.3136666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_canarias_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.0"^^xsd:float,
+        "92.6635"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_canarias_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.5"^^xsd:float,
+        "94.54325"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_canarias_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.4"^^xsd:float,
+        "95.2378333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_canarias_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-1.1"^^xsd:float,
+        "94.7958333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_canarias_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.4"^^xsd:float,
+        "94.0405833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_canarias_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.3"^^xsd:float,
+        "93.8196666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_canarias_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.1"^^xsd:float,
+        "95.5059166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_canarias_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.4"^^xsd:float,
+        "96.9795"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_canarias_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.4"^^xsd:float,
+        "97.2981666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_canarias_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.1"^^xsd:float,
+        "97.8281666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_canarias_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "5.8"^^xsd:float,
+        "99.9999166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_canarias_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "5.8"^^xsd:float,
+        "107.5455833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_canarias_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.8"^^xsd:float,
+        "112.4834166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_canarias_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.2"^^xsd:float,
+        "115.5983333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_canarias_2025> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2025"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.1"^^xsd:float,
+        "117.6372222222"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_cantabria_2002> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2002"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.7"^^xsd:float,
+        "71.0246666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_cantabria_2003> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2003"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.6"^^xsd:float,
+        "72.9613333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_cantabria_2004> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2004"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.8"^^xsd:float,
+        "74.9655"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_cantabria_2005> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2005"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.6"^^xsd:float,
+        "77.34725"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_cantabria_2006> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2006"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.7"^^xsd:float,
+        "80.066"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_cantabria_2007> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2007"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "4.4"^^xsd:float,
+        "82.26475"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_cantabria_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.3"^^xsd:float,
+        "85.8311666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_cantabria_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.0"^^xsd:float,
+        "85.5445833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_cantabria_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.1"^^xsd:float,
+        "87.1555833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_cantabria_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.3"^^xsd:float,
+        "90.1239166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_cantabria_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.6"^^xsd:float,
+        "92.4631666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_cantabria_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.6"^^xsd:float,
+        "94.4243333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_cantabria_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-1.3"^^xsd:float,
+        "94.1924166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_cantabria_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.4"^^xsd:float,
+        "93.3793333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_cantabria_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.5"^^xsd:float,
+        "93.0515"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_cantabria_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.2"^^xsd:float,
+        "94.8928333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_cantabria_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.0"^^xsd:float,
+        "96.5199166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_cantabria_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.9"^^xsd:float,
+        "97.183"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_cantabria_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.5"^^xsd:float,
+        "96.8475833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_cantabria_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "6.8"^^xsd:float,
+        "99.9999166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_cantabria_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "5.3"^^xsd:float,
+        "108.2665833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_cantabria_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.3"^^xsd:float,
+        "112.36725"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_cantabria_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.9"^^xsd:float,
+        "115.2961666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_cantabria_2025> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2025"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.3"^^xsd:float,
+        "117.7795555556"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_la_mancha_2002> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2002"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.8"^^xsd:float,
+        "71.664"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_la_mancha_2003> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2003"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.6"^^xsd:float,
+        "73.72375"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_la_mancha_2004> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2004"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.4"^^xsd:float,
+        "76.0085"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_la_mancha_2005> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2005"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.8"^^xsd:float,
+        "78.6366666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_la_mancha_2006> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2006"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.6"^^xsd:float,
+        "81.5145833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_la_mancha_2007> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2007"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "4.5"^^xsd:float,
+        "83.6525833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_la_mancha_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.9"^^xsd:float,
+        "87.2383333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_la_mancha_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.5"^^xsd:float,
+        "86.2346666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_la_mancha_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.4"^^xsd:float,
+        "87.9333333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_la_mancha_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.6"^^xsd:float,
+        "91.1470833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_la_mancha_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.7"^^xsd:float,
+        "93.3329166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_la_mancha_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.2"^^xsd:float,
+        "94.5510833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_la_mancha_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-1.5"^^xsd:float,
+        "94.1405833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_la_mancha_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.3"^^xsd:float,
+        "93.2159166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_la_mancha_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.6"^^xsd:float,
+        "92.75725"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_la_mancha_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.1"^^xsd:float,
+        "94.65625"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_la_mancha_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.2"^^xsd:float,
+        "96.4145"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_la_mancha_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.9"^^xsd:float,
+        "96.9923333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_la_mancha_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.9"^^xsd:float,
+        "96.4414166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_la_mancha_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "7.6"^^xsd:float,
+        "99.9999166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_la_mancha_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "6.8"^^xsd:float,
+        "110.1193333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_la_mancha_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.4"^^xsd:float,
+        "114.0505"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_la_mancha_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.5"^^xsd:float,
+        "117.1529166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_la_mancha_2025> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2025"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.2"^^xsd:float,
+        "119.5682222222"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_leon_2002> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2002"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.6"^^xsd:float,
+        "71.1808333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_leon_2003> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2003"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.1"^^xsd:float,
+        "73.1130833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_leon_2004> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2004"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.1"^^xsd:float,
+        "75.16225"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_leon_2005> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2005"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.7"^^xsd:float,
+        "77.6351666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_leon_2006> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2006"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.7"^^xsd:float,
+        "80.3989166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_leon_2007> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2007"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "4.5"^^xsd:float,
+        "82.664"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_leon_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.1"^^xsd:float,
+        "86.1535833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_leon_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.7"^^xsd:float,
+        "85.539"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_leon_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.2"^^xsd:float,
+        "87.16075"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_leon_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.7"^^xsd:float,
+        "90.17325"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_leon_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.1"^^xsd:float,
+        "92.6910833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_leon_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.5"^^xsd:float,
+        "94.1100833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_leon_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-1.2"^^xsd:float,
+        "93.9340833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_leon_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.3"^^xsd:float,
+        "93.0756666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_leon_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.6"^^xsd:float,
+        "92.71825"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_leon_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.0"^^xsd:float,
+        "94.6934166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_leon_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.2"^^xsd:float,
+        "96.3335"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_leon_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.0"^^xsd:float,
+        "97.14225"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_leon_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.7"^^xsd:float,
+        "96.6051666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_leon_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "7.3"^^xsd:float,
+        "100.0"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_leon_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "6.5"^^xsd:float,
+        "109.4559166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_leon_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.8"^^xsd:float,
+        "113.2169166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_leon_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.7"^^xsd:float,
+        "116.1725"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_castilla_leon_2025> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2025"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.4"^^xsd:float,
+        "118.8074444444"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_catalunya_2002> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2002"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "4.3"^^xsd:float,
+        "68.0394166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_catalunya_2003> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2003"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.1"^^xsd:float,
+        "70.4325"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_catalunya_2004> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2004"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.6"^^xsd:float,
+        "72.8786666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_catalunya_2005> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2005"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "4.3"^^xsd:float,
+        "75.7339166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_catalunya_2006> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2006"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.8"^^xsd:float,
+        "78.5128333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_catalunya_2007> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2007"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "4.3"^^xsd:float,
+        "80.8406666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_catalunya_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.6"^^xsd:float,
+        "84.1464166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_catalunya_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.2"^^xsd:float,
+        "84.28125"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_catalunya_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.0"^^xsd:float,
+        "85.9983333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_catalunya_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.5"^^xsd:float,
+        "88.7970833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_catalunya_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.6"^^xsd:float,
+        "91.35675"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_catalunya_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.2"^^xsd:float,
+        "92.9351666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_catalunya_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.7"^^xsd:float,
+        "93.0606666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_catalunya_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.3"^^xsd:float,
+        "92.8994166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_catalunya_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.9"^^xsd:float,
+        "92.9559166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_catalunya_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.2"^^xsd:float,
+        "94.9925"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_catalunya_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.4"^^xsd:float,
+        "96.7391666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_catalunya_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.9"^^xsd:float,
+        "97.5683333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_catalunya_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.6"^^xsd:float,
+        "97.1615833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_catalunya_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "6.1"^^xsd:float,
+        "100.0000833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_catalunya_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "5.2"^^xsd:float,
+        "107.9979166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_catalunya_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.2"^^xsd:float,
+        "111.6561666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_catalunya_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.9"^^xsd:float,
+        "114.8240833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_catalunya_2025> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2025"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.5"^^xsd:float,
+        "117.3455555556"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_ceuta_2002> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2002"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.8"^^xsd:float,
+        "74.6813333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_ceuta_2003> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2003"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.8"^^xsd:float,
+        "77.3004166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_ceuta_2004> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2004"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.7"^^xsd:float,
+        "80.0044166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_ceuta_2005> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2005"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.2"^^xsd:float,
+        "82.0439166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_ceuta_2006> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2006"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.4"^^xsd:float,
+        "84.6938333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_ceuta_2007> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2007"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.0"^^xsd:float,
+        "86.3305833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_ceuta_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.1"^^xsd:float,
+        "89.6031666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_ceuta_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.4"^^xsd:float,
+        "90.0855833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_ceuta_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.9"^^xsd:float,
+        "91.4744166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_ceuta_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.0"^^xsd:float,
+        "93.6425833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_ceuta_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.2"^^xsd:float,
+        "95.5735833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_ceuta_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.1"^^xsd:float,
+        "96.2353333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_ceuta_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.5"^^xsd:float,
+        "96.1389166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_ceuta_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.6"^^xsd:float,
+        "95.41125"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_ceuta_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.1"^^xsd:float,
+        "95.2609166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_ceuta_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.6"^^xsd:float,
+        "96.75525"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_ceuta_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.7"^^xsd:float,
+        "97.523"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_ceuta_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.3"^^xsd:float,
+        "97.83175"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_ceuta_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.4"^^xsd:float,
+        "97.4228333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_ceuta_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "5.5"^^xsd:float,
+        "100.0"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_ceuta_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "6.2"^^xsd:float,
+        "107.7024166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_ceuta_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.3"^^xsd:float,
+        "112.4071666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_ceuta_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.2"^^xsd:float,
+        "114.9995"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_ceuta_2025> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2025"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.4"^^xsd:float,
+        "118.2794444444"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_comunidad_valenciana_2002> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2002"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "4.1"^^xsd:float,
+        "71.8"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_comunidad_valenciana_2003> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2003"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.4"^^xsd:float,
+        "73.86875"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_comunidad_valenciana_2004> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2004"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.4"^^xsd:float,
+        "76.0841666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_comunidad_valenciana_2005> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2005"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.5"^^xsd:float,
+        "78.63825"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_comunidad_valenciana_2006> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2006"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.6"^^xsd:float,
+        "81.3025833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_comunidad_valenciana_2007> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2007"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "4.3"^^xsd:float,
+        "83.60025"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_comunidad_valenciana_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.5"^^xsd:float,
+        "86.949"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_comunidad_valenciana_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.8"^^xsd:float,
+        "86.7428333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_comunidad_valenciana_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.9"^^xsd:float,
+        "88.1475"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_comunidad_valenciana_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.1"^^xsd:float,
+        "90.876"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_comunidad_valenciana_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.0"^^xsd:float,
+        "93.0990833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_comunidad_valenciana_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.2"^^xsd:float,
+        "94.28775"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_comunidad_valenciana_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-1.2"^^xsd:float,
+        "94.0534166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_comunidad_valenciana_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.2"^^xsd:float,
+        "93.6901666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_comunidad_valenciana_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.3"^^xsd:float,
+        "93.2635833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_comunidad_valenciana_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.1"^^xsd:float,
+        "95.0409166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_comunidad_valenciana_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.1"^^xsd:float,
+        "96.6873333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_comunidad_valenciana_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.7"^^xsd:float,
+        "97.2004166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_comunidad_valenciana_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.5"^^xsd:float,
+        "96.8091666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_comunidad_valenciana_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "6.8"^^xsd:float,
+        "100.0000833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_comunidad_valenciana_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "5.5"^^xsd:float,
+        "108.4605"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_comunidad_valenciana_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.3"^^xsd:float,
+        "112.2874166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_comunidad_valenciana_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.8"^^xsd:float,
+        "115.3804166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_comunidad_valenciana_2025> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2025"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.1"^^xsd:float,
+        "118.4207777778"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_extremadura_2002> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2002"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.5"^^xsd:float,
+        "73.6516666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_extremadura_2003> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2003"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.1"^^xsd:float,
+        "75.4650833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_extremadura_2004> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2004"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.8"^^xsd:float,
+        "77.3490833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_extremadura_2005> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2005"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.1"^^xsd:float,
+        "79.5156666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_extremadura_2006> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2006"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.4"^^xsd:float,
+        "81.9264166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_extremadura_2007> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2007"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "4.2"^^xsd:float,
+        "84.1219166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_extremadura_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.3"^^xsd:float,
+        "87.5765833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_extremadura_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.5"^^xsd:float,
+        "87.1683333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_extremadura_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.0"^^xsd:float,
+        "88.6758333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_extremadura_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.4"^^xsd:float,
+        "91.543"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_extremadura_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.8"^^xsd:float,
+        "93.6911666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_extremadura_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.0"^^xsd:float,
+        "94.9206666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_extremadura_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-1.2"^^xsd:float,
+        "94.3925"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_extremadura_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.3"^^xsd:float,
+        "93.5840833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_extremadura_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.5"^^xsd:float,
+        "93.3513333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_extremadura_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.8"^^xsd:float,
+        "94.914"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_extremadura_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.1"^^xsd:float,
+        "96.3886666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_extremadura_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.7"^^xsd:float,
+        "96.92725"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_extremadura_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.5"^^xsd:float,
+        "96.7558333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_extremadura_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "7.1"^^xsd:float,
+        "99.9998333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_extremadura_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "6.5"^^xsd:float,
+        "108.945"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_extremadura_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.4"^^xsd:float,
+        "112.4065"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_extremadura_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.8"^^xsd:float,
+        "115.5455833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_extremadura_2025> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2025"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.4"^^xsd:float,
+        "118.3602222222"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_galicia_2002> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2002"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "4.3"^^xsd:float,
+        "71.1089166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_galicia_2003> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2003"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.3"^^xsd:float,
+        "73.28775"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_galicia_2004> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2004"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.3"^^xsd:float,
+        "75.4923333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_galicia_2005> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2005"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.7"^^xsd:float,
+        "78.02575"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_galicia_2006> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2006"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.6"^^xsd:float,
+        "80.7764166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_galicia_2007> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2007"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "4.1"^^xsd:float,
+        "82.7560833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_galicia_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.2"^^xsd:float,
+        "86.2376666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_galicia_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.9"^^xsd:float,
+        "85.7339166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_galicia_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.1"^^xsd:float,
+        "87.3405833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_galicia_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.5"^^xsd:float,
+        "90.2919166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_galicia_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.6"^^xsd:float,
+        "92.4319166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_galicia_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.5"^^xsd:float,
+        "93.8031666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_galicia_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-1.0"^^xsd:float,
+        "93.8145"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_galicia_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.2"^^xsd:float,
+        "93.1469166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_galicia_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.6"^^xsd:float,
+        "92.8639166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_galicia_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.2"^^xsd:float,
+        "94.82775"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_galicia_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.0"^^xsd:float,
+        "96.3983333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_galicia_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.7"^^xsd:float,
+        "96.94175"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_galicia_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.4"^^xsd:float,
+        "96.61275"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_galicia_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "6.7"^^xsd:float,
+        "100.0"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_galicia_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "6.4"^^xsd:float,
+        "109.039"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_galicia_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.2"^^xsd:float,
+        "112.95875"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_galicia_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.7"^^xsd:float,
+        "116.2879166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_galicia_2025> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2025"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.3"^^xsd:float,
+        "118.6828888889"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_madrid_2002> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2002"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.9"^^xsd:float,
+        "71.66075"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_madrid_2003> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2003"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.6"^^xsd:float,
+        "73.8200833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_madrid_2004> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2004"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.1"^^xsd:float,
+        "76.0313333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_madrid_2005> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2005"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.7"^^xsd:float,
+        "78.4139166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_madrid_2006> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2006"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.7"^^xsd:float,
+        "81.19325"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_madrid_2007> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2007"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "4.0"^^xsd:float,
+        "83.4491666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_madrid_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.6"^^xsd:float,
+        "86.6878333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_madrid_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.9"^^xsd:float,
+        "86.6314166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_madrid_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.0"^^xsd:float,
+        "88.2305"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_madrid_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.5"^^xsd:float,
+        "90.9616666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_madrid_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.5"^^xsd:float,
+        "93.1224166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_madrid_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.2"^^xsd:float,
+        "94.3241666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_madrid_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-1.1"^^xsd:float,
+        "94.1601666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_madrid_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.0"^^xsd:float,
+        "93.7213333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_madrid_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.4"^^xsd:float,
+        "93.47525"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_madrid_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.2"^^xsd:float,
+        "95.1510833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_madrid_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.4"^^xsd:float,
+        "96.7545833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_madrid_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.9"^^xsd:float,
+        "97.6829166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_madrid_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.8"^^xsd:float,
+        "97.3378333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_madrid_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "6.2"^^xsd:float,
+        "100.0000833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_madrid_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "4.9"^^xsd:float,
+        "107.54625"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_madrid_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.7"^^xsd:float,
+        "110.8225"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_madrid_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.9"^^xsd:float,
+        "113.80925"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_madrid_2025> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2025"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.2"^^xsd:float,
+        "116.5894444444"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_melilla_2002> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2002"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "4.2"^^xsd:float,
+        "71.9955"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_melilla_2003> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2003"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.4"^^xsd:float,
+        "74.434"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_melilla_2004> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2004"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "4.2"^^xsd:float,
+        "77.39975"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_melilla_2005> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2005"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "4.3"^^xsd:float,
+        "79.7516666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_melilla_2006> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2006"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.9"^^xsd:float,
+        "83.2599166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_melilla_2007> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2007"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.8"^^xsd:float,
+        "85.5105"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_melilla_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.8"^^xsd:float,
+        "88.8586666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_melilla_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.3"^^xsd:float,
+        "88.9506666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_melilla_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.4"^^xsd:float,
+        "90.8218333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_melilla_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.5"^^xsd:float,
+        "92.9138333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_melilla_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.6"^^xsd:float,
+        "94.4466666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_melilla_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.4"^^xsd:float,
+        "94.5640833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_melilla_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.6"^^xsd:float,
+        "94.1630833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_melilla_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.3"^^xsd:float,
+        "93.65575"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_melilla_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.4"^^xsd:float,
+        "93.5803333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_melilla_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.4"^^xsd:float,
+        "95.5613333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_melilla_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.3"^^xsd:float,
+        "96.4823333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_melilla_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.5"^^xsd:float,
+        "96.17425"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_melilla_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.1"^^xsd:float,
+        "96.2565833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_melilla_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "6.9"^^xsd:float,
+        "100.0"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_melilla_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "6.6"^^xsd:float,
+        "108.5590833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_melilla_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.4"^^xsd:float,
+        "113.8370833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_melilla_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.6"^^xsd:float,
+        "116.3818333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_melilla_2025> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2025"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.0"^^xsd:float,
+        "119.0352222222"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_murcia_2002> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2002"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "4.4"^^xsd:float,
+        "71.3029166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_murcia_2003> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2003"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.2"^^xsd:float,
+        "73.9353333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_murcia_2004> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2004"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.3"^^xsd:float,
+        "76.4271666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_murcia_2005> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2005"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "4.1"^^xsd:float,
+        "79.0569166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_murcia_2006> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2006"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.5"^^xsd:float,
+        "81.9731666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_murcia_2007> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2007"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "4.7"^^xsd:float,
+        "84.4915833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_murcia_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.1"^^xsd:float,
+        "87.84425"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_murcia_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.6"^^xsd:float,
+        "87.3075833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_murcia_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.0"^^xsd:float,
+        "88.8105833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_murcia_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.2"^^xsd:float,
+        "91.5789166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_murcia_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.9"^^xsd:float,
+        "93.7008333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_murcia_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.4"^^xsd:float,
+        "95.2675"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_murcia_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-1.3"^^xsd:float,
+        "94.939"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_murcia_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.1"^^xsd:float,
+        "94.3558333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_murcia_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.6"^^xsd:float,
+        "94.1586666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_murcia_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.6"^^xsd:float,
+        "95.6124166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_murcia_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.9"^^xsd:float,
+        "96.9508333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_murcia_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.7"^^xsd:float,
+        "97.3450833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_murcia_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.4"^^xsd:float,
+        "97.0955"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_murcia_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "6.3"^^xsd:float,
+        "100.0000833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_murcia_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "6.3"^^xsd:float,
+        "108.8113333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_murcia_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.0"^^xsd:float,
+        "112.8740833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_murcia_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.6"^^xsd:float,
+        "115.9025"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_murcia_2025> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2025"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.1"^^xsd:float,
+        "117.9436666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_nacional_2002> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/nacional> ;
+    schema1:observationDate "2002"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "4.0"^^xsd:float,
+        "71.0923333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_nacional_2003> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/nacional> ;
+    schema1:observationDate "2003"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.6"^^xsd:float,
+        "73.25275"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_nacional_2004> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/nacional> ;
+    schema1:observationDate "2004"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.2"^^xsd:float,
+        "75.4790833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_nacional_2005> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/nacional> ;
+    schema1:observationDate "2005"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.7"^^xsd:float,
+        "78.0218333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_nacional_2006> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/nacional> ;
+    schema1:observationDate "2006"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.7"^^xsd:float,
+        "80.76475"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_nacional_2007> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/nacional> ;
+    schema1:observationDate "2007"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "4.2"^^xsd:float,
+        "83.0155"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_nacional_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/nacional> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.4"^^xsd:float,
+        "86.3986666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_nacional_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/nacional> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.8"^^xsd:float,
+        "86.15"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_nacional_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/nacional> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.0"^^xsd:float,
+        "87.7005833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_nacional_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/nacional> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.4"^^xsd:float,
+        "90.5035833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_nacional_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/nacional> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.9"^^xsd:float,
+        "92.7174166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_nacional_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/nacional> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.3"^^xsd:float,
+        "94.0234166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_nacional_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/nacional> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-1.0"^^xsd:float,
+        "93.8813333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_nacional_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/nacional> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.0"^^xsd:float,
+        "93.4115833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_nacional_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/nacional> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.6"^^xsd:float,
+        "93.2223333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_nacional_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/nacional> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.1"^^xsd:float,
+        "95.0458333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_nacional_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/nacional> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.2"^^xsd:float,
+        "96.6378333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_nacional_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/nacional> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.8"^^xsd:float,
+        "97.3138333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_nacional_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/nacional> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.5"^^xsd:float,
+        "96.99975"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_nacional_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/nacional> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "6.5"^^xsd:float,
+        "100.0000833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_nacional_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/nacional> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "5.7"^^xsd:float,
+        "108.3906666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_nacional_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/nacional> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.1"^^xsd:float,
+        "112.2194166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_nacional_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/nacional> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.8"^^xsd:float,
+        "115.3325833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_nacional_2025> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/nacional> ;
+    schema1:observationDate "2025"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.7"^^xsd:float,
+        "118.0234444444"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_navarra_2002> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2002"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "4.0"^^xsd:float,
+        "72.0740833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_navarra_2003> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2003"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.8"^^xsd:float,
+        "74.2896666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_navarra_2004> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2004"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.3"^^xsd:float,
+        "76.5326666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_navarra_2005> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2005"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.7"^^xsd:float,
+        "79.11625"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_navarra_2006> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2006"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.1"^^xsd:float,
+        "81.7144166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_navarra_2007> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2007"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "4.2"^^xsd:float,
+        "83.7050833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_navarra_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.2"^^xsd:float,
+        "86.9709166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_navarra_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.5"^^xsd:float,
+        "86.4645833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_navarra_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.8"^^xsd:float,
+        "87.8406666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_navarra_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.6"^^xsd:float,
+        "90.6343333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_navarra_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.7"^^xsd:float,
+        "92.9665833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_navarra_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.0"^^xsd:float,
+        "94.1075833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_navarra_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-1.2"^^xsd:float,
+        "93.6658333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_navarra_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.1"^^xsd:float,
+        "93.0635833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_navarra_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.8"^^xsd:float,
+        "93.087"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_navarra_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.6"^^xsd:float,
+        "94.5539166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_navarra_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.3"^^xsd:float,
+        "96.1683333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_navarra_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.3"^^xsd:float,
+        "97.2971666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_navarra_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.6"^^xsd:float,
+        "96.73"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_navarra_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "6.6"^^xsd:float,
+        "99.9999166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_navarra_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "6.4"^^xsd:float,
+        "108.81525"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_navarra_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.9"^^xsd:float,
+        "112.77025"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_navarra_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.7"^^xsd:float,
+        "115.6990833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_navarra_2025> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2025"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.2"^^xsd:float,
+        "118.2931111111"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_pais_vasco_2002> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2002"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.9"^^xsd:float,
+        "70.2214166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_pais_vasco_2003> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2003"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.6"^^xsd:float,
+        "72.204"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_pais_vasco_2004> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2004"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.2"^^xsd:float,
+        "74.3935"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_pais_vasco_2005> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2005"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.7"^^xsd:float,
+        "76.84375"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_pais_vasco_2006> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2006"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.6"^^xsd:float,
+        "79.4599166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_pais_vasco_2007> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2007"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "4.2"^^xsd:float,
+        "81.7230833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_pais_vasco_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.9"^^xsd:float,
+        "85.0773333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_pais_vasco_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.0"^^xsd:float,
+        "85.3056666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_pais_vasco_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.8"^^xsd:float,
+        "86.7485833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_pais_vasco_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.4"^^xsd:float,
+        "89.4341666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_pais_vasco_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.7"^^xsd:float,
+        "91.502"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_pais_vasco_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.6"^^xsd:float,
+        "92.9430833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_pais_vasco_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.7"^^xsd:float,
+        "93.0933333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_pais_vasco_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.3"^^xsd:float,
+        "92.8454166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_pais_vasco_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.5"^^xsd:float,
+        "92.8585"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_pais_vasco_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.1"^^xsd:float,
+        "94.6996666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_pais_vasco_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.0"^^xsd:float,
+        "96.215"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_pais_vasco_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.2"^^xsd:float,
+        "97.1360833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_pais_vasco_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.3"^^xsd:float,
+        "97.0021666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_pais_vasco_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "6.4"^^xsd:float,
+        "99.9999166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_pais_vasco_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "5.4"^^xsd:float,
+        "108.0491666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_pais_vasco_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.1"^^xsd:float,
+        "111.96175"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_pais_vasco_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.6"^^xsd:float,
+        "115.38825"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_pais_vasco_2025> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2025"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.8"^^xsd:float,
+        "118.459"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_rioja_2002> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2002"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.8"^^xsd:float,
+        "70.5786666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_rioja_2003> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2003"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.4"^^xsd:float,
+        "72.9298333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_rioja_2004> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2004"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.3"^^xsd:float,
+        "74.9783333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_rioja_2005> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2005"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "4.4"^^xsd:float,
+        "77.7619166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_rioja_2006> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2006"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.1"^^xsd:float,
+        "80.8779166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_rioja_2007> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2007"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.9"^^xsd:float,
+        "83.1629166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_rioja_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.6"^^xsd:float,
+        "86.5749166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_rioja_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.5"^^xsd:float,
+        "86.16325"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_rioja_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.0"^^xsd:float,
+        "87.6039166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_rioja_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.7"^^xsd:float,
+        "90.6349166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_rioja_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.8"^^xsd:float,
+        "92.9461666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_rioja_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.1"^^xsd:float,
+        "94.1330833333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_rioja_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.9"^^xsd:float,
+        "93.98425"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_rioja_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.1"^^xsd:float,
+        "93.6163333333"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_rioja_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.5"^^xsd:float,
+        "93.28625"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_rioja_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "0.6"^^xsd:float,
+        "95.08625"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_rioja_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.2"^^xsd:float,
+        "96.543"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_rioja_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.0"^^xsd:float,
+        "97.4176666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_rioja_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "-0.8"^^xsd:float,
+        "96.8624166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_rioja_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "7.0"^^xsd:float,
+        "100.0001666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_rioja_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "5.8"^^xsd:float,
+        "108.9224166667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_rioja_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "3.1"^^xsd:float,
+        "112.7191666667"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_rioja_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "2.8"^^xsd:float,
+        "115.77875"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/ipc_rioja_2025> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2025"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "1.1"^^xsd:float,
+        "118.1632222222"^^xsd:float ;
+    schema1:variableMeasured "IPC General" .
+
+<http://grupo3-ua-data.github.io/resource/Place/andalucia> a schema1:AdministrativeArea ;
+    schema1:name "andalucia" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5718> .
+
+<http://grupo3-ua-data.github.io/resource/Place/aragon> a schema1:AdministrativeArea ;
+    schema1:name "aragon" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q4040> .
+
+<http://grupo3-ua-data.github.io/resource/Place/asturias> a schema1:AdministrativeArea ;
+    schema1:name "asturias" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3934> .
+
+<http://grupo3-ua-data.github.io/resource/Place/baleares> a schema1:AdministrativeArea ;
+    schema1:name "baleares" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q4071> .
+
+<http://grupo3-ua-data.github.io/resource/Place/canarias> a schema1:AdministrativeArea ;
+    schema1:name "canarias" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5709> .
+
+<http://grupo3-ua-data.github.io/resource/Place/cantabria> a schema1:AdministrativeArea ;
+    schema1:name "cantabria" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3946> .
+
+<http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> a schema1:AdministrativeArea ;
+    schema1:name "castilla_la_mancha" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5748> .
+
+<http://grupo3-ua-data.github.io/resource/Place/castilla_leon> a schema1:AdministrativeArea ;
+    schema1:name "castilla_leon" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5739> .
+
+<http://grupo3-ua-data.github.io/resource/Place/catalunya> a schema1:AdministrativeArea ;
+    schema1:name "catalunya" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5705> .
+
+<http://grupo3-ua-data.github.io/resource/Place/ceuta> a schema1:AdministrativeArea ;
+    schema1:name "ceuta" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5823> .
+
+<http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> a schema1:AdministrativeArea ;
+    schema1:name "comunidad_valenciana" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5720> .
+
+<http://grupo3-ua-data.github.io/resource/Place/extremadura> a schema1:AdministrativeArea ;
+    schema1:name "extremadura" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5777> .
+
+<http://grupo3-ua-data.github.io/resource/Place/galicia> a schema1:AdministrativeArea ;
+    schema1:name "galicia" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3911> .
+
+<http://grupo3-ua-data.github.io/resource/Place/madrid> a schema1:AdministrativeArea ;
+    schema1:name "madrid" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5756> .
+
+<http://grupo3-ua-data.github.io/resource/Place/melilla> a schema1:AdministrativeArea ;
+    schema1:name "melilla" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5831> .
+
+<http://grupo3-ua-data.github.io/resource/Place/murcia> a schema1:AdministrativeArea ;
+    schema1:name "murcia" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5768> .
+
+<http://grupo3-ua-data.github.io/resource/Place/nacional> a schema1:AdministrativeArea ;
+    schema1:name "nacional" .
+
+<http://grupo3-ua-data.github.io/resource/Place/navarra> a schema1:AdministrativeArea ;
+    schema1:name "navarra" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q4018> .
+
+<http://grupo3-ua-data.github.io/resource/Place/pais_vasco> a schema1:AdministrativeArea ;
+    schema1:name "pais_vasco" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3995> .
+
+<http://grupo3-ua-data.github.io/resource/Place/rioja> a schema1:AdministrativeArea ;
+    schema1:name "rioja" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5727> .
+
