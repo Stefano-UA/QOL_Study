@@ -11,43 +11,48 @@ except Exception as e:
     print(f"ERROR: Could not read {super_csv_path}: {e}")
     exit(1)
 
-# Nos aseguramos de que sean valores numéricos
+# Lista de contaminantes
 pollutants = ['pm25', 'pm10', 'o3', 'no2', 'so2', 'co']
+
+# Aseguramos valores numéricos
 for col in pollutants:
     df[col] = pd.to_numeric(df[col], errors='coerce')
 
-# Agrupando por región, año y sacando medias.
+# ----------------------------------------------------------
+# PASO 1 — AGRUPAR POR AÑO Y REGIÓN Y CALCULAR MEDIAS
+# ----------------------------------------------------------
 agg_df = df.groupby(['date', 'region'], as_index=False)[pollutants].mean()
 
 # ----------------------------------------------------------
-# PASO 2 — CONVERTIR A FORMATO LARGO (WIDE → LONG)
+# PASO 2 — CONVERTIR A FORMATO LARGO
 # ----------------------------------------------------------
-df_long = df_grouped.melt(
+df_long = agg_df.melt(
     id_vars=["date", "region"],
     value_vars=pollutants,
     var_name="Type",
     value_name="Value"
 )
 
-# Quitamos filas sin valor
+# Quitar valores NaN
 df_long = df_long.dropna(subset=["Value"])
 
-# Renombramos columnas
+# Renombrar columnas
 df_long = df_long.rename(columns={
     "date": "Year",
     "region": "CCAA"
 })
 
-
-# Ordenamos
+# Ordenar
 df_long = df_long.sort_values(
     by=["Year", "CCAA", "Type"],
     ascending=[True, True, True]
 )
 
-# Guardamos total_polution.csv
+# ----------------------------------------------------------
+# PASO 3 — GUARDAR ARCHIVO FINAL
+# ----------------------------------------------------------
 try:
-    agg_df.to_csv(total_csv_path, sep='\t', index=False)
+    df_long.to_csv(total_csv_path, sep='\t', index=False)
     print(f"Aggregated total CSV saved to {total_csv_path}")
 except Exception as e:
     print(f"ERROR: Could not save {total_csv_path}: {e}")
