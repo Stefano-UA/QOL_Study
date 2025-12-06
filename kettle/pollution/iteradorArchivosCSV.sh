@@ -36,10 +36,9 @@ for region in "$scandir"/*/; do
         python3 cribadoInicial.py "$nom_region" "$(realpath "$file")"
 
         echo "FORMATEO: COLUMNAS"
-        if [ "$file" == "../../temp/pollution/castilla_mancha/2025-11-06_sds011_sensor_83475.csv" ]; then
+        if [ "$(basename "$file")" == "2025-11-06_sds011_sensor_83475.csv" ]; then
             python3 formateadorLaMancha.py "$(realpath "$file")"
         else
-            echo "NO PASA NADA"
             python3 formateador.py "$nom_region" "$(realpath "$file")"
         fi
 
@@ -50,30 +49,6 @@ for region in "$scandir"/*/; do
         python3 ratioMaker.py "$nom_region" "$(realpath "$file")"
     done
 done
-
-# INTERMEDIO, COPIAMOS VECINOS
-cp vecinos/baleares_vecinos.txt ../../temp/pollution/balares/
-cp vecinos/cantabria_vecinos.txt ../../temp/pollution/cantabria/
-cp vecinos/castilla_mancha_vecinos.txt ../../temp/pollution/castilla_mancha/
-
-cp vecinos/baleares_vecinos.txt ../../temp/pollution/andalucia/
-cp vecinos/baleares_vecinos.txt ../../temp/pollution/aragon/
-cp vecinos/baleares_vecinos.txt ../../temp/pollution/asturias/
-cp vecinos/baleares_vecinos.txt ../../temp/pollution/canarias/
-cp vecinos/baleares_vecinos.txt ../../temp/pollution/castilla_leon/
-cp vecinos/baleares_vecinos.txt ../../temp/pollution/catalunya/
-cp vecinos/baleares_vecinos.txt ../../temp/pollution/ceuta/
-cp vecinos/baleares_vecinos.txt ../../temp/pollution/comunidad_valenciana/
-cp vecinos/baleares_vecinos.txt ../../temp/pollution/extremadura/
-cp vecinos/baleares_vecinos.txt ../../temp/pollution/galicia/
-cp vecinos/baleares_vecinos.txt ../../temp/pollution/la_rioja/
-cp vecinos/baleares_vecinos.txt ../../temp/pollution/madrid/
-cp vecinos/baleares_vecinos.txt ../../temp/pollution/melilla/
-cp vecinos/baleares_vecinos.txt ../../temp/pollution/murcia/
-cp vecinos/baleares_vecinos.txt ../../temp/pollution/navarra/
-cp vecinos/baleares_vecinos.txt ../../temp/pollution/pais_vasco/
-
-
 
 # SEGUNDO LOOP - ARREGLO RATOS
 for region in "$scandir"/*/; do 
@@ -99,6 +74,7 @@ done
 SUPER_CSV="../../temp/pollution/super.csv"
 
 # Crear super.csv si no existe
+rm -f "$SUPER_CSV"
 echo "date;region;pm25;pm10;o3;no2;so2;co" > "$SUPER_CSV"
 
 for region in "$scandir"/*/; do
@@ -114,8 +90,8 @@ for region in "$scandir"/*/; do
         awk -F';' -v OFS=';' -v region="$nom_region" 'NR>1 {
             split($1,d,"[-/]");   # assuming $1 is date
             year=d[1];
-            if (r=="castilla_mancha") r="castilla_la_mancha"
-            if (r=="la_rioja") r="rioja"
+            if (region=="castilla_mancha") region="castilla_la_mancha"
+            if (region=="la_rioja") region="rioja"
             print year, region, $2, $3, $4, $5, $6, $7
         }' "$inferred_file" >> "$SUPER_CSV"
 

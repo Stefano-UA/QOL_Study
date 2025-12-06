@@ -20,7 +20,7 @@ def main():
     region_name = os.path.basename(region_folder.rstrip("/"))
 
     ratios_csv = os.path.join(region_folder, f"{region_name}_ratios.csv")
-    vecinos_txt = os.path.join(region_folder, f"{region_name}_vecinos.txt")
+    vecinos_txt = os.path.join(os.path.dirname(__file__),"vecinos.txt")
 
     # Vemos si el archivo existe
     if not os.path.isfile(ratios_csv):

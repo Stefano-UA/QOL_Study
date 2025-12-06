@@ -1,20 +1,26 @@
 import pandas as pd
-from rdflib import Graph, Namespace, Literal, RDF, URIRef
+from rdflib import Graph, Namespace, Literal, RDF
 from rdflib.namespace import XSD, OWL
 import re
 
-# Namespaces RDF utilizados
+# --- Namespaces RDF ---
 SCHEMA = Namespace("https://schema.org/")
 BASE_URI = "https://csalas-alarcon.github.io/Grupo3_ADP/"
 EX = Namespace(BASE_URI + "ontology/")
 WIKIDATA = Namespace("http://www.wikidata.org/entity/")
 
-# Rutas
-INPUT_CSV = "../../dist/kettle/total_pollution.csv"
-OUTPUT_TTL = "../../schema/total_pollution.ttl"
-OUTPUT_RDF = "../../schema/total_pollution.rdf"
+# --- Mapping CCAA -> Wikidata ---
+ccaa_wikidata_map = {
+    "andalucia": "Q5718", "aragon": "Q4040", "asturias": "Q3934",
+    "baleares": "Q4071", "canarias": "Q5709", "cantabria": "Q3946",
+    "castilla_la_mancha": "Q5748", "castilla_leon": "Q5739",
+    "catalunya": "Q5705", "ceuta": "Q5823", "comunidad_valenciana": "Q5720",
+    "extremadura": "Q5777", "galicia": "Q3911", "rioja": "Q5727",
+    "madrid": "Q5756", "melilla": "Q5831", "murcia": "Q5768",
+    "navarra": "Q4018", "pais_vasco": "Q3995", "total_nacional": "Q29"
+}
 
-# Códigos de Unidades Estadarizados
+# --- Mapeo Contaminantes -> URI + unidades ---
 UNIT_MAP = {
     "pm25": "UGM3",
     "pm10": "UGM3",
@@ -24,82 +30,59 @@ UNIT_MAP = {
     "co": "PPM"
 }
 
-# Recursos RDF
-PROPERTY_RESOURCES = {
-    "pm25": EX.PM25,
-    "pm10": EX.PM10,
-    "o3": EX.O3,
-    "no2": EX.NO2,
-    "so2": EX.SO2,
-    "co": EX.CO
-}
+PROPERTY_RESOURCES = {pol: EX[pol] for pol in UNIT_MAP.keys()}
 
-# Mapeo CCAA -> Wikidata
-ccaa_wikidata_map = {
-    "andalucia": "Q5718", "aragon": "Q4040", "asturias": "Q3934",
-    "baleares": "Q4071", "canarias": "Q5709", "cantabria": "Q3946",
-    "castilla_la_mancha": "Q5748", "castilla_leon": "Q5739",
-    "catalunya": "Q5705", "ceuta": "Q5823", "comunidad_valenciana": "Q5720",
-    "extremadura": "Q5777", "galicia": "Q3911", "la_rioja": "Q5727",
-    "madrid": "Q5756", "melilla": "Q5831", "murcia": "Q5768",
-    "navarra": "Q4018", "pais_vasco": "Q3995", "total_nacional": "Q29"
-}
+# --- Rutas ---
+INPUT_CSV = "../../dist/kettle/pollution.csv"
+OUTPUT_TTL = "../../schema/total_pollution.ttl"
+OUTPUT_RDF = "../../schema/total_pollution.rdf"
 
-# Cargar CSV
+# --- Leer CSV ---
 df = pd.read_csv(INPUT_CSV, sep='\t')
 
-# Grafo RDF
+# --- Crear grafo RDF ---
 g = Graph()
 g.bind("schema", SCHEMA)
 g.bind("ex", EX)
 g.bind("owl", OWL)
 
-# Convertimos filas en observaciones RDF
+# --- Iterar sobre cada fila ---
 for idx, row in df.iterrows():
-    year = str(row["date"])
-    region_name = str(row["region"])
+    year = str(row["Year"])
+    ccaa = str(row["CCAA"])
+    pol = str(row["Type"])
+    value = row["Value"]
 
-    # Limpiamos el nombre
-    region_name_clean = re.sub("_+", "_", region_name.strip().replace(" ", "_"))
-    region_name_original = region_name.strip()  # Para la etiqueta
+    # Limpiar nombre para URI
+    ccaa_clean = re.sub("_+", "_", ccaa.strip().replace(" ", "_"))
+    pol_clean = re.sub("_+", "_", pol.strip().replace(" ", "_"))
 
-    # URI para el recurso de la Región
-    region_uri = EX[f"Region_{region_name_clean}"]
-
-    # Creamos el recurso de la región
+    # URI del lugar
+    region_uri = EX[f"Region_{ccaa_clean}"]
     g.add((region_uri, RDF.type, SCHEMA.Place))
-    g.add((region_uri, SCHEMA.name, Literal(region_name_original)))
+    g.add((region_uri, SCHEMA.name, Literal(ccaa)))
 
-    # Agregamos mapeo a Wikidata si existe
-    if region_name_clean in ccaa_wikidata_map:
-        g.add((region_uri, OWL.sameAs, WIKIDATA[ccaa_wikidata_map[region_name_clean]]))
+    # Agregar vínculo a Wikidata si existe
+    if ccaa_clean in ccaa_wikidata_map:
+        g.add((region_uri, OWL.sameAs, WIKIDATA[ccaa_wikidata_map[ccaa_clean]]))
 
-    # Crear observación por contaminante
-    for pol in PROPERTY_RESOURCES.keys():
-        value = row[pol]
+    # URI de la observación
+    obs_uri = EX[f"{ccaa_clean}_{year}_{pol_clean}"]
+    g.add((obs_uri, RDF.type, SCHEMA.Observation))
+    g.add((obs_uri, SCHEMA.observedNode, region_uri))
+    g.add((obs_uri, SCHEMA.observationDate, Literal(year, datatype=XSD.gYear)))
 
-        # Nos saltamos valores erroneos
-        if pd.isna(value):
-            continue
-
-        # Limpiamos el nombre
-        pol_clean = re.sub("_+", "_", str(pol).strip().replace(" ", "_"))
-
-        # URI de la observación
-        obs_uri = EX[f"{region_name_clean}_{year}_{pol_clean}"]
-
-        # Añadimos triples RDF
-        g.add((obs_uri, RDF.type, SCHEMA.Observation))
-        g.add((obs_uri, SCHEMA.observedNode, region_uri))
-        g.add((obs_uri, SCHEMA.observationDate, Literal(year, datatype=XSD.gYear)))
-        g.add((obs_uri, SCHEMA.measuredProperty, PROPERTY_RESOURCES[pol]))
+    # Medida y unidad
+    if pol_clean in PROPERTY_RESOURCES:
+        g.add((obs_uri, SCHEMA.measuredProperty, PROPERTY_RESOURCES[pol_clean]))
         g.add((obs_uri, SCHEMA.value, Literal(float(value), datatype=XSD.float)))
-        g.add((obs_uri, SCHEMA.unitCode, Literal(UNIT_MAP[pol])))
+        g.add((obs_uri, SCHEMA.unitCode, Literal(UNIT_MAP[pol_clean])))
+    else:
+        # Por si hay alguna variable distinta a los contaminantes
+        g.add((obs_uri, SCHEMA.value, Literal(float(value), datatype=XSD.float)))
 
-# Guardar como Turtle
+# --- Guardar grafo ---
 g.serialize(destination=OUTPUT_TTL, format='turtle')
-
-# Guardar como RDF/XML
 g.serialize(destination=OUTPUT_RDF, format='xml')
 
 print(f"Generated:\n - {OUTPUT_TTL}\n - {OUTPUT_RDF}")
