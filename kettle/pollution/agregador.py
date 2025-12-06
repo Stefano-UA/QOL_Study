@@ -23,6 +23,20 @@ for col in pollutants:
 # ----------------------------------------------------------
 agg_df = df.groupby(['date', 'region'], as_index=False)[pollutants].mean()
 
+
+# ----------------------------------------------------------
+# PASO 1b — AGREGAR "Nacional" COMO PROMEDIO DE TODAS LAS CCAA
+# ----------------------------------------------------------
+# Filtramos si quieres excluir "total_nacional" si ya existiera
+agg_df_ccaa = agg_df[agg_df['region'] != 'total_nacional']
+
+# Calculamos promedio por año
+nacional_df = agg_df_ccaa.groupby('date', as_index=False)[pollutants].mean()
+nacional_df['region'] = 'Nacional'  # O 'total_nacional', según convención
+
+# Añadimos al dataframe original
+agg_df = pd.concat([agg_df, nacional_df], ignore_index=True)
+
 # ----------------------------------------------------------
 # PASO 2 — CONVERTIR A FORMATO LARGO
 # ----------------------------------------------------------
