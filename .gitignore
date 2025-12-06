@@ -8,5 +8,6 @@ logs
 # Python cache
 __pycache__
 
-# Folder for intermeriady processes
-temp/
+# Folder for temporal data
+temp
+tmp
