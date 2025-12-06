@@ -1,0 +1,643 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_andalucia_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "8484804.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_andalucia_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "8511167.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_andalucia_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "8584147.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_andalucia_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "8631862.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_aragon_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "1331938.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_aragon_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "1328215.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_aragon_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "1341289.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_aragon_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "1351591.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_asturias_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "1012117.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_asturias_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "1004960.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_asturias_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "1006060.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_asturias_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "1009599.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_baleares_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "1183415.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_baleares_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "1187043.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_baleares_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "1209906.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_baleares_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "1231768.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_canarias_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "2178924.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_canarias_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "2185607.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_canarias_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "2213016.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_canarias_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "2238754.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_cantabria_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "584708.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_cantabria_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "585450.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_cantabria_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "588387.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_cantabria_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "590851.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_castilla_la_mancha_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "2052505.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_castilla_la_mancha_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "2058278.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_castilla_la_mancha_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "2084086.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_castilla_la_mancha_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "2104433.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_castilla_leon_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "2385223.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_castilla_leon_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "2375583.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_castilla_leon_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "2383703.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_castilla_leon_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "2391682.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_catalunya_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "7749896.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_catalunya_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "7761823.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_catalunya_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "7901963.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_catalunya_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "8012231.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_ceuta_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "84071.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_ceuta_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "83051.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_ceuta_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "83052.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_ceuta_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "83179.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_comunidad_valenciana_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "5067911.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_comunidad_valenciana_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "5108116.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_comunidad_valenciana_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "5216195.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_comunidad_valenciana_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "5319285.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_extremadura_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "1061636.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_extremadura_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "1056808.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_extremadura_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "1054306.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_extremadura_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "1054681.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_galicia_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "2698177.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_galicia_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "2692825.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_galicia_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "2699424.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_galicia_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "2705833.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_madrid_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "6726640.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_madrid_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "6743254.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_madrid_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "6871903.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_madrid_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "7009268.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_melilla_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "86450.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_melilla_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "84932.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_melilla_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "85493.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_melilla_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "85985.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_murcia_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "1518279.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_murcia_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "1529658.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_murcia_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "1551692.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_murcia_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "1568492.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_navarra_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "662032.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_navarra_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "664514.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_navarra_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "672155.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_navarra_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "678333.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_pais_vasco_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "2212628.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_pais_vasco_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "2205826.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_pais_vasco_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "2216302.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_pais_vasco_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "2227684.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_rioja_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "319444.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_rioja_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "319617.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_rioja_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "322282.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_rioja_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "324184.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_total_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/total> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "47400798.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_total_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/total> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "47486727.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_total_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/total> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "48085361.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/poblacion_total_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/total> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Personas" ;
+    schema1:value "48619695.0"^^xsd:float ;
+    schema1:variableMeasured "Población Total" .
+
+<http://grupo3-ua-data.github.io/resource/Place/andalucia> a schema1:AdministrativeArea ;
+    schema1:name "andalucia" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5718> .
+
+<http://grupo3-ua-data.github.io/resource/Place/aragon> a schema1:AdministrativeArea ;
+    schema1:name "aragon" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q4040> .
+
+<http://grupo3-ua-data.github.io/resource/Place/asturias> a schema1:AdministrativeArea ;
+    schema1:name "asturias" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3934> .
+
+<http://grupo3-ua-data.github.io/resource/Place/baleares> a schema1:AdministrativeArea ;
+    schema1:name "baleares" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q4071> .
+
+<http://grupo3-ua-data.github.io/resource/Place/canarias> a schema1:AdministrativeArea ;
+    schema1:name "canarias" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5709> .
+
+<http://grupo3-ua-data.github.io/resource/Place/cantabria> a schema1:AdministrativeArea ;
+    schema1:name "cantabria" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3946> .
+
+<http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> a schema1:AdministrativeArea ;
+    schema1:name "castilla_la_mancha" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5748> .
+
+<http://grupo3-ua-data.github.io/resource/Place/castilla_leon> a schema1:AdministrativeArea ;
+    schema1:name "castilla_leon" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5739> .
+
+<http://grupo3-ua-data.github.io/resource/Place/catalunya> a schema1:AdministrativeArea ;
+    schema1:name "catalunya" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5705> .
+
+<http://grupo3-ua-data.github.io/resource/Place/ceuta> a schema1:AdministrativeArea ;
+    schema1:name "ceuta" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5823> .
+
+<http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> a schema1:AdministrativeArea ;
+    schema1:name "comunidad_valenciana" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5720> .
+
+<http://grupo3-ua-data.github.io/resource/Place/extremadura> a schema1:AdministrativeArea ;
+    schema1:name "extremadura" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5777> .
+
+<http://grupo3-ua-data.github.io/resource/Place/galicia> a schema1:AdministrativeArea ;
+    schema1:name "galicia" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3911> .
+
+<http://grupo3-ua-data.github.io/resource/Place/madrid> a schema1:AdministrativeArea ;
+    schema1:name "madrid" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5756> .
+
+<http://grupo3-ua-data.github.io/resource/Place/melilla> a schema1:AdministrativeArea ;
+    schema1:name "melilla" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5831> .
+
+<http://grupo3-ua-data.github.io/resource/Place/murcia> a schema1:AdministrativeArea ;
+    schema1:name "murcia" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5768> .
+
+<http://grupo3-ua-data.github.io/resource/Place/navarra> a schema1:AdministrativeArea ;
+    schema1:name "navarra" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q4018> .
+
+<http://grupo3-ua-data.github.io/resource/Place/pais_vasco> a schema1:AdministrativeArea ;
+    schema1:name "pais_vasco" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3995> .
+
+<http://grupo3-ua-data.github.io/resource/Place/rioja> a schema1:AdministrativeArea ;
+    schema1:name "rioja" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5727> .
+
+<http://grupo3-ua-data.github.io/resource/Place/total> a schema1:AdministrativeArea ;
+    schema1:name "total" .
+

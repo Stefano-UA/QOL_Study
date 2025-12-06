@@ -1,0 +1,2464 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_andalucia_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "97.9101463667"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_andalucia_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "97.4774344068"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_andalucia_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "97.7496540237"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_andalucia_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "97.651952402"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_andalucia_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "97.8995710498"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_andalucia_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "97.6762240488"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_andalucia_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "97.5392113703"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_andalucia_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "98.2242026809"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_andalucia_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "98.400413608"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_andalucia_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "98.9506095673"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_andalucia_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "98.5385812594"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_andalucia_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.052681829"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_andalucia_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "98.6302048253"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_andalucia_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "98.848313883"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_andalucia_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.1035856806"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_andalucia_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.3943159155"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_andalucia_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/andalucia> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.5430284815"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_aragon_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.3316421128"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_aragon_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.7111359142"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_aragon_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.8373595504"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_aragon_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.9013772542"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_aragon_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.1080735887"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_aragon_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.1374037874"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_aragon_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.9002139619"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_aragon_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.9476570726"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_aragon_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.1947557341"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_aragon_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.7162527685"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_aragon_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "104.5687060129"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_aragon_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "104.9144965304"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_aragon_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "104.8847568896"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_aragon_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "104.2515630537"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_aragon_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.6844826749"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_aragon_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.5380761168"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_aragon_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/aragon> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.3876273554"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_asturias_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.6772749197"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_asturias_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.1632054092"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_asturias_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.4969545774"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_asturias_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.8999781491"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_asturias_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.4524609648"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_asturias_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.4171115186"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_asturias_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.1629346898"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_asturias_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.8080190496"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_asturias_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.8406958229"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_asturias_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.365707707"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_asturias_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.1698092355"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_asturias_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.9159136867"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_asturias_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.335098541"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_asturias_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.9626276787"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_asturias_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.7553152379"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_asturias_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.4259883035"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_asturias_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/asturias> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.9033482938"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_baleares_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.9042790201"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_baleares_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.8379626081"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_baleares_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.3079897835"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_baleares_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.1589343267"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_baleares_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.8782116204"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_baleares_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.0033483765"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_baleares_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.196319945"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_baleares_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.7947773872"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_baleares_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.4183581546"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_baleares_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.4280157394"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_baleares_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.8590199858"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_baleares_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.8867945206"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_baleares_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "104.3653624319"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_baleares_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.6001512112"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_baleares_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.4594596087"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_baleares_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.3585484872"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_baleares_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/baleares> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.130586569"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_canarias_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "97.8262021336"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_canarias_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "97.1167116256"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_canarias_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "97.7407005079"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_canarias_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "97.6640352382"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_canarias_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "97.3502411669"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_canarias_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "97.3387982621"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_canarias_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "97.3987721758"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_canarias_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "97.1033907385"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_canarias_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "97.4039935282"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_canarias_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "97.9885907839"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_canarias_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.0512992323"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_canarias_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.4054109413"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_canarias_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "98.8735902327"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_canarias_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "98.8224068073"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_canarias_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "98.3008493706"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_canarias_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "98.7225739615"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_canarias_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/canarias> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.3767481339"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_cantabria_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.3335114387"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_cantabria_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.9234415382"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_cantabria_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.7578546713"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_cantabria_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.8692619546"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_cantabria_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.2460661031"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_cantabria_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.8539468845"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_cantabria_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.3260808282"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_cantabria_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.422537115"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_cantabria_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.3314088561"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_cantabria_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.9551438366"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_cantabria_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "104.3922205515"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_cantabria_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "104.564544059"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_cantabria_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "104.2746670747"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_cantabria_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.8990589314"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_cantabria_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.2839241757"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_cantabria_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.3868276899"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_cantabria_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/cantabria> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.4230676054"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_castilla_la_mancha_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.1024525567"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_castilla_la_mancha_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.831446767"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_castilla_la_mancha_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.316749432"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_castilla_la_mancha_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.5267209955"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_castilla_la_mancha_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.3888624452"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_castilla_la_mancha_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.1032661927"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_castilla_la_mancha_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.5755632593"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_castilla_la_mancha_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.1586929907"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_castilla_la_mancha_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.2193911715"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_castilla_la_mancha_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.0728954376"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_castilla_la_mancha_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.0322997092"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_castilla_la_mancha_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.6310082648"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_castilla_la_mancha_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.5412142713"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_castilla_la_mancha_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.2862706416"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_castilla_la_mancha_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.3474815169"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_castilla_la_mancha_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.1184323312"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_castilla_la_mancha_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.1142602847"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_castilla_leon_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.0622201464"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_castilla_leon_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "98.9335110479"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_castilla_leon_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "98.9832337011"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_castilla_leon_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.1828146745"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_castilla_leon_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.4710162136"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_castilla_leon_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.4753287908"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_castilla_leon_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.5175420744"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_castilla_leon_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.6973963373"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_castilla_leon_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.819723481"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_castilla_leon_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.9299492098"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_castilla_leon_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.9836140569"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_castilla_leon_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.3817236814"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_castilla_leon_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.8709962763"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_castilla_leon_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.9028997544"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_castilla_leon_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.3988918056"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_castilla_leon_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.4102638315"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_castilla_leon_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/castilla_leon> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.5163652062"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_catalunya_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.3227409391"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_catalunya_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.6336577538"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_catalunya_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.2736180322"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_catalunya_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.1070734056"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_catalunya_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.2991324889"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_catalunya_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.6343333057"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_catalunya_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.0469428626"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_catalunya_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.9793274808"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_catalunya_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.567555378"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_catalunya_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.8007573897"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_catalunya_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.2895393893"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_catalunya_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.2496795193"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_catalunya_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.975583578"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_catalunya_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.7797814832"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_catalunya_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.6573216753"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_catalunya_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.9515204087"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_catalunya_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/catalunya> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.3052156942"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_ceuta_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "96.7930242044"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_ceuta_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "97.3216786273"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_ceuta_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "96.9548554755"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_ceuta_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "96.8355402995"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_ceuta_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "95.8414305933"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_ceuta_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "95.1280149795"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_ceuta_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "94.5177120848"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_ceuta_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "96.6594448777"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_ceuta_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "97.0037919489"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_ceuta_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "97.869120366"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_ceuta_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "97.662266449"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_ceuta_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "97.6504308448"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_ceuta_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "97.8184431302"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_ceuta_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "97.477031767"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_ceuta_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "95.9756545929"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_ceuta_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "95.8348745584"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_ceuta_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/ceuta> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "97.9058268986"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_comunidad_valenciana_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.6479439866"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_comunidad_valenciana_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.681155458"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_comunidad_valenciana_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.0416645447"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_comunidad_valenciana_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.6228016185"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_comunidad_valenciana_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.2750965559"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_comunidad_valenciana_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.3852803632"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_comunidad_valenciana_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.1865304019"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_comunidad_valenciana_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.5496901591"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_comunidad_valenciana_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.7644630723"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_comunidad_valenciana_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.1048303458"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_comunidad_valenciana_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.0496810231"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_comunidad_valenciana_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.4088775103"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_comunidad_valenciana_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.0352795746"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_comunidad_valenciana_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.0704075426"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_comunidad_valenciana_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.3516147512"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_comunidad_valenciana_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.0633366374"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_comunidad_valenciana_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.2662378983"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_extremadura_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "98.8910302491"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_extremadura_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "98.5396786579"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_extremadura_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "98.35108277"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_extremadura_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "98.8898989817"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_extremadura_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "98.7989343302"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_extremadura_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "97.7541750353"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_extremadura_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "98.1684932039"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_extremadura_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "98.779746723"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_extremadura_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "98.8191377844"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_extremadura_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.288975413"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_extremadura_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.5332928004"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_extremadura_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.5988595093"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_extremadura_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.1439395144"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_extremadura_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.3867450646"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_extremadura_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.2003516043"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_extremadura_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.1538013579"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_extremadura_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/extremadura> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.4312367673"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_galicia_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "97.4494213737"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_galicia_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "96.7166288523"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_galicia_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "96.9369240158"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_galicia_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "97.0394190511"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_galicia_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "96.8006217825"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_galicia_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "96.5802004544"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_galicia_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "96.3834677979"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_galicia_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "96.9726688173"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_galicia_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "97.3940517332"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_galicia_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "97.843624215"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_galicia_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.9591937036"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_galicia_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.401236512"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_galicia_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.3865571142"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_galicia_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.286470418"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_galicia_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.6600194692"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_galicia_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.2993766437"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_galicia_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/galicia> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.6651243072"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_madrid_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.6569357448"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_madrid_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.337919811"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_madrid_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.8508982226"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_madrid_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.197793958"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_madrid_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.3264784847"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_madrid_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.4259594671"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_madrid_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.9453580659"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_madrid_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.3224233095"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_madrid_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.5485563111"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_madrid_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.2511806669"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_madrid_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.0069514196"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_madrid_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.5746327503"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_madrid_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.2939452652"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_madrid_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.2359536218"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_madrid_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.9795926513"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_madrid_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.992818566"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_madrid_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/madrid> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.2778233496"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_melilla_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "98.5754519793"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_melilla_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "98.2394349161"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_melilla_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "97.4647299905"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_melilla_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.2132803561"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_melilla_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.4943516488"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_melilla_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "98.5701195189"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_melilla_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "98.049692233"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_melilla_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "98.2234788191"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_melilla_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "97.8172795153"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_melilla_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.2895934887"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_melilla_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.0135690192"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_melilla_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.0740487468"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_melilla_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.2251956289"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_melilla_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.7293070435"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_melilla_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "98.7855997412"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_melilla_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.5766845669"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_melilla_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/melilla> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "98.9517943068"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_murcia_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.350001474"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_murcia_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.2977983981"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_murcia_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.1661544006"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_murcia_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.1658688596"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_murcia_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.5261393256"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_murcia_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.450700631"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_murcia_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.2017006752"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_murcia_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.2794403491"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_murcia_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.5709221215"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_murcia_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.6649999876"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_murcia_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.9653153799"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_murcia_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.2055882739"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_murcia_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.9762402289"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_murcia_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.8160451937"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_murcia_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.4740066381"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_murcia_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.1715568368"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_murcia_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/murcia> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.36403643"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_navarra_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "105.1153747494"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_navarra_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "104.8267117694"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_navarra_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "104.7893232497"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_navarra_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "104.8361341673"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_navarra_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "104.9966134313"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_navarra_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "104.8884201741"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_navarra_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "104.7299017865"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_navarra_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "104.9106959402"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_navarra_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "105.4887424351"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_navarra_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "106.1467019665"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_navarra_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "104.706994021"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_navarra_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "105.358060818"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_navarra_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "105.7478686425"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_navarra_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "105.6803409181"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_navarra_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "105.209050839"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_navarra_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "104.9352636527"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_navarra_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/navarra> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "105.1866084463"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_pais_vasco_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.8325309051"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_pais_vasco_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.058390675"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_pais_vasco_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.9157419033"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_pais_vasco_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.7633884104"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_pais_vasco_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.0158679973"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_pais_vasco_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.6194902118"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_pais_vasco_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.2719166277"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_pais_vasco_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.7081555552"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_pais_vasco_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.0375741223"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_pais_vasco_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.0329300469"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_pais_vasco_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.1937097798"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_pais_vasco_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.3625434577"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_pais_vasco_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.7906264161"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_pais_vasco_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.9064258018"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_pais_vasco_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.3992385223"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_pais_vasco_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.5434024085"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_pais_vasco_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/pais_vasco> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.7354424322"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_rioja_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.3018667088"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_rioja_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.2383756123"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_rioja_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.6229034108"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_rioja_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "102.8447821184"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_rioja_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.2570363551"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_rioja_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.5019081138"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_rioja_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.4186233107"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_rioja_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.7349498631"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_rioja_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.9291521943"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_rioja_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "104.5033058165"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_rioja_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "104.0725248331"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_rioja_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "104.8730963458"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_rioja_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "104.7655399636"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_rioja_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "104.6029105933"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_rioja_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "104.2952854973"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_rioja_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.8336285784"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_rioja_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/rioja> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "103.9126617141"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_total_nacional_2008> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/total_nacional> ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.0"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_total_nacional_2009> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/total_nacional> ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.6345693643"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_total_nacional_2010> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/total_nacional> ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.9651315252"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_total_nacional_2011> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/total_nacional> ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.2598432652"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_total_nacional_2012> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/total_nacional> ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.1625625445"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_total_nacional_2013> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/total_nacional> ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "99.9108305825"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_total_nacional_2014> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/total_nacional> ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.0899887114"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_total_nacional_2015> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/total_nacional> ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.3660845182"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_total_nacional_2016> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/total_nacional> ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "100.6503841737"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_total_nacional_2017> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/total_nacional> ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.0968155266"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_total_nacional_2018> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/total_nacional> ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.5840554229"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_total_nacional_2019> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/total_nacional> ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.9065917343"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_total_nacional_2020> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/total_nacional> ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.6336970849"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_total_nacional_2021> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/total_nacional> ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.5592927842"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_total_nacional_2022> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/total_nacional> ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.1387721954"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_total_nacional_2023> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/total_nacional> ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.2026141343"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Observation/calidad_vida_total_nacional_2024> a schema1:Observation ;
+    schema1:areaServed <http://grupo3-ua-data.github.io/resource/Place/total_nacional> ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:unitText "Index" ;
+    schema1:value "101.4672225858"^^xsd:float ;
+    schema1:variableMeasured "Índice Calidad de Vida" .
+
+<http://grupo3-ua-data.github.io/resource/Place/andalucia> a schema1:AdministrativeArea ;
+    schema1:name "andalucia" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5718> .
+
+<http://grupo3-ua-data.github.io/resource/Place/aragon> a schema1:AdministrativeArea ;
+    schema1:name "aragon" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q4040> .
+
+<http://grupo3-ua-data.github.io/resource/Place/asturias> a schema1:AdministrativeArea ;
+    schema1:name "asturias" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3934> .
+
+<http://grupo3-ua-data.github.io/resource/Place/baleares> a schema1:AdministrativeArea ;
+    schema1:name "baleares" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q4071> .
+
+<http://grupo3-ua-data.github.io/resource/Place/canarias> a schema1:AdministrativeArea ;
+    schema1:name "canarias" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5709> .
+
+<http://grupo3-ua-data.github.io/resource/Place/cantabria> a schema1:AdministrativeArea ;
+    schema1:name "cantabria" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3946> .
+
+<http://grupo3-ua-data.github.io/resource/Place/castilla_la_mancha> a schema1:AdministrativeArea ;
+    schema1:name "castilla_la_mancha" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5748> .
+
+<http://grupo3-ua-data.github.io/resource/Place/castilla_leon> a schema1:AdministrativeArea ;
+    schema1:name "castilla_leon" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5739> .
+
+<http://grupo3-ua-data.github.io/resource/Place/catalunya> a schema1:AdministrativeArea ;
+    schema1:name "catalunya" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5705> .
+
+<http://grupo3-ua-data.github.io/resource/Place/ceuta> a schema1:AdministrativeArea ;
+    schema1:name "ceuta" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5823> .
+
+<http://grupo3-ua-data.github.io/resource/Place/comunidad_valenciana> a schema1:AdministrativeArea ;
+    schema1:name "comunidad_valenciana" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5720> .
+
+<http://grupo3-ua-data.github.io/resource/Place/extremadura> a schema1:AdministrativeArea ;
+    schema1:name "extremadura" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5777> .
+
+<http://grupo3-ua-data.github.io/resource/Place/galicia> a schema1:AdministrativeArea ;
+    schema1:name "galicia" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3911> .
+
+<http://grupo3-ua-data.github.io/resource/Place/madrid> a schema1:AdministrativeArea ;
+    schema1:name "madrid" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5756> .
+
+<http://grupo3-ua-data.github.io/resource/Place/melilla> a schema1:AdministrativeArea ;
+    schema1:name "melilla" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5831> .
+
+<http://grupo3-ua-data.github.io/resource/Place/murcia> a schema1:AdministrativeArea ;
+    schema1:name "murcia" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5768> .
+
+<http://grupo3-ua-data.github.io/resource/Place/navarra> a schema1:AdministrativeArea ;
+    schema1:name "navarra" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q4018> .
+
+<http://grupo3-ua-data.github.io/resource/Place/pais_vasco> a schema1:AdministrativeArea ;
+    schema1:name "pais_vasco" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3995> .
+
+<http://grupo3-ua-data.github.io/resource/Place/rioja> a schema1:AdministrativeArea ;
+    schema1:name "rioja" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5727> .
+
+<http://grupo3-ua-data.github.io/resource/Place/total_nacional> a schema1:AdministrativeArea ;
+    schema1:name "total_nacional" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q29> .
+
