@@ -19,8 +19,31 @@ for col in pollutants:
 # Agrupando por región, año y sacando medias.
 agg_df = df.groupby(['date', 'region'], as_index=False)[pollutants].mean()
 
-# Ordenamos por región y año
-agg_df = agg_df.sort_values(by=['region', 'date'])
+# ----------------------------------------------------------
+# PASO 2 — CONVERTIR A FORMATO LARGO (WIDE → LONG)
+# ----------------------------------------------------------
+df_long = df_grouped.melt(
+    id_vars=["date", "region"],
+    value_vars=pollutants,
+    var_name="Type",
+    value_name="Value"
+)
+
+# Quitamos filas sin valor
+df_long = df_long.dropna(subset=["Value"])
+
+# Renombramos columnas
+df_long = df_long.rename(columns={
+    "date": "Year",
+    "region": "CCAA"
+})
+
+
+# Ordenamos
+df_long = df_long.sort_values(
+    by=["Year", "CCAA", "Type"],
+    ascending=[True, True, True]
+)
 
 # Guardamos total_polution.csv
 try:
