@@ -152,7 +152,7 @@ Todo lo demás que tengamos que hacer con los datos.
 
 Finalmente, ordenaremos los datos por las siguientes columnas:
 
-1. [**Descendente**] Year
+1. [**Ascendente**] Year
 2. [**Ascendente**] CCAA
 
 ## Last Edited
