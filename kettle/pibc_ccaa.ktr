@@ -1690,7 +1690,7 @@
       </field>
       <field>
         <name>﻿Comunidades y Ciudades Autónomas</name>
-        <rename>Comunidad</rename>
+        <rename>CCAA</rename>
       </field>
       <field>
         <name>Renta anual neta media por persona y por unidad de consumo</name>
@@ -1744,7 +1744,7 @@
         <presorted>N</presorted>
       </field>
       <field>
-        <name>Comunidad</name>
+        <name>CCAA</name>
         <ascending>Y</ascending>
         <case_sensitive>N</case_sensitive>
         <collator_enabled>N</collator_enabled>
@@ -1895,7 +1895,7 @@
         <precision>-1</precision>
       </field>
       <field>
-        <name>Comunidad</name>
+        <name>CCAA</name>
         <type>String</type>
         <format/>
         <currency/>
