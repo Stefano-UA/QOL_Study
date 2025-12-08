@@ -25,7 +25,7 @@ git lfs pull
 # <============================================>
 #  Run ETLs with PDI
 # <============================================>
-./.pdi/kitchen.sh /file:'./kettle/data.kjb' /level:Basic
+./.pdi/kitchen.sh /file:'./kettle/data.kjb' /level:Basic /norep
 # <============================================>
 #  Run visualization process
 # <============================================>
