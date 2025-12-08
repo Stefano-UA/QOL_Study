@@ -33,9 +33,9 @@ UNIT_MAP = {
 PROPERTY_RESOURCES = {pol: EX[pol] for pol in UNIT_MAP.keys()}
 
 # --- Rutas ---
-INPUT_CSV = "../../dist/kettle/pollution.csv"
-OUTPUT_TTL = "../../schema/total_pollution.ttl"
-OUTPUT_RDF = "../../schema/total_pollution.rdf"
+INPUT_CSV = "../dist/kettle/pollution.csv"
+OUTPUT_TTL = "../schema/total_pollution.ttl"
+OUTPUT_RDF = "../schema/total_pollution.rdf"
 
 # --- Leer CSV ---
 df = pd.read_csv(INPUT_CSV, sep='\t')

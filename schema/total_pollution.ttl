@@ -8,7 +8,7 @@ ex:andalucia_2014_co a schema:Observation ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "PPM" ;
-    schema:value "2.678355098497026"^^xsd:float .
+    schema:value "2.72247787185109"^^xsd:float .
 
 ex:andalucia_2014_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -29,70 +29,70 @@ ex:andalucia_2014_pm10 a schema:Observation ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "UGM3" ;
-    schema:value "27.480215630721748"^^xsd:float .
+    schema:value "27.47187999989388"^^xsd:float .
 
 ex:andalucia_2014_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "UGM3" ;
-    schema:value "60.74063098502281"^^xsd:float .
+    schema:value "60.412479488055965"^^xsd:float .
 
 ex:andalucia_2014_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "PPB" ;
-    schema:value "3.532195085382839"^^xsd:float .
+    schema:value "3.5318633750073007"^^xsd:float .
 
 ex:andalucia_2015_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "PPM" ;
-    schema:value "2.8456443821877877"^^xsd:float .
+    schema:value "2.884462473943096"^^xsd:float .
 
 ex:andalucia_2015_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "PPB" ;
-    schema:value "9.208857742452944"^^xsd:float .
+    schema:value "9.20806675441584"^^xsd:float .
 
 ex:andalucia_2015_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "PPB" ;
-    schema:value "35.835378782318394"^^xsd:float .
+    schema:value "35.83268136899306"^^xsd:float .
 
 ex:andalucia_2015_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "UGM3" ;
-    schema:value "23.782441060248843"^^xsd:float .
+    schema:value "23.7645329695091"^^xsd:float .
 
 ex:andalucia_2015_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "UGM3" ;
-    schema:value "60.118053410522606"^^xsd:float .
+    schema:value "59.46271132673831"^^xsd:float .
 
 ex:andalucia_2015_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "PPB" ;
-    schema:value "3.398487904286291"^^xsd:float .
+    schema:value "3.397954118084177"^^xsd:float .
 
 ex:andalucia_2016_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "PPM" ;
-    schema:value "3.1103917297552224"^^xsd:float .
+    schema:value "3.145854997251882"^^xsd:float .
 
 ex:andalucia_2016_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -106,35 +106,35 @@ ex:andalucia_2016_o3 a schema:Observation ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "PPB" ;
-    schema:value "34.55934163314615"^^xsd:float .
+    schema:value "34.549413055576714"^^xsd:float .
 
 ex:andalucia_2016_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "UGM3" ;
-    schema:value "21.20086052567565"^^xsd:float .
+    schema:value "21.18873452559035"^^xsd:float .
 
 ex:andalucia_2016_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "UGM3" ;
-    schema:value "54.77256237806977"^^xsd:float .
+    schema:value "54.0649396575341"^^xsd:float .
 
 ex:andalucia_2016_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "PPB" ;
-    schema:value "2.44385972433296"^^xsd:float .
+    schema:value "2.442907006555889"^^xsd:float .
 
 ex:andalucia_2017_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "PPM" ;
-    schema:value "3.1232535551744247"^^xsd:float .
+    schema:value "3.225166563322302"^^xsd:float .
 
 ex:andalucia_2017_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -176,7 +176,7 @@ ex:andalucia_2018_co a schema:Observation ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "PPM" ;
-    schema:value "2.5567250431440924"^^xsd:float .
+    schema:value "2.597425061943212"^^xsd:float .
 
 ex:andalucia_2018_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -197,28 +197,28 @@ ex:andalucia_2018_pm10 a schema:Observation ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "UGM3" ;
-    schema:value "22.35197672651061"^^xsd:float .
+    schema:value "22.30733926848999"^^xsd:float .
 
 ex:andalucia_2018_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "UGM3" ;
-    schema:value "48.64762818427549"^^xsd:float .
+    schema:value "48.053174393630485"^^xsd:float .
 
 ex:andalucia_2018_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "PPB" ;
-    schema:value "2.223566376597144"^^xsd:float .
+    schema:value "2.221405634940873"^^xsd:float .
 
 ex:andalucia_2019_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "PPM" ;
-    schema:value "2.696222744263357"^^xsd:float .
+    schema:value "2.733153739799008"^^xsd:float .
 
 ex:andalucia_2019_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -239,35 +239,35 @@ ex:andalucia_2019_pm10 a schema:Observation ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "UGM3" ;
-    schema:value "21.06648956725896"^^xsd:float .
+    schema:value "21.06502845330649"^^xsd:float .
 
 ex:andalucia_2019_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "UGM3" ;
-    schema:value "48.673892474778434"^^xsd:float .
+    schema:value "48.2667552446396"^^xsd:float .
 
 ex:andalucia_2019_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "PPB" ;
-    schema:value "2.3855415508742097"^^xsd:float .
+    schema:value "2.3841876270318223"^^xsd:float .
 
 ex:andalucia_2020_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "PPM" ;
-    schema:value "2.8209039067185477"^^xsd:float .
+    schema:value "2.854765072992753"^^xsd:float .
 
 ex:andalucia_2020_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "PPB" ;
-    schema:value "6.487818432375568"^^xsd:float .
+    schema:value "6.486888272136741"^^xsd:float .
 
 ex:andalucia_2020_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
@@ -281,35 +281,35 @@ ex:andalucia_2020_pm10 a schema:Observation ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "UGM3" ;
-    schema:value "19.51931815286162"^^xsd:float .
+    schema:value "19.515433707056022"^^xsd:float .
 
 ex:andalucia_2020_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "UGM3" ;
-    schema:value "42.01849848568092"^^xsd:float .
+    schema:value "41.53392202007719"^^xsd:float .
 
 ex:andalucia_2020_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "PPB" ;
-    schema:value "1.4920874094533747"^^xsd:float .
+    schema:value "1.4864086761591675"^^xsd:float .
 
 ex:andalucia_2021_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "PPM" ;
-    schema:value "2.570477945195274"^^xsd:float .
+    schema:value "2.6293866296767767"^^xsd:float .
 
 ex:andalucia_2021_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "PPB" ;
-    schema:value "6.347644347398238"^^xsd:float .
+    schema:value "6.346831569821129"^^xsd:float .
 
 ex:andalucia_2021_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
@@ -330,21 +330,21 @@ ex:andalucia_2021_pm25 a schema:Observation ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "UGM3" ;
-    schema:value "42.85840970248961"^^xsd:float .
+    schema:value "42.64972514031288"^^xsd:float .
 
 ex:andalucia_2021_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "PPB" ;
-    schema:value "1.6066702439021936"^^xsd:float .
+    schema:value "1.6065474516660698"^^xsd:float .
 
 ex:andalucia_2022_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "PPM" ;
-    schema:value "2.098772065267921"^^xsd:float .
+    schema:value "2.1733468193672563"^^xsd:float .
 
 ex:andalucia_2022_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -386,7 +386,7 @@ ex:andalucia_2023_co a schema:Observation ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "PPM" ;
-    schema:value "2.195089675116499"^^xsd:float .
+    schema:value "2.275154889362527"^^xsd:float .
 
 ex:andalucia_2023_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -428,7 +428,7 @@ ex:andalucia_2024_co a schema:Observation ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "PPM" ;
-    schema:value "2.2778945055023456"^^xsd:float .
+    schema:value "2.349714995160173"^^xsd:float .
 
 ex:andalucia_2024_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -470,7 +470,7 @@ ex:andalucia_2025_co a schema:Observation ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_andalucia ;
     schema:unitCode "PPM" ;
-    schema:value "2.274964817996089"^^xsd:float .
+    schema:value "2.347311872611876"^^xsd:float .
 
 ex:andalucia_2025_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -806,7 +806,7 @@ ex:asturias_2014_co a schema:Observation ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_asturias ;
     schema:unitCode "PPM" ;
-    schema:value "1.7919292930192223"^^xsd:float .
+    schema:value "2.000767510396933"^^xsd:float .
 
 ex:asturias_2014_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -848,7 +848,7 @@ ex:asturias_2015_co a schema:Observation ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_asturias ;
     schema:unitCode "PPM" ;
-    schema:value "1.5548863643017998"^^xsd:float .
+    schema:value "1.736098702205254"^^xsd:float .
 
 ex:asturias_2015_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -890,7 +890,7 @@ ex:asturias_2016_co a schema:Observation ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_asturias ;
     schema:unitCode "PPM" ;
-    schema:value "1.3904996344794556"^^xsd:float .
+    schema:value "1.5525537211336058"^^xsd:float .
 
 ex:asturias_2016_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -932,7 +932,7 @@ ex:asturias_2017_co a schema:Observation ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_asturias ;
     schema:unitCode "PPM" ;
-    schema:value "1.4392517596151742"^^xsd:float .
+    schema:value "1.6069876033265822"^^xsd:float .
 
 ex:asturias_2017_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -974,7 +974,7 @@ ex:asturias_2018_co a schema:Observation ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_asturias ;
     schema:unitCode "PPM" ;
-    schema:value "1.2661779681409795"^^xsd:float .
+    schema:value "1.4137431375813216"^^xsd:float .
 
 ex:asturias_2018_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -1016,7 +1016,7 @@ ex:asturias_2019_co a schema:Observation ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_asturias ;
     schema:unitCode "PPM" ;
-    schema:value "1.390931897182082"^^xsd:float .
+    schema:value "1.553036361366533"^^xsd:float .
 
 ex:asturias_2019_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -1058,7 +1058,7 @@ ex:asturias_2020_co a schema:Observation ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_asturias ;
     schema:unitCode "PPM" ;
-    schema:value "1.1942156020492058"^^xsd:float .
+    schema:value "1.333394005163759"^^xsd:float .
 
 ex:asturias_2020_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -1100,7 +1100,7 @@ ex:asturias_2021_co a schema:Observation ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_asturias ;
     schema:unitCode "PPM" ;
-    schema:value "1.2964327048455124"^^xsd:float .
+    schema:value "1.4475238757331328"^^xsd:float .
 
 ex:asturias_2021_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -1142,7 +1142,7 @@ ex:asturias_2022_co a schema:Observation ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_asturias ;
     schema:unitCode "PPM" ;
-    schema:value "1.536215635544362"^^xsd:float .
+    schema:value "1.7152520161005955"^^xsd:float .
 
 ex:asturias_2022_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -1184,7 +1184,7 @@ ex:asturias_2023_co a schema:Observation ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_asturias ;
     schema:unitCode "PPM" ;
-    schema:value "1.354534861562687"^^xsd:float .
+    schema:value "1.5123974775524582"^^xsd:float .
 
 ex:asturias_2023_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -1226,7 +1226,7 @@ ex:asturias_2024_co a schema:Observation ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_asturias ;
     schema:unitCode "PPM" ;
-    schema:value "1.2796564512555897"^^xsd:float .
+    schema:value "1.4287924540974368"^^xsd:float .
 
 ex:asturias_2024_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -1268,7 +1268,7 @@ ex:asturias_2025_co a schema:Observation ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_asturias ;
     schema:unitCode "PPM" ;
-    schema:value "1.150280017553735"^^xsd:float .
+    schema:value "1.284338001474726"^^xsd:float .
 
 ex:asturias_2025_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -1310,385 +1310,385 @@ ex:baleares_2017_co a schema:Observation ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPM" ;
-    schema:value "1.1264299330124117"^^xsd:float .
+    schema:value "1.1329348628041842"^^xsd:float .
 
 ex:baleares_2017_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPB" ;
-    schema:value "5.462981959428945"^^xsd:float .
+    schema:value "5.444369319303385"^^xsd:float .
 
 ex:baleares_2017_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPB" ;
-    schema:value "28.021277196767286"^^xsd:float .
+    schema:value "28.399966958147377"^^xsd:float .
 
 ex:baleares_2017_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "UGM3" ;
-    schema:value "11.423468545978794"^^xsd:float .
+    schema:value "11.401507652327318"^^xsd:float .
 
 ex:baleares_2017_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "UGM3" ;
-    schema:value "35.9143342589849"^^xsd:float .
+    schema:value "32.35138078610959"^^xsd:float .
 
 ex:baleares_2017_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPB" ;
-    schema:value "1.616580922039261"^^xsd:float .
+    schema:value "1.5889781638261422"^^xsd:float .
 
 ex:baleares_2018_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPM" ;
-    schema:value "1.3926442076909502"^^xsd:float .
+    schema:value "1.3522658417740192"^^xsd:float .
 
 ex:baleares_2018_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPB" ;
-    schema:value "5.639374782360832"^^xsd:float .
+    schema:value "5.623700564512632"^^xsd:float .
 
 ex:baleares_2018_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPB" ;
-    schema:value "34.51371224769885"^^xsd:float .
+    schema:value "34.59889304962046"^^xsd:float .
 
 ex:baleares_2018_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "UGM3" ;
-    schema:value "20.486566708458767"^^xsd:float .
+    schema:value "20.133102159298303"^^xsd:float .
 
 ex:baleares_2018_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "UGM3" ;
-    schema:value "44.402131116219984"^^xsd:float .
+    schema:value "38.614459319398335"^^xsd:float .
 
 ex:baleares_2018_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPB" ;
-    schema:value "1.7512706514222218"^^xsd:float .
+    schema:value "1.5561882428613905"^^xsd:float .
 
 ex:baleares_2019_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPM" ;
-    schema:value "1.4079743604100063"^^xsd:float .
+    schema:value "1.3699916841813575"^^xsd:float .
 
 ex:baleares_2019_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPB" ;
-    schema:value "5.6646321805764135"^^xsd:float .
+    schema:value "5.645920175490265"^^xsd:float .
 
 ex:baleares_2019_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPB" ;
-    schema:value "34.41056351294717"^^xsd:float .
+    schema:value "34.55380487440669"^^xsd:float .
 
 ex:baleares_2019_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "UGM3" ;
-    schema:value "20.287696061028704"^^xsd:float .
+    schema:value "19.918340302716068"^^xsd:float .
 
 ex:baleares_2019_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "UGM3" ;
-    schema:value "44.89090739325044"^^xsd:float .
+    schema:value "39.12062741105277"^^xsd:float .
 
 ex:baleares_2019_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPB" ;
-    schema:value "1.864054263561052"^^xsd:float .
+    schema:value "1.6613778002986888"^^xsd:float .
 
 ex:baleares_2020_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPM" ;
-    schema:value "1.190292268188586"^^xsd:float .
+    schema:value "1.1644914627972125"^^xsd:float .
 
 ex:baleares_2020_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPB" ;
-    schema:value "3.969278272422916"^^xsd:float .
+    schema:value "3.93175688401498"^^xsd:float .
 
 ex:baleares_2020_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPB" ;
-    schema:value "30.89831667953391"^^xsd:float .
+    schema:value "30.96548384288084"^^xsd:float .
 
 ex:baleares_2020_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "UGM3" ;
-    schema:value "18.64785184302181"^^xsd:float .
+    schema:value "18.63479024536669"^^xsd:float .
 
 ex:baleares_2020_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "UGM3" ;
-    schema:value "37.95047799492307"^^xsd:float .
+    schema:value "33.252491358488406"^^xsd:float .
 
 ex:baleares_2020_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPB" ;
-    schema:value "1.5735296848922686"^^xsd:float .
+    schema:value "1.4368288519824142"^^xsd:float .
 
 ex:baleares_2021_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPM" ;
-    schema:value "1.2777074035978502"^^xsd:float .
+    schema:value "1.240971656258648"^^xsd:float .
 
 ex:baleares_2021_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPB" ;
-    schema:value "4.518912228920803"^^xsd:float .
+    schema:value "4.454894546437594"^^xsd:float .
 
 ex:baleares_2021_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPB" ;
-    schema:value "29.15407505076667"^^xsd:float .
+    schema:value "29.237056155707503"^^xsd:float .
 
 ex:baleares_2021_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "UGM3" ;
-    schema:value "21.63414084403129"^^xsd:float .
+    schema:value "21.59505372433246"^^xsd:float .
 
 ex:baleares_2021_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "UGM3" ;
-    schema:value "40.73756337003103"^^xsd:float .
+    schema:value "35.43641202550903"^^xsd:float .
 
 ex:baleares_2021_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPB" ;
-    schema:value "1.740407091758007"^^xsd:float .
+    schema:value "1.5111969379948298"^^xsd:float .
 
 ex:baleares_2022_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPM" ;
-    schema:value "1.2934848008110484"^^xsd:float .
+    schema:value "1.2498970785998105"^^xsd:float .
 
 ex:baleares_2022_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPB" ;
-    schema:value "5.63608907626554"^^xsd:float .
+    schema:value "5.571945286707275"^^xsd:float .
 
 ex:baleares_2022_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPB" ;
-    schema:value "31.67980293402203"^^xsd:float .
+    schema:value "31.732362402608327"^^xsd:float .
 
 ex:baleares_2022_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "UGM3" ;
-    schema:value "17.384471911720663"^^xsd:float .
+    schema:value "17.375508531612304"^^xsd:float .
 
 ex:baleares_2022_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "UGM3" ;
-    schema:value "41.24059928966096"^^xsd:float .
+    schema:value "35.6912808148065"^^xsd:float .
 
 ex:baleares_2022_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPB" ;
-    schema:value "1.6829294659403706"^^xsd:float .
+    schema:value "1.4463183095434085"^^xsd:float .
 
 ex:baleares_2023_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPM" ;
-    schema:value "1.2284885329632411"^^xsd:float .
+    schema:value "1.1849479038872812"^^xsd:float .
 
 ex:baleares_2023_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPB" ;
-    schema:value "4.845119528229069"^^xsd:float .
+    schema:value "4.810958332663809"^^xsd:float .
 
 ex:baleares_2023_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPB" ;
-    schema:value "31.12464764060236"^^xsd:float .
+    schema:value "31.328158275053237"^^xsd:float .
 
 ex:baleares_2023_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "UGM3" ;
-    schema:value "16.441646325359113"^^xsd:float .
+    schema:value "16.41283996592925"^^xsd:float .
 
 ex:baleares_2023_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "UGM3" ;
-    schema:value "39.16830200719259"^^xsd:float .
+    schema:value "33.83663272173978"^^xsd:float .
 
 ex:baleares_2023_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPB" ;
-    schema:value "1.7052991201534775"^^xsd:float .
+    schema:value "1.4488329064325138"^^xsd:float .
 
 ex:baleares_2024_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPM" ;
-    schema:value "1.2404445648303843"^^xsd:float .
+    schema:value "1.1932883282969349"^^xsd:float .
 
 ex:baleares_2024_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPB" ;
-    schema:value "4.6938043055581415"^^xsd:float .
+    schema:value "4.637591465189382"^^xsd:float .
 
 ex:baleares_2024_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPB" ;
-    schema:value "32.93771951919361"^^xsd:float .
+    schema:value "33.09221729375224"^^xsd:float .
 
 ex:baleares_2024_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "UGM3" ;
-    schema:value "16.496751182871154"^^xsd:float .
+    schema:value "16.461770761165905"^^xsd:float .
 
 ex:baleares_2024_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "UGM3" ;
-    schema:value "39.54950008467915"^^xsd:float .
+    schema:value "34.07479667524952"^^xsd:float .
 
 ex:baleares_2024_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPB" ;
-    schema:value "1.686871975264782"^^xsd:float .
+    schema:value "1.4410161593297763"^^xsd:float .
 
 ex:baleares_2025_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPM" ;
-    schema:value "1.0621587631914078"^^xsd:float .
+    schema:value "1.0542852128165172"^^xsd:float .
 
 ex:baleares_2025_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPB" ;
-    schema:value "4.066422304189057"^^xsd:float .
+    schema:value "4.0492126374822845"^^xsd:float .
 
 ex:baleares_2025_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPB" ;
-    schema:value "25.57283111261351"^^xsd:float .
+    schema:value "27.128123693321605"^^xsd:float .
 
 ex:baleares_2025_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "UGM3" ;
-    schema:value "16.28404161522842"^^xsd:float .
+    schema:value "16.26234548230886"^^xsd:float .
 
 ex:baleares_2025_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "UGM3" ;
-    schema:value "33.86515551424528"^^xsd:float .
+    schema:value "30.105510472658896"^^xsd:float .
 
 ex:baleares_2025_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_baleares ;
     schema:unitCode "PPB" ;
-    schema:value "1.4087398367326822"^^xsd:float .
+    schema:value "1.256731531729347"^^xsd:float .
 
 ex:canarias_2014_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_canarias ;
     schema:unitCode "PPM" ;
-    schema:value "1.1094043274672851"^^xsd:float .
+    schema:value "1.238698503862503"^^xsd:float .
 
 ex:canarias_2014_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -1730,7 +1730,7 @@ ex:canarias_2015_co a schema:Observation ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_canarias ;
     schema:unitCode "PPM" ;
-    schema:value "1.2390283896266618"^^xsd:float .
+    schema:value "1.383429444499775"^^xsd:float .
 
 ex:canarias_2015_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -1772,7 +1772,7 @@ ex:canarias_2016_co a schema:Observation ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_canarias ;
     schema:unitCode "PPM" ;
-    schema:value "1.2463378614435758"^^xsd:float .
+    schema:value "1.391590789808664"^^xsd:float .
 
 ex:canarias_2016_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -1814,7 +1814,7 @@ ex:canarias_2017_co a schema:Observation ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_canarias ;
     schema:unitCode "PPM" ;
-    schema:value "1.354956713558385"^^xsd:float .
+    schema:value "1.512868493775295"^^xsd:float .
 
 ex:canarias_2017_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -1856,7 +1856,7 @@ ex:canarias_2018_co a schema:Observation ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_canarias ;
     schema:unitCode "PPM" ;
-    schema:value "1.054820605199451"^^xsd:float .
+    schema:value "1.1777533881509314"^^xsd:float .
 
 ex:canarias_2018_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -1898,7 +1898,7 @@ ex:canarias_2019_co a schema:Observation ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_canarias ;
     schema:unitCode "PPM" ;
-    schema:value "0.9800087363468108"^^xsd:float .
+    schema:value "1.0942226611431476"^^xsd:float .
 
 ex:canarias_2019_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -1940,7 +1940,7 @@ ex:canarias_2020_co a schema:Observation ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_canarias ;
     schema:unitCode "PPM" ;
-    schema:value "1.2355364042022292"^^xsd:float .
+    schema:value "1.37953048988633"^^xsd:float .
 
 ex:canarias_2020_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -1982,7 +1982,7 @@ ex:canarias_2021_co a schema:Observation ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_canarias ;
     schema:unitCode "PPM" ;
-    schema:value "1.182648774799147"^^xsd:float .
+    schema:value "1.3204791361170574"^^xsd:float .
 
 ex:canarias_2021_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -2024,7 +2024,7 @@ ex:canarias_2022_co a schema:Observation ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_canarias ;
     schema:unitCode "PPM" ;
-    schema:value "1.2828460834503783"^^xsd:float .
+    schema:value "1.4323538180922724"^^xsd:float .
 
 ex:canarias_2022_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -2066,7 +2066,7 @@ ex:canarias_2023_co a schema:Observation ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_canarias ;
     schema:unitCode "PPM" ;
-    schema:value "1.3556485191903966"^^xsd:float .
+    schema:value "1.5136409250522602"^^xsd:float .
 
 ex:canarias_2023_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -2108,7 +2108,7 @@ ex:canarias_2024_co a schema:Observation ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_canarias ;
     schema:unitCode "PPM" ;
-    schema:value "1.1629971898929028"^^xsd:float .
+    schema:value "1.2985372811781424"^^xsd:float .
 
 ex:canarias_2024_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -2150,7 +2150,7 @@ ex:canarias_2025_co a schema:Observation ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_canarias ;
     schema:unitCode "PPM" ;
-    schema:value "0.8032500522524657"^^xsd:float .
+    schema:value "0.8968638514545073"^^xsd:float .
 
 ex:canarias_2025_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -2192,525 +2192,525 @@ ex:cantabria_2014_co a schema:Observation ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPM" ;
-    schema:value "2.007869740247965"^^xsd:float .
+    schema:value "2.051693027005472"^^xsd:float .
 
 ex:cantabria_2014_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "12.483450578095118"^^xsd:float .
+    schema:value "12.479182354974167"^^xsd:float .
 
 ex:cantabria_2014_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "38.5292054902617"^^xsd:float .
+    schema:value "44.75963435015623"^^xsd:float .
 
 ex:cantabria_2014_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "UGM3" ;
-    schema:value "20.52614583657695"^^xsd:float .
+    schema:value "20.56533202756476"^^xsd:float .
 
 ex:cantabria_2014_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "UGM3" ;
-    schema:value "64.01756814728758"^^xsd:float .
+    schema:value "58.58686545188616"^^xsd:float .
 
 ex:cantabria_2014_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "2.770968127939553"^^xsd:float .
+    schema:value "2.468161403208932"^^xsd:float .
 
 ex:cantabria_2015_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPM" ;
-    schema:value "1.8531804371369252"^^xsd:float .
+    schema:value "1.879666707325163"^^xsd:float .
 
 ex:cantabria_2015_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "11.215129521525697"^^xsd:float .
+    schema:value "11.212914122682072"^^xsd:float .
 
 ex:cantabria_2015_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "36.93266643178481"^^xsd:float .
+    schema:value "42.38388281203368"^^xsd:float .
 
 ex:cantabria_2015_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "UGM3" ;
-    schema:value "20.12290462566692"^^xsd:float .
+    schema:value "20.12702225366696"^^xsd:float .
 
 ex:cantabria_2015_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "UGM3" ;
-    schema:value "59.08555846306152"^^xsd:float .
+    schema:value "53.67458924261164"^^xsd:float .
 
 ex:cantabria_2015_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "2.439981387635933"^^xsd:float .
+    schema:value "2.1392411459504066"^^xsd:float .
 
 ex:cantabria_2016_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPM" ;
-    schema:value "1.7021372384250808"^^xsd:float .
+    schema:value "1.726420494754888"^^xsd:float .
 
 ex:cantabria_2016_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "10.199046240579788"^^xsd:float .
+    schema:value "10.198488392370658"^^xsd:float .
 
 ex:cantabria_2016_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "33.60420951721387"^^xsd:float .
+    schema:value "38.62053889800874"^^xsd:float .
 
 ex:cantabria_2016_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "UGM3" ;
-    schema:value "18.43715041445342"^^xsd:float .
+    schema:value "18.439129786298608"^^xsd:float .
 
 ex:cantabria_2016_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "UGM3" ;
-    schema:value "54.26979871884342"^^xsd:float .
+    schema:value "49.29858604978999"^^xsd:float .
 
 ex:cantabria_2016_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "2.306239709303089"^^xsd:float .
+    schema:value "2.0162884203428213"^^xsd:float .
 
 ex:cantabria_2017_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPM" ;
-    schema:value "1.9883685778523703"^^xsd:float .
+    schema:value "2.0475411141862905"^^xsd:float .
 
 ex:cantabria_2017_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "11.706413977654988"^^xsd:float .
+    schema:value "11.70623037739875"^^xsd:float .
 
 ex:cantabria_2017_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "38.872046866397135"^^xsd:float .
+    schema:value "45.50472611715348"^^xsd:float .
 
 ex:cantabria_2017_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "UGM3" ;
-    schema:value "20.66941094286729"^^xsd:float .
+    schema:value "20.674414325305257"^^xsd:float .
 
 ex:cantabria_2017_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "UGM3" ;
-    schema:value "63.39580620347882"^^xsd:float .
+    schema:value "58.468306020965656"^^xsd:float .
 
 ex:cantabria_2017_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "2.8856712368702806"^^xsd:float .
+    schema:value "2.6286737824483306"^^xsd:float .
 
 ex:cantabria_2018_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPM" ;
-    schema:value "1.7532871687791012"^^xsd:float .
+    schema:value "1.8016377042748848"^^xsd:float .
 
 ex:cantabria_2018_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "10.330526434391937"^^xsd:float .
+    schema:value "10.330004797068389"^^xsd:float .
 
 ex:cantabria_2018_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "31.063585549616725"^^xsd:float .
+    schema:value "35.05165873448175"^^xsd:float .
 
 ex:cantabria_2018_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "UGM3" ;
-    schema:value "18.869204227181847"^^xsd:float .
+    schema:value "18.878673162817275"^^xsd:float .
 
 ex:cantabria_2018_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "UGM3" ;
-    schema:value "55.900628690793255"^^xsd:float .
+    schema:value "51.44644173570916"^^xsd:float .
 
 ex:cantabria_2018_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "2.722299278341314"^^xsd:float .
+    schema:value "2.523122983174775"^^xsd:float .
 
 ex:cantabria_2019_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPM" ;
-    schema:value "1.6473984055344677"^^xsd:float .
+    schema:value "1.6655188030744956"^^xsd:float .
 
 ex:cantabria_2019_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "9.472653321324724"^^xsd:float .
+    schema:value "9.471932662142734"^^xsd:float .
 
 ex:cantabria_2019_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "27.514169107888595"^^xsd:float .
+    schema:value "27.679960292238604"^^xsd:float .
 
 ex:cantabria_2019_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "UGM3" ;
-    schema:value "18.921256162716976"^^xsd:float .
+    schema:value "18.928488067304954"^^xsd:float .
 
 ex:cantabria_2019_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "UGM3" ;
-    schema:value "52.52454259259438"^^xsd:float .
+    schema:value "47.55951535582799"^^xsd:float .
 
 ex:cantabria_2019_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "2.647010787438034"^^xsd:float .
+    schema:value "2.4918787628780694"^^xsd:float .
 
 ex:cantabria_2020_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPM" ;
-    schema:value "1.303498813768693"^^xsd:float .
+    schema:value "1.2817853318975687"^^xsd:float .
 
 ex:cantabria_2020_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "6.3626227566141385"^^xsd:float .
+    schema:value "6.351359255978348"^^xsd:float .
 
 ex:cantabria_2020_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "24.906175959235448"^^xsd:float .
+    schema:value "25.33989609139739"^^xsd:float .
 
 ex:cantabria_2020_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "UGM3" ;
-    schema:value "18.29330944187458"^^xsd:float .
+    schema:value "18.28248315822568"^^xsd:float .
 
 ex:cantabria_2020_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "UGM3" ;
-    schema:value "41.55987934259142"^^xsd:float .
+    schema:value "36.60186187194358"^^xsd:float .
 
 ex:cantabria_2020_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "1.9140414297308148"^^xsd:float .
+    schema:value "1.6533284593756263"^^xsd:float .
 
 ex:cantabria_2021_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPM" ;
-    schema:value "1.239313796887006"^^xsd:float .
+    schema:value "1.2063161877899002"^^xsd:float .
 
 ex:cantabria_2021_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "5.372360755840006"^^xsd:float .
+    schema:value "5.366366530857008"^^xsd:float .
 
 ex:cantabria_2021_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "24.283075033712905"^^xsd:float .
+    schema:value "24.615109512108383"^^xsd:float .
 
 ex:cantabria_2021_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "UGM3" ;
-    schema:value "19.462194125357176"^^xsd:float .
+    schema:value "19.45725796893811"^^xsd:float .
 
 ex:cantabria_2021_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "UGM3" ;
-    schema:value "39.51344744021574"^^xsd:float .
+    schema:value "34.446812099191604"^^xsd:float .
 
 ex:cantabria_2021_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "1.800886618071833"^^xsd:float .
+    schema:value "1.5023322378942163"^^xsd:float .
 
 ex:cantabria_2022_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPM" ;
-    schema:value "1.3506576916504969"^^xsd:float .
+    schema:value "1.31537490544575"^^xsd:float .
 
 ex:cantabria_2022_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "6.396110685846125"^^xsd:float .
+    schema:value "6.393246815259976"^^xsd:float .
 
 ex:cantabria_2022_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "25.2443520792099"^^xsd:float .
+    schema:value "25.24844172343373"^^xsd:float .
 
 ex:cantabria_2022_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "UGM3" ;
-    schema:value "19.49366847179703"^^xsd:float .
+    schema:value "19.493683855619054"^^xsd:float .
 
 ex:cantabria_2022_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "UGM3" ;
-    schema:value "43.06346128221223"^^xsd:float .
+    schema:value "37.561024768220406"^^xsd:float .
 
 ex:cantabria_2022_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "2.0408711980413607"^^xsd:float .
+    schema:value "1.712992197070282"^^xsd:float .
 
 ex:cantabria_2023_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPM" ;
-    schema:value "1.3689765307475976"^^xsd:float .
+    schema:value "1.3458968621220966"^^xsd:float .
 
 ex:cantabria_2023_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "7.71264257571117"^^xsd:float .
+    schema:value "7.708327952442444"^^xsd:float .
 
 ex:cantabria_2023_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "23.49606780682237"^^xsd:float .
+    schema:value "23.507972498883262"^^xsd:float .
 
 ex:cantabria_2023_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "UGM3" ;
-    schema:value "18.737345237660985"^^xsd:float .
+    schema:value "18.723095145276844"^^xsd:float .
 
 ex:cantabria_2023_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "UGM3" ;
-    schema:value "43.647526825295245"^^xsd:float .
+    schema:value "38.432590711852505"^^xsd:float .
 
 ex:cantabria_2023_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "1.898932561471192"^^xsd:float .
+    schema:value "1.6370699312233266"^^xsd:float .
 
 ex:cantabria_2024_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPM" ;
-    schema:value "1.2219545792858288"^^xsd:float .
+    schema:value "1.1869199601366376"^^xsd:float .
 
 ex:cantabria_2024_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "6.072285141639565"^^xsd:float .
+    schema:value "6.064782234340902"^^xsd:float .
 
 ex:cantabria_2024_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "25.097067063822333"^^xsd:float .
+    schema:value "25.165530749495574"^^xsd:float .
 
 ex:cantabria_2024_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "UGM3" ;
-    schema:value "16.546268190995377"^^xsd:float .
+    schema:value "16.52851391641426"^^xsd:float .
 
 ex:cantabria_2024_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "UGM3" ;
-    schema:value "38.95997782339204"^^xsd:float .
+    schema:value "33.89294552907686"^^xsd:float .
 
 ex:cantabria_2024_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "1.6837169924524935"^^xsd:float .
+    schema:value "1.415399025785421"^^xsd:float .
 
 ex:cantabria_2025_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPM" ;
-    schema:value "1.133109851813693"^^xsd:float .
+    schema:value "1.1441195324189335"^^xsd:float .
 
 ex:cantabria_2025_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "5.142146276345355"^^xsd:float .
+    schema:value "5.141005660165763"^^xsd:float .
 
 ex:cantabria_2025_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "22.58808412614163"^^xsd:float .
+    schema:value "24.3277450655078"^^xsd:float .
 
 ex:cantabria_2025_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "UGM3" ;
-    schema:value "15.659629907276006"^^xsd:float .
+    schema:value "15.66847655333476"^^xsd:float .
 
 ex:cantabria_2025_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "UGM3" ;
-    schema:value "36.1273122966073"^^xsd:float .
+    schema:value "32.670763230372955"^^xsd:float .
 
 ex:cantabria_2025_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_cantabria ;
     schema:unitCode "PPB" ;
-    schema:value "1.7540699199414025"^^xsd:float .
+    schema:value "1.595703319331792"^^xsd:float .
 
 ex:castilla_la_mancha_2025_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_la_mancha ;
     schema:unitCode "PPM" ;
-    schema:value "0.0327391946559835"^^xsd:float .
+    schema:value "0.0365547442298271"^^xsd:float .
 
 ex:castilla_la_mancha_2025_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_la_mancha ;
     schema:unitCode "PPB" ;
-    schema:value "0.1412026485590126"^^xsd:float .
+    schema:value "0.1553686281601269"^^xsd:float .
 
 ex:castilla_la_mancha_2025_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_la_mancha ;
     schema:unitCode "PPB" ;
-    schema:value "0.6501465928748772"^^xsd:float .
+    schema:value "0.8380258176339066"^^xsd:float .
 
 ex:castilla_la_mancha_2025_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
@@ -2731,14 +2731,14 @@ ex:castilla_la_mancha_2025_so2 a schema:Observation ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_la_mancha ;
     schema:unitCode "PPB" ;
-    schema:value "0.0498885889681296"^^xsd:float .
+    schema:value "0.0467996897484007"^^xsd:float .
 
 ex:castilla_leon_2014_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_leon ;
     schema:unitCode "PPM" ;
-    schema:value "0.9710286140879058"^^xsd:float .
+    schema:value "1.0841959614708985"^^xsd:float .
 
 ex:castilla_leon_2014_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -2780,7 +2780,7 @@ ex:castilla_leon_2015_co a schema:Observation ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_leon ;
     schema:unitCode "PPM" ;
-    schema:value "1.0962654762304092"^^xsd:float .
+    schema:value "1.2240284012077338"^^xsd:float .
 
 ex:castilla_leon_2015_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -2822,7 +2822,7 @@ ex:castilla_leon_2016_co a schema:Observation ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_leon ;
     schema:unitCode "PPM" ;
-    schema:value "1.01339823953197"^^xsd:float .
+    schema:value "1.1315035033177865"^^xsd:float .
 
 ex:castilla_leon_2016_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -2864,7 +2864,7 @@ ex:castilla_leon_2017_co a schema:Observation ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_leon ;
     schema:unitCode "PPM" ;
-    schema:value "0.8362207769072372"^^xsd:float .
+    schema:value "0.9336771090648912"^^xsd:float .
 
 ex:castilla_leon_2017_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -2906,7 +2906,7 @@ ex:castilla_leon_2018_co a schema:Observation ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_leon ;
     schema:unitCode "PPM" ;
-    schema:value "0.8415001160719356"^^xsd:float .
+    schema:value "0.939571722383756"^^xsd:float .
 
 ex:castilla_leon_2018_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -2948,7 +2948,7 @@ ex:castilla_leon_2019_co a schema:Observation ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_leon ;
     schema:unitCode "PPM" ;
-    schema:value "0.8320898572339395"^^xsd:float .
+    schema:value "0.9290647563885932"^^xsd:float .
 
 ex:castilla_leon_2019_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -2990,7 +2990,7 @@ ex:castilla_leon_2020_co a schema:Observation ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_leon ;
     schema:unitCode "PPM" ;
-    schema:value "0.8875232204364236"^^xsd:float .
+    schema:value "0.9909585334029154"^^xsd:float .
 
 ex:castilla_leon_2020_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -3032,7 +3032,7 @@ ex:castilla_leon_2021_co a schema:Observation ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_leon ;
     schema:unitCode "PPM" ;
-    schema:value "0.8970754892965366"^^xsd:float .
+    schema:value "1.0016240598052928"^^xsd:float .
 
 ex:castilla_leon_2021_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -3074,7 +3074,7 @@ ex:castilla_leon_2022_co a schema:Observation ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_leon ;
     schema:unitCode "PPM" ;
-    schema:value "0.940744433620226"^^xsd:float .
+    schema:value "1.0503823480684185"^^xsd:float .
 
 ex:castilla_leon_2022_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -3116,7 +3116,7 @@ ex:castilla_leon_2023_co a schema:Observation ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_leon ;
     schema:unitCode "PPM" ;
-    schema:value "0.8021126729920967"^^xsd:float .
+    schema:value "0.8955939177132536"^^xsd:float .
 
 ex:castilla_leon_2023_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -3158,7 +3158,7 @@ ex:castilla_leon_2024_co a schema:Observation ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_leon ;
     schema:unitCode "PPM" ;
-    schema:value "0.7841173141275752"^^xsd:float .
+    schema:value "0.8755013116632662"^^xsd:float .
 
 ex:castilla_leon_2024_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -3200,7 +3200,7 @@ ex:castilla_leon_2025_co a schema:Observation ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_castilla_leon ;
     schema:unitCode "PPM" ;
-    schema:value "0.8198416279290037"^^xsd:float .
+    schema:value "0.91538907211429"^^xsd:float .
 
 ex:castilla_leon_2025_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -3242,7 +3242,7 @@ ex:catalunya_2014_co a schema:Observation ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_catalunya ;
     schema:unitCode "PPM" ;
-    schema:value "1.706139678499848"^^xsd:float .
+    schema:value "1.9049796497215616"^^xsd:float .
 
 ex:catalunya_2014_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -3284,7 +3284,7 @@ ex:catalunya_2015_co a schema:Observation ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_catalunya ;
     schema:unitCode "PPM" ;
-    schema:value "1.689986242870854"^^xsd:float .
+    schema:value "1.8869436316076296"^^xsd:float .
 
 ex:catalunya_2015_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -3326,7 +3326,7 @@ ex:catalunya_2016_co a schema:Observation ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_catalunya ;
     schema:unitCode "PPM" ;
-    schema:value "1.504031478950115"^^xsd:float .
+    schema:value "1.6793169961675258"^^xsd:float .
 
 ex:catalunya_2016_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -3368,7 +3368,7 @@ ex:catalunya_2017_co a schema:Observation ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_catalunya ;
     schema:unitCode "PPM" ;
-    schema:value "1.6333402564326218"^^xsd:float .
+    schema:value "1.823695907659192"^^xsd:float .
 
 ex:catalunya_2017_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -3410,7 +3410,7 @@ ex:catalunya_2018_co a schema:Observation ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_catalunya ;
     schema:unitCode "PPM" ;
-    schema:value "1.6332002727435777"^^xsd:float .
+    schema:value "1.8235396097415693"^^xsd:float .
 
 ex:catalunya_2018_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -3452,7 +3452,7 @@ ex:catalunya_2019_co a schema:Observation ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_catalunya ;
     schema:unitCode "PPM" ;
-    schema:value "1.5733090195224917"^^xsd:float .
+    schema:value "1.7566684033449125"^^xsd:float .
 
 ex:catalunya_2019_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -3494,7 +3494,7 @@ ex:catalunya_2020_co a schema:Observation ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_catalunya ;
     schema:unitCode "PPM" ;
-    schema:value "1.3504183959496143"^^xsd:float .
+    schema:value "1.5078012634672333"^^xsd:float .
 
 ex:catalunya_2020_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -3536,7 +3536,7 @@ ex:catalunya_2021_co a schema:Observation ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_catalunya ;
     schema:unitCode "PPM" ;
-    schema:value "1.3571114006363494"^^xsd:float .
+    schema:value "1.5152742962349444"^^xsd:float .
 
 ex:catalunya_2021_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -3578,7 +3578,7 @@ ex:catalunya_2022_co a schema:Observation ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_catalunya ;
     schema:unitCode "PPM" ;
-    schema:value "1.4569384863059656"^^xsd:float .
+    schema:value "1.6267356080419813"^^xsd:float .
 
 ex:catalunya_2022_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -3620,7 +3620,7 @@ ex:catalunya_2023_co a schema:Observation ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_catalunya ;
     schema:unitCode "PPM" ;
-    schema:value "1.4033948965199088"^^xsd:float .
+    schema:value "1.56695184578568"^^xsd:float .
 
 ex:catalunya_2023_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -3662,7 +3662,7 @@ ex:catalunya_2024_co a schema:Observation ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_catalunya ;
     schema:unitCode "PPM" ;
-    schema:value "1.3196473447832842"^^xsd:float .
+    schema:value "1.4734440376134033"^^xsd:float .
 
 ex:catalunya_2024_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -3704,7 +3704,7 @@ ex:catalunya_2025_co a schema:Observation ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_catalunya ;
     schema:unitCode "PPM" ;
-    schema:value "1.3221145514038588"^^xsd:float .
+    schema:value "1.4761987818251934"^^xsd:float .
 
 ex:catalunya_2025_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -3746,7 +3746,7 @@ ex:ceuta_2017_co a schema:Observation ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:unitCode "PPM" ;
-    schema:value "0.2509148408297404"^^xsd:float .
+    schema:value "0.2801574054089517"^^xsd:float .
 
 ex:ceuta_2017_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -3781,14 +3781,14 @@ ex:ceuta_2017_so2 a schema:Observation ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:unitCode "PPB" ;
-    schema:value "0.3823486647027468"^^xsd:float .
+    schema:value "0.3586751851256999"^^xsd:float .
 
 ex:ceuta_2018_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:unitCode "PPM" ;
-    schema:value "0.2509148408297404"^^xsd:float .
+    schema:value "0.2801574054089517"^^xsd:float .
 
 ex:ceuta_2018_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -3823,14 +3823,14 @@ ex:ceuta_2018_so2 a schema:Observation ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:unitCode "PPB" ;
-    schema:value "0.3823486647027468"^^xsd:float .
+    schema:value "0.3586751851256999"^^xsd:float .
 
 ex:ceuta_2019_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:unitCode "PPM" ;
-    schema:value "0.2509148408297404"^^xsd:float .
+    schema:value "0.2801574054089517"^^xsd:float .
 
 ex:ceuta_2019_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -3865,14 +3865,14 @@ ex:ceuta_2019_so2 a schema:Observation ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:unitCode "PPB" ;
-    schema:value "0.3823486647027468"^^xsd:float .
+    schema:value "0.3586751851256999"^^xsd:float .
 
 ex:ceuta_2020_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:unitCode "PPM" ;
-    schema:value "0.2509148408297404"^^xsd:float .
+    schema:value "0.2801574054089517"^^xsd:float .
 
 ex:ceuta_2020_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -3907,14 +3907,14 @@ ex:ceuta_2020_so2 a schema:Observation ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:unitCode "PPB" ;
-    schema:value "0.3823486647027468"^^xsd:float .
+    schema:value "0.3586751851256999"^^xsd:float .
 
 ex:ceuta_2021_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:unitCode "PPM" ;
-    schema:value "0.2509148408297404"^^xsd:float .
+    schema:value "0.2801574054089517"^^xsd:float .
 
 ex:ceuta_2021_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -3949,14 +3949,14 @@ ex:ceuta_2021_so2 a schema:Observation ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:unitCode "PPB" ;
-    schema:value "0.3823486647027468"^^xsd:float .
+    schema:value "0.3586751851256999"^^xsd:float .
 
 ex:ceuta_2022_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:unitCode "PPM" ;
-    schema:value "0.2509148408297404"^^xsd:float .
+    schema:value "0.2801574054089517"^^xsd:float .
 
 ex:ceuta_2022_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -3991,14 +3991,14 @@ ex:ceuta_2022_so2 a schema:Observation ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:unitCode "PPB" ;
-    schema:value "0.3823486647027468"^^xsd:float .
+    schema:value "0.3586751851256999"^^xsd:float .
 
 ex:ceuta_2023_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:unitCode "PPM" ;
-    schema:value "0.2509148408297404"^^xsd:float .
+    schema:value "0.2801574054089517"^^xsd:float .
 
 ex:ceuta_2023_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -4033,14 +4033,14 @@ ex:ceuta_2023_so2 a schema:Observation ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:unitCode "PPB" ;
-    schema:value "0.3823486647027468"^^xsd:float .
+    schema:value "0.3586751851256999"^^xsd:float .
 
 ex:ceuta_2024_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:unitCode "PPM" ;
-    schema:value "0.2509148408297404"^^xsd:float .
+    schema:value "0.2801574054089517"^^xsd:float .
 
 ex:ceuta_2024_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -4075,14 +4075,14 @@ ex:ceuta_2024_so2 a schema:Observation ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:unitCode "PPB" ;
-    schema:value "0.3823486647027468"^^xsd:float .
+    schema:value "0.3586751851256999"^^xsd:float .
 
 ex:ceuta_2025_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:unitCode "PPM" ;
-    schema:value "0.2509148408297404"^^xsd:float .
+    schema:value "0.2801574054089517"^^xsd:float .
 
 ex:ceuta_2025_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -4117,14 +4117,14 @@ ex:ceuta_2025_so2 a schema:Observation ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_ceuta ;
     schema:unitCode "PPB" ;
-    schema:value "0.3823486647027468"^^xsd:float .
+    schema:value "0.3586751851256999"^^xsd:float .
 
 ex:comunidad_valenciana_2014_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_comunidad_valenciana ;
     schema:unitCode "PPM" ;
-    schema:value "1.0984126426849548"^^xsd:float .
+    schema:value "1.226425806562066"^^xsd:float .
 
 ex:comunidad_valenciana_2014_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -4166,7 +4166,7 @@ ex:comunidad_valenciana_2015_co a schema:Observation ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_comunidad_valenciana ;
     schema:unitCode "PPM" ;
-    schema:value "0.9757966343378266"^^xsd:float .
+    schema:value "1.0895196648347083"^^xsd:float .
 
 ex:comunidad_valenciana_2015_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -4208,7 +4208,7 @@ ex:comunidad_valenciana_2016_co a schema:Observation ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_comunidad_valenciana ;
     schema:unitCode "PPM" ;
-    schema:value "0.9089715543951472"^^xsd:float .
+    schema:value "1.0149065373246842"^^xsd:float .
 
 ex:comunidad_valenciana_2016_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -4250,7 +4250,7 @@ ex:comunidad_valenciana_2017_co a schema:Observation ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_comunidad_valenciana ;
     schema:unitCode "PPM" ;
-    schema:value "1.0176103018170888"^^xsd:float .
+    schema:value "1.1362064552727904"^^xsd:float .
 
 ex:comunidad_valenciana_2017_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -4292,7 +4292,7 @@ ex:comunidad_valenciana_2018_co a schema:Observation ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_comunidad_valenciana ;
     schema:unitCode "PPM" ;
-    schema:value "1.146622596921501"^^xsd:float .
+    schema:value "1.280254331208641"^^xsd:float .
 
 ex:comunidad_valenciana_2018_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -4334,7 +4334,7 @@ ex:comunidad_valenciana_2019_co a schema:Observation ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_comunidad_valenciana ;
     schema:unitCode "PPM" ;
-    schema:value "1.1276801252584876"^^xsd:float .
+    schema:value "1.2591042322523842"^^xsd:float .
 
 ex:comunidad_valenciana_2019_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -4376,7 +4376,7 @@ ex:comunidad_valenciana_2020_co a schema:Observation ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_comunidad_valenciana ;
     schema:unitCode "PPM" ;
-    schema:value "0.9960589268709976"^^xsd:float .
+    schema:value "1.1121434015772564"^^xsd:float .
 
 ex:comunidad_valenciana_2020_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -4418,7 +4418,7 @@ ex:comunidad_valenciana_2021_co a schema:Observation ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_comunidad_valenciana ;
     schema:unitCode "PPM" ;
-    schema:value "0.8534378511639645"^^xsd:float .
+    schema:value "0.952900726275206"^^xsd:float .
 
 ex:comunidad_valenciana_2021_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -4460,7 +4460,7 @@ ex:comunidad_valenciana_2022_co a schema:Observation ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_comunidad_valenciana ;
     schema:unitCode "PPM" ;
-    schema:value "0.9076790149259164"^^xsd:float .
+    schema:value "1.0134633604169698"^^xsd:float .
 
 ex:comunidad_valenciana_2022_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -4502,7 +4502,7 @@ ex:comunidad_valenciana_2023_co a schema:Observation ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_comunidad_valenciana ;
     schema:unitCode "PPM" ;
-    schema:value "0.7878944266804343"^^xsd:float .
+    schema:value "0.8797186231991134"^^xsd:float .
 
 ex:comunidad_valenciana_2023_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -4544,7 +4544,7 @@ ex:comunidad_valenciana_2024_co a schema:Observation ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_comunidad_valenciana ;
     schema:unitCode "PPM" ;
-    schema:value "0.8335710121205404"^^xsd:float .
+    schema:value "0.9307185306678138"^^xsd:float .
 
 ex:comunidad_valenciana_2024_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -4586,7 +4586,7 @@ ex:comunidad_valenciana_2025_co a schema:Observation ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_comunidad_valenciana ;
     schema:unitCode "PPM" ;
-    schema:value "0.9958000703406024"^^xsd:float .
+    schema:value "1.1118543769277422"^^xsd:float .
 
 ex:comunidad_valenciana_2025_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -4628,21 +4628,21 @@ ex:extremadura_2017_co a schema:Observation ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPM" ;
-    schema:value "0.879897761609616"^^xsd:float .
+    schema:value "0.8858637435208836"^^xsd:float .
 
 ex:extremadura_2017_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPB" ;
-    schema:value "3.7949587858208713"^^xsd:float .
+    schema:value "3.765186639039024"^^xsd:float .
 
 ex:extremadura_2017_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPB" ;
-    schema:value "17.473323268939062"^^xsd:float .
+    schema:value "20.308627610929147"^^xsd:float .
 
 ex:extremadura_2017_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
@@ -4656,35 +4656,35 @@ ex:extremadura_2017_pm25 a schema:Observation ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "UGM3" ;
-    schema:value "28.05406834286618"^^xsd:float .
+    schema:value "25.29617212089096"^^xsd:float .
 
 ex:extremadura_2017_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPB" ;
-    schema:value "1.3408044462968105"^^xsd:float .
+    schema:value "1.134138652304017"^^xsd:float .
 
 ex:extremadura_2018_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPM" ;
-    schema:value "0.879897761609616"^^xsd:float .
+    schema:value "0.8858637435208836"^^xsd:float .
 
 ex:extremadura_2018_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPB" ;
-    schema:value "3.7949587858208713"^^xsd:float .
+    schema:value "3.765186639039024"^^xsd:float .
 
 ex:extremadura_2018_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPB" ;
-    schema:value "17.473323268939062"^^xsd:float .
+    schema:value "20.308627610929147"^^xsd:float .
 
 ex:extremadura_2018_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
@@ -4698,35 +4698,35 @@ ex:extremadura_2018_pm25 a schema:Observation ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "UGM3" ;
-    schema:value "28.05406834286618"^^xsd:float .
+    schema:value "25.29617212089096"^^xsd:float .
 
 ex:extremadura_2018_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPB" ;
-    schema:value "1.3408044462968105"^^xsd:float .
+    schema:value "1.134138652304017"^^xsd:float .
 
 ex:extremadura_2019_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPM" ;
-    schema:value "0.879897761609616"^^xsd:float .
+    schema:value "0.8858637435208836"^^xsd:float .
 
 ex:extremadura_2019_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPB" ;
-    schema:value "3.7949587858208713"^^xsd:float .
+    schema:value "3.765186639039024"^^xsd:float .
 
 ex:extremadura_2019_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPB" ;
-    schema:value "17.473323268939062"^^xsd:float .
+    schema:value "20.308627610929147"^^xsd:float .
 
 ex:extremadura_2019_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
@@ -4740,35 +4740,35 @@ ex:extremadura_2019_pm25 a schema:Observation ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "UGM3" ;
-    schema:value "28.05406834286618"^^xsd:float .
+    schema:value "25.29617212089096"^^xsd:float .
 
 ex:extremadura_2019_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPB" ;
-    schema:value "1.3408044462968105"^^xsd:float .
+    schema:value "1.134138652304017"^^xsd:float .
 
 ex:extremadura_2020_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPM" ;
-    schema:value "0.879897761609616"^^xsd:float .
+    schema:value "0.8858637435208836"^^xsd:float .
 
 ex:extremadura_2020_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPB" ;
-    schema:value "3.7949587858208713"^^xsd:float .
+    schema:value "3.765186639039024"^^xsd:float .
 
 ex:extremadura_2020_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPB" ;
-    schema:value "17.473323268939062"^^xsd:float .
+    schema:value "20.308627610929147"^^xsd:float .
 
 ex:extremadura_2020_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
@@ -4782,35 +4782,35 @@ ex:extremadura_2020_pm25 a schema:Observation ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "UGM3" ;
-    schema:value "28.05406834286618"^^xsd:float .
+    schema:value "25.29617212089096"^^xsd:float .
 
 ex:extremadura_2020_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPB" ;
-    schema:value "1.3408044462968105"^^xsd:float .
+    schema:value "1.134138652304017"^^xsd:float .
 
 ex:extremadura_2021_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPM" ;
-    schema:value "0.879897761609616"^^xsd:float .
+    schema:value "0.8858637435208836"^^xsd:float .
 
 ex:extremadura_2021_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPB" ;
-    schema:value "3.7949587858208713"^^xsd:float .
+    schema:value "3.765186639039024"^^xsd:float .
 
 ex:extremadura_2021_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPB" ;
-    schema:value "17.473323268939062"^^xsd:float .
+    schema:value "20.308627610929147"^^xsd:float .
 
 ex:extremadura_2021_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
@@ -4824,35 +4824,35 @@ ex:extremadura_2021_pm25 a schema:Observation ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "UGM3" ;
-    schema:value "28.05406834286618"^^xsd:float .
+    schema:value "25.29617212089096"^^xsd:float .
 
 ex:extremadura_2021_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPB" ;
-    schema:value "1.3408044462968105"^^xsd:float .
+    schema:value "1.134138652304017"^^xsd:float .
 
 ex:extremadura_2022_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPM" ;
-    schema:value "0.879897761609616"^^xsd:float .
+    schema:value "0.8858637435208836"^^xsd:float .
 
 ex:extremadura_2022_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPB" ;
-    schema:value "3.7949587858208713"^^xsd:float .
+    schema:value "3.765186639039024"^^xsd:float .
 
 ex:extremadura_2022_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPB" ;
-    schema:value "17.473323268939062"^^xsd:float .
+    schema:value "20.308627610929147"^^xsd:float .
 
 ex:extremadura_2022_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
@@ -4866,35 +4866,35 @@ ex:extremadura_2022_pm25 a schema:Observation ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "UGM3" ;
-    schema:value "28.05406834286618"^^xsd:float .
+    schema:value "25.29617212089096"^^xsd:float .
 
 ex:extremadura_2022_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPB" ;
-    schema:value "1.3408044462968105"^^xsd:float .
+    schema:value "1.134138652304017"^^xsd:float .
 
 ex:extremadura_2023_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPM" ;
-    schema:value "0.879897761609616"^^xsd:float .
+    schema:value "0.8858637435208836"^^xsd:float .
 
 ex:extremadura_2023_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPB" ;
-    schema:value "3.7949587858208713"^^xsd:float .
+    schema:value "3.765186639039024"^^xsd:float .
 
 ex:extremadura_2023_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPB" ;
-    schema:value "17.473323268939062"^^xsd:float .
+    schema:value "20.308627610929147"^^xsd:float .
 
 ex:extremadura_2023_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
@@ -4908,35 +4908,35 @@ ex:extremadura_2023_pm25 a schema:Observation ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "UGM3" ;
-    schema:value "28.05406834286618"^^xsd:float .
+    schema:value "25.29617212089096"^^xsd:float .
 
 ex:extremadura_2023_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPB" ;
-    schema:value "1.3408044462968105"^^xsd:float .
+    schema:value "1.134138652304017"^^xsd:float .
 
 ex:extremadura_2024_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPM" ;
-    schema:value "0.879897761609616"^^xsd:float .
+    schema:value "0.8858637435208836"^^xsd:float .
 
 ex:extremadura_2024_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPB" ;
-    schema:value "3.7949587858208713"^^xsd:float .
+    schema:value "3.765186639039024"^^xsd:float .
 
 ex:extremadura_2024_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPB" ;
-    schema:value "17.473323268939062"^^xsd:float .
+    schema:value "20.308627610929147"^^xsd:float .
 
 ex:extremadura_2024_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
@@ -4950,35 +4950,35 @@ ex:extremadura_2024_pm25 a schema:Observation ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "UGM3" ;
-    schema:value "28.05406834286618"^^xsd:float .
+    schema:value "25.29617212089096"^^xsd:float .
 
 ex:extremadura_2024_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPB" ;
-    schema:value "1.3408044462968105"^^xsd:float .
+    schema:value "1.134138652304017"^^xsd:float .
 
 ex:extremadura_2025_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPM" ;
-    schema:value "0.879897761609616"^^xsd:float .
+    schema:value "0.8858637435208836"^^xsd:float .
 
 ex:extremadura_2025_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPB" ;
-    schema:value "3.7949587858208713"^^xsd:float .
+    schema:value "3.765186639039024"^^xsd:float .
 
 ex:extremadura_2025_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPB" ;
-    schema:value "17.473323268939062"^^xsd:float .
+    schema:value "20.308627610929147"^^xsd:float .
 
 ex:extremadura_2025_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
@@ -4992,14 +4992,14 @@ ex:extremadura_2025_pm25 a schema:Observation ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "UGM3" ;
-    schema:value "28.05406834286618"^^xsd:float .
+    schema:value "25.29617212089096"^^xsd:float .
 
 ex:extremadura_2025_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_extremadura ;
     schema:unitCode "PPB" ;
-    schema:value "1.3408044462968105"^^xsd:float .
+    schema:value "1.134138652304017"^^xsd:float .
 
 ex:galicia_2014_co a schema:Observation ;
     schema:measuredProperty ex:co ;
@@ -5468,7 +5468,7 @@ ex:madrid_2013_co a schema:Observation ;
     schema:observationDate "2013"^^xsd:gYear ;
     schema:observedNode ex:Region_madrid ;
     schema:unitCode "PPM" ;
-    schema:value "0.950466378420805"^^xsd:float .
+    schema:value "1.0612373250871254"^^xsd:float .
 
 ex:madrid_2013_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -5510,7 +5510,7 @@ ex:madrid_2014_co a schema:Observation ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_madrid ;
     schema:unitCode "PPM" ;
-    schema:value "1.3795859401707633"^^xsd:float .
+    schema:value "1.5403681036115862"^^xsd:float .
 
 ex:madrid_2014_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -5552,7 +5552,7 @@ ex:madrid_2015_co a schema:Observation ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_madrid ;
     schema:unitCode "PPM" ;
-    schema:value "1.5103703073523131"^^xsd:float .
+    schema:value "1.686394575606908"^^xsd:float .
 
 ex:madrid_2015_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -5594,7 +5594,7 @@ ex:madrid_2016_co a schema:Observation ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_madrid ;
     schema:unitCode "PPM" ;
-    schema:value "1.3753526131122933"^^xsd:float .
+    schema:value "1.5356414086061154"^^xsd:float .
 
 ex:madrid_2016_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -5636,7 +5636,7 @@ ex:madrid_2017_co a schema:Observation ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_madrid ;
     schema:unitCode "PPM" ;
-    schema:value "1.3525625804239454"^^xsd:float .
+    schema:value "1.5101953393100978"^^xsd:float .
 
 ex:madrid_2017_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -5678,7 +5678,7 @@ ex:madrid_2018_co a schema:Observation ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_madrid ;
     schema:unitCode "PPM" ;
-    schema:value "1.368212547796282"^^xsd:float .
+    schema:value "1.5276692130724865"^^xsd:float .
 
 ex:madrid_2018_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -5720,7 +5720,7 @@ ex:madrid_2019_co a schema:Observation ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_madrid ;
     schema:unitCode "PPM" ;
-    schema:value "1.2042491874211014"^^xsd:float .
+    schema:value "1.3445969425246738"^^xsd:float .
 
 ex:madrid_2019_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -5762,7 +5762,7 @@ ex:madrid_2020_co a schema:Observation ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_madrid ;
     schema:unitCode "PPM" ;
-    schema:value "1.2543751888776244"^^xsd:float .
+    schema:value "1.4005648177812589"^^xsd:float .
 
 ex:madrid_2020_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -5804,7 +5804,7 @@ ex:madrid_2021_co a schema:Observation ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_madrid ;
     schema:unitCode "PPM" ;
-    schema:value "1.3388894050484812"^^xsd:float .
+    schema:value "1.4949286403606683"^^xsd:float .
 
 ex:madrid_2021_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -5846,7 +5846,7 @@ ex:madrid_2022_co a schema:Observation ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_madrid ;
     schema:unitCode "PPM" ;
-    schema:value "1.3532621928126989"^^xsd:float .
+    schema:value "1.5109764871727631"^^xsd:float .
 
 ex:madrid_2022_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -5888,7 +5888,7 @@ ex:madrid_2023_co a schema:Observation ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_madrid ;
     schema:unitCode "PPM" ;
-    schema:value "1.2858455329212957"^^xsd:float .
+    schema:value "1.435702834749273"^^xsd:float .
 
 ex:madrid_2023_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -5930,7 +5930,7 @@ ex:madrid_2024_co a schema:Observation ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_madrid ;
     schema:unitCode "PPM" ;
-    schema:value "1.190346945611661"^^xsd:float .
+    schema:value "1.3290744808726602"^^xsd:float .
 
 ex:madrid_2024_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -5972,7 +5972,7 @@ ex:madrid_2025_co a schema:Observation ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_madrid ;
     schema:unitCode "PPM" ;
-    schema:value "1.216874996780351"^^xsd:float .
+    schema:value "1.3586942114609324"^^xsd:float .
 
 ex:madrid_2025_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -6392,7 +6392,7 @@ ex:murcia_2014_co a schema:Observation ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_murcia ;
     schema:unitCode "PPM" ;
-    schema:value "2.227495780909841"^^xsd:float .
+    schema:value "2.487096564218534"^^xsd:float .
 
 ex:murcia_2014_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -6434,7 +6434,7 @@ ex:murcia_2015_co a schema:Observation ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_murcia ;
     schema:unitCode "PPM" ;
-    schema:value "2.2289057982455875"^^xsd:float .
+    schema:value "2.488670910307661"^^xsd:float .
 
 ex:murcia_2015_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -6476,7 +6476,7 @@ ex:murcia_2016_co a schema:Observation ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_murcia ;
     schema:unitCode "PPM" ;
-    schema:value "1.894261467060195"^^xsd:float .
+    schema:value "2.1150258630490573"^^xsd:float .
 
 ex:murcia_2016_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -6518,7 +6518,7 @@ ex:murcia_2018_co a schema:Observation ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_murcia ;
     schema:unitCode "PPM" ;
-    schema:value "1.6113870444209113"^^xsd:float .
+    schema:value "1.799184185286553"^^xsd:float .
 
 ex:murcia_2018_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -6560,7 +6560,7 @@ ex:murcia_2019_co a schema:Observation ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_murcia ;
     schema:unitCode "PPM" ;
-    schema:value "1.5776121033011627"^^xsd:float .
+    schema:value "1.7614729847825956"^^xsd:float .
 
 ex:murcia_2019_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -6602,7 +6602,7 @@ ex:murcia_2020_co a schema:Observation ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_murcia ;
     schema:unitCode "PPM" ;
-    schema:value "1.4083315095275764"^^xsd:float .
+    schema:value "1.5724637903448884"^^xsd:float .
 
 ex:murcia_2020_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -6644,7 +6644,7 @@ ex:murcia_2021_co a schema:Observation ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_murcia ;
     schema:unitCode "PPM" ;
-    schema:value "1.332294315419549"^^xsd:float .
+    schema:value "1.4875649340419383"^^xsd:float .
 
 ex:murcia_2021_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -6686,7 +6686,7 @@ ex:murcia_2022_co a schema:Observation ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_murcia ;
     schema:unitCode "PPM" ;
-    schema:value "1.568852784483984"^^xsd:float .
+    schema:value "1.751692821820311"^^xsd:float .
 
 ex:murcia_2022_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -6728,7 +6728,7 @@ ex:murcia_2023_co a schema:Observation ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_murcia ;
     schema:unitCode "PPM" ;
-    schema:value "1.4104051931067878"^^xsd:float .
+    schema:value "1.574779148851663"^^xsd:float .
 
 ex:murcia_2023_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -6770,7 +6770,7 @@ ex:murcia_2024_co a schema:Observation ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_murcia ;
     schema:unitCode "PPM" ;
-    schema:value "1.3061045503233912"^^xsd:float .
+    schema:value "1.4583229146645826"^^xsd:float .
 
 ex:murcia_2024_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -6812,7 +6812,7 @@ ex:murcia_2025_co a schema:Observation ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_murcia ;
     schema:unitCode "PPM" ;
-    schema:value "1.2024075822609217"^^xsd:float .
+    schema:value "1.3425407097336692"^^xsd:float .
 
 ex:murcia_2025_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -6854,7 +6854,7 @@ ex:navarra_2014_co a schema:Observation ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_navarra ;
     schema:unitCode "PPM" ;
-    schema:value "1.1939151661783007"^^xsd:float .
+    schema:value "1.3330585553601273"^^xsd:float .
 
 ex:navarra_2014_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -6896,7 +6896,7 @@ ex:navarra_2015_co a schema:Observation ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_navarra ;
     schema:unitCode "PPM" ;
-    schema:value "1.2778042935831135"^^xsd:float .
+    schema:value "1.426724438964441"^^xsd:float .
 
 ex:navarra_2015_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -6938,7 +6938,7 @@ ex:navarra_2016_co a schema:Observation ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_navarra ;
     schema:unitCode "PPM" ;
-    schema:value "1.1468312957375817"^^xsd:float .
+    schema:value "1.2804873525741038"^^xsd:float .
 
 ex:navarra_2016_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -6980,7 +6980,7 @@ ex:navarra_2017_co a schema:Observation ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_navarra ;
     schema:unitCode "PPM" ;
-    schema:value "1.231531828424994"^^xsd:float .
+    schema:value "1.3750592057016089"^^xsd:float .
 
 ex:navarra_2017_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -7022,7 +7022,7 @@ ex:navarra_2018_co a schema:Observation ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_navarra ;
     schema:unitCode "PPM" ;
-    schema:value "1.157800202264496"^^xsd:float .
+    schema:value "1.2927346169550853"^^xsd:float .
 
 ex:navarra_2018_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -7064,7 +7064,7 @@ ex:navarra_2019_co a schema:Observation ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_navarra ;
     schema:unitCode "PPM" ;
-    schema:value "0.9150254818319102"^^xsd:float .
+    schema:value "1.0216660123625458"^^xsd:float .
 
 ex:navarra_2019_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -7106,7 +7106,7 @@ ex:navarra_2020_co a schema:Observation ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_navarra ;
     schema:unitCode "PPM" ;
-    schema:value "0.9439707478861824"^^xsd:float .
+    schema:value "1.0539846692017374"^^xsd:float .
 
 ex:navarra_2020_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -7148,7 +7148,7 @@ ex:navarra_2021_co a schema:Observation ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_navarra ;
     schema:unitCode "PPM" ;
-    schema:value "0.9545174093687608"^^xsd:float .
+    schema:value "1.0657604785038688"^^xsd:float .
 
 ex:navarra_2021_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -7190,7 +7190,7 @@ ex:navarra_2022_co a schema:Observation ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_navarra ;
     schema:unitCode "PPM" ;
-    schema:value "1.069695590946834"^^xsd:float .
+    schema:value "1.1943619609985998"^^xsd:float .
 
 ex:navarra_2022_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -7232,7 +7232,7 @@ ex:navarra_2023_co a schema:Observation ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_navarra ;
     schema:unitCode "PPM" ;
-    schema:value "0.9463587964686792"^^xsd:float .
+    schema:value "1.0566510299982943"^^xsd:float .
 
 ex:navarra_2023_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -7274,7 +7274,7 @@ ex:navarra_2024_co a schema:Observation ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_navarra ;
     schema:unitCode "PPM" ;
-    schema:value "0.8379142894170599"^^xsd:float .
+    schema:value "0.9355679899279384"^^xsd:float .
 
 ex:navarra_2024_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -7316,7 +7316,7 @@ ex:navarra_2025_co a schema:Observation ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_navarra ;
     schema:unitCode "PPM" ;
-    schema:value "0.956225259617894"^^xsd:float .
+    schema:value "1.067667368080595"^^xsd:float .
 
 ex:navarra_2025_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -7358,7 +7358,7 @@ ex:pais_vasco_2014_co a schema:Observation ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_pais_vasco ;
     schema:unitCode "PPM" ;
-    schema:value "1.637919522543756"^^xsd:float .
+    schema:value "1.7035078094530502"^^xsd:float .
 
 ex:pais_vasco_2014_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -7400,7 +7400,7 @@ ex:pais_vasco_2015_co a schema:Observation ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_pais_vasco ;
     schema:unitCode "PPM" ;
-    schema:value "1.673880136433301"^^xsd:float .
+    schema:value "1.7388668355875008"^^xsd:float .
 
 ex:pais_vasco_2015_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -7442,7 +7442,7 @@ ex:pais_vasco_2016_co a schema:Observation ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_pais_vasco ;
     schema:unitCode "PPM" ;
-    schema:value "1.525098916966491"^^xsd:float .
+    schema:value "1.5910620350878537"^^xsd:float .
 
 ex:pais_vasco_2016_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -7484,7 +7484,7 @@ ex:pais_vasco_2017_co a schema:Observation ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_pais_vasco ;
     schema:unitCode "PPM" ;
-    schema:value "1.6845858094404325"^^xsd:float .
+    schema:value "1.7564423164596146"^^xsd:float .
 
 ex:pais_vasco_2017_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -7526,7 +7526,7 @@ ex:pais_vasco_2018_co a schema:Observation ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_pais_vasco ;
     schema:unitCode "PPM" ;
-    schema:value "1.6101229470845742"^^xsd:float .
+    schema:value "1.678375223487287"^^xsd:float .
 
 ex:pais_vasco_2018_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -7568,7 +7568,7 @@ ex:pais_vasco_2019_co a schema:Observation ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_pais_vasco ;
     schema:unitCode "PPM" ;
-    schema:value "1.5553457769096537"^^xsd:float .
+    schema:value "1.619595448909659"^^xsd:float .
 
 ex:pais_vasco_2019_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -7610,7 +7610,7 @@ ex:pais_vasco_2020_co a schema:Observation ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_pais_vasco ;
     schema:unitCode "PPM" ;
-    schema:value "1.4265480392464014"^^xsd:float .
+    schema:value "1.4854187575487316"^^xsd:float .
 
 ex:pais_vasco_2020_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -7652,7 +7652,7 @@ ex:pais_vasco_2021_co a schema:Observation ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_pais_vasco ;
     schema:unitCode "PPM" ;
-    schema:value "1.4884430969861773"^^xsd:float .
+    schema:value "1.5510367730108443"^^xsd:float .
 
 ex:pais_vasco_2021_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -7694,7 +7694,7 @@ ex:pais_vasco_2022_co a schema:Observation ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_pais_vasco ;
     schema:unitCode "PPM" ;
-    schema:value "1.576936700883354"^^xsd:float .
+    schema:value "1.649230371479737"^^xsd:float .
 
 ex:pais_vasco_2022_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -7736,7 +7736,7 @@ ex:pais_vasco_2023_co a schema:Observation ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_pais_vasco ;
     schema:unitCode "PPM" ;
-    schema:value "1.4705205922685467"^^xsd:float .
+    schema:value "1.5350757697849926"^^xsd:float .
 
 ex:pais_vasco_2023_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -7778,7 +7778,7 @@ ex:pais_vasco_2024_co a schema:Observation ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_pais_vasco ;
     schema:unitCode "PPM" ;
-    schema:value "1.3692297907456348"^^xsd:float .
+    schema:value "1.4275950566882878"^^xsd:float .
 
 ex:pais_vasco_2024_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -7820,7 +7820,7 @@ ex:pais_vasco_2025_co a schema:Observation ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_pais_vasco ;
     schema:unitCode "PPM" ;
-    schema:value "1.4342006121057185"^^xsd:float .
+    schema:value "1.4959998169987991"^^xsd:float .
 
 ex:pais_vasco_2025_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -7862,7 +7862,7 @@ ex:rioja_2014_co a schema:Observation ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_rioja ;
     schema:unitCode "PPM" ;
-    schema:value "0.9126079956720596"^^xsd:float .
+    schema:value "1.018966783222029"^^xsd:float .
 
 ex:rioja_2014_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -7904,7 +7904,7 @@ ex:rioja_2015_co a schema:Observation ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_rioja ;
     schema:unitCode "PPM" ;
-    schema:value "1.0814966409221949"^^xsd:float .
+    schema:value "1.2075383499729049"^^xsd:float .
 
 ex:rioja_2015_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -7946,7 +7946,7 @@ ex:rioja_2016_co a schema:Observation ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_rioja ;
     schema:unitCode "PPM" ;
-    schema:value "0.9394088601270416"^^xsd:float .
+    schema:value "1.0488911217888326"^^xsd:float .
 
 ex:rioja_2016_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -7988,7 +7988,7 @@ ex:rioja_2017_co a schema:Observation ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_rioja ;
     schema:unitCode "PPM" ;
-    schema:value "0.943407636909856"^^xsd:float .
+    schema:value "1.053355931142389"^^xsd:float .
 
 ex:rioja_2017_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -8030,7 +8030,7 @@ ex:rioja_2018_co a schema:Observation ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_rioja ;
     schema:unitCode "PPM" ;
-    schema:value "1.055532217281463"^^xsd:float .
+    schema:value "1.1785479341964933"^^xsd:float .
 
 ex:rioja_2018_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -8072,7 +8072,7 @@ ex:rioja_2019_co a schema:Observation ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_rioja ;
     schema:unitCode "PPM" ;
-    schema:value "1.1011345303656586"^^xsd:float .
+    schema:value "1.229464913328007"^^xsd:float .
 
 ex:rioja_2019_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -8114,7 +8114,7 @@ ex:rioja_2020_co a schema:Observation ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_rioja ;
     schema:unitCode "PPM" ;
-    schema:value "1.0498578898705817"^^xsd:float .
+    schema:value "1.172212299207281"^^xsd:float .
 
 ex:rioja_2020_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -8156,7 +8156,7 @@ ex:rioja_2021_co a schema:Observation ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_rioja ;
     schema:unitCode "PPM" ;
-    schema:value "1.2387680722809775"^^xsd:float .
+    schema:value "1.383138788786033"^^xsd:float .
 
 ex:rioja_2021_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -8198,7 +8198,7 @@ ex:rioja_2022_co a schema:Observation ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_rioja ;
     schema:unitCode "PPM" ;
-    schema:value "1.163943560901071"^^xsd:float .
+    schema:value "1.299593945843038"^^xsd:float .
 
 ex:rioja_2022_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -8240,7 +8240,7 @@ ex:rioja_2023_co a schema:Observation ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_rioja ;
     schema:unitCode "PPM" ;
-    schema:value "1.1752026667566906"^^xsd:float .
+    schema:value "1.3121652304801052"^^xsd:float .
 
 ex:rioja_2023_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -8282,7 +8282,7 @@ ex:rioja_2024_co a schema:Observation ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_rioja ;
     schema:unitCode "PPM" ;
-    schema:value "1.031675417627352"^^xsd:float .
+    schema:value "1.1519107728777167"^^xsd:float .
 
 ex:rioja_2024_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -8324,7 +8324,7 @@ ex:rioja_2025_co a schema:Observation ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_rioja ;
     schema:unitCode "PPM" ;
-    schema:value "0.8717232399811549"^^xsd:float .
+    schema:value "0.9733171634655194"^^xsd:float .
 
 ex:rioja_2025_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -8366,7 +8366,7 @@ ex:total_nacional_2013_co a schema:Observation ;
     schema:observationDate "2013"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPM" ;
-    schema:value "0.950466378420805"^^xsd:float .
+    schema:value "1.0612373250871254"^^xsd:float .
 
 ex:total_nacional_2013_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
@@ -8408,504 +8408,504 @@ ex:total_nacional_2014_co a schema:Observation ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPM" ;
-    schema:value "1.5279658480909466"^^xsd:float .
+    schema:value "1.6508560286107097"^^xsd:float .
 
 ex:total_nacional_2014_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "10.27081092305677"^^xsd:float .
+    schema:value "10.270482598201312"^^xsd:float .
 
 ex:total_nacional_2014_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "27.252486084998825"^^xsd:float .
+    schema:value "27.73174984345225"^^xsd:float .
 
 ex:total_nacional_2014_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "UGM3" ;
-    schema:value "21.422581762728512"^^xsd:float .
+    schema:value "21.424954882740813"^^xsd:float .
 
 ex:total_nacional_2014_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "UGM3" ;
-    schema:value "46.8879749784581"^^xsd:float .
+    schema:value "46.44498619442977"^^xsd:float .
 
 ex:total_nacional_2014_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2014"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "2.5102132806865494"^^xsd:float .
+    schema:value "2.486894939524537"^^xsd:float .
 
 ex:total_nacional_2015_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPM" ;
-    schema:value "1.5443618934582155"^^xsd:float .
+    schema:value "1.667831049830062"^^xsd:float .
 
 ex:total_nacional_2015_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "9.681453359961823"^^xsd:float .
+    schema:value "9.681222099432537"^^xsd:float .
 
 ex:total_nacional_2015_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "30.1604766202067"^^xsd:float .
+    schema:value "30.5795934638162"^^xsd:float .
 
 ex:total_nacional_2015_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "UGM3" ;
-    schema:value "20.77590792546977"^^xsd:float .
+    schema:value "20.77484712064365"^^xsd:float .
 
 ex:total_nacional_2015_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "UGM3" ;
-    schema:value "47.34132994189558"^^xsd:float .
+    schema:value "46.87469061080064"^^xsd:float .
 
 ex:total_nacional_2015_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2015"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "2.589776620540836"^^xsd:float .
+    schema:value "2.5666016953187096"^^xsd:float .
 
 ex:total_nacional_2016_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPM" ;
-    schema:value "1.4446950192855137"^^xsd:float .
+    schema:value "1.5567360908917312"^^xsd:float .
 
 ex:total_nacional_2016_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "8.711294442107688"^^xsd:float .
+    schema:value "8.711251530706985"^^xsd:float .
 
 ex:total_nacional_2016_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "29.657618764695197"^^xsd:float .
+    schema:value "30.04272651878945"^^xsd:float .
 
 ex:total_nacional_2016_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "UGM3" ;
-    schema:value "18.93324115479645"^^xsd:float .
+    schema:value "18.93246064493183"^^xsd:float .
 
 ex:total_nacional_2016_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "UGM3" ;
-    schema:value "42.80846609608729"^^xsd:float .
+    schema:value "42.371632604580434"^^xsd:float .
 
 ex:total_nacional_2016_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2016"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "2.250249025872928"^^xsd:float .
+    schema:value "2.2278717945854405"^^xsd:float .
 
 ex:total_nacional_2017_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPM" ;
-    schema:value "1.2708221554672197"^^xsd:float .
+    schema:value "1.3653434700636715"^^xsd:float .
 
 ex:total_nacional_2017_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "9.486075123457896"^^xsd:float .
+    schema:value "9.48283723098032"^^xsd:float .
 
 ex:total_nacional_2017_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "33.39560286775876"^^xsd:float .
+    schema:value "34.052047758033865"^^xsd:float .
 
 ex:total_nacional_2017_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "UGM3" ;
-    schema:value "20.20910050715053"^^xsd:float .
+    schema:value "20.207970006402967"^^xsd:float .
 
 ex:total_nacional_2017_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "UGM3" ;
-    schema:value "37.33983724061057"^^xsd:float .
+    schema:value "36.58994724878632"^^xsd:float .
 
 ex:total_nacional_2017_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2017"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "2.091689624589893"^^xsd:float .
+    schema:value "2.0573603255095656"^^xsd:float .
 
 ex:total_nacional_2018_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPM" ;
-    schema:value "1.2344150795746829"^^xsd:float .
+    schema:value "1.319701995986883"^^xsd:float .
 
 ex:total_nacional_2018_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "8.562014945823185"^^xsd:float .
+    schema:value "8.559310945708267"^^xsd:float .
 
 ex:total_nacional_2018_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "33.80380366300452"^^xsd:float .
+    schema:value "34.2101894470502"^^xsd:float .
 
 ex:total_nacional_2018_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "UGM3" ;
-    schema:value "19.78630508211502"^^xsd:float .
+    schema:value "19.76344431320057"^^xsd:float .
 
 ex:total_nacional_2018_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "UGM3" ;
-    schema:value "37.25136496115488"^^xsd:float .
+    schema:value "36.45170562206512"^^xsd:float .
 
 ex:total_nacional_2018_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2018"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "2.029247589136938"^^xsd:float .
+    schema:value "1.992379429198498"^^xsd:float .
 
 ex:total_nacional_2019_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPM" ;
-    schema:value "1.223447278599867"^^xsd:float .
+    schema:value "1.299213015509159"^^xsd:float .
 
 ex:total_nacional_2019_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "8.447825718570238"^^xsd:float .
+    schema:value "8.445092117956351"^^xsd:float .
 
 ex:total_nacional_2019_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "32.76548369080271"^^xsd:float .
+    schema:value "32.94016907345824"^^xsd:float .
 
 ex:total_nacional_2019_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "UGM3" ;
-    schema:value "19.005957170267827"^^xsd:float .
+    schema:value "18.985758005396875"^^xsd:float .
 
 ex:total_nacional_2019_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "UGM3" ;
-    schema:value "35.80379351704167"^^xsd:float .
+    schema:value "35.03155236864845"^^xsd:float .
 
 ex:total_nacional_2019_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2019"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "2.051234494279285"^^xsd:float .
+    schema:value "2.018484400655143"^^xsd:float .
 
 ex:total_nacional_2020_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPM" ;
-    schema:value "1.1421890293898125"^^xsd:float .
+    schema:value "1.2134774476212982"^^xsd:float .
 
 ex:total_nacional_2020_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "6.946982919597151"^^xsd:float .
+    schema:value "6.94256696426024"^^xsd:float .
 
 ex:total_nacional_2020_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "31.300903353729066"^^xsd:float .
+    schema:value "31.48624733359012"^^xsd:float .
 
 ex:total_nacional_2020_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "UGM3" ;
-    schema:value "19.25682914528068"^^xsd:float .
+    schema:value "19.25528623821903"^^xsd:float .
 
 ex:total_nacional_2020_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "UGM3" ;
-    schema:value "33.45177973580709"^^xsd:float .
+    schema:value "32.73519769165922"^^xsd:float .
 
 ex:total_nacional_2020_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2020"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "1.7873219107857652"^^xsd:float .
+    schema:value "1.7521312546674823"^^xsd:float .
 
 ex:total_nacional_2021_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPM" ;
-    schema:value "1.1468578979609614"^^xsd:float .
+    schema:value "1.2193577348253617"^^xsd:float .
 
 ex:total_nacional_2021_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "6.98632443848431"^^xsd:float .
+    schema:value "6.980735725605133"^^xsd:float .
 
 ex:total_nacional_2021_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "31.44423045675775"^^xsd:float .
+    schema:value "31.624803785942547"^^xsd:float .
 
 ex:total_nacional_2021_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "UGM3" ;
-    schema:value "20.51607215219234"^^xsd:float .
+    schema:value "20.513626414630235"^^xsd:float .
 
 ex:total_nacional_2021_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "UGM3" ;
-    schema:value "34.03916009546721"^^xsd:float .
+    schema:value "33.298361902706205"^^xsd:float .
 
 ex:total_nacional_2021_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2021"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "1.822705452477102"^^xsd:float .
+    schema:value "1.7805817524911711"^^xsd:float .
 
 ex:total_nacional_2022_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPM" ;
-    schema:value "1.1824730844433975"^^xsd:float .
+    schema:value "1.261242031461938"^^xsd:float .
 
 ex:total_nacional_2022_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "7.390082094000642"^^xsd:float .
+    schema:value "7.384705438060296"^^xsd:float .
 
 ex:total_nacional_2022_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "32.140886308843804"^^xsd:float .
+    schema:value "32.30155038966604"^^xsd:float .
 
 ex:total_nacional_2022_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "UGM3" ;
-    schema:value "21.99137114539026"^^xsd:float .
+    schema:value "21.99087403448546"^^xsd:float .
 
 ex:total_nacional_2022_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "UGM3" ;
-    schema:value "35.92130705558346"^^xsd:float .
+    schema:value "35.15410421053782"^^xsd:float .
 
 ex:total_nacional_2022_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2022"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "1.901027087540748"^^xsd:float .
+    schema:value "1.8568698969330877"^^xsd:float .
 
 ex:total_nacional_2023_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPM" ;
-    schema:value "1.162045299776525"^^xsd:float .
+    schema:value "1.2364570835395592"^^xsd:float .
 
 ex:total_nacional_2023_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "7.172355001803841"^^xsd:float .
+    schema:value "7.168563448158518"^^xsd:float .
 
 ex:total_nacional_2023_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "32.06512095734783"^^xsd:float .
+    schema:value "32.23460538337571"^^xsd:float .
 
 ex:total_nacional_2023_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "UGM3" ;
-    schema:value "20.179365592714387"^^xsd:float .
+    schema:value "20.17697356761361"^^xsd:float .
 
 ex:total_nacional_2023_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "UGM3" ;
-    schema:value "34.018275128761296"^^xsd:float .
+    schema:value "33.27913614982403"^^xsd:float .
 
 ex:total_nacional_2023_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2023"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "1.7441849424769882"^^xsd:float .
+    schema:value "1.7025922692803954"^^xsd:float .
 
 ex:total_nacional_2024_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPM" ;
-    schema:value "1.0986377062093164"^^xsd:float .
+    schema:value "1.16636230092109"^^xsd:float .
 
 ex:total_nacional_2024_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "6.717969973457541"^^xsd:float .
+    schema:value "6.712776201543694"^^xsd:float .
 
 ex:total_nacional_2024_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "31.068389327895293"^^xsd:float .
+    schema:value "31.23829298357429"^^xsd:float .
 
 ex:total_nacional_2024_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "UGM3" ;
-    schema:value "19.76540765406544"^^xsd:float .
+    schema:value "19.7624779487162"^^xsd:float .
 
 ex:total_nacional_2024_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "UGM3" ;
-    schema:value "32.654599003473834"^^xsd:float .
+    schema:value "31.915730563156053"^^xsd:float .
 
 ex:total_nacional_2024_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2024"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "1.6647149899465905"^^xsd:float .
+    schema:value "1.623353153492595"^^xsd:float .
 
 ex:total_nacional_2025_co a schema:Observation ;
     schema:measuredProperty ex:co ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPM" ;
-    schema:value "1.0280822084717318"^^xsd:float .
+    schema:value "1.0946428729044018"^^xsd:float .
 
 ex:total_nacional_2025_no2 a schema:Observation ;
     schema:measuredProperty ex:no2 ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "5.89659646509923"^^xsd:float .
+    schema:value "5.894809283516751"^^xsd:float .
 
 ex:total_nacional_2025_o3 a schema:Observation ;
     schema:measuredProperty ex:o3 ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "30.233296063059704"^^xsd:float .
+    schema:value "30.565829593945143"^^xsd:float .
 
 ex:total_nacional_2025_pm10 a schema:Observation ;
     schema:measuredProperty ex:pm10 ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "UGM3" ;
-    schema:value "18.684317249243776"^^xsd:float .
+    schema:value "18.683640960461627"^^xsd:float .
 
 ex:total_nacional_2025_pm25 a schema:Observation ;
     schema:measuredProperty ex:pm25 ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "UGM3" ;
-    schema:value "30.185347027869653"^^xsd:float .
+    schema:value "29.66039490524881"^^xsd:float .
 
 ex:total_nacional_2025_so2 a schema:Observation ;
     schema:measuredProperty ex:so2 ;
     schema:observationDate "2025"^^xsd:gYear ;
     schema:observedNode ex:Region_total_nacional ;
     schema:unitCode "PPB" ;
-    schema:value "1.58779892191026"^^xsd:float .
+    schema:value "1.559177707257496"^^xsd:float .
 
 ex:Region_castilla_la_mancha a schema:Place ;
     owl:sameAs <http://www.wikidata.org/entity/Q5748> ;

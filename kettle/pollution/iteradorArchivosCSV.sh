@@ -104,9 +104,6 @@ echo "Super CSV created at $SUPER_CSV"
 echo "Generando total_polution.csv agregando por año y región..."
 python3 agregador.py
 
-# SEXTO (ÚLTIMO) PASO - Esquematización
-python3 esquematizador.py
-
 # LIMPIEZA
 deactivate
 
