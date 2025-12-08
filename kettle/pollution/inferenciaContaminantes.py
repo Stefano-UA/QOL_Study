@@ -102,7 +102,8 @@ def main():
     out_df = pd.DataFrame(new_rows)
     try:
         out_df.to_csv(file_path, sep=';', index=False)
-        print(f"Inferencia Completada, el CSV inferido es: {file_path}")
+        print("ÉXITO")
+        print(f"Inferencia Completada, el CSV inferido es: \n{file_path}")
     except Exception as e:
         print(f"ERROR: No se pudo guardar: {file_path} porque {e}")
         sys.exit(1)

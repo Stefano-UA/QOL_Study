@@ -20,11 +20,11 @@ def main():
         
     # Ver que columnas faltan
     missing = [col for col in EXPECTED_COLUMNS if col not in df.columns]
-    print(f"Las columnas DEBERIAN ser: {[columna for columna in df.columns]}")
-    if not missing:
-        print(f"TODO CORRECTO en: \n{file_path}")
-    else:
+    if missing:
+        print(f"Las columnas DEBERIAN ser: {[columna for columna in df.columns]}")
         print(f"Y FALTAN -> {missing} en: \n{file_path}")
+    else:
+        print("ÉXITO")
         
 if __name__ == "__main__":
     main()

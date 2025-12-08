@@ -34,8 +34,8 @@ PROPERTY_RESOURCES = {pol: EX[pol] for pol in UNIT_MAP.keys()}
 
 # --- Rutas ---
 INPUT_CSV = "../dist/kettle/pollution.csv"
-OUTPUT_TTL = "../schema/total_pollution.ttl"
-OUTPUT_RDF = "../schema/total_pollution.rdf"
+OUTPUT_TTL = "../schema/pollution.ttl"
+#OUTPUT_RDF = "../schema/total_pollution.rdf"
 
 # --- Leer CSV ---
 df = pd.read_csv(INPUT_CSV, sep='\t')
@@ -83,6 +83,6 @@ for idx, row in df.iterrows():
 
 # --- Guardar grafo ---
 g.serialize(destination=OUTPUT_TTL, format='turtle')
-g.serialize(destination=OUTPUT_RDF, format='xml')
+#g.serialize(destination=OUTPUT_RDF, format='xml')
 
 print(f"Generated:\n - {OUTPUT_TTL}\n - {OUTPUT_RDF}")

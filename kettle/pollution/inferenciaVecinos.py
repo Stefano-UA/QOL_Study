@@ -89,7 +89,8 @@ def main():
     # Escribimos en el archivo de salida
     try:
         df_ratios.to_csv(ratios_csv, sep=';', index=False)
-        print(f"Ratios actualizados guardados en: {ratios_csv}")
+        print("ÉXITO")
+        print(f"Ratios actualizados guardados en: \n{ratios_csv}")
     except Exception as e:
         print(f"ERROR: No se pudo guardar los ratios actualizados: {e}")
         sys.exit(1)

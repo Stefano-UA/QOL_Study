@@ -67,7 +67,7 @@ df_long = df_long.sort_values(
 # ----------------------------------------------------------
 try:
     df_long.to_csv(total_csv_path, sep='\t', index=False)
-    print(f"Aggregated total CSV saved to {total_csv_path}")
+    print(f"Agregado el csv en: \n {total_csv_path}")
 except Exception as e:
-    print(f"ERROR: Could not save {total_csv_path}: {e}")
+    print(f"ERROR: No se pudo guardar {total_csv_path}: {e}")
     exit(1)

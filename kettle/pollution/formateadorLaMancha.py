@@ -54,5 +54,7 @@ def main():
         print(f"ERROR: No se pudo sobreescribir el archivo: {e}")
         sys.exit(1)
 
+    print("ÉXITO")
+
 if __name__ == "__main__":
     main()

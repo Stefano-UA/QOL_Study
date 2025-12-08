@@ -120,8 +120,8 @@ def main():
     out_file = file_path.replace(".csv", "_inferred.csv")
     out_df = pd.DataFrame(new_rows)
     out_df.to_csv(out_file, sep=';', index=False)
-
-    print(f"Inferencia completada en: {out_file}")
+    print("ÉXITO")
+    print(f"Inferencia completada en: \n{out_file}")
 
 
 if __name__ == "__main__":

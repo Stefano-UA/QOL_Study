@@ -23,6 +23,8 @@ def main():
     if missing:
         print(f"Las columnas DEBERIAN ser: {[columna for columna in df.columns]}")
         print(f"Y FALTAN -> {missing} en: \n{file_path}")
+    else:
+        print("ÉXITO")
         
 if __name__ == "__main__":
     main()
