@@ -1,6 +1,20 @@
-# Adquisición y Preparación de Datos (G3)
+# Adquisición y Preparación de Datos
 
-## Equipo
+## Índice
+
+- [Equipo](#equipo)
+- [Apartados](#apartados)
+- [Estructura del Repositorio](#estructura-del-repositorio)
+1. [Temática y Preguntas](#temática-y-preguntas)
+2. [Obtención de Datos Relevantes](#obtención-de-datos-relevantes)
+3. [Almacén de Datos](#almacén-de-datos)
+4. [Transformación y Limpieza](#transformación-y-limpieza)
+5. [Transformación a Tripletas](#transformación-a-tripletas)
+6. [Visualizaciones](#visualizaciones)
+7. [Documentación y Memoria](#documentación-y-memoria)
+<!--8. []()-->
+
+## Equipo (G3)
 
 - Carlos Salas - [Gh](https://github.com/csalas-alarcon)
 - David Muñoz - [Gh](https://github.com/oppangangnamsta)
@@ -10,7 +24,7 @@
 ## Apartados
 
 1. - [X] Temática y Preguntas
-2. - [X] Obtención de Datos
+2. - [ ] Obtención de Datos
 3. - [ ] Diseño Conceptual, Lógico y Físico
 4. - [ ] Extracción y Preparación de Datos (pentaho)
 5. - [ ] Transformación de Datos (tripletas)
@@ -27,7 +41,7 @@ Las casillas **marcadas** con una *X* indican que ese miembro del equipo le ha d
 |:-:|:---:|:---:|:---:|:---:|
 | 1 | (X) | (X) | (X) | (X) |
 | 2 | ( ) | ( ) | ( ) | (X) |
-| 3 | ( ) | ( ) | ( ) | ( ) |
+| 3 | ( ) | ( ) | ( ) | (X) |
 | 4 | ( ) | ( ) | ( ) | (X) |
 | 5 | ( ) | ( ) | ( ) | ( ) |
 | 6 | ( ) | ( ) | ( ) | (X) |
@@ -37,17 +51,17 @@ Las casillas **marcadas** con una *X* indican que ese miembro del equipo le ha d
 ## Estructura del Repositorio
 
 - ./**data**: Datos obtenidos
-    - /**pollution**: Datos de sensores de contaminación por CCAA
+    - /**pollution**: Datos de sensores de contaminación del aire por CCAA
     - /*gini_ccaa.csv*: Índice de desigualdad GINI por CCAA
     - /*ipc_ccaa.csv*: Índice de Precios de Consumo por CCAA
     - /*pibc_ccaa.csv*: Producto Interior Bruto per capita por CCAA
     - /*pob_ccaa.csv*: Cantidad de población por CCAA
-    - /*qol_ccaa.xslx*: Indice de calidad de vida por CCAA
-    - /*qol_ccaa_ex.xslx*: Indice de calidad de vida por CCAA con muchos datos extra
+    - /*qol_ccaa.xslx*: Índice de calidad de vida por CCAA
+    - /*qol_ccaa_ex.xslx*: Índice de calidad de vida por CCAA con datos extra
 - ./**design**: Diseños del almacen de datos
     - /*conceptual.md*: Diseño conceptual
     - /*logic.png*: Diseño lógico
-    - /*logic.mwb*: Diseño lógico, modelo de MySQL Workbench
+    - /*logic.mwb*: Diseño lógico (modelo de MySQL Workbench)
     - /*physic.sql*: Diseño físico
 - ./**dist**: Agregados de datos final
     - /**kettle**: Agregados generados por las transformaciones de Pentaho y Python
@@ -60,80 +74,213 @@ Las casillas **marcadas** con una *X* indican que ese miembro del equipo le ha d
     - /**steps**: Transformaciones de Pentaho para cada uno de los CSV de entrada
     - /*agg_all.ktr*: Transformación de Pentaho para agregar todos los CSV limpios en uno final
     - /*data.kjb*: Trabajo de Pentaho que orquestra todo el proceso de limpieza, transformación y agregación de datos
+- ./**pdi** Contiene una copia de [Pentaho Data Integration](https://pentaho.com/products/pentaho-data-integration/)
 - ./**schema**: Modelos Semánticos
     - /*.ttl*:
     - /*.rdf*:
 - ./**visuals**: Visualizaciones de datos
     - /**code**: Código para generar las visualizaciones
     - /*.png*: Visualizaciones
+- *start.sh*: Script para ejecutar las transformaciones y generar las visualizaciones
 
-## Preguntas a Responder
+> [!IMPORTANT]
+> **DISCLAIMER:** Se incluyen los binarios de **Pentaho Data Integration (PDI)** únicamente para asegurar la reproducibilidad del ETL sin configuraciones externas. La propiedad intelectual del software pertenece íntegramente a **Hitachi Vantara**.
 
-- ¿Cómo influye la economia de una CCAA en la calidad de vida de sus habitantes?
-- ¿Cómo influyen el turismo y la contaminación de una CCAA en la calidad de vida de sus habitantes?
-- ¿Influye más la economia de la CCAA o su turismo y contaminación en la calidad de vida de sus habitantes?
+> [!WARNING]
+> Ejecutar *./start.sh* sobrescribe algunos ficheros que se encuentran en las carpetas *./dist*, *./schema* y *./visual*.
 
-## Datos Relevantes
+## Temática y Preguntas
 
-Haremos uso de los siguientes datos para tratar de responder a estas preguntas.
-Los datos agregaran la información por **Año**, fijandonos a poder ser en los más *recientes*,
-por **CCAA** y sin tener en cuenta el **Sexo** de las personas.
+- **Temática**: Calidad de Vida (*QOL*)
+- **Lienzo del problema**:
+	- *Who*: Los habitantes de las CCAA estudiadas y sus respectivas administraciones públicas.
+	- *What*: Determinar la influencia estadística real de factores económicos, sociales y ambientales en la Calidad de Vida.
+	- *Where*: En las diferentes CCAA de España durante los ultimos 12 años aproximadamente.
+	- *Why*: Optimizar la toma de decisiones identificando qué variables afectan más a la calidad de vida real.
+- **Objetivos**:
+	- Cuantificar la correlación y la magnitud del impacto de las variables macroeconómicas (PIB, IPC), sociales (GINI) y ambientales (Contaminación) sobre el Índice de Calidad de Vida (QOL).
+- **Casos de uso**:
+	- Soporte a la decisión en políticas públicas: Sirve de diagnóstico para administraciones ya que permite priorizar las inversiones y maximizar asi el impacto de las mismas.
+	- Benchmarking competitivo entre CCAA: Sirve como análisis comparativo para evaluar la evolución relativa de una CCAA frente a las demas. Esto permite evaluar la gestión de cada CCAA respecto al resto y asi copiar las estrategias que hayan tenido más éxito y descartar las que hayan tenido menos.
+- **Metricas Clave**:
+	- *QOL*: Índice de Calidad de Vida -> Sobre lo que se va a realizar el estudio.
+	- *PIB y IPC*: Variables macroeconómicas -> Sobre lo que se va a medir el impacto.
+	- *GINI*: Índice de Desigualdad -> Sobre lo que se va a medir el impacto.
+	- *Contaminación*: Índice de toxicidad acumulada en el aire -> Sobre lo que se va a medir el impacto.
+	- *Poblaciones*: Cantidad de habitantes -> No es una metrica clave pero es bastante relevante y también se puede medir su impacto.
+- **Preguntas**:
+	- ¿Cómo influye la economia de una CCAA en la calidad de vida de sus habitantes?
+	- ¿Cómo influyen el turismo y la contaminación de una CCAA en la calidad de vida de sus habitantes?
+	- ¿Influye más la economia de la CCAA o su turismo y contaminación en la calidad de vida de sus habitantes?
 
-- Contaminación del aire -> *pollution/*
-- Cantidad de población -> *pob_ccaa.csv*
-- Indice de calidad de vida -> *qol_ccaa.xslx*
-- Índice de precios de consumo -> *ipc_ccaa.csv*
-- Producto interior bruto per capita -> *pibc_ccaa.csv*
-- Índice de desigualdad económica GINI -> *gini_ccaa.csv*
+## Obtención de Datos Relevantes
 
-## Agregación de Datos
+Haremos uso de los siguientes datos para tratar de responder las preguntas.
+Los datos tienen que tener la información por **Año**, sobretodo a poder ser los más *recientes*, por **CCAA** y sin tener en cuenta el **Sexo** ni **Edad** de las personas.
 
-La agregación de datos la realizaremos basandonos en las siguientes columnas.
-Estas columnas deben tener **exactamente** el nombre indicado y sus valores tienen que estar **formateados** como se indica.
+### Datos Obtenidos:
 
-### Year
+| Descripción | Archivo(s) | Tipo | Fuente |
+|:-----------:|:----------:|:----:|:------:|
+| Índice de calidad de vida | *qol_ccaa.xslx* | Excel | [INE](https://www.ine.es/) |
+| Producto interior bruto | *pibc_ccaa.csv* | CSV | [INE](https://www.ine.es/) |
+| Índice de precios de consumo | *ipc_ccaa.csv* | CSV | [INE](https://www.ine.es/) |
+| Índice de desigualdad económica GINI | *gini_ccaa.csv* | CSV | [INE](https://www.ine.es/) |
+| Contaminación del aire | *pollution/* | CSVs | [AQICN](https://aqicn.org/historical) & [Sensor Community](https://archive.sensor.community/) |
+| Cantidad de población | *pob_ccaa.csv* | CSV | [INE](https://www.ine.es/) |
 
-Contiene el año en formato YYYY como valor. Ej. 2025.
+> [!NOTE]
+> Todos los datos se encuentran en la carpeta *./data*.
 
-### CCAA
+### Analisis de las fuentes:
 
-Contiene una de las siguientes Comunidades Autónomas como valor:
+Las fuentes utilizadas han sido:
 
-- total_nacional
-- andalucia
-- aragon
-- asturias
-- baleares
-- canarias
-- cantabria
-- castilla_leon
-- castilla_la_mancha
-- catalunya
-- ceuta
-- comunidad_valenciana
-- extremadura
-- galicia
-- la_rioja
-- madrid
-- mellila
-- murcia
-- navarra
-- pais_vasco
+- **Instituto Nacional de Estadística (INE)**: Se ha utilizado como la fuente primaria de autoridad para la extracción de todas las variables socioeconómicas y demográficas estructurales del estudio.
+	- *Fiabilidad y Validez*: Al ser el organismo oficial encargado de los servicios estadísticos del Estado, garantiza la máxima robustez y consistencia metodológica. Esto asegura que los datos entre diferentes Comunidades Autónomas (CCAA) son perfectamente comparables y no sufren de sesgos de recolección dispares.
+- *AQICN y Sensor Community*: Se han empleado como fuentes complementarias para construir la dimensión ambiental, dado que el INE no proporciona series históricas granulares de calidad del aire con la misma facilidad de acceso.
+	- *Fiabilidad y Validez*: AQICN garantiza la fiabilidad de los datos al agregar mediciones de estaciones oficiales calibradas bajo normativa internacional. Sensor Community, aunque utiliza sensores de bajo coste con menor precisión individual, su agregación masiva permite cubrir vacíos de la red oficial y validar tendencias locales filtrando el ruido instrumental.
 
-## Limpieza General de Datos
+### Inferecias realizadas:
 
-A la hora de procesar los datos, con las transformaciones de pentaho,
-realizaremos las siguientes operaciones de limpieza, en orden.
+-- RELLENAR POR CARLOS (Inferencis de pollution, como funcionan a grandes rasgos y porque eran necesarias)
 
-### String operations
+## Almacén de Datos
+
+A continuación el diseño conceptual, lógico y físico del almacén de datos que se encargará de almacenar los datos de nuestro estudio.
+
+> [!NOTE]
+> Todos los distintos diseños se encuentran en la carpeta *./design*.
+
+### Diseño Conceptual
+
+El diseño conceptual del almacén de datos realizado en markdown:
+
+```markdown
+**Hecho** *Registro_Calidad_Vida*
+
+- Índice GINI
+- PIB per Cápita
+- Población Total
+- Desbalance s80/s20
+- Variacion anual del IPC
+- PIB por Unidad de Consumo
+- Índice de Precios de Consumo
+- Índice de Calidad de Vida
+- Nivel de Contaminación
+
+**Dimension** *Tiempo*
+
+- Año
+
+**Dimension** *Lugar*
+
+- Comunidad Autónoma
+
+```
+
+> [!NOTE]
+> Se encuentra definido en *conceptual.md*.
+
+### Diseño Lógico
+
+El diseño lógico del almacén de datos realizado en [MySQL Workbench](https://www.mysql.com/products/workbench/):
+
+![Diseño Lógico](./design/logic.png)
+
+> [!NOTE]
+> Se encuentra definido en *logic.png* y *logic.mwb*.
+
+### Diseño Físico
+
+El diseño físico se encuentra como código SQL en el archivo *physic.sql* generado por My SQL Workbench a partir del diseño lógico.
+
+## Transformación y Limpieza
+
+Ahora, para transformar, limpiar y agregar todos los datos que hemos recopilado previamente en un unico CSV hemos montado el siguiente flujo de trabajo:
+
+```mermaid
+graph LR;
+    start((Inicio)) -- gini_ccaa.ktr --> gini;
+	start -- pibc_ccaa.ktr --> pib;
+    start -- ipca_ccaa.ktr --> ipc;
+	start -- qol_ccaa.ktr --> qol;
+    start -- pob_ccaa.ktr --> pob;
+    start -- Script Python --> poll;
+    gini(Transformación GINI) --> wait;
+	pib(Transformación PIB) --> wait;
+    ipc(Transformación IPC) --> wait;
+	qol(Transformación QOL) --> wait;
+    pob(Transformación POB) --> wait;
+    poll(Transformación POLL) --> wait;
+    wait{Esperar a que finalizen} -- agg_all.ktr --> merge;
+    merge(Fusionar Datos) --> end((Fin));
+```
+
+Hacemos uso de Python y Pentaho Data Integration para realizar este paso.
+Como resultado obtenemos *data.csv* en la carpeta *./dist* y los subproductos en la carpeta *./dist/kettle*.
+
+> [!NOTE]
+> Se puede ejecutar usando Pentaho Data Integration manualmente o con el script *./start.sh* que además genera las visualizaciones y los RDF.
+
+> [!WARNING]
+> Ejecutar este flujo de trabajo sobrescribe los datos en la carpeta *./dist*.
+
+### Python Script
+
+Usamos Python para programar la agregación de todos los distintos CSV con los datos de la contaminación en uno solo que se pueda agregar al CSV final.
+
+-- CARLOS
+
+### Pentaho Data Integration
+
+El flujo de trabajo *data.kjb* ejecuta, como se puede ver en la figura superior, una transformacion *.ktr* para cada CSV de entrada la cual se encarga de limpiar y transformar los datos, además del script para agregar los datos de la contaminación. Luego, cuando todas estas transformaciones terminan, se ejecuta una ultima transformación que se encarga de agregar todos los distintos datos ya limpios en un solo CSV, de tal forma que todas las filas con algún dato nulo se descartan. Esto es así por diseño ya que nos interesa simplemente tener muchos datos para los cuales tenemos todas las diferentes variables para asi poder analizar las relaciones entre las mismas. A fecha de 08/12/25 el CSV final agregado contiene 180 filas completas.
+
+#### Agregación de Datos
+
+La agregación de datos se realiza basandonos en las siguientes columnas (keys).
+Estas columnas deben tener **exactamente** el nombre indicado y sus valores tienen que estar *formateados* **exactamente** como se indica.
+
+- Year: Contiene el año en formato YYYY como valor. Ej. 2025.
+- CCAA: Contiene una de las siguientes Comunidades Autónomas como valor:
+	- total_nacional
+	- andalucia
+	- aragon
+	- asturias
+	- baleares
+	- canarias
+	- cantabria
+	- castilla_leon
+	- castilla_la_mancha
+	- catalunya
+	- ceuta
+	- comunidad_valenciana
+	- extremadura
+	- galicia
+	- la_rioja
+	- madrid
+	- mellila
+	- murcia
+	- navarra
+	- pais_vasco
+
+Los datos pueden tener opcionalmente la columna *Type* para definir distintos tipos de valores. Simplemente se desnormalizará si existe.
+
+La columna *Value* sera el valor a agregar en el CSV final.
+
+#### Limpieza General de Datos
+
+Como estándar para todas las transformaciones en Pentaho, se ha definido la siguiente secuencia de operaciones:
+
+##### String operations
 
 - *Trim type*: **both** -> Quita los espacios sobrantes al principio y al final de la cadena.
 - *Lower/Upper*: **lower** -> Normaliza todos los caracteres a minusculas.
 - *Remove Sepcial Character*: **carriage return & line feed** -> Quita los caracteres especiales *\cr* y *\n*.
 
-### Replace in string
+##### Replace in string
 
-Reemplazaremos ciertos caracteres con otros siguiendo:
+Reemplazaremos ciertos caracteres con otros:
 
 | Reemplazar | Remplazo |
 |:-----:|:--:|
@@ -145,25 +292,29 @@ Reemplazaremos ciertos caracteres con otros siguiendo:
 | ñ | ny |
 | '&nbsp;' | _ |
 
-### Other
+##### Other
 
 Todo lo demás que tengamos que hacer con los datos.
 
-### Number Format
+##### Number Format
 
 Los valores numéricos también deben seguir un formato.
 En nuestro caso simplemente se usará la coma como separador decimal y no se usaran puntos para nada.
 
-### Sort rows
+##### Sort rows
 
 Finalmente, ordenaremos los datos por las siguientes columnas:
 
 1. [**Ascendente**] Year
 2. [**Ascendente**] CCAA
 
+## Transformación a Tripletas
+
+-- DAVID; LINXI; CARLOS;
+
 ## Visualizaciones
 
-Finalmente tenemos las visualizaciones de los datos agregados (data.csv).
+Finalmente tenemos las visualizaciones de los datos agregados (*data.csv*).
 
 ### PIB vs QOL
 
@@ -200,6 +351,10 @@ Este gráfico de perfiles multivariables visualiza la optimización de objetivos
 ![Correlation Heatmap](./visuals/heatmap.png)
 
 La matriz sintetiza el peso cuantitativo de las variables, confirmando mediante los coeficientes Beta estandarizados que la desigualdad (GINI) es el vector con mayor magnitud de impacto, superando incluso a los indicadores económicos. Mientras que el PIB ejerce una tracción positiva significativa, los coeficientes negativos de la contaminación y la desigualdad revelan que el modelo de calidad de vida es más sensible a los detractores sociales y ambientales que a los incrementos puramente macroeconómicos, validando matemáticamente las tendencias observadas en los gráficos de dispersión.
+
+## Documentación y Memoria
+
+Además de este mismo README.md se incluye una memoria del trabajo en la carpeta *./docs*.
 
 ## Last Edited
 
