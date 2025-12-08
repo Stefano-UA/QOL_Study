@@ -41,7 +41,7 @@ SEPARATOR='\t'
 # <===============================================>
 #  Figure sizes for the visualizations
 # <===============================================>
-FIGSIZES=((12, 8), (12, 8), (12, 8), (12, 8))
+FIGSIZES=((12, 8), (12, 8), (12, 8), (12, 8), (12, 8), (12, 8))
 # <===============================================>
 #  Opacity factor range for showing data age
 # <===============================================>
@@ -187,9 +187,113 @@ plt.legend()
 # <===============================================>
 plt.savefig(OUTDIR + 'gini_vs_qol.png')
 # <===============================================>
-#  PLOT 4: Correlation Heatmap
+#  PLOT 4: IPC vs QOL
 # <===============================================>
 plt.figure(figsize=FIGSIZES[3])
+# <===============================================>
+COLORS=('purple',)
+# <===============================================>
+#  Draw IPC (Dots)
+# <===============================================>
+sns.scatterplot(data=df, x='IPC', y='QOL', color=('tab:'+COLORS[0]), alpha=df['alpha_factor'], size='size_factor', sizes=SZD_RANGE, legend=False, label='Valores del Índice de Precios de Consumo')
+# <===============================================>
+#  Draw IPC (Lines)
+# <===============================================>
+sns.regplot(data=df, x='IPC', y='QOL', scatter=False, truncate=False, color=('tab:'+COLORS[0]), ci=95, line_kws={'alpha': 0.8, 'linewidth': 2}, label='Recta de regresión del Índice de Precios de Consumo (i95)')
+# <===============================================>
+#  Set title, labels and legend
+# <===============================================>
+plt.title(f'Índice de Precios de Consumo vs Calidad de Vida ({min_year}-{max_year % 2000})')
+# <===============================================>
+plt.xlabel('Índice de Precios de Consumo')
+plt.ylabel('Calidad de Vida (QOL)')
+# <===============================================>
+plt.legend()
+# <===============================================>
+#  Save figure to file
+# <===============================================>
+plt.savefig(OUTDIR + 'ipc_vs_qol.png')
+# <===============================================>
+#  PLOT 5: Trade-Offs Graph
+# <===============================================>
+plt.figure(figsize=FIGSIZES[4])
+# <===============================================>
+COLORS=('green', 'grey', 'red')
+# <===============================================>
+#  Features to take into account
+# <===============================================>
+features = ('PIBC', 'PIBG', 'POB', 'POLL', 'GINI', 'IPC', 'QOL')
+# <===============================================>
+#  Group by CCAA by doing the mean of all years
+# <===============================================>
+df_mean = df.groupby('CCAA')[list(features)].mean()
+# <===============================================>
+#  Normalize all feature values
+# <===============================================>
+for ft in features:
+    max_val = df_mean[ft].max()
+    min_val = df_mean[ft].min()
+    df_mean[ft] = (df_mean[ft] - min_val) / (max_val - min_val)
+# <===============================================>
+#  Get largest and smallest QOL candidates
+# <===============================================>
+top = df_mean.nlargest(3, 'QOL').index.tolist()
+bottom = df_mean.nsmallest(3, 'QOL').index.tolist()
+# <===============================================>
+#  Set status for each of the entries
+# <===============================================>
+df_mean['Status'] = df_mean.index.map(lambda ccaa: 'Top 3 (Mejores)' if ccaa in top else 'Bottom 3 (Peores)' if ccaa in bottom else 'Resto')
+df_mean = df_mean.reset_index()
+# <===============================================>
+#  Melt data (denormalise) to plot easily
+# <===============================================>
+df_melt = df_mean.melt(
+    id_vars=['CCAA', 'Status'], # QOL first because Q
+    var_name='Variable',
+    value_name='Valor Normalizado'
+)
+# <===============================================>
+#  Define drawing properties based on ranking
+# <===============================================>
+sizes = {'Top 3 (Mejores)': 2.0, 'Resto': 1.0, 'Bottom 3 (Peores)': 2.0}
+colors = {'Top 3 (Mejores)': COLORS[0], 'Resto': COLORS[1], 'Bottom 3 (Peores)': COLORS[2]}
+# <===============================================>
+#  Draw lines (ALL)
+# <===============================================>
+sns.lineplot(
+    data=df_melt.sort_values('Status', ascending=False), x='Variable', y='Valor Normalizado',
+    units='CCAA', estimator=None, hue='Status', size='Status', legend='brief',
+    sizes=sizes, palette=colors
+)
+# <===============================================>
+#  Draw Labels (TOP + BOTTOM)
+# <===============================================>
+for ccaa in (top + bottom):
+    plt.text(
+        s=ccaa, x=-0.25, y=(df_mean.loc[(df_mean['CCAA'] == ccaa), 'QOL'].values[0] + 0.01),
+        va='center', color=COLORS[1], fontweight='bold', fontsize=10
+    )
+# <===============================================>
+#  Draw a grid
+# <===============================================>
+plt.grid(True, axis='x', linestyle='--', alpha=0.5)
+# <===============================================>
+#  Set title, labels and legend
+# <===============================================>
+plt.title(f'Trade-offs: Relación de Variables por CCAA ({min_year}-{max_year % 2000})')
+# <===============================================>
+plt.xlabel('Variables (Dimensiones)')
+plt.ylabel('Escala Relativa [0-1]')
+# <===============================================>
+plt.legend()
+# <===============================================>
+#  Save figure to file
+# <===============================================>
+plt.savefig(OUTDIR + 'trade_offs.png')
+# <===============================================>
+#  PLOT 6: Correlation Heatmap
+# <===============================================>
+plt.figure(figsize=FIGSIZES[5])
 # <===============================================>
 #  Features to take into account
 # <===============================================>
