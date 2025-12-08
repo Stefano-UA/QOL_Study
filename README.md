@@ -214,7 +214,7 @@ graph LR;
     pob(Transformación POB) --> wait;
     poll(Transformación POLL) --> wait;
     wait{Esperar a que finalizen} -- agg_all.ktr --> merge;
-    merge(Fusionar Datos) --> end((Fin));
+    merge(Fusionar Datos) --> success((Fin));
 ```
 
 Hacemos uso de Python y Pentaho Data Integration para realizar este paso.
@@ -241,8 +241,8 @@ El flujo de trabajo *data.kjb* ejecuta, como se puede ver en la figura superior,
 La agregación de datos se realiza basandonos en las siguientes columnas (keys).
 Estas columnas deben tener **exactamente** el nombre indicado y sus valores tienen que estar *formateados* **exactamente** como se indica.
 
-- Year: Contiene el año en formato YYYY como valor. Ej. 2025.
-- CCAA: Contiene una de las siguientes Comunidades Autónomas como valor:
+- *Year*: Contiene el año en formato YYYY como valor. Ej. 2025.
+- *CCAA*: Contiene una de las siguientes Comunidades Autónomas como valor:
 	- total_nacional
 	- andalucia
 	- aragon
