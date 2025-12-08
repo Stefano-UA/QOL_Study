@@ -14,3 +14,9 @@ tmp
 
 # Python venv
 .venv
+
+# ToDo file
+todo.txt
+
+# PDI folder
+.pdi
