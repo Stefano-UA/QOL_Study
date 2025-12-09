@@ -92,11 +92,8 @@ for region in "$scandir"/*/; do
         [ -e "$file" ] || continue 
 
         echo "Procesando \n$file"
-        echo "----Inferencia de PM25: "
-        python3 inferencia25.py "$nom_region" "$(realpath "$file")"
-        echo "----Inferencia del Resto de Contaminantes"
-        inferred_file="${file%.csv}_inferred.csv"
-        python3 inferenciaContaminantes.py "$nom_region" "$(realpath "$inferred_file")"
+        echo "----Inferencia de PM25 y otros Comntaminantes: "
+        python3 inferencia.py "$nom_region" "$(realpath "$file")"
     done 
 done 
 
