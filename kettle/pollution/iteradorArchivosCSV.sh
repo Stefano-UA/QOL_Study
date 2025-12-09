@@ -39,17 +39,20 @@ for region in "$scandir"/*/; do
         fi
     done
 done
+#!/bin/bash
 
-# SEXTO LOOP- AGREGACIÓN
-echo "##########################"
-echo "# 6a Etapa - AGREGACIÓN  #"
-echo "##########################"
+# ... (PRELIMINAR y PRIMER LOOP - FORMATEO se mantienen iguales) ...
 
+scandir="../../temp/pollution"
 SUPER_CSV="../../temp/pollution/super.csv"
-rm -f "$SUPER_CSV"
 
-# Nuevo Encabezado: Incluye 'id' en la tercera posición
-echo "year;region;sensor;pm25;pm10;o3;no2;so2;co" > "$SUPER_CSV"
+# --- NUEVA ETAPA 2: AGREGACIÓN DE DATOS (Antiguo SEXTO LOOP) ---
+echo "################################################"
+echo "#  2a Etapa - AGREGACIÓN CENTRAL (SUPER_CSV)   #"
+echo "################################################"
+
+# Inicializar SUPER_CSV con el encabezado correcto
+echo "year;region;id;pm25;pm10;o3;no2;so2;co" > "$SUPER_CSV"
 
 for region in "$scandir"/*/; do
     nom_region="$(basename "$region")"
@@ -57,117 +60,51 @@ for region in "$scandir"/*/; do
     for file in "$region"/*.csv; do
         [ -e "$file" ] || continue
 
-        # 1. EXTRACCIÓN DEL ID (Primeros 10 caracteres del nombre del archivo)
-        # Obtenemos solo el nombre base (ej: 2025-11-06_sds011_sensor_83475.csv)
+        # 1. Extracción del ID
         base_name="$(basename "$file")"
-        # Obtenemos los primeros 10 caracteres (ej: 2025-11-06)
         file_id="${base_name:0:10}"
         
         echo "Añadiendo: \n $file (ID: $file_id)"
         
-        # AWK MODIFICADO: Ahora recibe 'file_id' y lo imprime en tercer lugar
+        # 2. AWK para añadir year, region, id, y anexar
         awk -F';' -v OFS=';' -v region="$nom_region" -v file_id="$file_id" 'NR>1 {
-            # 1. Simplificar fecha a solo el año (year)
             split($1,d,"[/]");
             year=d[1];
-            
-            # 2. Estandarizar el nombre de la región
             if (region=="castilla_mancha") region="castilla_la_mancha"
             if (region=="la_rioja") region="rioja"
             
-            # 3. Imprimir en el orden requerido: year, region, id, contaminantes
+            # Orden: year, region, id, contaminantes
             print year, region, file_id, $2, $3, $4, $5, $6, $7
         }' "$file" >> "$SUPER_CSV"
     done
 done
 
-
-
-
-# SEGUNDO LOOP- RATIOS
+# --- NUEVA ETAPA 3: CÁLCULO DE RATIOS (Centralizado) ---
 echo "###################################"
-echo "#  2a Etapa - PATRONES INICIALES  #"
+echo "# 3a Etapa - PATRONES/RATIOS (Centralizado) #"
+echo "###################################" 
+echo "----Calculando Ratios por (YEAR, REGION, SENSOR) y Nacional..."
+# La llamada a ratios.py ya no lleva argumentos
+python3 ratios.py 
+
+# --- NUEVA ETTAAP 4: INFERENCIA DE DATOS (Centralizada) ---
 echo "###################################"
-
-echo "----Analizando Patrones:"
-python3 ratios.py "$nom_region" "$(realpath "$file")"
-
-
-# TERCER LOOP- RATIO NACIONAL
+echo "# 4a Etapa - INFERENCIA DE DATOS (Centralizada) #"
 echo "###################################"
-echo "# 3a Etapa - PATRONES NACIONALES  #"
-echo "###################################" # IDENTIFICADOR?
+echo "----Aplicando Inferencia sobre SUPER_CSV..."
+# La llamada a inferencia.py ya no lleva argumentos y trabaja sobre SUPER_CSV
+python3 inferencia.py 
 
-echo "----Consiguiendo Patrones Nacionales"
-python3 ratiosNacional.py
+# --- ANTIGUAS ETAPAS ELIMINADAS ---
+# SEGUNDO LOOP (Ratios por archivo) - ELIMINADO/FUSIONADO
+# TERCER LOOP (Ratios Nacionales y Anexión) - ELIMINADO/FUSIONADO
+# CUARTO LOOP (Inferencia Patrones) - ELIMINADO/FUSIONADO
+# QUINTO LOOP (Inferencia de Datos por archivo) - ELIMINADO/FUSIONADO
+# SEXTO LOOP (Agregación) - ELIMINADO/FUSIONADO
 
-NACIONAL_RATIOS="../../temp/pollution/nacional_ratios.csv"
-for region in "$scandir"/*/; do
-    nom_region="$(basename "$region")"
-    tail -n +2 "$NACIONAL_RATIOS" >> "$region/${nom_region}_ratios.csv"
-done 
-
-
-# CUARTO LOOP- INFERENCIA RATIOS
-echo "###################################"
-echo "# 4a Etapa - INFERENCIA PATRONES  #"
-echo "###################################"
-
-for region in "$scandir"/*/; do 
-    echo "Trabjando con $(basename "$region")"
-    echo "----Inferencia de Patrones de la Región"
-    python3 ratiosInferencia.py "$region"
-done 
-
-# QUINTO LOOP- INFERENCIA DE DATOS
-echo "###################################"
-echo "# 5a Etapa - INFERENCIA DE DATOS  #"
-echo "###################################"
-for region in "$scandir"/*/; do 
-    nom_region="$(basename "$region")"
-    echo "Trabajando en la Región: $nom_region"
-    for file in "$region"/*.csv; do 
-        [ -e "$file" ] || continue 
-
-        echo "Procesando \n$file"
-        echo "----Inferencia de PM25 y otros Comntaminantes: "
-        python3 inferencia.py "$nom_region" "$(realpath "$file")"
-    done 
-done 
-
-# SEXTO LOOP- AGREGACIÓN
-echo "##########################"
-echo "# 6a Etapa - AGREGACIÓN  #"
-echo "##########################"
-
-SUPER_CSV="../../temp/pollution/super.csv"
-rm -f "$SUPER_CSV"
-echo "date;region;pm25;pm10;o3;no2;so2;co" > "$SUPER_CSV"
-
-for region in "$scandir"/*/; do
-    nom_region="$(basename "$region")"
-    echo "Trabajando en la Región: $nom_region"
-    for file in "$region"/*.csv; do
-        [ -e "$file" ] || continue
-
-        echo "Añadiendo: \n $file"
-        # Añadir filas a super.csv
-        # añadiendo columna region, simplificando fecha.
-        # Nos Saltamos el cabezal.
-        awk -F';' -v OFS=';' -v region="$nom_region" 'NR>1 {
-            split($1,d,"[-/]");   # assuming $1 is date
-            year=d[1];
-            if (region=="castilla_mancha") region="castilla_la_mancha"
-            if (region=="la_rioja") region="rioja"
-            print year, region, $2, $3, $4, $5, $6, $7
-        }' "$file" >> "$SUPER_CSV"
-    done
-done
-
-
-# ÚLTIMO PASO - FACTORIZACIÓN
+# --- NUEVA ETAPA 5: FACTORIZACIÓN (Antiguo Séptimo Loop) ---
 echo "#############################"
-echo "# 7a Etapa - FACTORIZACIÓN  #"
+echo "# 5a Etapa - FACTORIZACIÓN  #"
 echo "#############################"
 echo "Generando pollution.csv agregando por año, región y tipo:"
 python3 agregador.py
