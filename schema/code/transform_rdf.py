@@ -180,7 +180,7 @@ files_to_process = [
         }
     },
 
-    # 4. POBLACION (Archivo simple, sin columna Type)
+    # 4. POBLACION 
     {
         'filename': 'pob_ccaa.csv',
         'output_name': 'rdf_pob.ttl',
@@ -206,4 +206,5 @@ if __name__ == "__main__":
     for f_config in files_to_process:
 
         process_file(f_config)
+
 
