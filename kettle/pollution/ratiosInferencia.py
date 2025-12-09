@@ -6,9 +6,7 @@ import pandas as pd
 CONTAMINANTES = ["pm10", "o3", "no2", "so2", "co"]
 
 # Definiciones de rutas
-BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
-TEMP_POLLUTION_DIR = os.path.join(BASE_DIR, "temp", "pollution")
-NATIONAL_RATIOS_FILE = os.path.join(TEMP_POLLUTION_DIR, "national_ratios.csv")
+NATIONAL_RATIOS_FILE = "../../temp/pollution/national_ratios.csv"
 
 # Función Auxiliar
 def is_valid_number(x):

@@ -76,8 +76,8 @@ echo "# 4a Etapa - INFERENCIA PATRONES  #"
 echo "###################################"
 
 for region in "$scandir"/*/; do 
-    echo "Trabjando con "$(basename "$region")"
-    echo "----Inferencia de Patrones de la Región
+    echo "Trabjando con $(basename "$region")"
+    echo "----Inferencia de Patrones de la Región"
     python3 ratiosInferencia.py "$region"
 done 
 

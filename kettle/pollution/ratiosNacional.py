@@ -4,9 +4,8 @@ import sys
 
 # Definimos las rutas y contaminantes
 CONTAMINANTES = ["pm10", "o3", "no2", "so2", "co"]
-BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
-TEMP_POLLUTION_DIR = os.path.join(BASE_DIR, "temp", "pollution")
-OUTPUT_FILE = os.path.join(TEMP_POLLUTION_DIR, "national_ratios.csv")
+TEMP_POLLUTION_DIR = "../../temp/pollution/"
+OUTPUT_FILE = "../../temp/pollution/national_ratios.csv"
 
 def is_valid_number(x):
     """Verifica si un valor es un número positivo válido."""
