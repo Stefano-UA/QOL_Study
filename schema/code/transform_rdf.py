@@ -160,7 +160,7 @@ files_to_process = [
     {
         'filename': 'ipca_ccaa.csv',
         'output_name': 'rdf_ipca.ttl',
-        'number_format': 'spanish', # Ojo: parece que usan comas en el CSV subido (71,90) -> spanish
+        'number_format': 'spanish', 
         'type_col': 'Type',
         'mappings': {
             'indice': {'slug': 'ipc_indice', 'label': 'IPC Indice General', 'unit': 'Index'},
@@ -184,13 +184,13 @@ files_to_process = [
     {
         'filename': 'pob_ccaa.csv',
         'output_name': 'rdf_pob.ttl',
-        'number_format': 'spanish', # 5990874 (entero, sin decimales raros, clean_spanish lo maneja bien)
+        'number_format': 'spanish', # 5990874 
         'default_slug': 'poblacion',
         'default_label': 'Poblacion Total',
         'default_unit': 'Personas'
     },
     
-    # 5. CALIDAD DE VIDA (Archivo simple, sin columna Type)
+    # 5. CALIDAD DE VIDA 
     {
         'filename': 'qol_ccaa.csv',
         'output_name': 'rdf_qol.ttl',
@@ -204,4 +204,5 @@ files_to_process = [
 if __name__ == "__main__":
     print(f"Buscando archivos en: {os.path.abspath(DATA_FOLDER)}")
     for f_config in files_to_process:
+
         process_file(f_config)
