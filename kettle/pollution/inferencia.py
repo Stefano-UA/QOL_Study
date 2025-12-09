@@ -1,203 +1,148 @@
 import sys
 import os
 import pandas as pd
+import numpy as np
 
-# Constantes globales
+# Constantes y Rutas
 CONTAMINANTES = ["pm10", "o3", "no2", "so2", "co"]
+TEMP_POLLUTION_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'temp', 'pollution'))
+SUPER_CSV = os.path.join(TEMP_POLLUTION_DIR, 'super.csv')
+RATIOS_CSV = os.path.join(TEMP_POLLUTION_DIR, 'ratios.csv')
 
-# --- Funciones Auxiliares ---
-
-def is_valid_number(x):
-    """Return True if x is a number >= 0."""
-    try:
-        v = float(x)
-        return v >= 0
-    except:
-        return False
-
-# La función load_ratios de inferencia25 se convierte en load_single_ratio_row
-def load_single_ratio_row(region, file_path):
-    """Carga la fila de ratios específica para el ID del archivo."""
-    base_id = os.path.basename(file_path)[:10]
-    ratio_csv = os.path.join("../../temp/pollution", region, f"{region}_ratios.csv")
-
-    if not os.path.isfile(ratio_csv):
-        print(f"ERROR: ARCHIVO RATIO NO ENCONTRADO: {ratio_csv}")
-        sys.exit(1)
-
-    df_rat = pd.read_csv(ratio_csv, sep=';')
-
-    if "id" not in df_rat.columns:
-        print("ERROR: EL ARCHIVO DE RATIOS NO TIENE COLUMNA 'ID'")
-        sys.exit(1)
-
-    match = df_rat[df_rat["id"].astype(str) == base_id]
-
-    if match.empty:
-        print(f"ERROR: RATIO NO ENCONTRADO PARA ID: {base_id} EN {ratio_csv}")
-        sys.exit(1)
-
-    return match.iloc[0]
-
-
-def get_ratio_for_pollutant(df_ratios, file_id, pollutant):
-    """
-    Obtiene el ratio: prioritiza el ID del archivo; sino, usa el ID de fallback 'ZZZZZZZZZZ'.
-    Se eliminan los bucles lentos de iteración.
-    """
-    # 1. INTENTO DE MATCH POR ID ESPECÍFICO (Prioridad Alta)
-    match_id = df_ratios[df_ratios["id"].astype(str) == file_id]
-    
-    if not match_id.empty:
-        ratio = match_id.iloc[0].get(pollutant)
-        if is_valid_number(ratio) and float(ratio) > 0:
-            return float(ratio)
-
-    # 2. FALLBACK AL ID DE SEGURIDAD 'ZZZZZZZZZZ' (Búsqueda Directa)
-    fallback_id = "ZZZZZZZZZZ"
-    match_fallback = df_ratios[df_ratios["id"].astype(str) == fallback_id]
-    
-    if not match_fallback.empty:
-        ratio = match_fallback.iloc[0].get(pollutant)
-        if is_valid_number(ratio) and float(ratio) > 0:
-            return float(ratio)
-        else:
-            # Si se encuentra el ID de fallback pero el ratio es inválido (ej: 0 o NaN)
-            print(f"ADVERTENCIA: Ratio inválido para {pollutant} en la fila de fallback {fallback_id}.")
-            return None # Devolver None para que el flujo principal falle con ERROR
-
-    # 3. FRACASO TOTAL (Ni ID específico, ni fallback encontrado/válido)
-    return None
-
-
-# --- Función Principal Unificada ---
+# Columnas clave para el join y busqueda de ratios
+KEY_COLUMNS = ['year', 'region', 'sensor']
+FALLBACK_ID = 'ZZZZZZZZZZ'
 
 def main():
-    if len(sys.argv) != 3:
-        print("Uso: inferenciaCompleta.py <region> <file.csv>")
+    # El script ahora trabaja con los archivos centrales, no necesita argumentos de región/archivo
+    if len(sys.argv) != 1:
+        print("Uso: inferencia.py (trabaja directamente con super.csv)")
         sys.exit(1)
 
-    region = sys.argv[1]
-    file_path = sys.argv[2]
-    
-    if not os.path.isfile(file_path):
-        print(f"ERROR: ARCHIVO NO ENCONTRADO: {file_path}")
+    # 1. Carga de Datos
+    if not os.path.isfile(SUPER_CSV) or not os.path.isfile(RATIOS_CSV):
+        print("ERROR: Archivo SUPER_CSV o RATIOS_CSV no encontrado. Ejecuta las etapas previas.")
         sys.exit(1)
-
-    # 1. CARGA DE RATIOS
-    # Cargamos la fila específica de PM2.5 (usada en la Primera Etapa)
-    pm25_ratios_row = load_single_ratio_row(region, file_path)
-
-    # Cargamos el DataFrame completo de ratios (usado en la Segunda Etapa)
-    ratio_csv = os.path.join("../../temp/pollution", region, f"{region}_ratios.csv")
-    try:
-        df_ratios_full = pd.read_csv(ratio_csv, sep=';')
-    except Exception as e:
-        print(f"ERROR: No se puede leer el csv de ratios: {e}")
-        sys.exit(1)
-    
-    file_id = os.path.basename(file_path)[:10]
-
-    # 2. CARGA DE DATOS
-    try:
-        df = pd.read_csv(file_path, sep=';')
-    except Exception as e:
-        print(f"ERROR: NO SE PUEDE LEER {file_path} : {e}")
-        sys.exit(1)
-
-    # Chequeo columnas (PM2.5 y Contaminantes)
-    for col in ["pm25"] + CONTAMINANTES:
-        if col not in df.columns:
-            df[col] = pd.NA
-
-    new_rows = []
-    
-    # 3. PRIMERA ETAPA: INFERENCIA PM2.5 (Lógica de inferencia25.py)
-    print("----Inferencia de PM25: ")
-    for idx, row in df.iterrows():
-        row = row.copy()
-        pm25_valid = is_valid_number(row["pm25"])
-
-        pollutant_validity = {
-            p: is_valid_number(row[p]) and float(row[p]) > 0
-            for p in CONTAMINANTES
-        }
-        num_valid_pollutants = sum(pollutant_validity.values())
-
-        # CASE A/D: BORRAMOS (nada valido)
-        if (not pm25_valid) and num_valid_pollutants == 0:
-            continue
-
-        # CASE B: SALTAMOS (pm25 ya es valido)
-        if pm25_valid:
-            # Mantener row.copy() para la segunda etapa
-            new_rows.append(row)
-            continue
-
-        # CASE C: INFERENCIA (falta pm25)
-        inferred_values = []
-
-        for p in CONTAMINANTES:
-            if not pollutant_validity[p]:
-                continue
-
-            ratio = pm25_ratios_row[p]
-            if not is_valid_number(ratio) or float(ratio) == 0:
-                continue
-
-            inferred = float(row[p]) * float(ratio)
-            inferred_values.append(inferred)
-
-        if inferred_values:
-            row["pm25"] = sum(inferred_values) / len(inferred_values)
-            new_rows.append(row)
-            continue
         
-        # Si llega aquí, es un caso D que no pudo inferirse y se descarta
-
-    # Actualizamos el DataFrame con las filas filtradas e inferidas
-    df_inferred_pm25 = pd.DataFrame(new_rows)
-    
-    # 4. SEGUNDA ETAPA: INFERENCIA OTROS CONTAMINANTES (Lógica de inferenciaContaminantes.py)
-    print("----Inferencia del Resto de Contaminantes")
-    final_rows = []
-    
-    for idx, row in df_inferred_pm25.iterrows():
-        row = row.copy()
-
-        # En este punto, 'pm25' debe ser válido debido al filtrado de la Etapa 1
-        if not is_valid_number(row["pm25"]):
-             # Esto no debería ocurrir si la Etapa 1 funciona correctamente, pero es una salvaguarda.
-             print(f"ERROR CRÍTICO: Valor pm25 inválido después de la inferencia en fila: {idx}")
-             sys.exit(1)
-
-        pm25_value = float(row["pm25"])
-
-        # Procesamos cada contaminante
-        for pollutant in CONTAMINANTES:
-            if is_valid_number(row[pollutant]):
-                continue 
-
-            ratio = get_ratio_for_pollutant(df_ratios_full, file_id, pollutant)
-            if ratio is None:
-                print(f"ERROR: No se puede inferir {pollutant} para la fila {idx} por que no hay ratio valido")
-                sys.exit(1)
-
-            # Inferencia del Contaminante
-            row[pollutant] = pm25_value / ratio
-
-        final_rows.append(row)
-    
-    # 5. ESCRITURA FINAL
-    out_df = pd.DataFrame(final_rows)
-    
-    # Sobreescribir el archivo original con los datos completamente inferidos
     try:
-        out_df.to_csv(file_path, sep=';', index=False)
-        print("ÉXITO")
-        print(f"Inferencia Completa, el CSV actualizado es: \n{file_path}")
+        df = pd.read_csv(SUPER_CSV, sep=';')
+        df_ratios = pd.read_csv(RATIOS_CSV, sep=';')
     except Exception as e:
-        print(f"ERROR: No se pudo guardar: {file_path} porque {e}")
+        print(f"ERROR al leer archivos centrales: {e}")
+        sys.exit(1)
+
+    # 2. Pre-procesamiento y Limpieza (Vectorizado)
+    
+    # Aseguramos que los contaminantes sean numéricos (forzando no-numéricos a NaN)
+    all_pollutants = ['pm25'] + CONTAMINANTES
+    for col in all_pollutants:
+        df[col] = pd.to_numeric(df[col], errors='coerce')
+        # Limpieza: Convertir valores < 0 a NaN
+        df.loc[df[col] < 0, col] = np.nan
+        
+    # Asegurar que las columnas clave de ratios sean numéricas/string
+    for col in CONTAMINANTES:
+        df_ratios[col] = pd.to_numeric(df_ratios[col], errors='coerce')
+
+    # Renombrar 'id' a 'sensor' en el DataFrame principal
+    if 'id' in df.columns:
+        df = df.rename(columns={'id': 'sensor'})
+    
+    # 3. Preparación de la Matriz de Ratios (Indexado para búsqueda rápida)
+    
+    # Separamos la fila de fallback
+    df_fallback_ratio = df_ratios[
+        (df_ratios['year'] == FALLBACK_ID) & 
+        (df_ratios['region'] == FALLBACK_ID) & 
+        (df_ratios['sensor'] == FALLBACK_ID)
+    ].drop(columns=KEY_COLUMNS).iloc[0] # Tomamos la primera (y única) fila
+    
+    # El resto son los ratios específicos por (year, region, sensor)
+    df_ratios_specific = df_ratios[
+        df_ratios['year'] != FALLBACK_ID
+    ].set_index(KEY_COLUMNS)
+    
+    
+    # --- ETAPA A: INFERENCIA PM2.5 ---
+    print("----ETAPA A: Inferencia Vectorizada de PM2.5----")
+    
+    # Máscara para filas que necesitan inferencia (pm25 es NaN, pero hay datos auxiliares)
+    needs_pm25_inference = df['pm25'].isna() & df[CONTAMINANTES].notna().any(axis=1)
+
+    # 4. Cálculo de Valores Inferidos de PM2.5 (para cada contaminante)
+    inferred_pm25_cols = []
+    
+    for p in CONTAMINANTES:
+        # A. Merge para obtener el ratio específico (si existe)
+        # Hacemos un merge para traer la columna de ratios [p] para cada fila de df
+        df = df.merge(
+            df_ratios_specific[[p]].rename(columns={p: f'ratio_{p}'}), 
+            on=KEY_COLUMNS, 
+            how='left'
+        )
+
+        # B. Aplicar Fallback: Si el ratio específico es NaN, usar el ratio nacional
+        ratio_col = f'ratio_{p}'
+        df.loc[df[ratio_col].isna(), ratio_col] = df_fallback_ratio[p]
+
+        # C. Calcular PM2.5 Inferido si el ratio es válido
+        inferred_col = f'inferred_pm25_{p}'
+        
+        # Solo calculamos si el ratio > 0 y el contaminante [p] > 0
+        df[inferred_col] = np.where(
+            (df[ratio_col] > 0) & (df[p].notna()),
+            df[p] * df[ratio_col],
+            np.nan
+        )
+        inferred_pm25_cols.append(inferred_col)
+
+    # 5. Aplicar la Media de las Inferencias de PM2.5
+    # Calcular el promedio de todas las columnas inferidas (ignora NaNs)
+    mean_pm25_inferred = df[inferred_pm25_cols].mean(axis=1, skipna=True)
+    
+    # Aplicar el valor de la media solo donde se necesite (needs_pm25_inference)
+    df.loc[needs_pm25_inference, 'pm25'] = mean_pm25_inferred[needs_pm25_inference]
+
+    # 6. Filtrar filas que no pudieron inferirse (si pm25 sigue siendo NaN)
+    rows_before_filter = len(df)
+    df = df.dropna(subset=['pm25'])
+    print(f"  > Filas borradas por PM25 no válido/no inferible: {rows_before_filter - len(df)}")
+    
+    
+    # --- ETAPA B: INFERENCIA OTROS CONTAMINANTES ---
+    print("----ETAPA B: Inferencia Vectorizada de Otros Contaminantes----")
+    
+    for p in CONTAMINANTES:
+        # 1. Definir la máscara: Filas donde el contaminante [p] falta, pero PM2.5 es válido
+        needs_pollutant_inference = df[p].isna()
+        
+        # 2. Usar la columna de ratio ya calculada y fallback (f'ratio_{p}')
+        ratio_col = f'ratio_{p}'
+        
+        # 3. Calcular el valor inferido: Pollutant = PM25 / Ratio
+        df.loc[needs_pollutant_inference, p] = np.where(
+            (df[ratio_col] > 0) & (df['pm25'].notna()),
+            df['pm25'] / df[ratio_col],
+            df.loc[needs_pollutant_inference, p] # Mantener NaN si el ratio es 0 o no hay PM25
+        )
+
+    # 4. Limpieza Final y Guardado
+    
+    # Columnas que deben conservarse
+    COLUMNS_TO_KEEP = ['year', 'region', 'sensor'] + ['date'] + all_pollutants
+    
+    # Limpiar columnas auxiliares creadas
+    df_final = df[COLUMNS_TO_KEEP].copy()
+    
+    # Renombrar 'sensor' de nuevo a 'id' para la salida
+    df_final = df_final.rename(columns={'sensor': 'id'})
+    
+    try:
+        df_final.to_csv(SUPER_CSV, sep=';', index=False)
+        print("ÉXITO")
+        print(f"Inferencia Completa. SUPER_CSV actualizado en: \n{SUPER_CSV}")
+    except Exception as e:
+        print(f"ERROR: No se pudo guardar {SUPER_CSV}: {e}")
         sys.exit(1)
 
 

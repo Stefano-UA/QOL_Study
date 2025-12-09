@@ -1,87 +1,99 @@
 import sys
 import os
 import pandas as pd
+import numpy as np
 
 CONTAMINANTES = ['pm10', 'o3', 'no2', 'so2', 'co']
 
-def main():
-    if len(sys.argv) != 3:
-        print("Uso: ratioMaker.py <region> <file.csv>")
-        sys.exit(1)
+SUPER_CSV = os.path.join(os.path.dirname(__file__), '..', '..', 'temp', 'pollution', 'super.csv')
+OUTPUT_FILE = os.path.join(os.path.dirname(__file__), '..', '..', 'temp', 'pollution', 'ratios.csv')
 
-    region = sys.argv[1]
-    file_path = sys.argv[2]
+# Columnas clave para identificar cada ratio de sensor
+KEY_COLUMNS = ['year', 'region', 'sensor']
 
-    if not os.path.isfile(file_path):
-        print(f"ERROR: Archivo no encontrado: {file_path}")
-        sys.exit(1)
-
-    try:
-        df = pd.read_csv(file_path, sep=';')
-    except Exception as e:
-        print(f"ERROR: No se pudo leer {file_path}: {e}")
-        sys.exit(1)
-
-    # Asegurarse de que todas las columnas existan
-    expected_cols = ['pm25'] + CONTAMINANTES
-    for col in expected_cols:
-        if col not in df.columns:
-            df[col] = pd.NA
-
-    # Calcular ratios
+def calculate_ratios(df_group):
+    """Calcula los ratios PM25/Contaminante para un DataFrame (grupo o nacional)."""
+    
+    df_group = df_group.copy()
+    
+    # 1. Asegurar tipos numéricos
+    for col in ['pm25'] + CONTAMINANTES:
+        df_group[col] = pd.to_numeric(df_group[col], errors='coerce')
+    
+    # 2. Filtrar por valores positivos de PM25
+    df_valid = df_group[(df_group['pm25'] > 0)]
+    
     ratios = {}
     for pol in CONTAMINANTES:
-        valid_rows = df[['pm25', pol]].dropna()
-        valid_rows = valid_rows.copy()
-        valid_rows['pm25'] = pd.to_numeric(valid_rows['pm25'], errors='coerce')
-        valid_rows[pol] = pd.to_numeric(valid_rows[pol], errors='coerce')
-        valid_rows = valid_rows[(valid_rows['pm25'] > 0) & (valid_rows[pol] > 0)]
+        
+        # Filtrar para asegurar que el contaminante también es positivo
+        df_pol_valid = df_valid[(df_valid[pol] > 0)].dropna(subset=['pm25', pol])
 
-        if not valid_rows.empty:
-            ratios[pol] = valid_rows['pm25'].mean() / valid_rows[pol].mean()
+        if not df_pol_valid.empty:
+            # Cálculo del ratio: (Mean PM25) / (Mean Pollutant)
+            ratio = df_pol_valid['pm25'].mean() / df_pol_valid[pol].mean()
+            ratios[pol] = ratio
         else:
-            ratios[pol] = 0
+            ratios[pol] = np.nan 
 
-    # ID = primeros 10 caracteres del nombre del archivo
-    id_row = os.path.basename(file_path)[:10]
+    return pd.Series(ratios)
 
-    region_folder = os.path.join("../../temp/pollution", region)
-    os.makedirs(region_folder, exist_ok=True)
-    out_csv = os.path.join(region_folder, f"{region}_ratios.csv")
 
-    # Crear o leer CSV de salida
-    if os.path.isfile(out_csv):
-        try:
-            df_out = pd.read_csv(out_csv, sep=';')
-        except Exception as e:
-            print(f"ERROR: No se pudo leer {out_csv}: {e}")
-            sys.exit(1)
-    else:
-        df_out = pd.DataFrame(columns=['id'] + CONTAMINANTES)
-
-    # Asegurarse de que las columnas existan
-    if 'id' not in df_out.columns:
-        df_out['id'] = pd.Series(dtype=str)
-    for pol in CONTAMINANTES:
-        if pol not in df_out.columns:
-            df_out[pol] = pd.NA
-
-    # Saltar si ID ya existe
-    if id_row in df_out['id'].astype(str).values:
-        print(f"ID {id_row} ya existe en {out_csv}, saltando...")
-        return
-
-    # Agregar nueva fila
-    new_row = {'id': id_row}
-    new_row.update(ratios)
-    df_out = pd.concat([df_out, pd.DataFrame([new_row])], ignore_index=True)
+def main():
+    
+    # 1. Cargar SUPER_CSV
+    if not os.path.isfile(SUPER_CSV):
+        print(f"ERROR: Archivo SUPER_CSV no encontrado: {SUPER_CSV}")
+        sys.exit(1)
 
     try:
-        df_out.to_csv(out_csv, sep=';', index=False)
-        print("ÉXITO")
-        print(f"Ratios guardados en \n”{out_csv}")
+        df_super = pd.read_csv(SUPER_CSV, sep=';')
     except Exception as e:
-        print(f"ERROR: No se pudo guardar {out_csv}: {e}")
+        print(f"ERROR: No se pudo leer {SUPER_CSV} : {e}")
+        sys.exit(1)
+        
+    # El archivo SUPER_CSV ahora debe tener 'year', 'region' y 'id' (que renombramos a 'sensor')
+    # Renombramos 'id' a 'sensor' temporalmente para consistencia con el código
+    if 'id' in df_super.columns:
+        df_super = df_super.rename(columns={'id': 'sensor'})
+    
+    # 2. CALCULAR RATIOS POR GRUPO (YEAR, REGION, SENSOR)
+    print("Calculando ratios por grupo (YEAR, REGION, SENSOR)...")
+    
+    # Agrupar y aplicar la función de cálculo
+    df_ratios_grouped = df_super.groupby(KEY_COLUMNS).apply(calculate_ratios)
+    
+    # Limpiar el resultado: convertimos el índice multi-nivel en columnas
+    df_ratios_grouped = df_ratios_grouped.reset_index()
+
+    # 3. CALCULAR RATIOS NACIONALES (Fallback ZZZZZZZZZZ)
+    print("Calculando ratio nacional (ZZZZZZZZZZ)...")
+    df_ratios_national = calculate_ratios(df_super)
+    
+    # Crear la fila de fallback usando ZZZZZZZZZZ en las tres claves
+    national_row = df_ratios_national.to_dict()
+    national_row['year'] = 'ZZZZZZZZZZ'
+    national_row['region'] = 'ZZZZZZZZZZ'
+    national_row['sensor'] = 'ZZZZZZZZZZ'
+    
+    # 4. COMBINAR Y GUARDAR
+    
+    # Convertir la fila nacional en un DataFrame y luego combinar
+    df_national_row = pd.DataFrame([national_row])
+    
+    # Aseguramos que todas las columnas de salida sean correctas
+    FINAL_COLUMNS = KEY_COLUMNS + CONTAMINANTES
+    
+    df_final = pd.concat([df_ratios_grouped, df_national_row], ignore_index=True)
+    df_final = df_final[FINAL_COLUMNS] # Reordenamos y aseguramos la estructura
+
+    try:
+        os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
+        df_final.to_csv(OUTPUT_FILE, sep=';', index=False)
+        print("ÉXITO")
+        print(f"Ratios guardados en \n{OUTPUT_FILE}")
+    except Exception as e:
+        print(f"ERROR: No se pudo guardar {OUTPUT_FILE}: {e}")
         sys.exit(1)
 
 if __name__ == "__main__":

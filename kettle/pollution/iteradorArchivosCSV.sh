@@ -31,36 +31,67 @@ for region in "$scandir"/*/; do
         fi 
 
         echo "Procesando: \n$file"
-        echo "----Cribado Inicial:"
-        python3 cribadoInicial.py "$nom_region" "$(realpath "$file")"
-
         echo "----Formateo:"
         if [ "$(basename "$file")" == "2025-11-06_sds011_sensor_83475.csv" ]; then
             python3 formateadorLaMancha.py "$(realpath "$file")"
         else
             python3 formateador.py "$nom_region" "$(realpath "$file")"
         fi
-
-        echo "----Cribado Final:"
-        python3 cribadoFormateado.py "$nom_region" "$(realpath "$file")"
     done
 done
+
+# SEXTO LOOP- AGREGACIÓN
+echo "##########################"
+echo "# 6a Etapa - AGREGACIÓN  #"
+echo "##########################"
+
+SUPER_CSV="../../temp/pollution/super.csv"
+rm -f "$SUPER_CSV"
+
+# Nuevo Encabezado: Incluye 'id' en la tercera posición
+echo "year;region;sensor;pm25;pm10;o3;no2;so2;co" > "$SUPER_CSV"
+
+for region in "$scandir"/*/; do
+    nom_region="$(basename "$region")"
+    echo "Trabajando en la Región: $nom_region"
+    for file in "$region"/*.csv; do
+        [ -e "$file" ] || continue
+
+        # 1. EXTRACCIÓN DEL ID (Primeros 10 caracteres del nombre del archivo)
+        # Obtenemos solo el nombre base (ej: 2025-11-06_sds011_sensor_83475.csv)
+        base_name="$(basename "$file")"
+        # Obtenemos los primeros 10 caracteres (ej: 2025-11-06)
+        file_id="${base_name:0:10}"
+        
+        echo "Añadiendo: \n $file (ID: $file_id)"
+        
+        # AWK MODIFICADO: Ahora recibe 'file_id' y lo imprime en tercer lugar
+        awk -F';' -v OFS=';' -v region="$nom_region" -v file_id="$file_id" 'NR>1 {
+            # 1. Simplificar fecha a solo el año (year)
+            split($1,d,"[/]");
+            year=d[1];
+            
+            # 2. Estandarizar el nombre de la región
+            if (region=="castilla_mancha") region="castilla_la_mancha"
+            if (region=="la_rioja") region="rioja"
+            
+            # 3. Imprimir en el orden requerido: year, region, id, contaminantes
+            print year, region, file_id, $2, $3, $4, $5, $6, $7
+        }' "$file" >> "$SUPER_CSV"
+    done
+done
+
+
+
 
 # SEGUNDO LOOP- RATIOS
 echo "###################################"
 echo "#  2a Etapa - PATRONES INICIALES  #"
 echo "###################################"
 
-for region in "$scandir"/*/; do
-    nom_region="$(basename "$region")"
-    echo "Trabajando en la Región: $nom_region"
-    for file in "$region"/*.csv; do
+echo "----Analizando Patrones:"
+python3 ratios.py "$nom_region" "$(realpath "$file")"
 
-    echo "Procesando: \n$file"
-    echo "----Analizando Patrones:"
-    python3 ratios.py "$nom_region" "$(realpath "$file")"
-    done
-done
 
 # TERCER LOOP- RATIO NACIONAL
 echo "###################################"
