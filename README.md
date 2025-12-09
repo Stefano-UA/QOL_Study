@@ -272,6 +272,16 @@ La columna *Value* sera el valor a agregar en el CSV final.
 
 Como estándar para todas las transformaciones en Pentaho, se ha definido la siguiente secuencia de operaciones:
 
+```mermaid
+graph LR;
+    start((Inicio)) --> strops;
+    strops(String operations) --> strrep;
+	strrep(Replace in string) --> other;
+    other(Other) --> numfor;
+	numfor(Number Format) --> sortrows;
+    sortrows(Sort rows) --> success((Fin));
+```
+
 ##### String operations
 
 - *Trim type*: **both** -> Quita los espacios sobrantes al principio y al final de la cadena.
