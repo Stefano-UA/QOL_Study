@@ -5,8 +5,8 @@ from rdflib.namespace import XSD
 
 # --- CONFIGURACION DE RUTAS ---
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_FOLDER = os.path.join(SCRIPT_DIR, "../dist/kettle")
-OUTPUT_FOLDER = os.path.join(SCRIPT_DIR, "../schema")
+DATA_FOLDER = os.path.join(SCRIPT_DIR, "../../dist/kettle")
+OUTPUT_FOLDER = os.path.join(SCRIPT_DIR, "..")
 
 # --- NAMESPACES ---
 BASE_URI = "https://csalas-alarcon.github.io/Grupo3_ADP/ontology/"
@@ -206,3 +206,4 @@ if __name__ == "__main__":
     for f_config in files_to_process:
 
         process_file(f_config)
+
