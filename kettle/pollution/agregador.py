@@ -21,7 +21,7 @@ for col in pollutants:
 # ----------------------------------------------------------
 # PASO 1 — AGRUPAR POR AÑO Y REGIÓN Y CALCULAR MEDIAS
 # ----------------------------------------------------------
-agg_df = df.groupby(['date', 'region'], as_index=False)[pollutants].mean()
+agg_df = df.groupby(['year', 'region'], as_index=False)[pollutants].mean()
 
 
 # ----------------------------------------------------------
@@ -31,7 +31,7 @@ agg_df = df.groupby(['date', 'region'], as_index=False)[pollutants].mean()
 agg_df_ccaa = agg_df[agg_df['region'] != 'total_nacional']
 
 # Calculamos promedio por año
-nacional_df = agg_df_ccaa.groupby('date', as_index=False)[pollutants].mean()
+nacional_df = agg_df_ccaa.groupby('year', as_index=False)[pollutants].mean()
 nacional_df['region'] = 'total_nacional'  # O 'total_nacional', según convención
 
 # Añadimos al dataframe original
@@ -41,7 +41,7 @@ agg_df = pd.concat([agg_df, nacional_df], ignore_index=True)
 # PASO 2 — CONVERTIR A FORMATO LARGO
 # ----------------------------------------------------------
 df_long = agg_df.melt(
-    id_vars=["date", "region"],
+    id_vars=["year", "region"],
     value_vars=pollutants,
     var_name="Type",
     value_name="Value"
@@ -52,7 +52,7 @@ df_long = df_long.dropna(subset=["Value"])
 
 # Renombrar columnas
 df_long = df_long.rename(columns={
-    "date": "Year",
+    "year": "Year",
     "region": "CCAA"
 })
 

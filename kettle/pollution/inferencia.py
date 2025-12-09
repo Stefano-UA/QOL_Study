@@ -47,6 +47,15 @@ def main():
     # Renombrar 'id' a 'sensor' en el DataFrame principal
     if 'id' in df.columns:
         df = df.rename(columns={'id': 'sensor'})
+        
+    # AÑADIDO: Asegurar que las claves de JOIN sean todas strings
+    key_cols = ['year', 'region', 'sensor']
+
+    for col in key_cols:
+        if col in df.columns:
+            df[col] = df[col].astype(str)
+        if col in df_ratios.columns:
+            df_ratios[col] = df_ratios[col].astype(str)
     
     # 3. Preparación de la Matriz de Ratios (Indexado para búsqueda rápida)
     
