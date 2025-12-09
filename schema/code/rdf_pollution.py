@@ -8,6 +8,8 @@ SCHEMA = Namespace("https://schema.org/")
 BASE_URI = "https://csalas-alarcon.github.io/Grupo3_ADP/"
 EX = Namespace(BASE_URI + "ontology/")
 WIKIDATA = Namespace("http://www.wikidata.org/entity/")
+ENVO = Namespace("http://purl.obolibrary.org/obo/ENVO_")
+CHEBI = Namespace("http://purl.obolibrary.org/obo/CHEBI_")
 
 # --- Mapping CCAA -> Wikidata ---
 ccaa_wikidata_map = {
@@ -20,7 +22,7 @@ ccaa_wikidata_map = {
     "navarra": "Q4018", "pais_vasco": "Q3995", "total_nacional": "Q29"
 }
 
-# --- Mapeo Contaminantes -> URI + unidades ---
+# --- Mapeo Contaminantes -> URI Concepto + unidades ---
 UNIT_MAP = {
     "pm25": "UGM3",
     "pm10": "UGM3",
@@ -30,12 +32,19 @@ UNIT_MAP = {
     "co": "PPM"
 }
 
-PROPERTY_RESOURCES = {pol: EX[pol] for pol in UNIT_MAP.keys()}
+# --- Mapeo Contaminantes Medición ---
+POLLUTANT_CONCEPT_MAP = {
+    "pm25": ENVO["01000305"],  
+    "pm10": ENVO["01000306"], 
+    "o3": CHEBI["16314"],    
+    "no2": CHEBI["33104"],    
+    "so2": CHEBI["18428"],     
+    "co": CHEBI["16314"]       
+}
 
 # --- Rutas ---
 INPUT_CSV = "../dist/kettle/pollution.csv"
 OUTPUT_TTL = "../schema/pollution.ttl"
-#OUTPUT_RDF = "../schema/total_pollution.rdf"
 
 # --- Leer CSV ---
 df = pd.read_csv(INPUT_CSV, sep='\t')
@@ -45,6 +54,8 @@ g = Graph()
 g.bind("schema", SCHEMA)
 g.bind("ex", EX)
 g.bind("owl", OWL)
+g.bind("envo", ENVO)      
+g.bind("chebi", CHEBI)    
 
 # --- Iterar sobre cada fila ---
 for idx, row in df.iterrows():
@@ -57,32 +68,33 @@ for idx, row in df.iterrows():
     ccaa_clean = re.sub("_+", "_", ccaa.strip().replace(" ", "_"))
     pol_clean = re.sub("_+", "_", pol.strip().replace(" ", "_"))
 
-    # URI del lugar
+    # URI del lugar (sin cambios)
     region_uri = EX[f"Region_{ccaa_clean}"]
     g.add((region_uri, RDF.type, SCHEMA.Place))
     g.add((region_uri, SCHEMA.name, Literal(ccaa)))
 
-    # Agregar vínculo a Wikidata si existe
+    # Agregar vínculo a Wikidata (sin cambios)
     if ccaa_clean in ccaa_wikidata_map:
         g.add((region_uri, OWL.sameAs, WIKIDATA[ccaa_wikidata_map[ccaa_clean]]))
 
-    # URI de la observación
+    # URI de la observación (sin cambios)
     obs_uri = EX[f"{ccaa_clean}_{year}_{pol_clean}"]
     g.add((obs_uri, RDF.type, SCHEMA.Observation))
     g.add((obs_uri, SCHEMA.observedNode, region_uri))
     g.add((obs_uri, SCHEMA.observationDate, Literal(year, datatype=XSD.gYear)))
 
     # Medida y unidad
-    if pol_clean in PROPERTY_RESOURCES:
-        g.add((obs_uri, SCHEMA.measuredProperty, PROPERTY_RESOURCES[pol_clean]))
+    if pol_clean in POLLUTANT_CONCEPT_MAP:
+
+        g.add((obs_uri, SCHEMA.about, POLLUTANT_CONCEPT_MAP[pol_clean]))
+        
         g.add((obs_uri, SCHEMA.value, Literal(float(value), datatype=XSD.float)))
         g.add((obs_uri, SCHEMA.unitCode, Literal(UNIT_MAP[pol_clean])))
     else:
-        # Por si hay alguna variable distinta a los contaminantes
+        # Fallback (sin cambios)
         g.add((obs_uri, SCHEMA.value, Literal(float(value), datatype=XSD.float)))
 
 # --- Guardar grafo ---
 g.serialize(destination=OUTPUT_TTL, format='turtle')
-#g.serialize(destination=OUTPUT_RDF, format='xml')
 
-print(f"Generated:\n - {OUTPUT_TTL}\n - {OUTPUT_RDF}")
+print(f"Generado en:\n - {OUTPUT_TTL}")
