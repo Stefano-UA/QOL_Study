@@ -4,9 +4,9 @@ from rdflib.namespace import XSD, OWL
 import re
 
 # --- Namespaces RDF ---
+BASE_URI = "https://csalas-alarcon.github.io/Grupo3_ADP/ontology"
+EX = Namespace(BASE_URI)
 SCHEMA = Namespace("https://schema.org/")
-BASE_URI = "https://csalas-alarcon.github.io/Grupo3_ADP/"
-EX = Namespace(BASE_URI + "ontology/")
 WIKIDATA = Namespace("http://www.wikidata.org/entity/")
 ENVO = Namespace("http://purl.obolibrary.org/obo/ENVO_")
 CHEBI = Namespace("http://purl.obolibrary.org/obo/CHEBI_")
@@ -44,7 +44,7 @@ POLLUTANT_CONCEPT_MAP = {
 
 # --- Rutas ---
 INPUT_CSV = "../dist/kettle/pollution.csv"
-OUTPUT_TTL = "../schema/pollution.ttl"
+OUTPUT_TTL = "../schema/rdf_pollution.ttl"
 
 # --- Leer CSV ---
 df = pd.read_csv(INPUT_CSV, sep='\t')
