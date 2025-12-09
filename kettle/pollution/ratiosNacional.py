@@ -5,7 +5,7 @@ import sys
 # Definimos las rutas y contaminantes
 CONTAMINANTES = ["pm10", "o3", "no2", "so2", "co"]
 TEMP_POLLUTION_DIR = "../../temp/pollution/"
-OUTPUT_FILE = "../../temp/pollution/national_ratios.csv"
+OUTPUT_FILE = "../../temp/pollution/nacional_ratios.csv"
 
 def is_valid_number(x):
     """Verifica si un valor es un número positivo válido."""
@@ -14,7 +14,7 @@ def is_valid_number(x):
     except:
         return False
 
-def calculate_national_ratios():
+def main():
     """Calcula y guarda los ratios nacionales promedio."""
     all_ratios = []
 
@@ -72,7 +72,7 @@ def calculate_national_ratios():
 
     # 3. Crear el DataFrame final con los promedios
     # La columna 'id' no es relevante para el promedio nacional, pero la usamos para el formato del CSV
-    df_national = pd.DataFrame(national_averages, index=['National_Average'])
+    df_national = pd.DataFrame(national_averages, index=['ZZZZZZZZZZ'])
     df_national.index.name = 'id'
     
     # 4. Guardar el archivo de ratios nacionales
@@ -88,4 +88,4 @@ def calculate_national_ratios():
 
 
 if __name__ == "__main__":
-    calculate_national_ratios()
+    main()

@@ -40,23 +40,33 @@ def load_single_ratio_row(region, file_path):
     return match.iloc[0]
 
 
-# La función get_ratio_for_pollutant de inferenciaContaminantes se reutiliza
 def get_ratio_for_pollutant(df_ratios, file_id, pollutant):
-    """Obtiene el ratio, priorizando el ID del archivo, sino el primero válido."""
-    # Intentamos nuestra fila (ID específico)
-    match = df_ratios[df_ratios["id"].astype(str) == file_id]
-    if not match.empty:
-        ratio = match.iloc[0][pollutant]
+    """
+    Obtiene el ratio: prioritiza el ID del archivo; sino, usa el ID de fallback 'ZZZZZZZZZZ'.
+    Se eliminan los bucles lentos de iteración.
+    """
+    # 1. INTENTO DE MATCH POR ID ESPECÍFICO (Prioridad Alta)
+    match_id = df_ratios[df_ratios["id"].astype(str) == file_id]
+    
+    if not match_id.empty:
+        ratio = match_id.iloc[0].get(pollutant)
         if is_valid_number(ratio) and float(ratio) > 0:
             return float(ratio)
 
-    # Sino, probamos la primera fila válida encontrada (ratio global/alternativo)
-    for idx, row in df_ratios.iterrows():
-        ratio = row[pollutant]
+    # 2. FALLBACK AL ID DE SEGURIDAD 'ZZZZZZZZZZ' (Búsqueda Directa)
+    fallback_id = "ZZZZZZZZZZ"
+    match_fallback = df_ratios[df_ratios["id"].astype(str) == fallback_id]
+    
+    if not match_fallback.empty:
+        ratio = match_fallback.iloc[0].get(pollutant)
         if is_valid_number(ratio) and float(ratio) > 0:
             return float(ratio)
+        else:
+            # Si se encuentra el ID de fallback pero el ratio es inválido (ej: 0 o NaN)
+            print(f"ADVERTENCIA: Ratio inválido para {pollutant} en la fila de fallback {fallback_id}.")
+            return None # Devolver None para que el flujo principal falle con ERROR
 
-    # Fracaso
+    # 3. FRACASO TOTAL (Ni ID específico, ni fallback encontrado/válido)
     return None
 
 

@@ -65,10 +65,17 @@ done
 # TERCER LOOP- RATIO NACIONAL
 echo "###################################"
 echo "# 3a Etapa - PATRONES NACIONALES  #"
-echo "###################################"
+echo "###################################" # IDENTIFICADOR?
 
 echo "----Consiguiendo Patrones Nacionales"
 python3 ratiosNacional.py
+
+NACIONAL_RATIOS="../../temp/pollution/nacional_ratios.csv"
+for region in "$scandir"/*/; do
+    nom_region="$(basename "$region")"
+    tail -n +2 "$NACIONAL_RATIOS" >> "$region/${nom_region}_ratios.csv"
+done 
+
 
 # CUARTO LOOP- INFERENCIA RATIOS
 echo "###################################"
@@ -110,10 +117,9 @@ for region in "$scandir"/*/; do
     nom_region="$(basename "$region")"
     echo "Trabajando en la Región: $nom_region"
     for file in "$region"/*.csv; do
-        inferred_file="${file%.csv}_inferred.csv"
-        [ -e "$inferred_file" ] || continue
+        [ -e "$file" ] || continue
 
-        echo "Añadiendo $inferred_file"
+        echo "Añadiendo: \n $file"
         # Añadir filas a super.csv
         # añadiendo columna region, simplificando fecha.
         # Nos Saltamos el cabezal.
@@ -123,7 +129,7 @@ for region in "$scandir"/*/; do
             if (region=="castilla_mancha") region="castilla_la_mancha"
             if (region=="la_rioja") region="rioja"
             print year, region, $2, $3, $4, $5, $6, $7
-        }' "$inferred_file" >> "$SUPER_CSV"
+        }' "$file" >> "$SUPER_CSV"
     done
 done
 
