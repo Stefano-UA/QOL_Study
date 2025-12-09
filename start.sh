@@ -9,7 +9,7 @@
 #   ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝
 
 # <============================================>
-#   Start the ETLs and visualization processes
+#       Start the ETLs and other processes
 # <============================================>
 #  Stop script on errors
 # <============================================>
@@ -27,7 +27,13 @@ git lfs pull
 # <============================================>
 ./.pdi/kitchen.sh /file:'./kettle/data.kjb' /level:Basic /norep
 # <============================================>
+#  Run schema process
+# <============================================>
+echo "Generating schemas..."
+./schema/code/start.sh
+# <============================================>
 #  Run visualization process
 # <============================================>
+echo "Generating visualizations..."
 ./visuals/code/start.sh
 # <============================================>
