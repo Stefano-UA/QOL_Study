@@ -277,7 +277,7 @@ graph LR;
     start((Inicio)) --> strops;
     strops(String operations) --> strrep;
 	strrep(Replace in string) --> other;
-    other(Other) --> numfor;
+    other{Other} --> numfor;
 	numfor(Number Format) --> sortrows;
     sortrows(Sort rows) --> success((Fin));
 ```
