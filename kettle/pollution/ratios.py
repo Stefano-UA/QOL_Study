@@ -5,14 +5,13 @@ import numpy as np
 
 CONTAMINANTES = ['pm10', 'o3', 'no2', 'so2', 'co']
 
-SUPER_CSV = os.path.join(os.path.dirname(__file__), '..', '..', 'temp', 'pollution', 'super.csv')
-OUTPUT_FILE = os.path.join(os.path.dirname(__file__), '..', '..', 'temp', 'pollution', 'ratios.csv')
+SUPER_CSV = "../../temp/pollution/super.csv"
+OUTPUT_FILE = "../../temp/pollution/ratios.csv"
 
 # Columnas clave para identificar cada ratio de sensor
 KEY_COLUMNS = ['year', 'region', 'sensor']
 
 def calculate_ratios(df_group):
-    """Calcula los ratios PM25/Contaminante para un DataFrame (grupo o nacional)."""
     
     df_group = df_group.copy()
     

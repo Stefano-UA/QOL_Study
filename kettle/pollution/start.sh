@@ -12,7 +12,6 @@ pip install --quiet -r requirements.txt
 
 scandir="../../temp/pollution"
 
-# PRIMER LOOP- FORMATEO
 echo "###########################"
 echo "#  1a Etapa - FORMATEO    #"
 echo "###########################"
@@ -43,13 +42,12 @@ done
 scandir="../../temp/pollution"
 SUPER_CSV="../../temp/pollution/super.csv"
 
-# --- NUEVA ETAPA 2: AGREGACIÓN DE DATOS (Antiguo SEXTO LOOP) ---
 echo "################################################"
 echo "#  2a Etapa - AGREGACIÓN CENTRAL (SUPER_CSV)   #"
 echo "################################################"
 
-# Inicializar SUPER_CSV con el encabezado correcto
-echo "year;region;id;pm25;pm10;o3;no2;so2;co" > "$SUPER_CSV"
+# Inicializamos SUPER_CSV 
+echo "year;region;sensor;pm25;pm10;o3;no2;so2;co" > "$SUPER_CSV"
 
 for region in "$scandir"/*/; do
     nom_region="$(basename "$region")"
@@ -57,42 +55,37 @@ for region in "$scandir"/*/; do
     for file in "$region"/*.csv; do
         [ -e "$file" ] || continue
 
-        # 1. Extracción del ID
+        # 1. Extracción del sensor
         base_name="$(basename "$file")"
-        file_id="${base_name:0:10}"
+        sensor_id="${base_name:0:10}"
         
-        echo "Añadiendo: \n $file (ID: $file_id)"
+        echo "Añadiendo: \n $file (ID: $sensor_id)"
         
         # 2. AWK para añadir year, region, id, y anexar
-        awk -F';' -v OFS=';' -v region="$nom_region" -v file_id="$file_id" 'NR>1 {
+        awk -F';' -v OFS=';' -v region="$nom_region" -v file_id="$sensor_id" 'NR>1 {
             split($1,d,"[/]");
             year=d[1];
             if (region=="castilla_mancha") region="castilla_la_mancha"
             if (region=="la_rioja") region="rioja"
             
-            # Orden: year, region, id, contaminantes
-            print year, region, file_id, $2, $3, $4, $5, $6, $7
+            # Orden: year, region, sensor_id, contaminantes
+            print year, region, sensor_id, $2, $3, $4, $5, $6, $7
         }' "$file" >> "$SUPER_CSV"
     done
 done
 
-# --- NUEVA ETAPA 3: CÁLCULO DE RATIOS (Centralizado) ---
-echo "###################################"
-echo "# 3a Etapa - PATRONES/RATIOS (Centralizado) #"
-echo "###################################" 
+echo "########################"
+echo "# 3a Etapa - PATRONES  #"
+echo "########################" 
 echo "----Calculando Ratios por (YEAR, REGION, SENSOR) y Nacional..."
-# La llamada a ratios.py ya no lleva argumentos
 python3 ratios.py 
 
-# --- NUEVA ETTAAP 4: INFERENCIA DE DATOS (Centralizada) ---
 echo "###################################"
 echo "# 4a Etapa - INFERENCIA DE DATOS (Centralizada) #"
 echo "###################################"
 echo "----Aplicando Inferencia sobre SUPER_CSV..."
-# La llamada a inferencia.py ya no lleva argumentos y trabaja sobre SUPER_CSV
 python3 inferencia.py 
 
-# --- NUEVA ETAPA 5: FACTORIZACIÓN (Antiguo Séptimo Loop) ---
 echo "#############################"
 echo "# 5a Etapa - FACTORIZACIÓN  #"
 echo "#############################"
