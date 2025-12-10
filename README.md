@@ -345,6 +345,64 @@ Finalmente, ordenaremos los datos por las siguientes columnas:
 ## Transformación a Tripletas
 
 -- DAVID; LINXI;
+### Indicadores Socioeconómicos y Demográficos
+
+El módulo de transformación RDF (`transform_rdf.py`) procesa un conjunto heterogéneo de indicadores sociales para integrarlos en el Grafo de Conocimiento. Estos datos representan observaciones estadísticas anuales que complementan la visión ambiental con el contexto demográfico y económico de cada región.
+
+#### Fundamentos Tecnológicos
+
+Se utiliza **RDFLib** como motor de orquestación del grafo, apoyado por **Pandas** para la manipulación previa de datos tabulares. Este enfoque híbrido permite normalizar formatos numéricos locales (coma decimal española) y mapear dinámicamente múltiples variables contenidas en un único fichero fuente antes de la semantización.
+
+#### Diseño Ontológico y Modelado de Clases
+
+La ontología se centra en representar la "observación estadística" como entidad central. Se utilizan los siguientes vocabularios:
+
+- **schema (Schema.org):** Vocabulario estructural principal. Se emplea la clase `schema:Observation`, diseñada específicamente para mediciones y datos estadísticos, aportando una semántica más precisa para indicadores socioeconómicos.
+- **owl (OWL):** Utilizado para la reconciliación de entidades geográficas, enlazando las Comunidades Autónomas con sus URIs canónicas en Wikidata (`owl:sameAs`).
+- **ex (Custom):** Namespace del proyecto para la instanciación de recursos. Se garantiza la unicidad de las URIs mediante slugs compuestos (Variable + Región + Año).
+
+#### Especificación de Datasets y Variables Transformadas
+
+El proceso de transformación interpreta y modela específicamente los siguientes ficheros de entrada:
+
+1. **Desigualdad (`gini_ccaa.csv`):**
+   - Se procesan dos indicadores distintos basándose en la columna `Type`: el **Índice Gini** y el **Ratio S80/S20**.
+   - Ambos se modelan como `schema:Observation` independientes, diferenciados por su URI y su etiqueta `variableMeasured`.
+
+2. **Índice de Precios (`ipca_ccaa.csv`):**
+   - Integra los datos de inflación discriminando por tipo: **IPC Índice General** (base 2021) e **IPC Variación Anual** (porcentaje).
+   - El script normaliza los decimales (formato español) para garantizar que los valores en RDF sean `xsd:float` válidos.
+
+3. **Renta y PIB (`pibc_ccaa.csv`):**
+   - Se extraen métricas de riqueza diferenciadas: **Renta Neta Media por Persona** y **Renta Media por Unidad de Consumo**.
+   - Se asigna explícitamente la unidad monetaria (`Euro`) en la propiedad `schema:unitText`.
+
+4. **Población (`pob_ccaa.csv`):**
+   - Transformación directa de los censos anuales.
+   - Se tipifica la unidad de medida como "Personas" para evitar ambigüedades semánticas.
+
+5. **Calidad de Vida (`qol_ccaa.csv`):**
+   - Procesamiento del Índice Multidimensional de Calidad de Vida (IMCV).
+   - Se modela como un valor índice (`Index`) asociado a cada región y año.
+
+#### Modelado de Propiedades del Grafo
+
+Cada entrada en el grafo sigue un esquema estricto de `schema:Observation` que conecta:
+
+- **`schema:variableMeasured`**: Nombre normalizado de la variable (ej: "Renta Neta Media por Persona").
+- **`schema:value`**: El dato numérico limpio y tipado (`xsd:float`).
+- **`schema:unitText`**: Unidad de medida explícita.
+- **`schema:observationDate`**: El contexto temporal (`xsd:gYear`).
+- **`schema:areaServed`**: El vínculo con la entidad geográfica (`schema:Place`), la cual incluye su enlace a Wikidata.
+
+#### Resumen del Proceso de Transformación
+
+El script ejecuta un flujo ETL (Extract, Transform, Load) en memoria:
+
+1. **Ingesta y Limpieza:** Carga dinámica de rutas relativas (`../dist/kettle`) y limpieza de separadores de miles/decimales.
+2. **Mapeo de Tipos:** Clasificación de cada fila según diccionarios de mapeo definidos para cada CSV, permitiendo extraer múltiples ontologías de un solo archivo.
+3. **Generación de URIs:** Construcción de identificadores únicos para evitar colisiones de datos (ej: `.../Observation/gini_andalucia_2022`).
+4. **Serialización:** Exportación final a formato Turtle (`.ttl`) unificando todas las observaciones en sus respectivos ficheros de salida.
 
 ### Pollution:
 El módulo pollution_rdf.py es la etapa final del proceso ETL que se encarga de convertir los datos de contaminación agregados (obtenidos de pollution.csv) en un formato de Grafo de Conocimiento (Knowledge Graph) conforme a los estándares del W3C (RDF).
@@ -430,6 +488,8 @@ La matriz sintetiza el peso cuantitativo de las variables, confirmando mediante 
 Además de este mismo README.md se incluye una memoria del trabajo en la carpeta *./docs*.
 
 ## Last Edited
+- 10/12/25 - Linxi
 - 10/12/25 - Carlos
 - 8/12/25 - Stefano
+  
 
