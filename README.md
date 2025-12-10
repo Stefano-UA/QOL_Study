@@ -138,7 +138,7 @@ Las fuentes utilizadas han sido:
 
 - **Instituto Nacional de Estadística (INE)**: Se ha utilizado como la fuente primaria de autoridad para la extracción de todas las variables socioeconómicas y demográficas estructurales del estudio.
 	- *Fiabilidad y Validez*: Al ser el organismo oficial encargado de los servicios estadísticos del Estado, garantiza la máxima robustez y consistencia metodológica. Esto asegura que los datos entre diferentes Comunidades Autónomas (CCAA) son perfectamente comparables y no sufren de sesgos de recolección dispares.
-- *AQICN y Sensor Community*: Se han empleado como fuentes complementarias para construir la dimensión ambiental, dado que el INE no proporciona series históricas granulares de calidad del aire con la misma facilidad de acceso.
+- **AQUICN y Sensor Community**: Son dos plataformas Open Source que recogen datos medioambientales de miles y miles de sensores alrededor del mundo tanto de instituciones y empresas como aficionados que día tras día suben información pertinente a la metereología y la calidad del aire. Se han empleado como fuentes complementarias para construir la dimensión ambiental, dado que el INE no proporciona series históricas de calidad del aire con la misma facilidad de acceso.
 	- *Fiabilidad y Validez*: AQICN garantiza la fiabilidad de los datos al agregar mediciones de estaciones oficiales calibradas bajo normativa internacional. Sensor Community, aunque utiliza sensores de bajo coste con menor precisión individual, su agregación masiva permite cubrir vacíos de la red oficial y validar tendencias locales filtrando el ruido instrumental.
 
 ### Inferecias realizadas:
@@ -155,6 +155,7 @@ Las fuentes utilizadas han sido:
 
 > [!WARNING]
 > En la etapa de inferencia cuando no encontramos un ratio válido para ese sensor y contaminante en concreto se usa por defecto la media nacional entre contaminantes.
+
 > [!NOTE]
 > Se usa como contaminante base pm25 debido a su extensa y constante medición por partes de instituciones públicas y aficionados, especialmente respecto al resto de contaminantes.
 
