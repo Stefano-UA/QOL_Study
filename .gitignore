@@ -20,3 +20,6 @@ todo.txt
 
 # PDI folder
 .pdi
+
+# Pentaho DI Garbage
+./kettle/pollution/kettle*shell
