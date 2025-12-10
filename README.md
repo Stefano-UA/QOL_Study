@@ -40,11 +40,11 @@ Las casillas **marcadas** con una *X* indican que ese miembro del equipo le ha d
 | Apartado | Salas | David | Linxi | Stefano |
 |:-:|:---:|:---:|:---:|:---:|
 | 1 | (X) | (X) | (X) | (X) |
-| 2 | (X) | ( ) | ( ) | (X) |
-| 3 | (X) | ( ) | ( ) | (X) |
-| 4 | (X) | ( ) | ( ) | (X) |
+| 2 | (X) | ( ) | (X) | (X) |
+| 3 | (X) | ( ) | (X) | (X) |
+| 4 | (X) | ( ) | (X) | (X) |
 | 5 | ( ) | ( ) | ( ) | ( ) |
-| 6 | (X) | ( ) | ( ) | (X) |
+| 6 | (X) | ( ) | (X) | (X) |
 | 7 | ( ) | ( ) | ( ) | ( ) |
 | 8 | ( ) | ( ) | ( ) | ( ) |
 
