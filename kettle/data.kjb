@@ -538,7 +538,7 @@
       <description/>
       <type>SHELL</type>
       <attributes/>
-      <filename>${Internal.Entry.Current.Directory}/pollution/iteradorArchivosCSV.sh</filename>
+      <filename>${Internal.Entry.Current.Directory}/pollution/start.sh</filename>
       <work_directory>${Internal.Entry.Current.Directory}/pollution</work_directory>
       <arg_from_previous>N</arg_from_previous>
       <exec_per_row>N</exec_per_row>
@@ -654,7 +654,7 @@
       <type>WAIT_FOR_FILE</type>
       <attributes/>
       <filename>${Internal.Entry.Current.Directory}/../temp/gini.flag</filename>
-      <maximum_timeout>0</maximum_timeout>
+      <maximum_timeout>1</maximum_timeout>
       <check_cycle_time>2</check_cycle_time>
       <success_on_timeout>N</success_on_timeout>
       <file_size_check>N</file_size_check>
@@ -672,7 +672,7 @@
       <type>WAIT_FOR_FILE</type>
       <attributes/>
       <filename>${Internal.Entry.Current.Directory}/../temp/ipca.flag</filename>
-      <maximum_timeout>0</maximum_timeout>
+      <maximum_timeout>1</maximum_timeout>
       <check_cycle_time>2</check_cycle_time>
       <success_on_timeout>N</success_on_timeout>
       <file_size_check>N</file_size_check>
@@ -690,7 +690,7 @@
       <type>WAIT_FOR_FILE</type>
       <attributes/>
       <filename>${Internal.Entry.Current.Directory}/../temp/pibc.flag</filename>
-      <maximum_timeout>0</maximum_timeout>
+      <maximum_timeout>1</maximum_timeout>
       <check_cycle_time>2</check_cycle_time>
       <success_on_timeout>N</success_on_timeout>
       <file_size_check>N</file_size_check>
@@ -708,7 +708,7 @@
       <type>WAIT_FOR_FILE</type>
       <attributes/>
       <filename>${Internal.Entry.Current.Directory}/../temp/pob.flag</filename>
-      <maximum_timeout>0</maximum_timeout>
+      <maximum_timeout>1</maximum_timeout>
       <check_cycle_time>2</check_cycle_time>
       <success_on_timeout>N</success_on_timeout>
       <file_size_check>N</file_size_check>
@@ -726,7 +726,7 @@
       <type>WAIT_FOR_FILE</type>
       <attributes/>
       <filename>${Internal.Entry.Current.Directory}/../temp/qol.flag</filename>
-      <maximum_timeout>0</maximum_timeout>
+      <maximum_timeout>1</maximum_timeout>
       <check_cycle_time>2</check_cycle_time>
       <success_on_timeout>N</success_on_timeout>
       <file_size_check>N</file_size_check>
@@ -744,7 +744,7 @@
       <type>WAIT_FOR_FILE</type>
       <attributes/>
       <filename>${Internal.Entry.Current.Directory}/../temp/poll.flag</filename>
-      <maximum_timeout>0</maximum_timeout>
+      <maximum_timeout>1</maximum_timeout>
       <check_cycle_time>2</check_cycle_time>
       <success_on_timeout>N</success_on_timeout>
       <file_size_check>N</file_size_check>
@@ -814,15 +814,6 @@
     </entry>
   </entries>
   <hops>
-    <hop>
-      <from>Transformation (agg)</from>
-      <to>Success</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
     <hop>
       <from>Transformation (gini)</from>
       <to>Set flag (gini)</to>
@@ -1051,6 +1042,15 @@
     <hop>
       <from>Wait for file (poll)</from>
       <to>Delete folder (flags)</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Transformation (agg)</from>
+      <to>Success</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
