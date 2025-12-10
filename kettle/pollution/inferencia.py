@@ -122,30 +122,32 @@ def main():
     print("----ETAPA B: Inferencia Vectorizada de Otros Contaminantes----")
     
     for p in CONTAMINANTES:
-        # 1. Definir la máscara: Filas donde el contaminante [p] falta, pero PM2.5 es válido
-        needs_pollutant_inference = df[p].isna()
-        
-        # 2. Usar la columna de ratio ya calculada y fallback (f'ratio_{p}')
+    
         ratio_col = f'ratio_{p}'
+        needs_inf = df[p].isna() # Mask for rows where pollutant [p] is missing
+
+        # 1. Calculate the inferred value (full series, temporary)
+        inferred_value = df['pm25'] / df[ratio_col]
         
-        # 3. Calcular el valor inferido: Pollutant = PM25 / Ratio
-        df.loc[needs_pollutant_inference, p] = np.where(
-            (df[ratio_col] > 0) & (df['pm25'].notna()),
-            df['pm25'] / df[ratio_col],
-            df.loc[needs_pollutant_inference, p] # Mantener NaN si el ratio es 0 o no hay PM25
+        # 2. Define the inference condition only for the rows that are missing [p]
+        # We check if the ratio > 0 AND PM25 is valid (which it should be)
+        condition_to_infer = (df[ratio_col] > 0) & (df['pm25'].notna())
+        
+        # 3. Apply the final assignment to the subset of rows needing inference
+        df.loc[needs_inf, p] = np.where(
+            condition_to_infer.loc[needs_inf], # Condition filtered by the assignment mask
+            inferred_value.loc[needs_inf],     # True value filtered by the assignment mask
+            np.nan                             # False value (NaN for the subset)
         )
 
     # 4. Limpieza Final y Guardado
     
     # Columnas que deben conservarse
-    COLUMNS_TO_KEEP = ['year', 'region', 'sensor'] + ['date'] + all_pollutants
+    COLUMNS_TO_KEEP = ['year', 'region', 'sensor'] + all_pollutants
     
     # Limpiar columnas auxiliares creadas
     df_final = df[COLUMNS_TO_KEEP].copy()
-    
-    # Renombrar 'sensor' de nuevo a 'id' para la salida
-    df_final = df_final.rename(columns={'sensor': 'id'})
-    
+        
     try:
         df_final.to_csv(SUPER_CSV, sep=';', index=False)
         print("ÉXITO")
