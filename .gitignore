@@ -22,4 +22,4 @@ todo.txt
 .pdi
 
 # Pentaho DI Garbage
-./kettle/pollution/kettle*shell
+kettle/pollution/kettle*shell
