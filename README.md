@@ -245,7 +245,7 @@ Para trabajar con los 61 archivos CSV distribuidos en las 19 carpetas regionales
 
 Después de múltiples iteraciones y muchos errores, hemos desarrollado un flujo de trabajo que minimiza, en la medida de lo posible, la sobrecarga de I/O, es decir, trabajar con el mínimo de archivos posible. El flujo consta de 5 etapas:
 
-- *Formateo:* Estandarizamos la estructura de los CSVs, movemos columnas, ponemos un separador común e imprimimos por pantalla como han llegado los archivos y que hemos cambiado. Trabaja sobre los archivos de sensores - Llamada a formateador.py <region> <file>
+- *Formateo:* Estandarizamos la estructura de los CSVs, movemos columnas, ponemos un separador común e imprimimos por pantalla como han llegado los archivos y que hemos cambiado. Trabaja sobre los archivos de sensores - Llamada a formateador.py <file>
 
 - *Agregación:* Agregamos todos nuestros archivos CSV en uno solo llamado super.csv y localizado en temp/pollution/. Cambiamos el formato de la fecha y añadimos las columnas de region y sensor. Esto garantiza que en futuros pasos solo se abre este archivo y/o ratios.csv. Trabaja sobre los archivos de sensores *formateados* - Pequeño Script de AWK.
 
@@ -343,7 +343,46 @@ Finalmente, ordenaremos los datos por las siguientes columnas:
 
 ## Transformación a Tripletas
 
--- DAVID; LINXI; CARLOS;
+-- DAVID; LINXI;
+
+### Pollution:
+El módulo pollution_rdf.py es la etapa final del proceso ETL que se encarga de convertir los datos de contaminación agregados (obtenidos de pollution.csv) en un formato de Grafo de Conocimiento (Knowledge Graph) conforme a los estándares del W3C (RDF).
+
+**Fundamentos Tecnológicos**
+
+Se ha seleccionado la librería de Python RDFLib como motor de transformación debido a su alta eficiencia, su sintaxis sencilla para la manipulación programática de grafos, y su soporte nativo para el binding y serialización de vocabularios.
+
+**Diseño Ontológico y Modelado de Clases**
+
+Para garantizar la interoperabilidad, la validez semántica y el enriquecimiento de los datos, la información se describe usando los siguientes vocabularios controlados (Namespaces), centrándose la descripción en la clase schema:PropertyValue.
+
+- schema (Schema.org): Vocabulario Primario. Se utiliza para describir la estructura básica de los datos (lugares, valores y tiempo), garantizando la visibilidad de los datos en buscadores y sistemas web.
+
+- owl (OWL): Se utiliza específicamente para el enriquecimiento, vinculando las entidades de las CCAA a sus identificadores equivalentes en Wikidata (owl:sameAs).
+
+- EnvO y ChEBI: Vocabularios Controlados. Proporcionan URIs estables para identificar con precisión los conceptos químicos y ambientales (contaminantes), añadiendo un nivel de autoridad científica al recurso schema:about.
+
+- ex (Custom): Namespace propio utilizado para la generación de URIs únicas para las entidades locales (Regiones y Estadísticas de Valor).
+
+**Modelado de Clases y Propiedades**
+
+El modelo se basa en describir cada entrada (el promedio anual de un contaminante en una CCAA) como un Valor de Propiedad en lugar de una medición de sensor, lo cual es más preciso para datos agregados.
+
+1. Regiones: Se modelan como schema:Place.
+
+2. Estadísticas de Contaminación (Tripleta Clave): Se modelan como schema:PropertyValue. Esta clase es la idónea para expresar que una entidad (la CCAA) tiene una propiedad cuantificable (el promedio de PM2.5) en un momento dado.
+
+3. Vínculo Temporal (schema:temporalCoverage): Se utiliza esta propiedad para enlazar la estadística con el Año (xsd:gYear). Esto especifica que el valor es válido durante todo el periodo anual, evitando la ambigüedad de schema:observationDate.
+
+**Resumen del Proceso de Transformación**
+
+El script realiza la conversión en tres pasos principales por cada fila del CSV:
+
+1. Creación de Entidades Base: Genera y define la URI de la Comunidad Autónoma (schema:Place), le asigna su nombre y la enriquece con su identificador correspondiente de Wikidata (owl:sameAs).
+
+2. Modelado de la Estadística: Crea la URI de la estadística (schema:PropertyValue), asignándole el nombre descriptivo (schema:name, ej: "Promedio Anual de PM25"). Luego vincula esta estadística a la CCAA (schema:mainEntityOfPage) y al año (schema:temporalCoverage).
+
+3. Valoración y Tipado: Asigna el valor numérico (schema:value) y la unidad correspondiente (schema:unitCode). Además, clasifica el contaminante usando los vocabularios ENVO/CHEBI a través de la propiedad schema:about.
 
 ## Visualizaciones
 
