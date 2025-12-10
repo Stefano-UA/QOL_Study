@@ -40,11 +40,11 @@ Las casillas **marcadas** con una *X* indican que ese miembro del equipo le ha d
 | Apartado | Salas | David | Linxi | Stefano |
 |:-:|:---:|:---:|:---:|:---:|
 | 1 | (X) | (X) | (X) | (X) |
-| 2 | ( ) | ( ) | ( ) | (X) |
-| 3 | ( ) | ( ) | ( ) | (X) |
-| 4 | ( ) | ( ) | ( ) | (X) |
+| 2 | (X) | ( ) | ( ) | (X) |
+| 3 | (X) | ( ) | ( ) | (X) |
+| 4 | (X) | ( ) | ( ) | (X) |
 | 5 | ( ) | ( ) | ( ) | ( ) |
-| 6 | ( ) | ( ) | ( ) | (X) |
+| 6 | (X) | ( ) | ( ) | (X) |
 | 7 | ( ) | ( ) | ( ) | ( ) |
 | 8 | ( ) | ( ) | ( ) | ( ) |
 
@@ -77,7 +77,6 @@ Las casillas **marcadas** con una *X* indican que ese miembro del equipo le ha d
 - ./**pdi** Contiene una copia de [Pentaho Data Integration](https://pentaho.com/products/pentaho-data-integration/)
 - ./**schema**: Modelos Semánticos
     - /*.ttl*:
-    - /*.rdf*:
 - ./**visuals**: Visualizaciones de datos
     - /**code**: Código para generar las visualizaciones
     - /*.png*: Visualizaciones
@@ -126,8 +125,9 @@ Los datos tienen que tener la información por **Año**, sobretodo a poder ser l
 | Producto interior bruto | *pibc_ccaa.csv* | CSV | [INE](https://www.ine.es/) |
 | Índice de precios de consumo | *ipc_ccaa.csv* | CSV | [INE](https://www.ine.es/) |
 | Índice de desigualdad económica GINI | *gini_ccaa.csv* | CSV | [INE](https://www.ine.es/) |
-| Contaminación del aire | *pollution/* | CSVs | [AQICN](https://aqicn.org/historical) & [Sensor Community](https://archive.sensor.community/) |
 | Cantidad de población | *pob_ccaa.csv* | CSV | [INE](https://www.ine.es/) |
+| Contaminación del aire | *pollution/* | CSVs | [AQICN](https://aqicn.org/historical), [Sensor Community](https://archive.sensor.community/), [Junta Extremadura](http://extremambiente.juntaex.es/files/Calidad%20y%20Evaluacion/2023/Informe_anual_CA_2021.pdf), [ENVIRA](https://www.melilla.es/melillaportal/RecursosWeb/DOCUMENTOS/1/2_25536_1.pdf) & [Ecologistas en Acción](https://www.ecologistasenaccion.org/wp-content/uploads/2022/06/informe-calidad-aire-2021.pdf) |
+
 
 > [!NOTE]
 > Todos los datos se encuentran en la carpeta *./data*.
@@ -143,7 +143,20 @@ Las fuentes utilizadas han sido:
 
 ### Inferecias realizadas:
 
--- RELLENAR POR CARLOS (Inferencis de pollution, como funcionan a grandes rasgos y porque eran necesarias)
+- Debido a la falta de un plan nacional de monitoreo de la calidad del aire que estandarice y aporte fondos y recursos a la medición de sustancias perjudiciales en el aire ha sido de vital importancia subsanar huecos temporales en la recolección de información y enriquecer los archivos de ciertas CCAA con nueva información para poder discutir su desempeño respecto a otras regiones.
+
+	- *Patrones Locales*: Durante el proceso de ETL se crea un archivo llamado ratios.csv que conserva las proporciones entre distintos contaminantes y la métrica de pm25 (particulas por millón inferiores a 2,5 métricas) para ese sensor en particular.
+
+	Para conseguir dicha proporción se consigue la media del pm25 y el contaminante a comparar y se divide la media de pm25 entre la media del otro contaminantes.
+
+	Cuando falta por llenar en una linea el valor pm25, se multiplica el valor del contaminante X por el ratio del contamiante X para cada contaminante válido en esa línea. Y finalmente se saca la media de los datos obtenidos y se le asigna este valor al valor pm25.
+
+	Cuando falta por llenar en una linea el valor de un contaminante, se divide el valor del contaminante pm25 por el ratio del contaminante X y se le asigna este valor al contaminante en cuestión.
+
+> [!WARNING]
+> En la etapa de inferencia cuando no encontramos un ratio válido para ese sensor y contaminante en concreto se usa por defecto la media nacional entre contaminantes.
+> [!NOTE]
+> Se usa como contaminante base pm25 debido a su extensa y constante medición por partes de instituciones públicas y aficionados, especialmente respecto al resto de contaminantes.
 
 ## Almacén de Datos
 
@@ -228,9 +241,19 @@ Como resultado obtenemos *data.csv* en la carpeta *./dist* y los subproductos en
 
 ### Python Script
 
-Usamos Python para programar la agregación de todos los distintos CSV con los datos de la contaminación en uno solo que se pueda agregar al CSV final.
+Para trabajar con los 61 archivos CSV distribuidos en las 19 carpetas regionales que componen nuestro repositorio de contaminación hemos optado por hacer el proceso ETL de estos datos con ayuda de Python, Bash y AWK. El proceso ETL de los datos de contaminación ocurre en su totalidad en el archivo de Bash *start.sh* desde donde se invocan los programas python que trabajan con los datos y un usamos AWK para agregar todos los datos en un archivo temporal llamado "super.csv".
 
--- CARLOS
+Después de múltiples iteraciones y muchos errores, hemos desarrollado un flujo de trabajo que minimiza, en la medida de lo posible, la sobrecarga de I/O, es decir, trabajar con el mínimo de archivos posible. El flujo consta de 5 etapas:
+
+- *Formateo:* Estandarizamos la estructura de los CSVs, movemos columnas, ponemos un separador común e imprimimos por pantalla como han llegado los archivos y que hemos cambiado. Trabaja sobre los archivos de sensores - Llamada a formateador.py <region> <file>
+
+- *Agregación:* Agregamos todos nuestros archivos CSV en uno solo llamado super.csv y localizado en temp/pollution/. Cambiamos el formato de la fecha y añadimos las columnas de region y sensor. Esto garantiza que en futuros pasos solo se abre este archivo y/o ratios.csv. Trabaja sobre los archivos de sensores *formateados* - Pequeño Script de AWK.
+
+- *Patrones:* Para cada sensor individual calculamos las medias de las proporciones entre los contamiantes y pm25, además de la media nacional. Los resultados se escriben en un archivo CSV llamado ratios.csv localizado en temp/pollution. Trabaja sobre super.csv - Llamada a ratios.py
+
+- *Inferencia*: Eliminamos instancias irrecuperables y reconstruimos información pérdida debido a erroes de medición. Primero reconstruimos toda la columna pm25 y después el resto de contaminantes. Trabaja sobre super.csv y ratios.csv - Llamada a inferencia.py
+
+- *Factorización*: Pasa la información formateada e inferida de super.csv de un formato ancho a uno largo con las columnas: Year, CCAA, Type, Value. Estás columnas son las estandarizadas para toda nuestra base de datos. Para hacer este cambio se agrupa y calcula la media de cada combinación de Year, CCAA y Type.
 
 ### Pentaho Data Integration
 
@@ -367,6 +390,6 @@ La matriz sintetiza el peso cuantitativo de las variables, confirmando mediante 
 Además de este mismo README.md se incluye una memoria del trabajo en la carpeta *./docs*.
 
 ## Last Edited
-
+- 10/12/25 - Carlos
 - 8/12/25 - Stefano
-- 5/12/25 - Carlos
+

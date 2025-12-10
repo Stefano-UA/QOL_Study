@@ -39,9 +39,6 @@ for region in "$scandir"/*/; do
         fi
     done
 done
-#!/bin/bash
-
-# ... (PRELIMINAR y PRIMER LOOP - FORMATEO se mantienen iguales) ...
 
 scandir="../../temp/pollution"
 SUPER_CSV="../../temp/pollution/super.csv"
@@ -94,13 +91,6 @@ echo "###################################"
 echo "----Aplicando Inferencia sobre SUPER_CSV..."
 # La llamada a inferencia.py ya no lleva argumentos y trabaja sobre SUPER_CSV
 python3 inferencia.py 
-
-# --- ANTIGUAS ETAPAS ELIMINADAS ---
-# SEGUNDO LOOP (Ratios por archivo) - ELIMINADO/FUSIONADO
-# TERCER LOOP (Ratios Nacionales y Anexión) - ELIMINADO/FUSIONADO
-# CUARTO LOOP (Inferencia Patrones) - ELIMINADO/FUSIONADO
-# QUINTO LOOP (Inferencia de Datos por archivo) - ELIMINADO/FUSIONADO
-# SEXTO LOOP (Agregación) - ELIMINADO/FUSIONADO
 
 # --- NUEVA ETAPA 5: FACTORIZACIÓN (Antiguo Séptimo Loop) ---
 echo "#############################"
