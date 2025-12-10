@@ -17,7 +17,6 @@ echo "#  1a Etapa - FORMATEO    #"
 echo "###########################"
 
 for region in "$scandir"/*/; do
-    nom_region="$(basename "$region")"
     for file in "$region"/*.csv; do
 
         # Nos lo saltamos sino existe
@@ -34,7 +33,7 @@ for region in "$scandir"/*/; do
         if [ "$(basename "$file")" == "2025-11-06_sds011_sensor_83475.csv" ]; then
             python3 formateadorLaMancha.py "$(realpath "$file")"
         else
-            python3 formateador.py "$nom_region" "$(realpath "$file")"
+            python3 formateador.py "$(realpath "$file")"
         fi
     done
 done

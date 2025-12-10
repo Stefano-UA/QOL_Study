@@ -3,12 +3,10 @@ import os
 import pandas as pd
 import numpy as np
 
+# Constantes y Rutas
 CONTAMINANTES = ['pm10', 'o3', 'no2', 'so2', 'co']
-
 SUPER_CSV = "../../temp/pollution/super.csv"
 OUTPUT_FILE = "../../temp/pollution/ratios.csv"
-
-# Columnas clave para identificar cada ratio de sensor
 KEY_COLUMNS = ['year', 'region', 'sensor']
 
 def calculate_ratios(df_group):
@@ -40,7 +38,7 @@ def calculate_ratios(df_group):
 
 def main():
     
-    # 1. Cargar SUPER_CSV
+    # PASO 1 - Cargar SUPER_CSV
     if not os.path.isfile(SUPER_CSV):
         print(f"ERROR: Archivo SUPER_CSV no encontrado: {SUPER_CSV}")
         sys.exit(1)
@@ -50,13 +48,8 @@ def main():
     except Exception as e:
         print(f"ERROR: No se pudo leer {SUPER_CSV} : {e}")
         sys.exit(1)
-        
-    # El archivo SUPER_CSV ahora debe tener 'year', 'region' y 'id' (que renombramos a 'sensor')
-    # Renombramos 'id' a 'sensor' temporalmente para consistencia con el código
-    if 'id' in df_super.columns:
-        df_super = df_super.rename(columns={'id': 'sensor'})
     
-    # 2. CALCULAR RATIOS POR GRUPO (YEAR, REGION, SENSOR)
+    # PASO 2 -CALCULAR RATIOS POR GRUPO (YEAR, REGION, SENSOR)
     print("Calculando ratios por grupo (YEAR, REGION, SENSOR)...")
     
     # Agrupar y aplicar la función de cálculo
@@ -65,7 +58,7 @@ def main():
     # Limpiar el resultado: convertimos el índice multi-nivel en columnas
     df_ratios_grouped = df_ratios_grouped.reset_index()
 
-    # 3. CALCULAR RATIOS NACIONALES (Fallback ZZZZZZZZZZ)
+    # PASO 3 - CALCULAR RATIOS NACIONALES
     print("Calculando ratio nacional (ZZZZZZZZZZ)...")
     df_ratios_national = calculate_ratios(df_super)
     
@@ -75,8 +68,7 @@ def main():
     national_row['region'] = 'ZZZZZZZZZZ'
     national_row['sensor'] = 'ZZZZZZZZZZ'
     
-    # 4. COMBINAR Y GUARDAR
-    
+    # PASO 4 - COMBINAR Y GUARDAR
     # Convertir la fila nacional en un DataFrame y luego combinar
     df_national_row = pd.DataFrame([national_row])
     
