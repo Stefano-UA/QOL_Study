@@ -2,6 +2,8 @@ import sys
 import os
 import pandas as pd
 import numpy as np
+import warnings 
+warnings.filterwarnings("ignore")
 
 # Constantes y Rutas
 CONTAMINANTES = ['pm10', 'o3', 'no2', 'so2', 'co']
@@ -53,8 +55,11 @@ def main():
     print("Calculando ratios por grupo (YEAR, REGION, SENSOR)...")
     
     # Agrupar y aplicar la función de cálculo
-    df_ratios_grouped = df_super.groupby(KEY_COLUMNS).apply(calculate_ratios)
+    df_ratios_grouped = df_super.groupby(KEY_COLUMNS, group_keys=False).apply(calculate_ratios) 
     
+    # Si las columnas clave aparecen en el resultado del apply, las eliminamos.
+    df_ratios_grouped = df_ratios_grouped.drop(columns=KEY_COLUMNS, errors='ignore')
+
     # Limpiar el resultado: convertimos el índice multi-nivel en columnas
     df_ratios_grouped = df_ratios_grouped.reset_index()
 

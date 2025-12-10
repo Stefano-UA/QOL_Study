@@ -2,6 +2,8 @@ import sys
 import os
 import pandas as pd
 import numpy as np
+import warnings 
+warnings.filterwarnings("ignore")
 
 # Constantes y Rutas
 CONTAMINANTES = ["pm10", "o3", "no2", "so2", "co"]
