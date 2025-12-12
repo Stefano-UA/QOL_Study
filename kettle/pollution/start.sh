@@ -1,14 +1,38 @@
 #!/bin/bash
+# <============================================>
+
+#   ███████╗████████╗ █████╗ ██████╗ ████████╗
+#   ██╔════╝╚══██╔══╝██╔══██╗██╔══██╗╚══██╔══╝
+#   ███████╗   ██║   ███████║██████╔╝   ██║
+#   ╚════██║   ██║   ██╔══██║██╔══██╗   ██║
+#   ███████║   ██║   ██║  ██║██║  ██║   ██║
+#   ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝
+
+# <============================================>
+#       Start the pollution transformations
+# <============================================>
+#  Configuration:
+# <============================================>
+WKDIR="$(dirname "${BASH_SOURCE[0]}")"
+VENVDIR="${WKDIR}/../../.venv"
+# <============================================>
+#  Create the python venv:
+# <============================================>
+echo "Creating Python virtual environment..."
+python3 -m venv "$VENVDIR"
+# <============================================>
+#  Install the required dependencies:
+# <============================================>
+echo "Installing required Python packages in virtual environment..."
+"${VENVDIR}/bin/pip" install --quiet --upgrade pip
+"${VENVDIR}/bin/pip" install --quiet pandas numpy python-dateutil
+# <============================================>
 
 # PRELIMINAR - COPIAMOS LA INFORMACIÓN
 rm -rf ../../temp/pollution
 mkdir -p ../../temp/pollution
 cp -r ../../data/pollution/* ../../temp/pollution/
 
-# PRELIMINAR - ENTORNO PYTHON
-python3 -m venv .venv
-source .venv/bin/activate
-pip install --quiet -r requirements.txt
 
 scandir="../../temp/pollution"
 
@@ -31,9 +55,9 @@ for region in "$scandir"/*/; do
         echo "Procesando: \n$file"
         echo "----Formateo:"
         if [ "$(basename "$file")" == "2025-11-06_sds011_sensor_83475.csv" ]; then
-            python3 formateadorLaMancha.py "$(realpath "$file")"
+            "${VENVDIR}/bin/python3" formateadorLaMancha.py "$(realpath "$file")"
         else
-            python3 formateador.py "$(realpath "$file")"
+            "${VENVDIR}/bin/python3" formateador.py "$(realpath "$file")"
         fi
     done
 done
@@ -77,19 +101,19 @@ echo "########################"
 echo "# 3a Etapa - PATRONES  #"
 echo "########################" 
 echo "----Calculando Ratios por (YEAR, REGION, SENSOR) y Nacional..."
-python3 ratios.py 
+"${VENVDIR}/bin/python3" ratios.py 
 
 echo "###################################"
 echo "# 4a Etapa - INFERENCIA DE DATOS (Centralizada) #"
 echo "###################################"
 echo "----Aplicando Inferencia sobre SUPER_CSV..."
-python3 inferencia.py 
+"${VENVDIR}/bin/python3" inferencia.py 
 
 echo "#############################"
 echo "# 5a Etapa - FACTORIZACIÓN  #"
 echo "#############################"
 echo "Generando pollution.csv agregando por año, región y tipo:"
-python3 agregador.py
+"${VENVDIR}/bin/python3" agregador.py
 
 # LIMPIEZA
 deactivate
