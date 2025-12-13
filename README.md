@@ -55,6 +55,7 @@ Las casillas **marcadas** con una *X* indican que ese miembro del equipo le ha d
     - /*ipc_ccaa.csv*: Índice de Precios de Consumo por CCAA
     - /*pibc_ccaa.csv*: Producto Interior Bruto per capita por CCAA
     - /*pob_ccaa.csv*: Cantidad de población por CCAA
+	- /*pob_ccaa_ex.csv*: Cantidad de población por CCAA con menos años
     - /*qol_ccaa.xslx*: Índice de calidad de vida por CCAA
     - /*qol_ccaa_ex.xslx*: Índice de calidad de vida por CCAA con datos extra
 - ./**design**: Diseños del almacen de datos
@@ -80,7 +81,7 @@ Las casillas **marcadas** con una *X* indican que ese miembro del equipo le ha d
 - ./**visuals**: Visualizaciones de datos
     - /**code**: Código para generar las visualizaciones
     - /*.png*: Visualizaciones
-- *start.sh*: Script para ejecutar las transformaciones y generar las visualizaciones
+- *start.sh*: Script para ejecutar las transformaciones, generar las tripletas y generar las visualizaciones
 
 > [!IMPORTANT]
 > **DISCLAIMER:** Se incluyen los binarios de **Pentaho Data Integration (PDI)** únicamente para asegurar la reproducibilidad del ETL sin configuraciones externas. La propiedad intelectual del software pertenece íntegramente a **Hitachi Vantara**.
@@ -344,7 +345,6 @@ Finalmente, ordenaremos los datos por las siguientes columnas:
 
 ## Transformación a Tripletas
 
--- DAVID; LINXI;
 ### Indicadores Socioeconómicos y Demográficos
 
 El módulo de transformación RDF (`transform_rdf.py`) procesa un conjunto heterogéneo de indicadores sociales para integrarlos en el Grafo de Conocimiento. Estos datos representan observaciones estadísticas anuales que complementan la visión ambiental con el contexto demográfico y económico de cada región.

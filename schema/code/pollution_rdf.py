@@ -2,6 +2,7 @@ import pandas as pd
 from rdflib import Graph, Namespace, Literal, RDF
 from rdflib.namespace import XSD, OWL
 import re
+import os
 
 # Namespaces RDF
 BASE_URI = "https://csalas-alarcon.github.io/Grupo3_ADP/ontology"
@@ -43,8 +44,9 @@ UNIT_MAP = {
 }
 
 # Rutas
-INPUT_CSV = "../../dist/kettle/pollution.csv"
-OUTPUT_TTL = "../rdf_pollution.ttl"
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+INPUT_CSV = SCRIPT_DIR + "/../../dist/kettle/pollution.csv"
+OUTPUT_TTL = SCRIPT_DIR + "/../rdf_pollution.ttl"
 
 # PASO 1 - Leer CSV
 df = pd.read_csv(INPUT_CSV, sep='\t')
