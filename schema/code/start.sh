@@ -27,10 +27,9 @@ echo "Installing required Python packages in virtual environment..."
 "${VENVDIR}/bin/pip" install --quiet --upgrade pip
 "${VENVDIR}/bin/pip" install --quiet rdflib pandas
 # <============================================>
-#  Execute the python script to make the plots:
+#  Execute the python script to make the rdfs:
 # <============================================>
 echo "Executing Python script..."
 "${VENVDIR}/bin/python" "${WKDIR}/transform_rdf.py"
-"${VENVDIR}/bin/python" "${WKDIR}/pollution_rdf.py"
 echo "Finished executing script!"
 # <============================================>

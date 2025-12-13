@@ -1,210 +1,226 @@
-import os
-import pandas as pd
-from rdflib.namespace import XSD
+# <=================================================================================>
+
+#   ████████╗██████╗  █████╗ ███████╗███╗   ██╗███████╗ ██████╗ ██████╗ ███╗   ███╗
+#   ╚══██╔══╝██╔══██╗██╔══██╗██╔════╝████╗  ██║██╔════╝██╔═══██╗██╔══██╗████╗ ████║
+#      ██║   ██████╔╝███████║███████╗██╔██╗ ██║█████╗  ██║   ██║██████╔╝██╔████╔██║
+#      ██║   ██╔══██╗██╔══██║╚════██║██║╚██╗██║██╔══╝  ██║   ██║██╔══██╗██║╚██╔╝██║
+#      ██║   ██║  ██║██║  ██║███████║██║ ╚████║██║     ╚██████╔╝██║  ██║██║ ╚═╝ ██║
+#      ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝╚═╝      ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝
+
+# <=================================================================================>
+#          Transforms data from CSVs into a normalized RDF Knowledge Graph
+# <=================================================================================>
+#  Imports:
+# <=================================================================================>
 from rdflib import Graph, Literal, RDF, URIRef, Namespace
-
-# CONFIGURACION DE RUTAS
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_FOLDER = os.path.join(SCRIPT_DIR, "../../dist/kettle")
-OUTPUT_FOLDER = os.path.join(SCRIPT_DIR, "..")
-
-# NAMESPACES
-BASE_URI = "https://csalas-alarcon.github.io/Grupo3_ADP/ontology/"
-WIKIDATA = Namespace("http://www.wikidata.org/entity/")
-OWL = Namespace("http://www.w3.org/2002/07/owl#")
-SCHEMA = Namespace("http://schema.org/")
-EX = Namespace(BASE_URI)
-
-# MAPEO CCAA -> WIKIDATA
-ccaa_wikidata_map = {
-    "andalucia": "Q5718", "aragon": "Q4040", "asturias": "Q3934",
-    "baleares": "Q4071", "canarias": "Q5709", "cantabria": "Q3946",
-    "castilla_la_mancha": "Q5748", "castilla_leon": "Q5739",
-    "catalunya": "Q5705", "ceuta": "Q5823", "comunidad_valenciana": "Q5720",
-    "extremadura": "Q5777", "galicia": "Q3911", "la_rioja": "Q5727",
-    "madrid": "Q5756", "melilla": "Q5831", "murcia": "Q5768",
-    "navarra": "Q4018", "pais_vasco": "Q3995", "rioja": "Q5727",
-    "total_nacional": "Q29", "total": "Q29"
+from rdflib.namespace import XSD
+import pandas as pd
+import sys
+import os
+# <=================================================================================>
+#  Configuration & Constants:
+# <=================================================================================>
+#  Script working directory
+# <=================================================================================>
+WKDIR = os.path.dirname(os.path.abspath(sys.argv[0]))
+# <=================================================================================>
+#  Input data directory to use
+# <=================================================================================>
+DATADIR = WKDIR + '/../../dist/kettle/'
+# <=================================================================================>
+#  Output directory for transformations
+# <=================================================================================>
+OUTDIR = WKDIR + '/../'
+# <=================================================================================>
+#  Processing Config:
+# <=================================================================================>
+from processing import config as fconfig
+# <=================================================================================>
+#  Namespaces:
+# <=================================================================================>
+#  Our own namespace
+# <=================================================================================>
+EX = Namespace('https://csalas-alarcon.github.io/Grupo3_ADP/ontology/')
+# <=================================================================================>
+#  CHEBI namespace -> http://purl.obolibrary.org
+# <=================================================================================>
+CHEBI = Namespace('http://purl.obolibrary.org/obo/CHEBI_')
+# <=================================================================================>
+#  ENVO namespace -> http://purl.obolibrary.org
+# <=================================================================================>
+ENVO = Namespace('http://purl.obolibrary.org/obo/ENVO_')
+# <=================================================================================>
+#  ECTO namespace -> http://purl.obolibrary.org
+# <=================================================================================>
+ECTO = Namespace('http://purl.obolibrary.org/obo/ECTO_')
+# <=================================================================================>
+#  LFID namespace -> http://purl.obolibrary.org
+# <=================================================================================>
+LFID = Namespace('http://purl.obolibrary.org/obo/LFID_')
+# <=================================================================================>
+#  Wikidata namespace -> http://www.wikidata.org
+# <=================================================================================>
+WIKIDATA = Namespace('http://www.wikidata.org/entity/')
+# <=================================================================================>
+#  OWL namespace -> http://www.w3.org
+# <=================================================================================>
+OWL = Namespace('http://www.w3.org/2002/07/owl#')
+# <=================================================================================>
+#  Schema namespace -> http://schema.org
+# <=================================================================================>
+SCHEMA = Namespace('http://schema.org/')
+# <=================================================================================>
+#  Maps:
+# <=================================================================================>
+#  WIKIDATA CCAA to ID map
+# <=================================================================================>
+CCAA_TO_WIKIDATA = {
+    'andalucia': 'Q5718', 'aragon': 'Q4040', 'asturias': 'Q3934',
+    'baleares': 'Q4071', 'canarias': 'Q5709', 'cantabria': 'Q3946',
+    'castilla_la_mancha': 'Q5748', 'castilla_leon': 'Q5739',
+    'catalunya': 'Q5705', 'ceuta': 'Q5823', 'comunidad_valenciana': 'Q5720',
+    'extremadura': 'Q5777', 'galicia': 'Q3911', 'la_rioja': 'Q5727',
+    'madrid': 'Q5756', 'melilla': 'Q5831', 'murcia': 'Q5768',
+    'navarra': 'Q4018', 'pais_vasco': 'Q3995', 'rioja': 'Q5727',
+    'total_nacional': 'Q29', 'spain': 'Q29'
 }
-
-# FUNCIONES DE LIMPIEZA
-def clean_spanish_number(val):
-    if isinstance(val, (int, float)): return val
-    val = str(val).strip()
-    if '.' in val and ',' in val:
-        val = val.replace('.', '').replace(',', '.')
-    elif ',' in val:
-        val = val.replace(',', '.')
-    elif '.' in val:
-        val = val.replace('.', '')
-    try:
-        return float(val)
-    except:
-        return 0.0
-
-def clean_english_number(val):
-    try:
-        val = str(val).replace(',', '.') # Por si acaso se cuela alguna coma
-        return float(val)
-    except:
-        return 0.0
-
-def process_file(config):
-    filename = config['filename']
-    csv_path = os.path.join(DATA_FOLDER, filename)
-
+# <=================================================================================>
+#  UNIT to TYPE map
+# <=================================================================================>
+UNIT_TO_TYPE = {
+    'co': LFID['0000786'],
+    'o3': ECTO['9000052'],
+    'no2': LFID['0000787'],
+    'so2': LFID['0000793'],
+    'pm25': LFID['0000795'],
+    'pm10': LFID['0000795'],
+    'gini': LFID['0001254'],
+    'desigualdad_(s80/s20)': LFID['0001254'],
+    'renta_neta_media_por_persona': LFID['0001116'],
+    'renta_media_por_unidad_de_consumo': LFID['0001244']
+}
+# <=================================================================================>
+#  UNIT to OBJECT map
+# <=================================================================================>
+UNIT_TO_OBJECT = {
+    'pm25': ENVO['01003002'],
+    'pm10': ENVO['01003002'],
+    'o3': CHEBI['25812'],
+    'no2': CHEBI['29424'],
+    'so2': CHEBI['29820'],
+    'co': CHEBI['17245']
+}
+# <=================================================================================>
+#  Code:
+# <=================================================================================>
+#  Function to do the transformaton for a config
+# <=================================================================================>
+def transform(config):
+    # Get CSV path
+    csv_path = os.path.join(DATADIR, config['infile'])
+    # Check existence
     if not os.path.exists(csv_path):
-        print(f"NO ENCONTRADO: {filename}")
+        print(f'NOT FOUND: {csv_path}')
         return
 
-    print(f"Procesando {filename}...")
+    print(f'Processing {os.path.abspath(csv_path)}...')
 
     try:
-        # Detectamos separador automáticamente (los archivos usan tabuladores o comas según el caso)
+        # Automatically detect separator
         df = pd.read_csv(csv_path, sep=None, engine='python')
     except Exception as e:
-        print(f"Error leyendo {filename}: {e}")
+        print(f'Error reading {config['infile']}: {e}')
         return
 
+    # Make graph
     g = Graph()
-    g.bind("schema", SCHEMA)
-    g.bind("ex", EX)
-    g.bind("owl", OWL)
+    g.bind('ex', EX)
+    g.bind('owl', OWL)
+    g.bind('ecto', ECTO)
+    g.bind('lfid', LFID)
+    g.bind('schema', SCHEMA)
+    if 'pollution' in config:
+        g.bind('envo', ENVO)
+        g.bind('chebi', CHEBI)
 
-    count = 0
-
-    # Obtenemos el nombre de la columna que define el tipo (por defecto 'Type')
-    type_col = config.get('type_col', 'Type')
-
-    for index, row in df.iterrows():
+    # Loop trough CSV
+    for index,row in df.iterrows():
         try:
-            # 1. DETERMINAR ETIQUETAS Y SLUGS
+            row_type = None
+            # Check mappings
             if 'mappings' in config:
-                # El archivo tiene múltiples tipos (Gini y S80/20)
-                row_type = row.get(type_col)
-
-                # Si el tipo de la fila no está en nuestro mapa, lo ignoramos
+                # Get data type
+                row_type = row.get('Type')
+                # If we dont handle the type we ignore it
                 if row_type not in config['mappings']:
                     continue
 
-                mapping = config['mappings'][row_type]
-                var_slug = mapping['slug']
-                var_label = mapping['label']
-                var_unit = mapping['unit']
-            else:
-                # El archivo es simple (solo un dato, ej: Población)
-                var_slug = config['default_slug']
-                var_label = config['default_label']
-                var_unit = config['default_unit']
+            # Get relevant properties
+            slug = config['mappings'][row_type]['slug'] if row_type else config['slug']
+            unit = config['mappings'][row_type]['unit'] if row_type else config['unit']
+            label = config['mappings'][row_type]['label'] if row_type else config['label']
 
-            # 2. EXTRAER VALORES
-            year = str(row.get('Year', row.get('YEAR', '2024')))
-            ccaa_raw = row.get('CCAA', 'Desconocido')
-            val_raw = row.get('Value', 0)
+            try:
+                # Get relevant data
+                y,  ca, v = row['Year'], row['CCAA'], row['Value']
+            except:
+                # Skip if any data is not present
+                continue
 
-            if config['number_format'] == 'spanish':
-                val_num = clean_spanish_number(val_raw)
-            else:
-                val_num = clean_english_number(val_raw)
+            # Do PLACE
+            uri_place = EX[f'Region_{ca}']
+            g.add((uri_place, RDF.type, SCHEMA.Place))
+            g.add((uri_place, SCHEMA.name, Literal(ca)))
+            g.add((uri_place, SCHEMA.containedInPlace, WIKIDATA[CCAA_TO_WIKIDATA['spain']]))
+            # Set sameAs with wikidata if present
+            if ca in CCAA_TO_WIKIDATA:
+                g.add((uri_place, OWL.sameAs, WIKIDATA[CCAA_TO_WIKIDATA[ca]]))
+                g.add((uri_place, SCHEMA.sameAs, WIKIDATA[CCAA_TO_WIKIDATA[ca]]))
 
-            ccaa_clean = str(ccaa_raw).lower().strip().replace(' ', '_')
+            # Do DATASET -> Year
+            uri_dataset_year = EX[f'Dataset/Year_{y}']
+            g.add((uri_dataset_year, RDF.type, SCHEMA.Dataset))
+            g.add((uri_dataset_year, SCHEMA.name, Literal(f'Datos Año {y}')))
+            g.add((uri_dataset_year, SCHEMA.variableMeasured, Literal(label)))
+            g.add((uri_dataset_year, SCHEMA.temporalCoverage, Literal(y, datatype=XSD.gYear)))
 
-            # 3. GENERAR TRIPLETAS RDF
+            # Do DATASET -> Region
+            uri_dataset_region = EX[f'Dataset/Region_{ca.capitalize()}']
+            g.add((uri_dataset_region, RDF.type, SCHEMA.Dataset))
+            g.add((uri_dataset_region, SCHEMA.variableMeasured, Literal(label)))
+            g.add((uri_dataset_region, SCHEMA.name, Literal(f'Datos Históricos {ca}')))
+            g.add((uri_dataset_region, SCHEMA.spatialCoverage, uri_place))
 
-            # A) LUGAR (Place)
-            uri_lugar = EX[f"Region_{ccaa_clean}"]
-            g.add((uri_lugar, RDF.type, SCHEMA.Place))
-            g.add((uri_lugar, SCHEMA.name, Literal(ccaa_raw)))
-
-            if ccaa_clean in ccaa_wikidata_map:
-                g.add((uri_lugar, OWL.sameAs, WIKIDATA[ccaa_wikidata_map[ccaa_clean]]))
-
-            # B) OBSERVACIÓN (Observation)
-            # El ID debe ser único: VARIABLE + LUGAR + AÑO
-            # Ej: observation/gini_andalucia_2022 vs observation/s80_s20_andalucia_2022
-            obs_id = f"{var_slug}_{ccaa_clean}_{year}"
-            uri_obs = EX[f"Observation/{obs_id}"]
-
+            # Do OBSERVATION
+            uri_obs = EX[f'Observation/{slug}_{ca}_{y}']
             g.add((uri_obs, RDF.type, SCHEMA.Observation))
-            g.add((uri_obs, SCHEMA.variableMeasured, Literal(var_label)))
-            g.add((uri_obs, SCHEMA.value, Literal(val_num, datatype=XSD.float)))
-            g.add((uri_obs, SCHEMA.unitText, Literal(var_unit)))
-            g.add((uri_obs, SCHEMA.observationDate, Literal(year, datatype=XSD.gYear)))
-            g.add((uri_obs, SCHEMA.areaServed, uri_lugar))
+            g.add((uri_obs, SCHEMA.areaServed, uri_place))
+            g.add((uri_obs, SCHEMA.unitText, Literal(unit)))
+            g.add((uri_obs, SCHEMA.isPartOf, uri_dataset_year))
+            g.add((uri_obs, SCHEMA.observationAbout, uri_place))
+            g.add((uri_obs, SCHEMA.isPartOf, uri_dataset_region))
+            g.add((uri_obs, SCHEMA.variableMeasured, Literal(label)))
+            g.add((uri_obs, SCHEMA.observationPeriod, Literal('P1Y'))) # 1 Year
+            g.add((uri_obs, SCHEMA.value, Literal(v, datatype=XSD.float)))
+            g.add((uri_obs, SCHEMA.observationDate, Literal(y, datatype=XSD.gYear)))
+            if row_type in UNIT_TO_TYPE:
+                g.add((uri_obs, SCHEMA.additionalType, UNIT_TO_TYPE[row_type]))
+            if row_type in UNIT_TO_OBJECT:
+                g.add((uri_obs, SCHEMA.additionalType, UNIT_TO_OBJECT[row_type]))
 
-            count += 1
         except Exception as e:
+            print(e)
             continue
 
-    # 4. GUARDAR ARCHIVO ÚNICO
-    if not os.path.exists(OUTPUT_FOLDER): os.makedirs(OUTPUT_FOLDER)
-    out_file = os.path.join(OUTPUT_FOLDER, config['output_name'])
-    g.serialize(destination=out_file, format="turtle")
-    print(f" -> Generado: {config['output_name']} ({count} tripletas)")
-
-# CONFIGURACION DE ARCHIVOS (Mapeos basados en CSVs)
-files_to_process = [
-    # 1. GINI + DESIGUALDAD (Mismo archivo, dos tipos)
-    {
-        'filename': 'gini_ccaa.csv',
-        'output_name': 'rdf_gini.ttl',
-        'number_format': 'spanish',
-        'type_col': 'Type',
-        'mappings': {
-            'gini': {'slug': 'gini', 'label': 'Indice Gini', 'unit': 'Index'},
-            'desigualdad_(s80/s20)': {'slug': 's80_s20', 'label': 'Ratio S80/S20', 'unit': 'Ratio'}
-        }
-    },
-
-    # 2. IPC (Indice General + Variación Anual)
-    {
-        'filename': 'ipca_ccaa.csv',
-        'output_name': 'rdf_ipca.ttl',
-        'number_format': 'spanish',
-        'type_col': 'Type',
-        'mappings': {
-            'indice': {'slug': 'ipc_indice', 'label': 'IPC Indice General', 'unit': 'Index'},
-            'variacion_anual': {'slug': 'ipc_var', 'label': 'IPC Variacion Anual', 'unit': 'Percentage'}
-        }
-    },
-
-    # 3. RENTA (Por persona + Por unidad de consumo)
-    {
-        'filename': 'pibc_ccaa.csv',
-        'output_name': 'rdf_pibc.ttl',
-        'number_format': 'spanish',
-        'type_col': 'Type',
-        'mappings': {
-            'renta_neta_media_por_persona': {'slug': 'renta_persona', 'label': 'Renta Neta Media por Persona', 'unit': 'Euro'},
-            'renta_media_por_unidad_de_consumo': {'slug': 'renta_consumo', 'label': 'Renta Media Unidad Consumo', 'unit': 'Euro'}
-        }
-    },
-
-    # 4. POBLACION
-    {
-        'filename': 'pob_ccaa.csv',
-        'output_name': 'rdf_pob.ttl',
-        'number_format': 'spanish', # 5990874
-        'default_slug': 'poblacion',
-        'default_label': 'Poblacion Total',
-        'default_unit': 'Personas'
-    },
-
-    # 5. CALIDAD DE VIDA
-    {
-        'filename': 'qol_ccaa.csv',
-        'output_name': 'rdf_qol.ttl',
-        'number_format': 'spanish', # 97,9101... (usa coma)
-        'default_slug': 'calidad_vida',
-        'default_label': 'Indice Calidad de Vida',
-        'default_unit': 'Index'
-    }
-]
-
-if __name__ == "__main__":
-    print(f"Buscando archivos en: {os.path.abspath(DATA_FOLDER)}")
-    for f_config in files_to_process:
-
-        process_file(f_config)
-
-
+    # Save to file
+    os.makedirs(OUTDIR, exist_ok=True)
+    g.serialize(destination=os.path.join(OUTDIR, config['outfile']), format='turtle')
+    print(f' -> Generated: {config['outfile']} ({len(g)} triplets)')
+# <=================================================================================>
+#  What to run when called as a script
+# <=================================================================================>
+if (__name__ == '__main__'):
+    print(f'Looking for files in {os.path.abspath(DATADIR)}...')
+    # Loop through files to process
+    for entry in fconfig:
+        transform(entry)
