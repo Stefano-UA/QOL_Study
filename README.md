@@ -42,7 +42,7 @@ Las casillas **marcadas** con una *X* indican que ese miembro del equipo le ha d
 | 2 | (X) | ( ) | (X) | (X) |
 | 3 | (X) | ( ) | (X) | (X) |
 | 4 | (X) | ( ) | (X) | (X) |
-| 5 | ( ) | ( ) | ( ) | ( ) |
+| 5 | ( ) | ( ) | ( ) | (X) |
 | 6 | (X) | ( ) | (X) | (X) |
 | 7 | ( ) | ( ) | ( ) | ( ) |
 | 8 | ( ) | ( ) | ( ) | ( ) |
@@ -76,8 +76,9 @@ Las casillas **marcadas** con una *X* indican que ese miembro del equipo le ha d
     - /*agg_all.ktr*: Transformación de Pentaho para agregar todos los CSV limpios en uno final
     - /*data.kjb*: Trabajo de Pentaho que orquestra todo el proceso de limpieza, transformación y agregación de datos
 - ./**pdi** Contiene una copia de [Pentaho Data Integration](https://pentaho.com/products/pentaho-data-integration/)
-- ./**schema**: Modelos Semánticos
-    - /*.ttl*:
+- ./**schema**: Definiciones RDF
+	- /**code**: Código para generar las definiciones RDF
+    - /*.ttl*: Definiciones RDF para cada categoria
 - ./**visuals**: Visualizaciones de datos
     - /**code**: Código para generar las visualizaciones
     - /*.png*: Visualizaciones
