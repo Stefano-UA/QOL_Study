@@ -31,5 +31,6 @@ echo "Installing required Python packages in virtual environment..."
 # <============================================>
 echo "Executing Python script..."
 "${VENVDIR}/bin/python" "${WKDIR}/transform_rdf.py"
+"${VENVDIR}/bin/python" "${WKDIR}/pollution_rdf.py"
 echo "Finished executing script!"
 # <============================================>
