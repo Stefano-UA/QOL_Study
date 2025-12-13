@@ -562,16 +562,6 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Compute accumulated toxicity</from>
-      <to>Change . to , in Value</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Change . to , in Value</from>
-      <to>Select values (Value -> POLL)</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
       <from>Row denormaliser (poll)</from>
       <to>Compute accumulated toxicity</to>
       <enabled>Y</enabled>
@@ -588,12 +578,12 @@
     </hop>
     <hop>
       <from>Select values (Remove Redundant)</from>
-      <to>Replace in string (, to .)</to>
+      <to>Sort rows</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Replace in string (, to .)</from>
-      <to>Sort rows</to>
+      <from>Compute accumulated toxicity</from>
+      <to>Select values (Value -> POLL)</to>
       <enabled>Y</enabled>
     </hop>
   </order>
@@ -1086,45 +1076,6 @@
     </GUI>
   </step>
   <step>
-    <name>Change . to , in Value</name>
-    <type>ReplaceString</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <in_stream_name>Value</in_stream_name>
-        <out_stream_name/>
-        <use_regex>no</use_regex>
-        <replace_string>.</replace_string>
-        <replace_by_string>,</replace_by_string>
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-        <is_unicode>no</is_unicode>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>496</xloc>
-      <yloc>544</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
     <name>Compute accumulated toxicity</name>
     <type>ScriptValueMod</type>
     <description/>
@@ -1192,8 +1143,8 @@ var indice_toxicidad = Math.sqrt(sum_squares);</jsScript_script>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>496</xloc>
-      <yloc>640</yloc>
+      <xloc>464</xloc>
+      <yloc>672</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1235,141 +1186,6 @@ var indice_toxicidad = Math.sqrt(sum_squares);</jsScript_script>
     <GUI>
       <xloc>1088</xloc>
       <yloc>304</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Replace in string (, to .)</name>
-    <type>ReplaceString</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <in_stream_name>GINI</in_stream_name>
-        <out_stream_name/>
-        <use_regex>no</use_regex>
-        <replace_string>,</replace_string>
-        <replace_by_string>.</replace_by_string>
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-        <is_unicode>no</is_unicode>
-      </field>
-      <field>
-        <in_stream_name>GINI_IMB</in_stream_name>
-        <out_stream_name/>
-        <use_regex>no</use_regex>
-        <replace_string>,</replace_string>
-        <replace_by_string>.</replace_by_string>
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-        <is_unicode>no</is_unicode>
-      </field>
-      <field>
-        <in_stream_name>IPC</in_stream_name>
-        <out_stream_name/>
-        <use_regex>no</use_regex>
-        <replace_string>,</replace_string>
-        <replace_by_string>.</replace_by_string>
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-        <is_unicode>no</is_unicode>
-      </field>
-      <field>
-        <in_stream_name>IPC_VAR</in_stream_name>
-        <out_stream_name/>
-        <use_regex>no</use_regex>
-        <replace_string>,</replace_string>
-        <replace_by_string>.</replace_by_string>
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-        <is_unicode>no</is_unicode>
-      </field>
-      <field>
-        <in_stream_name>PIBC</in_stream_name>
-        <out_stream_name/>
-        <use_regex>no</use_regex>
-        <replace_string>,</replace_string>
-        <replace_by_string>.</replace_by_string>
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-        <is_unicode>no</is_unicode>
-      </field>
-      <field>
-        <in_stream_name>PIBG</in_stream_name>
-        <out_stream_name/>
-        <use_regex>no</use_regex>
-        <replace_string>,</replace_string>
-        <replace_by_string>.</replace_by_string>
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-        <is_unicode>no</is_unicode>
-      </field>
-      <field>
-        <in_stream_name>POB</in_stream_name>
-        <out_stream_name/>
-        <use_regex>no</use_regex>
-        <replace_string>,</replace_string>
-        <replace_by_string>.</replace_by_string>
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-        <is_unicode>no</is_unicode>
-      </field>
-      <field>
-        <in_stream_name>QOL</in_stream_name>
-        <out_stream_name/>
-        <use_regex>no</use_regex>
-        <replace_string>,</replace_string>
-        <replace_by_string>.</replace_by_string>
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-        <is_unicode>no</is_unicode>
-      </field>
-      <field>
-        <in_stream_name>POLL</in_stream_name>
-        <out_stream_name/>
-        <use_regex>no</use_regex>
-        <replace_string>,</replace_string>
-        <replace_by_string>.</replace_by_string>
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
-        <whole_word>no</whole_word>
-        <case_sensitive>no</case_sensitive>
-        <is_unicode>no</is_unicode>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>1296</xloc>
-      <yloc>416</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1680,8 +1496,8 @@ var indice_toxicidad = Math.sqrt(sum_squares);</jsScript_script>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>304</xloc>
-      <yloc>640</yloc>
+      <xloc>464</xloc>
+      <yloc>544</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2032,7 +1848,7 @@ var indice_toxicidad = Math.sqrt(sum_squares);</jsScript_script>
     </remotesteps>
     <GUI>
       <xloc>1296</xloc>
-      <yloc>496</yloc>
+      <yloc>416</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2563,7 +2379,7 @@ var indice_toxicidad = Math.sqrt(sum_squares);</jsScript_script>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>304</xloc>
+      <xloc>288</xloc>
       <yloc>544</yloc>
       <draw>Y</draw>
     </GUI>
@@ -2753,7 +2569,7 @@ var indice_toxicidad = Math.sqrt(sum_squares);</jsScript_script>
     </remotesteps>
     <GUI>
       <xloc>1296</xloc>
-      <yloc>624</yloc>
+      <yloc>544</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
