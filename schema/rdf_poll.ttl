@@ -10990,7 +10990,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "56.92302204815794"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_andalucia_2015> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11003,7 +11003,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "57.24636961211504"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_andalucia_2016> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11016,7 +11016,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "54.224806497354045"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_andalucia_2017> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11029,7 +11029,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "58.11838966722323"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_andalucia_2018> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11042,7 +11042,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "48.91620609584656"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_andalucia_2019> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11055,7 +11055,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "50.09535526069803"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_andalucia_2020> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11068,7 +11068,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "46.40688382381233"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_andalucia_2021> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11081,7 +11081,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "42.65342344580533"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_andalucia_2022> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11094,7 +11094,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "40.005217779958926"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_andalucia_2023> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11107,7 +11107,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "42.23810766036018"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_andalucia_2024> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11120,7 +11120,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "42.03747446919219"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_andalucia_2025> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11133,7 +11133,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "42.10417056110967"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_aragon_2019> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11146,7 +11146,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "36.70558237027526"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_aragon_2020> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11159,7 +11159,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "32.93882673675863"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_aragon_2021> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11172,7 +11172,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "35.784158195615994"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_aragon_2022> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11185,7 +11185,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "37.87383836040718"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_aragon_2023> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11198,7 +11198,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "32.25848825548484"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_aragon_2024> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11211,7 +11211,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "28.408322104557165"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_aragon_2025> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11224,7 +11224,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "37.75321027857253"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_asturias_2014> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11237,7 +11237,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "59.9003645134958"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_asturias_2015> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11250,7 +11250,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "50.91561003238705"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_asturias_2016> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11263,7 +11263,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "44.97227716353222"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_asturias_2017> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11276,7 +11276,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "46.86864376525372"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_asturias_2018> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11289,7 +11289,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "40.641144033326846"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_asturias_2019> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11302,7 +11302,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "44.34117541523441"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_asturias_2020> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11315,7 +11315,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "38.1250938285975"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_asturias_2021> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11328,7 +11328,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "41.30178010471016"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_asturias_2022> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11341,7 +11341,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "48.971261045788566"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_asturias_2023> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11354,7 +11354,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "43.171045435650015"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_asturias_2024> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11367,7 +11367,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "40.79993218124213"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_asturias_2025> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11380,7 +11380,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "36.73617246408048"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_baleares_2017> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11393,7 +11393,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "28.969612742296693"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_baleares_2018> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11406,7 +11406,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "35.51179079351831"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_baleares_2019> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11419,7 +11419,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "35.84921435820577"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_baleares_2020> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11432,7 +11432,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "31.203963668829427"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_baleares_2021> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11445,7 +11445,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "33.553332428552686"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_baleares_2022> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11458,7 +11458,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "33.337658002123085"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_baleares_2023> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11471,7 +11471,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "31.821223338332903"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_baleares_2024> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11484,7 +11484,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "32.178516964587175"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_baleares_2025> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11497,7 +11497,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "27.882847639065027"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_canarias_2014> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11510,7 +11510,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "38.04813477223807"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_canarias_2015> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11523,7 +11523,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "41.04898885853462"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_canarias_2016> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11536,7 +11536,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "40.931038078058776"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_canarias_2017> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11549,7 +11549,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "44.75845664762552"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_canarias_2018> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11562,7 +11562,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "33.97508415433001"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_canarias_2019> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11575,7 +11575,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "31.31833770889072"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_canarias_2020> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11588,7 +11588,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "39.506181318925805"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_canarias_2021> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11601,7 +11601,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "37.91234890849721"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_canarias_2022> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11614,7 +11614,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "41.070406157733714"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_canarias_2023> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11627,7 +11627,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "43.21015845016356"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_canarias_2024> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11640,7 +11640,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "37.06177893184115"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_canarias_2025> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11653,7 +11653,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "25.607542022522846"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_cantabria_2014> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11666,7 +11666,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "49.25934429915964"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_cantabria_2015> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11679,7 +11679,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "45.608560523284176"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_cantabria_2016> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11692,7 +11692,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "41.86819195276095"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_cantabria_2017> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11705,7 +11705,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "49.22893788926684"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_cantabria_2018> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11718,7 +11718,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "43.78487489761808"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_cantabria_2019> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11731,7 +11731,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "41.63498861075799"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_cantabria_2020> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11744,7 +11744,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "33.20388689143732"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_cantabria_2021> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11757,7 +11757,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "31.829609051735005"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_cantabria_2022> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11770,7 +11770,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "34.36057678756096"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_cantabria_2023> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11783,7 +11783,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "34.454408220769615"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_cantabria_2024> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11796,7 +11796,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "30.969114035359627"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_cantabria_2025> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11809,7 +11809,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "29.24833812596657"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_castilla_leon_2014> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11822,7 +11822,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "36.254426610933336"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_castilla_leon_2015> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11835,7 +11835,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "39.50333435639349"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_castilla_leon_2016> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11848,7 +11848,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "36.4388616887919"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_castilla_leon_2017> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11861,7 +11861,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "35.70787006515486"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_castilla_leon_2018> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11874,7 +11874,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "31.880100631933093"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_castilla_leon_2019> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11887,7 +11887,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "28.26098581361483"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_castilla_leon_2020> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11900,7 +11900,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "29.49913295332281"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_castilla_leon_2021> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11913,7 +11913,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "32.39204885990697"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_castilla_leon_2022> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11926,7 +11926,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "36.10852377313651"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_castilla_leon_2023> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11939,7 +11939,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "31.01632789653144"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_castilla_leon_2024> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11952,7 +11952,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "29.2936154197184"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_castilla_leon_2025> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11965,7 +11965,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "30.393144208087566"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_catalunya_2014> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11978,7 +11978,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "54.83486788273806"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_catalunya_2015> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -11991,7 +11991,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "57.12741691089487"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_catalunya_2016> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12004,7 +12004,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "50.97879759650253"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_catalunya_2017> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12017,7 +12017,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "55.522572857974346"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_catalunya_2018> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12030,7 +12030,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "51.20103914565686"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_catalunya_2019> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12043,7 +12043,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "47.87230780528117"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_catalunya_2020> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12056,7 +12056,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "42.68768965932366"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_catalunya_2021> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12069,7 +12069,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "43.49161578735337"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_catalunya_2022> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12082,7 +12082,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "44.52931092044972"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_catalunya_2023> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12095,7 +12095,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "44.67706334695066"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_catalunya_2024> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12108,7 +12108,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "42.06856716316638"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_catalunya_2025> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12121,7 +12121,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "42.11268776386575"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_ceuta_2017> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12134,7 +12134,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "8.0"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_ceuta_2018> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12147,7 +12147,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "8.0"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_ceuta_2019> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12160,7 +12160,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "8.0"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_ceuta_2020> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12173,7 +12173,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "8.0"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_ceuta_2021> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12186,7 +12186,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "8.0"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_ceuta_2022> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12199,7 +12199,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "8.0"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_ceuta_2023> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12212,7 +12212,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "8.0"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_ceuta_2024> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12225,7 +12225,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "8.0"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_ceuta_2025> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12238,7 +12238,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "8.0"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_comunidad_valenciana_2014> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12251,7 +12251,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "34.87424186178625"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_comunidad_valenciana_2015> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12264,7 +12264,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "31.23397992354219"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_comunidad_valenciana_2016> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12277,7 +12277,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "28.94686490417181"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_comunidad_valenciana_2017> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12290,7 +12290,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "32.44324768194642"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_comunidad_valenciana_2018> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12303,7 +12303,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "36.54683134798369"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_comunidad_valenciana_2019> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12316,7 +12316,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "35.96828495513688"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_comunidad_valenciana_2020> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12329,7 +12329,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "31.77756646954179"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_comunidad_valenciana_2021> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12342,7 +12342,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "27.22465954407437"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_comunidad_valenciana_2022> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12355,7 +12355,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "28.99683125582237"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_comunidad_valenciana_2023> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12368,7 +12368,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "25.10781819379844"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_comunidad_valenciana_2024> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12381,7 +12381,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "26.69090870452795"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_comunidad_valenciana_2025> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12394,7 +12394,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "31.72856628831372"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_extremadura_2017> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12407,7 +12407,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "26.128891772019468"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_extremadura_2018> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12420,7 +12420,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "26.128891772019468"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_extremadura_2019> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12433,7 +12433,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "26.128891772019468"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_extremadura_2020> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12446,7 +12446,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "26.128891772019468"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_extremadura_2021> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12459,7 +12459,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "26.128891772019468"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_extremadura_2022> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12472,7 +12472,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "26.128891772019468"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_extremadura_2023> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12485,7 +12485,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "26.128891772019468"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_extremadura_2024> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12498,7 +12498,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "26.128891772019468"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_extremadura_2025> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12511,7 +12511,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "26.128891772019468"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_galicia_2014> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12524,7 +12524,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "50.40712074237391"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_galicia_2015> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12537,7 +12537,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "52.61229095324172"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_galicia_2016> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12550,7 +12550,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "47.08416722498573"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_galicia_2018> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12563,7 +12563,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "41.02572193509144"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_galicia_2019> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12576,7 +12576,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "40.37482398615797"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_galicia_2020> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12589,7 +12589,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "40.09036728752309"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_galicia_2021> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12602,7 +12602,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "40.71272370675447"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_galicia_2022> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12615,7 +12615,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "41.727692635445926"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_galicia_2023> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12628,7 +12628,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "36.92523244215849"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_galicia_2024> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12641,7 +12641,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "45.60234039266304"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_galicia_2025> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12654,7 +12654,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "40.82039371019428"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_madrid_2013> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12667,7 +12667,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "41.83348813157957"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_madrid_2014> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12680,7 +12680,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "44.14372308237181"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_madrid_2015> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12693,7 +12693,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "49.20686200360628"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_madrid_2016> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12706,7 +12706,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "43.951975184037074"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_madrid_2017> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12719,7 +12719,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "43.219790299908176"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_madrid_2018> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12732,7 +12732,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "43.710585423705936"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_madrid_2019> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12745,7 +12745,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "38.42880126472376"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_madrid_2020> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12758,7 +12758,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "40.08116088697328"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_madrid_2021> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12771,7 +12771,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "42.72533955136865"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_madrid_2022> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12784,7 +12784,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "43.17725941145497"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_madrid_2023> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12797,7 +12797,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "41.44215602131202"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_madrid_2024> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12810,7 +12810,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "37.97157028998488"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_madrid_2025> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12823,7 +12823,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "38.82364052241423"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_melilla_2017> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12836,7 +12836,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "14.0"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_melilla_2018> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12849,7 +12849,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "14.0"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_melilla_2019> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12862,7 +12862,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "14.0"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_melilla_2020> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12875,7 +12875,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "14.0"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_melilla_2021> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12888,7 +12888,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "14.0"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_melilla_2022> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12901,7 +12901,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "14.0"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_melilla_2023> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12914,7 +12914,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "14.0"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_melilla_2024> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12927,7 +12927,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "14.0"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_melilla_2025> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12940,7 +12940,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "14.0"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_murcia_2014> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12953,7 +12953,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "53.100566273807935"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_murcia_2015> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12966,7 +12966,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "50.10269544086579"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_murcia_2016> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12979,7 +12979,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "49.34644471591395"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_murcia_2018> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -12992,7 +12992,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "43.97542909544315"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_murcia_2019> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13005,7 +13005,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "42.84719942405322"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_murcia_2020> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13018,7 +13018,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "38.32602447847829"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_murcia_2021> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13031,7 +13031,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "36.73122182372844"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_murcia_2022> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13044,7 +13044,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "46.14262875664585"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_murcia_2023> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13057,7 +13057,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "38.01908265267889"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_murcia_2024> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13070,7 +13070,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "37.2389649003639"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_murcia_2025> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13083,7 +13083,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "38.08446957866735"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_navarra_2014> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13096,7 +13096,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "28.31962135383851"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_navarra_2015> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13109,7 +13109,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "31.895896737798427"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_navarra_2016> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13122,7 +13122,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "29.27461678612417"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_navarra_2017> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13135,7 +13135,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "31.326267529644024"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_navarra_2018> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13148,7 +13148,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "29.945522956127345"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_navarra_2019> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13161,7 +13161,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "27.633795264461355"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_navarra_2020> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13174,7 +13174,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "28.52678947304476"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_navarra_2021> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13187,7 +13187,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "29.26537058800008"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_navarra_2022> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13200,7 +13200,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "33.15904636563301"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_navarra_2023> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13213,7 +13213,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "28.946500747182533"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_navarra_2024> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13226,7 +13226,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "25.901483644252075"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_navarra_2025> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13239,7 +13239,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "29.970252132263205"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_pais_vasco_2014> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13252,7 +13252,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "38.41025979071498"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_pais_vasco_2015> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13265,7 +13265,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "39.11427386608853"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_pais_vasco_2016> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13278,7 +13278,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "35.770386976920484"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_pais_vasco_2017> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13291,7 +13291,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "40.0389289804758"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_pais_vasco_2018> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13304,7 +13304,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "38.16874375523716"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_pais_vasco_2019> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13317,7 +13317,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "36.672311904687504"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_pais_vasco_2020> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13330,7 +13330,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "33.616720433297736"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_pais_vasco_2021> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13343,7 +13343,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "35.260383614252014"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_pais_vasco_2022> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13356,7 +13356,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "38.00383628441431"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_pais_vasco_2023> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13369,7 +13369,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "35.28781549932994"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_pais_vasco_2024> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13382,7 +13382,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "32.50145851484143"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_pais_vasco_2025> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13395,7 +13395,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "34.08534426161775"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_rioja_2014> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13408,7 +13408,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "29.181501246386617"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_rioja_2015> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13421,7 +13421,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "34.46121675006489"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_rioja_2016> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13434,7 +13434,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "29.974666586156197"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_rioja_2017> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13447,7 +13447,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "30.07971825549"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_rioja_2018> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13460,7 +13460,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "33.7015591800994"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_rioja_2019> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13473,7 +13473,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "35.2599529708415"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_rioja_2020> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13486,7 +13486,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "33.2005524535329"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_rioja_2021> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13499,7 +13499,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "39.09024977777028"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_rioja_2022> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13512,7 +13512,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "36.8912061189794"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_rioja_2023> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13525,7 +13525,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "37.24235916852662"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_rioja_2024> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13538,7 +13538,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "32.48570209077252"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_rioja_2025> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13551,7 +13551,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "27.792653953513508"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_total_nacional_2013> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13564,7 +13564,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "41.83348813157957"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_total_nacional_2014> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13577,7 +13577,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "44.12747649830791"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_total_nacional_2015> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13590,7 +13590,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "44.62134584375516"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_total_nacional_2016> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13603,7 +13603,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "41.05869964271614"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_total_nacional_2017> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13616,7 +13616,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "36.29408854361861"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_total_nacional_2018> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13629,7 +13629,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "35.3596191304669"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_total_nacional_2019> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13642,7 +13642,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "34.5217782713911"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_total_nacional_2020> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13655,7 +13655,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "32.628874007523265"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_total_nacional_2021> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13668,7 +13668,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "33.225397620008025"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_total_nacional_2022> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13681,7 +13681,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "35.138010301531885"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_total_nacional_2023> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13694,7 +13694,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "32.9970377278472"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_total_nacional_2024> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13707,7 +13707,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "31.62992453217164"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_total_nacional_2025> a schema1:Observation ;
     schema1:additionalType envo:01003002,
@@ -13720,7 +13720,7 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "31.18179584901522"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 25 Micras" .
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/so2_en_aire_andalucia_2014> a schema1:Observation ;
     schema1:additionalType chebi:29820,
@@ -16473,7 +16473,7 @@
         "Monoxido de Carbono",
         "Ozono",
         "Particulas Menores de 10 Micras",
-        "Particulas Menores de 25 Micras" .
+        "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Aragon> a schema1:Dataset ;
     schema1:name "Datos Históricos aragon" ;
@@ -16483,7 +16483,7 @@
         "Monoxido de Carbono",
         "Ozono",
         "Particulas Menores de 10 Micras",
-        "Particulas Menores de 25 Micras" .
+        "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Baleares> a schema1:Dataset ;
     schema1:name "Datos Históricos baleares" ;
@@ -16493,7 +16493,7 @@
         "Monoxido de Carbono",
         "Ozono",
         "Particulas Menores de 10 Micras",
-        "Particulas Menores de 25 Micras" .
+        "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Ceuta> a schema1:Dataset ;
     schema1:name "Datos Históricos ceuta" ;
@@ -16503,7 +16503,7 @@
         "Monoxido de Carbono",
         "Ozono",
         "Particulas Menores de 10 Micras",
-        "Particulas Menores de 25 Micras" .
+        "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Extremadura> a schema1:Dataset ;
     schema1:name "Datos Históricos extremadura" ;
@@ -16513,7 +16513,7 @@
         "Monoxido de Carbono",
         "Ozono",
         "Particulas Menores de 10 Micras",
-        "Particulas Menores de 25 Micras" .
+        "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Melilla> a schema1:Dataset ;
     schema1:name "Datos Históricos melilla" ;
@@ -16523,7 +16523,7 @@
         "Monoxido de Carbono",
         "Ozono",
         "Particulas Menores de 10 Micras",
-        "Particulas Menores de 25 Micras" .
+        "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Galicia> a schema1:Dataset ;
     schema1:name "Datos Históricos galicia" ;
@@ -16533,7 +16533,7 @@
         "Monoxido de Carbono",
         "Ozono",
         "Particulas Menores de 10 Micras",
-        "Particulas Menores de 25 Micras" .
+        "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Murcia> a schema1:Dataset ;
     schema1:name "Datos Históricos murcia" ;
@@ -16543,7 +16543,7 @@
         "Monoxido de Carbono",
         "Ozono",
         "Particulas Menores de 10 Micras",
-        "Particulas Menores de 25 Micras" .
+        "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Andalucia> a schema1:Dataset ;
     schema1:name "Datos Históricos andalucia" ;
@@ -16553,7 +16553,7 @@
         "Monoxido de Carbono",
         "Ozono",
         "Particulas Menores de 10 Micras",
-        "Particulas Menores de 25 Micras" .
+        "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Asturias> a schema1:Dataset ;
     schema1:name "Datos Históricos asturias" ;
@@ -16563,7 +16563,7 @@
         "Monoxido de Carbono",
         "Ozono",
         "Particulas Menores de 10 Micras",
-        "Particulas Menores de 25 Micras" .
+        "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Canarias> a schema1:Dataset ;
     schema1:name "Datos Históricos canarias" ;
@@ -16573,7 +16573,7 @@
         "Monoxido de Carbono",
         "Ozono",
         "Particulas Menores de 10 Micras",
-        "Particulas Menores de 25 Micras" .
+        "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Cantabria> a schema1:Dataset ;
     schema1:name "Datos Históricos cantabria" ;
@@ -16583,7 +16583,7 @@
         "Monoxido de Carbono",
         "Ozono",
         "Particulas Menores de 10 Micras",
-        "Particulas Menores de 25 Micras" .
+        "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Castilla_leon> a schema1:Dataset ;
     schema1:name "Datos Históricos castilla_leon" ;
@@ -16593,7 +16593,7 @@
         "Monoxido de Carbono",
         "Ozono",
         "Particulas Menores de 10 Micras",
-        "Particulas Menores de 25 Micras" .
+        "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Catalunya> a schema1:Dataset ;
     schema1:name "Datos Históricos catalunya" ;
@@ -16603,7 +16603,7 @@
         "Monoxido de Carbono",
         "Ozono",
         "Particulas Menores de 10 Micras",
-        "Particulas Menores de 25 Micras" .
+        "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Comunidad_valenciana> a schema1:Dataset ;
     schema1:name "Datos Históricos comunidad_valenciana" ;
@@ -16613,7 +16613,7 @@
         "Monoxido de Carbono",
         "Ozono",
         "Particulas Menores de 10 Micras",
-        "Particulas Menores de 25 Micras" .
+        "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Navarra> a schema1:Dataset ;
     schema1:name "Datos Históricos navarra" ;
@@ -16623,7 +16623,7 @@
         "Monoxido de Carbono",
         "Ozono",
         "Particulas Menores de 10 Micras",
-        "Particulas Menores de 25 Micras" .
+        "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Pais_vasco> a schema1:Dataset ;
     schema1:name "Datos Históricos pais_vasco" ;
@@ -16633,7 +16633,7 @@
         "Monoxido de Carbono",
         "Ozono",
         "Particulas Menores de 10 Micras",
-        "Particulas Menores de 25 Micras" .
+        "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Rioja> a schema1:Dataset ;
     schema1:name "Datos Históricos rioja" ;
@@ -16643,7 +16643,7 @@
         "Monoxido de Carbono",
         "Ozono",
         "Particulas Menores de 10 Micras",
-        "Particulas Menores de 25 Micras" .
+        "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Madrid> a schema1:Dataset ;
     schema1:name "Datos Históricos madrid" ;
@@ -16653,7 +16653,7 @@
         "Monoxido de Carbono",
         "Ozono",
         "Particulas Menores de 10 Micras",
-        "Particulas Menores de 25 Micras" .
+        "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional> a schema1:Dataset ;
     schema1:name "Datos Históricos total_nacional" ;
@@ -16663,7 +16663,7 @@
         "Monoxido de Carbono",
         "Ozono",
         "Particulas Menores de 10 Micras",
-        "Particulas Menores de 25 Micras" .
+        "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2014> a schema1:Dataset ;
     schema1:name "Datos Año 2014" ;
@@ -16673,7 +16673,7 @@
         "Monoxido de Carbono",
         "Ozono",
         "Particulas Menores de 10 Micras",
-        "Particulas Menores de 25 Micras" .
+        "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2015> a schema1:Dataset ;
     schema1:name "Datos Año 2015" ;
@@ -16683,7 +16683,7 @@
         "Monoxido de Carbono",
         "Ozono",
         "Particulas Menores de 10 Micras",
-        "Particulas Menores de 25 Micras" .
+        "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2016> a schema1:Dataset ;
     schema1:name "Datos Año 2016" ;
@@ -16693,7 +16693,7 @@
         "Monoxido de Carbono",
         "Ozono",
         "Particulas Menores de 10 Micras",
-        "Particulas Menores de 25 Micras" .
+        "Particulas Menores de 2.5 Micras" .
 
 ex:Region_aragon a schema1:Place ;
     schema1:containedInPlace <http://www.wikidata.org/entity/Q29> ;
@@ -16709,7 +16709,7 @@ ex:Region_aragon a schema1:Place ;
         "Monoxido de Carbono",
         "Ozono",
         "Particulas Menores de 10 Micras",
-        "Particulas Menores de 25 Micras" .
+        "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2018> a schema1:Dataset ;
     schema1:name "Datos Año 2018" ;
@@ -16719,7 +16719,7 @@ ex:Region_aragon a schema1:Place ;
         "Monoxido de Carbono",
         "Ozono",
         "Particulas Menores de 10 Micras",
-        "Particulas Menores de 25 Micras" .
+        "Particulas Menores de 2.5 Micras" .
 
 ex:Region_baleares a schema1:Place ;
     schema1:containedInPlace <http://www.wikidata.org/entity/Q29> ;
@@ -16753,7 +16753,7 @@ ex:Region_melilla a schema1:Place ;
         "Monoxido de Carbono",
         "Ozono",
         "Particulas Menores de 10 Micras",
-        "Particulas Menores de 25 Micras" .
+        "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2020> a schema1:Dataset ;
     schema1:name "Datos Año 2020" ;
@@ -16763,7 +16763,7 @@ ex:Region_melilla a schema1:Place ;
         "Monoxido de Carbono",
         "Ozono",
         "Particulas Menores de 10 Micras",
-        "Particulas Menores de 25 Micras" .
+        "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2021> a schema1:Dataset ;
     schema1:name "Datos Año 2021" ;
@@ -16773,7 +16773,7 @@ ex:Region_melilla a schema1:Place ;
         "Monoxido de Carbono",
         "Ozono",
         "Particulas Menores de 10 Micras",
-        "Particulas Menores de 25 Micras" .
+        "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2022> a schema1:Dataset ;
     schema1:name "Datos Año 2022" ;
@@ -16783,7 +16783,7 @@ ex:Region_melilla a schema1:Place ;
         "Monoxido de Carbono",
         "Ozono",
         "Particulas Menores de 10 Micras",
-        "Particulas Menores de 25 Micras" .
+        "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2023> a schema1:Dataset ;
     schema1:name "Datos Año 2023" ;
@@ -16793,7 +16793,7 @@ ex:Region_melilla a schema1:Place ;
         "Monoxido de Carbono",
         "Ozono",
         "Particulas Menores de 10 Micras",
-        "Particulas Menores de 25 Micras" .
+        "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2024> a schema1:Dataset ;
     schema1:name "Datos Año 2024" ;
@@ -16803,7 +16803,7 @@ ex:Region_melilla a schema1:Place ;
         "Monoxido de Carbono",
         "Ozono",
         "Particulas Menores de 10 Micras",
-        "Particulas Menores de 25 Micras" .
+        "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2025> a schema1:Dataset ;
     schema1:name "Datos Año 2025" ;
@@ -16813,7 +16813,7 @@ ex:Region_melilla a schema1:Place ;
         "Monoxido de Carbono",
         "Ozono",
         "Particulas Menores de 10 Micras",
-        "Particulas Menores de 25 Micras" .
+        "Particulas Menores de 2.5 Micras" .
 
 ex:Region_galicia a schema1:Place ;
     schema1:containedInPlace <http://www.wikidata.org/entity/Q29> ;

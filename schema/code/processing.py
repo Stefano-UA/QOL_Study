@@ -55,7 +55,7 @@ config = (
             'no2': { 'slug': 'no2_en_aire', 'label': 'Dioxido de Nitrogeno', 'unit': 'PPB' },
             'so2': { 'slug': 'so2_en_aire', 'label': 'Dioxido de Azufre', 'unit': 'PPB' },
             'pm10': { 'slug': 'pm10_en_aire', 'label': 'Particulas Menores de 10 Micras', 'unit': 'UGM3' },
-            'pm25': { 'slug': 'pm25_en_aire', 'label': 'Particulas Menores de 25 Micras', 'unit': 'UGM3' }
+            'pm25': { 'slug': 'pm25_en_aire', 'label': 'Particulas Menores de 2.5 Micras', 'unit': 'UGM3' }
         }
     }
 )
