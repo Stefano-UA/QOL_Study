@@ -45,7 +45,7 @@ Las casillas **marcadas** con una *X* indican que ese miembro del equipo le ha d
 | 5 | ( ) | ( ) | ( ) | (X) |
 | 6 | (X) | ( ) | (X) | (X) |
 | 7 | ( ) | ( ) | ( ) | ( ) |
-| 8 | ( ) | ( ) | ( ) | ( ) |
+| 8 | ( ) | ( ) | ( ) | (X) |
 
 ## Estructura del Repositorio
 
