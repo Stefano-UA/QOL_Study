@@ -145,18 +145,12 @@ Las fuentes utilizadas han sido:
 
 ### Inferecias realizadas:
 
-- Debido a la falta de un plan nacional de monitoreo de la calidad del aire que estandarice y aporte fondos y recursos a la medición de sustancias perjudiciales en el aire ha sido de vital importancia subsanar huecos temporales en la recolección de información y enriquecer los archivos de ciertas CCAA con nueva información para poder discutir su desempeño respecto a otras regiones.
+Debido a la falta de un plan nacional de monitoreo de la calidad del aire que estandarice y aporte datos de medición de sustancias perjudiciales ha sido de vital importancia subsanar los huecos en los distintos datos obtenidos y enriquecer los archivos de ciertas CCAA con informacion de funtes distintas para poder compararlas con otras regiones.
 
-	- *Patrones Locales*: Durante el proceso de ETL se crea un archivo llamado ratios.csv que conserva las proporciones entre distintos contaminantes y la métrica de pm25 (particulas por millón inferiores a 2,5 métricas) para ese sensor en particular.
-
-	Para conseguir dicha proporción se consigue la media del pm25 y el contaminante a comparar y se divide la media de pm25 entre la media del otro contaminantes.
-
-	Cuando falta por llenar en una linea el valor pm25, se multiplica el valor del contaminante X por el ratio del contamiante X para cada contaminante válido en esa línea. Y finalmente se saca la media de los datos obtenidos y se le asigna este valor al valor pm25.
-
-	Cuando falta por llenar en una linea el valor de un contaminante, se divide el valor del contaminante pm25 por el ratio del contaminante X y se le asigna este valor al contaminante en cuestión.
+Durante el proceso de transformación se crea un archivo (*ratios.csv*) que conserva las proporciones entre los distintos contaminantes y la métrica de pm25 para ese sensor en particular. Entonces, cuando falta en alguna linea el valor pm25, se multiplica el valor de cada contaminante por el de su ratio y se saca la media de los datos obtenidos, asignandose esta como pm25. Tambien, cuando falta en una linea el valor de algun contaminante, se divide el valor del pm25 por el ratio del mismo, asignandose este como el contaminante en cuestion. Esto degrada un poco la calidad de los datos al ser una parte de los mismo mediciones artificiales derivadas de los ratios de las mediciones reales pero nos permite al menos realizar algun tipo de comparacion con las comunidades autonomas con pocos datos.
 
 > [!WARNING]
-> En la etapa de inferencia cuando no encontramos un ratio válido para ese sensor y contaminante en concreto se usa por defecto la media nacional entre contaminantes.
+> En la etapa de inferencia, cuando no encontramos un ratio válido para ese sensor y contaminante en concreto, se usa por defecto la media nacional entre contaminantes.
 
 > [!NOTE]
 > Se usa como contaminante base pm25 debido a su extensa y constante medición por partes de instituciones públicas y aficionados, especialmente respecto al resto de contaminantes.
@@ -244,19 +238,19 @@ Como resultado obtenemos *data.csv* en la carpeta *./dist* y los subproductos en
 
 ### Python Script
 
-Para trabajar con los 61 archivos CSV distribuidos en las 19 carpetas regionales que componen nuestro repositorio de contaminación hemos optado por hacer el proceso ETL de estos datos con ayuda de Python, Bash y AWK. El proceso ETL de los datos de contaminación ocurre en su totalidad en el archivo de Bash *start.sh* desde donde se invocan los programas python que trabajan con los datos y un usamos AWK para agregar todos los datos en un archivo temporal llamado "super.csv".
+El proceso ETL de los datos de contaminacón (61 archivos CSV distribuidos en 19 carpetas) lo hemos realizado con ayuda de Bash y Python. Este proceso se encuentra definido en el archivo de Bash *./kettle/pollution/start.sh* desde donde se invocan los scripts de Python que trabajan con los datos.
 
-Después de múltiples iteraciones y muchos errores, hemos desarrollado un flujo de trabajo que minimiza, en la medida de lo posible, la sobrecarga de I/O, es decir, trabajar con el mínimo de archivos posible. El flujo consta de 5 etapas:
+El flujo de la transformación consta de 5 etapas:
 
-- *Formateo:* Estandarizamos la estructura de los CSVs, movemos columnas, ponemos un separador común e imprimimos por pantalla como han llegado los archivos y que hemos cambiado. Trabaja sobre los archivos de sensores - Llamada a formateador.py <file>
+- **Formatting**: Estandarizamos la estructura de los CSVs, movemos columnas, ponemos un separador común, etc. Trabaja sobre los archivos con los datos de los sensores. (*formateador.py*)
 
-- *Agregación:* Agregamos todos nuestros archivos CSV en uno solo llamado super.csv y localizado en temp/pollution/. Cambiamos el formato de la fecha y añadimos las columnas de region y sensor. Esto garantiza que en futuros pasos solo se abre este archivo y/o ratios.csv. Trabaja sobre los archivos de sensores *formateados* - Pequeño Script de AWK.
+- **Aggregation**: Agregamos todos nuestros archivos CSV en uno solo llamado *super.csv*, localizado en *./temp/pollution/*, cambiando el formato de la fecha y añadiendo las columnas de region y sensor. Esto lo hacemos con tal de reducir las ineficiencias que conllevaria tener que estar tratando con una gran cantidiad de distintos archivos constantemente en los futuros pasos. Trabaja sobre los archivos previamente formateados. (Bash y AWK)
 
-- *Patrones:* Para cada sensor individual calculamos las medias de las proporciones entre los contamiantes y pm25, además de la media nacional. Los resultados se escriben en un archivo CSV llamado ratios.csv localizado en temp/pollution. Trabaja sobre super.csv - Llamada a ratios.py
+- **Compute Ratios**: Calculamos las medias de las proporciones entre los contamiantes y pm25 para cada sensor individualmente, además de la media nacional. Los resultados se escriben en un archivo CSV llamado *ratios.csv* localizado en *./temp/pollution*. Trabaja sobre el archivo previamente agregado. (*ratios.py*)
 
-- *Inferencia*: Eliminamos instancias irrecuperables y reconstruimos información pérdida debido a erroes de medición. Primero reconstruimos toda la columna pm25 y después el resto de contaminantes. Trabaja sobre super.csv y ratios.csv - Llamada a inferencia.py
+- **Inferencia**: Eliminamos las entradas invalidas y infermiso la información que necesitemos y no tengamos. Primero inferimos los valores nulos de la columna pm25 y después los del resto de contaminantes. Trabaja sobre el archivo previamente agregado y los ratios previamente calculados. (*inferencia.py*)
 
-- *Factorización*: Pasa la información formateada e inferida de super.csv de un formato ancho a uno largo con las columnas: Year, CCAA, Type, Value. Estás columnas son las estandarizadas para toda nuestra base de datos. Para hacer este cambio se agrupa y calcula la media de cada combinación de Year, CCAA y Type.
+- **Factorización**: Desnormaliza la informacion previamente agregada y con las inferencias necesarias ya realizadas para que quede con las columnas Year, CCAA, Type y Value. El nombre y tipo de valores de datos de estas columnas sigue una convención que hemos definido para poder realizar posteriormente la agregacón final de todos los datos (contaminación y otros). Para conseguir realizar este paso se calculan las medias de cada tipo de valor para cada combinación de comunidad autonoma y año.
 
 ### Pentaho Data Integration
 
@@ -344,105 +338,61 @@ Finalmente, ordenaremos los datos por las siguientes columnas:
 1. [**Ascendente**] Year
 2. [**Ascendente**] CCAA
 
-## Transformación a Tripletas
+### Transformación a Tripletas
 
-### Indicadores Socioeconómicos y Demográficos
+Este apartado describe cómo convertimos los datos originales (CSV) ya limpios y normalizados en un Grafo de Conocimiento inteligente mediante un script de procesamiento en Python. El objetivo es transformar tablas de datos simples en información conectada y enriquecida.
 
-El módulo de transformación RDF (`transform_rdf.py`) procesa un conjunto heterogéneo de indicadores sociales para integrarlos en el Grafo de Conocimiento. Estos datos representan observaciones estadísticas anuales que complementan la visión ambiental con el contexto demográfico y económico de cada región.
+#### Funcionamiento del Proceso
 
-#### Fundamentos Tecnológicos
+El script (*transform_rdf.py*) actúa como un "traductor" de datos. Utiliza la librería **Pandas** para cargar los CSV en la memoria, ademas de tratar con ellos, y **RDFLib** para construir las conexiones del grafo. El diseño es flexible: funciona igual para datos económicos, demográficos o de contaminación, ya que lee las reglas de interpretación desde un archivo de configuración externo (*processing.py*), sin necesidad de cambiar el código principal.
 
-Se utiliza **RDFLib** como motor de orquestación del grafo, apoyado por **Pandas** para la manipulación previa de datos tabulares. Este enfoque híbrido permite normalizar formatos numéricos locales (coma decimal española) y mapear dinámicamente múltiples variables contenidas en un único fichero fuente antes de la semantización.
+#### Vocabularios y Referencias Utilizadas
 
-#### Diseño Ontológico y Modelado de Clases
+Para que los datos sean entendibles por máquinas y otros sistemas, utilizamos una serie de vocabularios y ontologias que aportan significados preciso a nuestros datos y a su contexto.
+Definimos los siguientes prefijos:
 
-La ontología se centra en representar la "observación estadística" como entidad central. Se utilizan los siguientes vocabularios:
+- **Estructural:** `schema` (Schema.org) es el vocabulario base. Define qué es una observación, un conjunto de datos o un lugar.
+- **Científico (OBO Foundry):**
+    - `lfid`: Usado para clasificar métricas que afectan a la calidad de vida.
+    - `ecto`: Usado para describir condiciones ambientales (Ozono).
+    - `chebi` / `envo`: Describen compuestos químicos y entornos naturales con precisión científica.
+- **Conexión Externa:** Usamos `owl` y `wikidata` para enriquecer nuestros datos con fuentes externas.
+- **Identidad Propia:** `ex` es nuestro espacio de nombres personalizado para crear identificadores únicos dentro de nuestro proyecto.
 
-- **schema (Schema.org):** Vocabulario estructural principal. Se emplea la clase `schema:Observation`, diseñada específicamente para mediciones y datos estadísticos, aportando una semántica más precisa para indicadores socioeconómicos.
-- **owl (OWL):** Utilizado para la reconciliación de entidades geográficas, enlazando las Comunidades Autónomas con sus URIs canónicas en Wikidata (`owl:sameAs`).
-- **ex (Custom):** Namespace del proyecto para la instanciación de recursos. Se garantiza la unicidad de las URIs mediante slugs compuestos (Variable + Región + Año).
+#### Estructura de los Datos
 
-#### Especificación de Datasets y Variables Transformadas
+La información en el grafo se organiza conectando tres elementos principales:
 
-El proceso de transformación interpreta y modela específicamente los siguientes ficheros de entrada:
+**1. El Lugar (`schema:Place`)**
+Representa a cada Comunidad Autónoma.
+- **Conexión:** Incluimos enlaces (`owl:sameAs` y `schema:sameAs`) a **Wikidata** para que los datos puedan cruzarse con información externa.
+- **Jerarquía:** Indicamos explícitamente que cada región está contenida dentro de España.
 
-1. **Desigualdad (`gini_ccaa.csv`):**
-   - Se procesan dos indicadores distintos basándose en la columna `Type`: el **Índice Gini** y el **Ratio S80/S20**.
-   - Ambos se modelan como `schema:Observation` independientes, diferenciados por su URI y su etiqueta `variableMeasured`.
+**2. Los Conjuntos de Datos (`schema:Dataset`)**
+Creamos agrupaciones lógicas para facilitar la búsqueda de información:
+- **Por Año:** Un grupo que contiene todas las mediciones de un año específico (`Dataset/Year_{YYYY}`).
+- **Por Región:** Un grupo que contiene todo el historial de datos de una region especifica (`Dataset/Region_{CCAA}`).
 
-2. **Índice de Precios (`ipca_ccaa.csv`):**
-   - Integra los datos de inflación discriminando por tipo: **IPC Índice General** (base 2021) e **IPC Variación Anual** (porcentaje).
-   - El script normaliza los decimales (formato español) para garantizar que los valores en RDF sean `xsd:float` válidos.
+**3. La Observación (`schema:Observation`)**
+Es la pieza central. Representa el dato individual. Hemos unificado tanto los datos socioeconómicos como los de contaminación bajo este mismo modelo.
 
-3. **Renta y PIB (`pibc_ccaa.csv`):**
-   - Se extraen métricas de riqueza diferenciadas: **Renta Neta Media por Persona** y **Renta Media por Unidad de Consumo**.
-   - Se asigna explícitamente la unidad monetaria (`Euro`) en la propiedad `schema:unitText`.
+- **Propiedades Básicas:**
+    - `schema:value`: El número o valor del dato.
+    - `schema:variableMeasured`: El nombre de lo que se mide.
+    - `schema:unitText`: La unidad de lo que se mide.
+    - `schema:observationDate`: El año al que pertenece el dato.
+- **Relaciones:**
+    - Se conecta al **Lugar** correspondiente (`schema:areaServed`).
+    - Se conecta a los **Conjuntos de Datos** (datasets) de año y región mediante la propiedad `schema:isPartOf`.
+- **Clasificación Científica:**
+    - Además de ser una observación genérica, le añadimos etiquetas específicas (`additionalType`) dependiendo de si es un gas contaminante o un indicador económico, usando los vocabularios científicos mencionados arriba.
 
-4. **Población (`pob_ccaa.csv`):**
-   - Transformación directa de los censos anuales.
-   - Se tipifica la unidad de medida como "Personas" para evitar ambigüedades semánticas.
+#### Pasos de Ejecución
 
-5. **Calidad de Vida (`qol_ccaa.csv`):**
-   - Procesamiento del Índice Multidimensional de Calidad de Vida (IMCV).
-   - Se modela como un valor índice (`Index`) asociado a cada región y año.
-
-#### Modelado de Propiedades del Grafo
-
-Cada entrada en el grafo sigue un esquema estricto de `schema:Observation` que conecta:
-
-- **`schema:variableMeasured`**: Nombre normalizado de la variable (ej: "Renta Neta Media por Persona").
-- **`schema:value`**: El dato numérico limpio y tipado (`xsd:float`).
-- **`schema:unitText`**: Unidad de medida explícita.
-- **`schema:observationDate`**: El contexto temporal (`xsd:gYear`).
-- **`schema:areaServed`**: El vínculo con la entidad geográfica (`schema:Place`), la cual incluye su enlace a Wikidata.
-
-#### Resumen del Proceso de Transformación
-
-El script ejecuta un flujo ETL (Extract, Transform, Load) en memoria:
-
-1. **Ingesta y Limpieza:** Carga dinámica de rutas relativas (`../dist/kettle`) y limpieza de separadores de miles/decimales.
-2. **Mapeo de Tipos:** Clasificación de cada fila según diccionarios de mapeo definidos para cada CSV, permitiendo extraer múltiples ontologías de un solo archivo.
-3. **Generación de URIs:** Construcción de identificadores únicos para evitar colisiones de datos (ej: `.../Observation/gini_andalucia_2022`).
-4. **Serialización:** Exportación final a formato Turtle (`.ttl`) unificando todas las observaciones en sus respectivos ficheros de salida.
-
-### Pollution:
-El módulo pollution_rdf.py es la etapa final del proceso ETL que se encarga de convertir los datos de contaminación agregados (obtenidos de pollution.csv) en un formato de Grafo de Conocimiento (Knowledge Graph) conforme a los estándares del W3C (RDF).
-
-**Fundamentos Tecnológicos**
-
-Se ha seleccionado la librería de Python RDFLib como motor de transformación debido a su alta eficiencia, su sintaxis sencilla para la manipulación programática de grafos, y su soporte nativo para el binding y serialización de vocabularios.
-
-**Diseño Ontológico y Modelado de Clases**
-
-Para garantizar la interoperabilidad, la validez semántica y el enriquecimiento de los datos, la información se describe usando los siguientes vocabularios controlados (Namespaces), centrándose la descripción en la clase schema:PropertyValue.
-
-- schema (Schema.org): Vocabulario Primario. Se utiliza para describir la estructura básica de los datos (lugares, valores y tiempo), garantizando la visibilidad de los datos en buscadores y sistemas web.
-
-- owl (OWL): Se utiliza específicamente para el enriquecimiento, vinculando las entidades de las CCAA a sus identificadores equivalentes en Wikidata (owl:sameAs).
-
-- EnvO y ChEBI: Vocabularios Controlados. Proporcionan URIs estables para identificar con precisión los conceptos químicos y ambientales (contaminantes), añadiendo un nivel de autoridad científica al recurso schema:about.
-
-- ex (Custom): Namespace propio utilizado para la generación de URIs únicas para las entidades locales (Regiones y Estadísticas de Valor).
-
-**Modelado de Clases y Propiedades**
-
-El modelo se basa en describir cada entrada (el promedio anual de un contaminante en una CCAA) como un Valor de Propiedad en lugar de una medición de sensor, lo cual es más preciso para datos agregados.
-
-1. Regiones: Se modelan como schema:Place.
-
-2. Estadísticas de Contaminación (Tripleta Clave): Se modelan como schema:PropertyValue. Esta clase es la idónea para expresar que una entidad (la CCAA) tiene una propiedad cuantificable (el promedio de PM2.5) en un momento dado.
-
-3. Vínculo Temporal (schema:temporalCoverage): Se utiliza esta propiedad para enlazar la estadística con el Año (xsd:gYear). Esto especifica que el valor es válido durante todo el periodo anual, evitando la ambigüedad de schema:observationDate.
-
-**Resumen del Proceso de Transformación**
-
-El script realiza la conversión en tres pasos principales por cada fila del CSV:
-
-1. Creación de Entidades Base: Genera y define la URI de la Comunidad Autónoma (schema:Place), le asigna su nombre y la enriquece con su identificador correspondiente de Wikidata (owl:sameAs).
-
-2. Modelado de la Estadística: Crea la URI de la estadística (schema:PropertyValue), asignándole el nombre descriptivo (schema:name, ej: "Promedio Anual de PM25"). Luego vincula esta estadística a la CCAA (schema:mainEntityOfPage) y al año (schema:temporalCoverage).
-
-3. Valoración y Tipado: Asigna el valor numérico (schema:value) y la unidad correspondiente (schema:unitCode). Además, clasifica el contaminante usando los vocabularios ENVO/CHEBI a través de la propiedad schema:about.
+1. **Lectura:** El script recorre lista de archivos configurados.
+2. **Interpretación:** Lee cada fila y decide qué tipo de dato es. Si el archivo contiene múltiples variables mezcladas, el script detecta cuál es y ajusta las etiquetas automáticamente.
+3. **Generación de Identificadores:** Crea direcciones únicas (URIs) para cada dato (ej. `Observation/{type}_{CCAA}_{YYYY}`). Esto asegura que si ejecutamos el script varias veces, no se creen duplicados, sino que se sobrescriba el mismo nodo.
+4. **Guardado:** El resultado final se guarda en un archivo `.ttl` (formato Turtle) en la carpeta de salida *./schema*.
 
 ## Visualizaciones
 
@@ -459,6 +409,9 @@ Esta gráfica revela una correlación lineal positiva robusta entre la potencia 
 ![POLL vs QOL](./visuals/poll_vs_qol.png)
 
 El análisis normalizado muestra una tendencia estructural negativa, indicando que la masificación demográfica y la degradación ambiental actúan como penalizadores directos del bienestar. Las pendientes descendentes de las regresiones sugieren que a medida que una comunidad se desvía por encima de la media en población o contaminación (avanzando en el eje Z-Score), su índice de calidad de vida decae, observándose que la concentración demográfica tiene una pendiente negativa ligeramente más pronunciada que la contaminación por sí sola, lo que implica que el estrés urbano podría ser un factor más determinante que la calidad del aire aislada.
+
+> [!WARNING]
+> Una parte de los datos de contaminación es artificial asi que las conclusiones de esta visualizacion respecto a la contaminación pueden ser erroneas.
 
 ### GINI vs QOL
 
@@ -489,8 +442,7 @@ La matriz sintetiza el peso cuantitativo de las variables, confirmando mediante 
 Además de este mismo README.md se incluye una memoria del trabajo en la carpeta *./docs*.
 
 ## Last Edited
+
+- 13/12/25 - Stefano
 - 10/12/25 - Linxi
 - 10/12/25 - Carlos
-- 8/12/25 - Stefano
-
-

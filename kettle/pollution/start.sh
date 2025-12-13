@@ -33,7 +33,6 @@ rm -rf ../../temp/pollution
 mkdir -p ../../temp/pollution
 cp -r ../../data/pollution/* ../../temp/pollution/
 
-
 scandir="../../temp/pollution"
 
 echo "###########################"
