@@ -12,7 +12,6 @@
 5. [Transformación a Tripletas](#transformación-a-tripletas)
 6. [Visualizaciones](#visualizaciones)
 7. [Documentación y Memoria](#documentación-y-memoria)
-<!--8. []()-->
 
 ## Equipo (G3)
 
@@ -67,7 +66,8 @@ Las casillas **marcadas** con una *X* indican que ese miembro del equipo le ha d
     - /**kettle**: Agregados generados por las transformaciones de Pentaho y Python
     - /*data.csv*: Agregado de datos final
 - ./**docs**: Documentación del trabajo
-    - /*Memoria.pdf*: Memoria del trabajo (versión final)
+	- /*Presentation.pdf*: Presentación del trabajo
+    - /*Memoria.pdf*: Memoria del trabajo
     - /*Memoria.odt*: Memoria del trabajo
 - ./**kettle**: Trabajos y transformaciones
     - /**pollution**: Trabajos y transformaciones de pollution hechos en Python
@@ -491,5 +491,5 @@ Además de este mismo README.md se incluye una memoria del trabajo en la carpeta
 - 10/12/25 - Linxi
 - 10/12/25 - Carlos
 - 8/12/25 - Stefano
-  
+
 
