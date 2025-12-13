@@ -82,7 +82,7 @@ CCAA_TO_WIKIDATA = {
     'extremadura': 'Q5777', 'galicia': 'Q3911', 'la_rioja': 'Q5727',
     'madrid': 'Q5756', 'melilla': 'Q5831', 'murcia': 'Q5768',
     'navarra': 'Q4018', 'pais_vasco': 'Q3995', 'rioja': 'Q5727',
-    'total_nacional': 'Q29', 'spain': 'Q29'
+    'total_nacional': 'Q29', 'spain': 'Q29', 'españa': 'Q29'
 }
 # <=================================================================================>
 #  UNIT to TYPE map
@@ -163,6 +163,9 @@ def transform(config):
             try:
                 # Get relevant data
                 y,  ca, v = row['Year'], row['CCAA'], row['Value']
+                # Check for total values
+                if 'total' in ca:
+                    ca = 'españa'
             except:
                 # Skip if any data is not present
                 continue
