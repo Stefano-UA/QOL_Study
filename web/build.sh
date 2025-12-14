@@ -21,11 +21,12 @@ set -e
 # <=======================================================>
 WKDIR="$(dirname "${BASH_SOURCE[0]}")"
 # <=======================================================>
-#  HTML Snippets
+#  HTML Snippets & CSS
 # <=======================================================>
 HEADER_SNP="${WKDIR}/header.html"
 FOOTER_SNP="${WKDIR}/footer.html"
 CARD_SNP="${WKDIR}/card.html"
+CSS_SRC="${WKDIR}/style.css"
 # <=======================================================>
 #  Input directory
 # <=======================================================>
@@ -54,10 +55,17 @@ if ! ls "$MAPS_DIR"/map_*.html 1> /dev/null 2>&1; then
     exit 1
 fi
 # <=======================================================>
-#  Copy map files to distribution folder
+#  Copy assets to distribution folder
 # <=======================================================>
 echo " -> Copying maps from ${MAPS_DIR}..."
 cp "${MAPS_DIR}"/map_*.html "${DIST_MAPS}/"
+# <=======================================================>
+echo " -> Copying styles..."
+if [ -f "$CSS_SRC" ]; then
+    cp "$CSS_SRC" "${DIST_DIR}/"
+else
+    echo " [WARNING] Style file not found at ${CSS_SRC}. Generating without CSS."
+fi
 # <=======================================================>
 #  Generate index.html
 # <=======================================================>
@@ -68,7 +76,7 @@ echo " -> Building ${INDEX_FILE} from snippets..."
 #  1. Inject Header
 # <=======================================================>
 if [ -f "$HEADER_SNP" ]; then
-    cat "$HEADER_SNP" > "$HEADER_SNP"
+    cat "$HEADER_SNP" > "$INDEX_FILE"
 else
     echo " [ERROR] Header template not found at ${HEADER_TPL}"
     exit 1
@@ -95,7 +103,7 @@ fi
 #  3. Inject Footer
 # <=======================================================>
 if [ -f "$FOOTER_SNP" ]; then
-    cat "$FOOTER_SNP" >> "$FOOTER_SNP"
+    cat "$FOOTER_SNP" >> "$INDEX_FILE"
 else
     echo " [ERROR] Footer template not found at ${FOOTER_SNP}"
     exit 1
