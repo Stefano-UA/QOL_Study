@@ -2060,6 +2060,193 @@
     schema1:value "102.2662378983"^^xsd:float ;
     schema1:variableMeasured "Indice Calidad de Vida" .
 
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/calidad_vida_españa_2008> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2008> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Index" ;
+    schema1:value "100.0"^^xsd:float ;
+    schema1:variableMeasured "Indice Calidad de Vida" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/calidad_vida_españa_2009> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2009> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Index" ;
+    schema1:value "99.6345693643"^^xsd:float ;
+    schema1:variableMeasured "Indice Calidad de Vida" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/calidad_vida_españa_2010> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2010> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Index" ;
+    schema1:value "99.9651315252"^^xsd:float ;
+    schema1:variableMeasured "Indice Calidad de Vida" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/calidad_vida_españa_2011> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2011> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Index" ;
+    schema1:value "100.2598432652"^^xsd:float ;
+    schema1:variableMeasured "Indice Calidad de Vida" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/calidad_vida_españa_2012> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2012> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Index" ;
+    schema1:value "100.1625625445"^^xsd:float ;
+    schema1:variableMeasured "Indice Calidad de Vida" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/calidad_vida_españa_2013> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2013> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Index" ;
+    schema1:value "99.9108305825"^^xsd:float ;
+    schema1:variableMeasured "Indice Calidad de Vida" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/calidad_vida_españa_2014> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2014> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Index" ;
+    schema1:value "100.0899887114"^^xsd:float ;
+    schema1:variableMeasured "Indice Calidad de Vida" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/calidad_vida_españa_2015> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2015> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Index" ;
+    schema1:value "100.3660845182"^^xsd:float ;
+    schema1:variableMeasured "Indice Calidad de Vida" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/calidad_vida_españa_2016> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2016> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Index" ;
+    schema1:value "100.6503841737"^^xsd:float ;
+    schema1:variableMeasured "Indice Calidad de Vida" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/calidad_vida_españa_2017> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2017> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Index" ;
+    schema1:value "101.0968155266"^^xsd:float ;
+    schema1:variableMeasured "Indice Calidad de Vida" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/calidad_vida_españa_2018> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2018> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Index" ;
+    schema1:value "101.5840554229"^^xsd:float ;
+    schema1:variableMeasured "Indice Calidad de Vida" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/calidad_vida_españa_2019> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2019> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Index" ;
+    schema1:value "101.9065917343"^^xsd:float ;
+    schema1:variableMeasured "Indice Calidad de Vida" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/calidad_vida_españa_2020> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2020> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Index" ;
+    schema1:value "101.6336970849"^^xsd:float ;
+    schema1:variableMeasured "Indice Calidad de Vida" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/calidad_vida_españa_2021> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2021> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Index" ;
+    schema1:value "101.5592927842"^^xsd:float ;
+    schema1:variableMeasured "Indice Calidad de Vida" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/calidad_vida_españa_2022> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2022> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Index" ;
+    schema1:value "101.1387721954"^^xsd:float ;
+    schema1:variableMeasured "Indice Calidad de Vida" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/calidad_vida_españa_2023> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2023> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Index" ;
+    schema1:value "101.2026141343"^^xsd:float ;
+    schema1:variableMeasured "Indice Calidad de Vida" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/calidad_vida_españa_2024> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2024> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Index" ;
+    schema1:value "101.4672225858"^^xsd:float ;
+    schema1:variableMeasured "Indice Calidad de Vida" .
+
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/calidad_vida_extremadura_2008> a schema1:Observation ;
     schema1:areaServed ex:Region_extremadura ;
     schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Extremadura>,
@@ -3556,193 +3743,6 @@
     schema1:value "103.9126617141"^^xsd:float ;
     schema1:variableMeasured "Indice Calidad de Vida" .
 
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/calidad_vida_total_nacional_2008> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2008> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2008"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Index" ;
-    schema1:value "100.0"^^xsd:float ;
-    schema1:variableMeasured "Indice Calidad de Vida" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/calidad_vida_total_nacional_2009> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2009> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2009"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Index" ;
-    schema1:value "99.6345693643"^^xsd:float ;
-    schema1:variableMeasured "Indice Calidad de Vida" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/calidad_vida_total_nacional_2010> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2010> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2010"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Index" ;
-    schema1:value "99.9651315252"^^xsd:float ;
-    schema1:variableMeasured "Indice Calidad de Vida" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/calidad_vida_total_nacional_2011> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2011> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2011"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Index" ;
-    schema1:value "100.2598432652"^^xsd:float ;
-    schema1:variableMeasured "Indice Calidad de Vida" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/calidad_vida_total_nacional_2012> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2012> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2012"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Index" ;
-    schema1:value "100.1625625445"^^xsd:float ;
-    schema1:variableMeasured "Indice Calidad de Vida" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/calidad_vida_total_nacional_2013> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2013> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2013"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Index" ;
-    schema1:value "99.9108305825"^^xsd:float ;
-    schema1:variableMeasured "Indice Calidad de Vida" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/calidad_vida_total_nacional_2014> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2014> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2014"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Index" ;
-    schema1:value "100.0899887114"^^xsd:float ;
-    schema1:variableMeasured "Indice Calidad de Vida" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/calidad_vida_total_nacional_2015> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2015> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2015"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Index" ;
-    schema1:value "100.3660845182"^^xsd:float ;
-    schema1:variableMeasured "Indice Calidad de Vida" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/calidad_vida_total_nacional_2016> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2016> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2016"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Index" ;
-    schema1:value "100.6503841737"^^xsd:float ;
-    schema1:variableMeasured "Indice Calidad de Vida" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/calidad_vida_total_nacional_2017> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2017> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2017"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Index" ;
-    schema1:value "101.0968155266"^^xsd:float ;
-    schema1:variableMeasured "Indice Calidad de Vida" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/calidad_vida_total_nacional_2018> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2018> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2018"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Index" ;
-    schema1:value "101.5840554229"^^xsd:float ;
-    schema1:variableMeasured "Indice Calidad de Vida" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/calidad_vida_total_nacional_2019> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2019> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2019"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Index" ;
-    schema1:value "101.9065917343"^^xsd:float ;
-    schema1:variableMeasured "Indice Calidad de Vida" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/calidad_vida_total_nacional_2020> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2020> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2020"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Index" ;
-    schema1:value "101.6336970849"^^xsd:float ;
-    schema1:variableMeasured "Indice Calidad de Vida" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/calidad_vida_total_nacional_2021> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2021> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2021"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Index" ;
-    schema1:value "101.5592927842"^^xsd:float ;
-    schema1:variableMeasured "Indice Calidad de Vida" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/calidad_vida_total_nacional_2022> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2022> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2022"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Index" ;
-    schema1:value "101.1387721954"^^xsd:float ;
-    schema1:variableMeasured "Indice Calidad de Vida" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/calidad_vida_total_nacional_2023> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2023> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2023"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Index" ;
-    schema1:value "101.2026141343"^^xsd:float ;
-    schema1:variableMeasured "Indice Calidad de Vida" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/calidad_vida_total_nacional_2024> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2024> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2024"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Index" ;
-    schema1:value "101.4672225858"^^xsd:float ;
-    schema1:variableMeasured "Indice Calidad de Vida" .
-
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Andalucia> a schema1:Dataset ;
     schema1:name "Datos Históricos andalucia" ;
     schema1:spatialCoverage ex:Region_andalucia ;
@@ -3798,6 +3798,11 @@
     schema1:spatialCoverage ex:Region_comunidad_valenciana ;
     schema1:variableMeasured "Indice Calidad de Vida" .
 
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España> a schema1:Dataset ;
+    schema1:name "Datos Históricos españa" ;
+    schema1:spatialCoverage ex:Region_españa ;
+    schema1:variableMeasured "Indice Calidad de Vida" .
+
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Extremadura> a schema1:Dataset ;
     schema1:name "Datos Históricos extremadura" ;
     schema1:spatialCoverage ex:Region_extremadura ;
@@ -3836,11 +3841,6 @@
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Rioja> a schema1:Dataset ;
     schema1:name "Datos Históricos rioja" ;
     schema1:spatialCoverage ex:Region_rioja ;
-    schema1:variableMeasured "Indice Calidad de Vida" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional> a schema1:Dataset ;
-    schema1:name "Datos Históricos total_nacional" ;
-    schema1:spatialCoverage ex:Region_total_nacional ;
     schema1:variableMeasured "Indice Calidad de Vida" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2008> a schema1:Dataset ;
@@ -3994,6 +3994,12 @@ ex:Region_comunidad_valenciana a schema1:Place ;
     schema1:sameAs <http://www.wikidata.org/entity/Q5720> ;
     owl:sameAs <http://www.wikidata.org/entity/Q5720> .
 
+ex:Region_españa a schema1:Place ;
+    schema1:containedInPlace <http://www.wikidata.org/entity/Q29> ;
+    schema1:name "españa" ;
+    schema1:sameAs <http://www.wikidata.org/entity/Q29> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q29> .
+
 ex:Region_extremadura a schema1:Place ;
     schema1:containedInPlace <http://www.wikidata.org/entity/Q29> ;
     schema1:name "extremadura" ;
@@ -4041,10 +4047,4 @@ ex:Region_rioja a schema1:Place ;
     schema1:name "rioja" ;
     schema1:sameAs <http://www.wikidata.org/entity/Q5727> ;
     owl:sameAs <http://www.wikidata.org/entity/Q5727> .
-
-ex:Region_total_nacional a schema1:Place ;
-    schema1:containedInPlace <http://www.wikidata.org/entity/Q29> ;
-    schema1:name "total_nacional" ;
-    schema1:sameAs <http://www.wikidata.org/entity/Q29> ;
-    owl:sameAs <http://www.wikidata.org/entity/Q29> .
 

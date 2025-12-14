@@ -2248,6 +2248,210 @@
     schema1:value "13374"^^xsd:float ;
     schema1:variableMeasured "Renta Neta Media por Persona" .
 
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_persona_españa_2008> a schema1:Observation ;
+    schema1:additionalType lfid:0001116 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2008> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Euro" ;
+    schema1:value "10737"^^xsd:float ;
+    schema1:variableMeasured "Renta Neta Media por Persona" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_persona_españa_2009> a schema1:Observation ;
+    schema1:additionalType lfid:0001116 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2009> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Euro" ;
+    schema1:value "11318"^^xsd:float ;
+    schema1:variableMeasured "Renta Neta Media por Persona" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_persona_españa_2010> a schema1:Observation ;
+    schema1:additionalType lfid:0001116 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2010> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Euro" ;
+    schema1:value "11284"^^xsd:float ;
+    schema1:variableMeasured "Renta Neta Media por Persona" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_persona_españa_2011> a schema1:Observation ;
+    schema1:additionalType lfid:0001116 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2011> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Euro" ;
+    schema1:value "10858"^^xsd:float ;
+    schema1:variableMeasured "Renta Neta Media por Persona" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_persona_españa_2012> a schema1:Observation ;
+    schema1:additionalType lfid:0001116 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2012> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Euro" ;
+    schema1:value "10795"^^xsd:float ;
+    schema1:variableMeasured "Renta Neta Media por Persona" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_persona_españa_2013> a schema1:Observation ;
+    schema1:additionalType lfid:0001116 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2013> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Euro" ;
+    schema1:value "10531"^^xsd:float ;
+    schema1:variableMeasured "Renta Neta Media por Persona" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_persona_españa_2014> a schema1:Observation ;
+    schema1:additionalType lfid:0001116 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2014> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Euro" ;
+    schema1:value "10391"^^xsd:float ;
+    schema1:variableMeasured "Renta Neta Media por Persona" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_persona_españa_2015> a schema1:Observation ;
+    schema1:additionalType lfid:0001116 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2015> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Euro" ;
+    schema1:value "10419"^^xsd:float ;
+    schema1:variableMeasured "Renta Neta Media por Persona" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_persona_españa_2016> a schema1:Observation ;
+    schema1:additionalType lfid:0001116 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2016> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Euro" ;
+    schema1:value "10708"^^xsd:float ;
+    schema1:variableMeasured "Renta Neta Media por Persona" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_persona_españa_2017> a schema1:Observation ;
+    schema1:additionalType lfid:0001116 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2017> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Euro" ;
+    schema1:value "11074"^^xsd:float ;
+    schema1:variableMeasured "Renta Neta Media por Persona" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_persona_españa_2018> a schema1:Observation ;
+    schema1:additionalType lfid:0001116 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2018> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Euro" ;
+    schema1:value "11412"^^xsd:float ;
+    schema1:variableMeasured "Renta Neta Media por Persona" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_persona_españa_2019> a schema1:Observation ;
+    schema1:additionalType lfid:0001116 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2019> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Euro" ;
+    schema1:value "11680"^^xsd:float ;
+    schema1:variableMeasured "Renta Neta Media por Persona" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_persona_españa_2020> a schema1:Observation ;
+    schema1:additionalType lfid:0001116 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2020> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Euro" ;
+    schema1:value "12292"^^xsd:float ;
+    schema1:variableMeasured "Renta Neta Media por Persona" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_persona_españa_2021> a schema1:Observation ;
+    schema1:additionalType lfid:0001116 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2021> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Euro" ;
+    schema1:value "12269"^^xsd:float ;
+    schema1:variableMeasured "Renta Neta Media por Persona" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_persona_españa_2022> a schema1:Observation ;
+    schema1:additionalType lfid:0001116 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2022> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Euro" ;
+    schema1:value "13008"^^xsd:float ;
+    schema1:variableMeasured "Renta Neta Media por Persona" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_persona_españa_2023> a schema1:Observation ;
+    schema1:additionalType lfid:0001116 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2023> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Euro" ;
+    schema1:value "14082"^^xsd:float ;
+    schema1:variableMeasured "Renta Neta Media por Persona" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_persona_españa_2024> a schema1:Observation ;
+    schema1:additionalType lfid:0001116 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2024> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Euro" ;
+    schema1:value "14807"^^xsd:float ;
+    schema1:variableMeasured "Renta Neta Media por Persona" .
+
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_persona_extremadura_2008> a schema1:Observation ;
     schema1:additionalType lfid:0001116 ;
     schema1:areaServed ex:Region_extremadura ;
@@ -3878,210 +4082,6 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "Euro" ;
     schema1:value "14529"^^xsd:float ;
-    schema1:variableMeasured "Renta Neta Media por Persona" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_persona_total_nacional_2008> a schema1:Observation ;
-    schema1:additionalType lfid:0001116 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2008> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2008"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Euro" ;
-    schema1:value "10737"^^xsd:float ;
-    schema1:variableMeasured "Renta Neta Media por Persona" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_persona_total_nacional_2009> a schema1:Observation ;
-    schema1:additionalType lfid:0001116 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2009> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2009"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Euro" ;
-    schema1:value "11318"^^xsd:float ;
-    schema1:variableMeasured "Renta Neta Media por Persona" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_persona_total_nacional_2010> a schema1:Observation ;
-    schema1:additionalType lfid:0001116 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2010> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2010"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Euro" ;
-    schema1:value "11284"^^xsd:float ;
-    schema1:variableMeasured "Renta Neta Media por Persona" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_persona_total_nacional_2011> a schema1:Observation ;
-    schema1:additionalType lfid:0001116 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2011> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2011"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Euro" ;
-    schema1:value "10858"^^xsd:float ;
-    schema1:variableMeasured "Renta Neta Media por Persona" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_persona_total_nacional_2012> a schema1:Observation ;
-    schema1:additionalType lfid:0001116 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2012> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2012"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Euro" ;
-    schema1:value "10795"^^xsd:float ;
-    schema1:variableMeasured "Renta Neta Media por Persona" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_persona_total_nacional_2013> a schema1:Observation ;
-    schema1:additionalType lfid:0001116 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2013> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2013"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Euro" ;
-    schema1:value "10531"^^xsd:float ;
-    schema1:variableMeasured "Renta Neta Media por Persona" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_persona_total_nacional_2014> a schema1:Observation ;
-    schema1:additionalType lfid:0001116 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2014> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2014"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Euro" ;
-    schema1:value "10391"^^xsd:float ;
-    schema1:variableMeasured "Renta Neta Media por Persona" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_persona_total_nacional_2015> a schema1:Observation ;
-    schema1:additionalType lfid:0001116 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2015> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2015"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Euro" ;
-    schema1:value "10419"^^xsd:float ;
-    schema1:variableMeasured "Renta Neta Media por Persona" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_persona_total_nacional_2016> a schema1:Observation ;
-    schema1:additionalType lfid:0001116 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2016> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2016"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Euro" ;
-    schema1:value "10708"^^xsd:float ;
-    schema1:variableMeasured "Renta Neta Media por Persona" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_persona_total_nacional_2017> a schema1:Observation ;
-    schema1:additionalType lfid:0001116 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2017> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2017"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Euro" ;
-    schema1:value "11074"^^xsd:float ;
-    schema1:variableMeasured "Renta Neta Media por Persona" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_persona_total_nacional_2018> a schema1:Observation ;
-    schema1:additionalType lfid:0001116 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2018> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2018"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Euro" ;
-    schema1:value "11412"^^xsd:float ;
-    schema1:variableMeasured "Renta Neta Media por Persona" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_persona_total_nacional_2019> a schema1:Observation ;
-    schema1:additionalType lfid:0001116 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2019> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2019"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Euro" ;
-    schema1:value "11680"^^xsd:float ;
-    schema1:variableMeasured "Renta Neta Media por Persona" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_persona_total_nacional_2020> a schema1:Observation ;
-    schema1:additionalType lfid:0001116 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2020> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2020"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Euro" ;
-    schema1:value "12292"^^xsd:float ;
-    schema1:variableMeasured "Renta Neta Media por Persona" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_persona_total_nacional_2021> a schema1:Observation ;
-    schema1:additionalType lfid:0001116 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2021> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2021"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Euro" ;
-    schema1:value "12269"^^xsd:float ;
-    schema1:variableMeasured "Renta Neta Media por Persona" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_persona_total_nacional_2022> a schema1:Observation ;
-    schema1:additionalType lfid:0001116 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2022> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2022"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Euro" ;
-    schema1:value "13008"^^xsd:float ;
-    schema1:variableMeasured "Renta Neta Media por Persona" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_persona_total_nacional_2023> a schema1:Observation ;
-    schema1:additionalType lfid:0001116 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2023> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2023"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Euro" ;
-    schema1:value "14082"^^xsd:float ;
-    schema1:variableMeasured "Renta Neta Media por Persona" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_persona_total_nacional_2024> a schema1:Observation ;
-    schema1:additionalType lfid:0001116 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2024> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2024"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Euro" ;
-    schema1:value "14807"^^xsd:float ;
     schema1:variableMeasured "Renta Neta Media por Persona" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_andalucia_2008> a schema1:Observation ;
@@ -6328,6 +6328,210 @@
     schema1:value "19574"^^xsd:float ;
     schema1:variableMeasured "Renta Media por Unidad Consumo" .
 
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_españa_2008> a schema1:Observation ;
+    schema1:additionalType lfid:0001244 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2008> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Euro" ;
+    schema1:value "16190"^^xsd:float ;
+    schema1:variableMeasured "Renta Media por Unidad Consumo" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_españa_2009> a schema1:Observation ;
+    schema1:additionalType lfid:0001244 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2009> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Euro" ;
+    schema1:value "17042"^^xsd:float ;
+    schema1:variableMeasured "Renta Media por Unidad Consumo" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_españa_2010> a schema1:Observation ;
+    schema1:additionalType lfid:0001244 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2010> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Euro" ;
+    schema1:value "16922"^^xsd:float ;
+    schema1:variableMeasured "Renta Media por Unidad Consumo" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_españa_2011> a schema1:Observation ;
+    schema1:additionalType lfid:0001244 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2011> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Euro" ;
+    schema1:value "16280"^^xsd:float ;
+    schema1:variableMeasured "Renta Media por Unidad Consumo" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_españa_2012> a schema1:Observation ;
+    schema1:additionalType lfid:0001244 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2012> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Euro" ;
+    schema1:value "16119"^^xsd:float ;
+    schema1:variableMeasured "Renta Media por Unidad Consumo" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_españa_2013> a schema1:Observation ;
+    schema1:additionalType lfid:0001244 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2013> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Euro" ;
+    schema1:value "15635"^^xsd:float ;
+    schema1:variableMeasured "Renta Media por Unidad Consumo" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_españa_2014> a schema1:Observation ;
+    schema1:additionalType lfid:0001244 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2014> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Euro" ;
+    schema1:value "15405"^^xsd:float ;
+    schema1:variableMeasured "Renta Media por Unidad Consumo" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_españa_2015> a schema1:Observation ;
+    schema1:additionalType lfid:0001244 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2015> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Euro" ;
+    schema1:value "15408"^^xsd:float ;
+    schema1:variableMeasured "Renta Media por Unidad Consumo" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_españa_2016> a schema1:Observation ;
+    schema1:additionalType lfid:0001244 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2016> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Euro" ;
+    schema1:value "15842"^^xsd:float ;
+    schema1:variableMeasured "Renta Media por Unidad Consumo" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_españa_2017> a schema1:Observation ;
+    schema1:additionalType lfid:0001244 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2017> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Euro" ;
+    schema1:value "16390"^^xsd:float ;
+    schema1:variableMeasured "Renta Media por Unidad Consumo" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_españa_2018> a schema1:Observation ;
+    schema1:additionalType lfid:0001244 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2018> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Euro" ;
+    schema1:value "16937"^^xsd:float ;
+    schema1:variableMeasured "Renta Media por Unidad Consumo" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_españa_2019> a schema1:Observation ;
+    schema1:additionalType lfid:0001244 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2019> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Euro" ;
+    schema1:value "17287"^^xsd:float ;
+    schema1:variableMeasured "Renta Media por Unidad Consumo" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_españa_2020> a schema1:Observation ;
+    schema1:additionalType lfid:0001244 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2020> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Euro" ;
+    schema1:value "18116"^^xsd:float ;
+    schema1:variableMeasured "Renta Media por Unidad Consumo" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_españa_2021> a schema1:Observation ;
+    schema1:additionalType lfid:0001244 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2021> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Euro" ;
+    schema1:value "18103"^^xsd:float ;
+    schema1:variableMeasured "Renta Media por Unidad Consumo" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_españa_2022> a schema1:Observation ;
+    schema1:additionalType lfid:0001244 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2022> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Euro" ;
+    schema1:value "19160"^^xsd:float ;
+    schema1:variableMeasured "Renta Media por Unidad Consumo" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_españa_2023> a schema1:Observation ;
+    schema1:additionalType lfid:0001244 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2023> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Euro" ;
+    schema1:value "20676"^^xsd:float ;
+    schema1:variableMeasured "Renta Media por Unidad Consumo" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_españa_2024> a schema1:Observation ;
+    schema1:additionalType lfid:0001244 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2024> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Euro" ;
+    schema1:value "21759"^^xsd:float ;
+    schema1:variableMeasured "Renta Media por Unidad Consumo" .
+
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_extremadura_2008> a schema1:Observation ;
     schema1:additionalType lfid:0001244 ;
     schema1:areaServed ex:Region_extremadura ;
@@ -7960,210 +8164,6 @@
     schema1:value "20901"^^xsd:float ;
     schema1:variableMeasured "Renta Media por Unidad Consumo" .
 
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_total_nacional_2008> a schema1:Observation ;
-    schema1:additionalType lfid:0001244 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2008> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2008"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Euro" ;
-    schema1:value "16190"^^xsd:float ;
-    schema1:variableMeasured "Renta Media por Unidad Consumo" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_total_nacional_2009> a schema1:Observation ;
-    schema1:additionalType lfid:0001244 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2009> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2009"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Euro" ;
-    schema1:value "17042"^^xsd:float ;
-    schema1:variableMeasured "Renta Media por Unidad Consumo" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_total_nacional_2010> a schema1:Observation ;
-    schema1:additionalType lfid:0001244 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2010> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2010"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Euro" ;
-    schema1:value "16922"^^xsd:float ;
-    schema1:variableMeasured "Renta Media por Unidad Consumo" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_total_nacional_2011> a schema1:Observation ;
-    schema1:additionalType lfid:0001244 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2011> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2011"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Euro" ;
-    schema1:value "16280"^^xsd:float ;
-    schema1:variableMeasured "Renta Media por Unidad Consumo" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_total_nacional_2012> a schema1:Observation ;
-    schema1:additionalType lfid:0001244 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2012> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2012"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Euro" ;
-    schema1:value "16119"^^xsd:float ;
-    schema1:variableMeasured "Renta Media por Unidad Consumo" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_total_nacional_2013> a schema1:Observation ;
-    schema1:additionalType lfid:0001244 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2013> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2013"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Euro" ;
-    schema1:value "15635"^^xsd:float ;
-    schema1:variableMeasured "Renta Media por Unidad Consumo" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_total_nacional_2014> a schema1:Observation ;
-    schema1:additionalType lfid:0001244 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2014> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2014"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Euro" ;
-    schema1:value "15405"^^xsd:float ;
-    schema1:variableMeasured "Renta Media por Unidad Consumo" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_total_nacional_2015> a schema1:Observation ;
-    schema1:additionalType lfid:0001244 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2015> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2015"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Euro" ;
-    schema1:value "15408"^^xsd:float ;
-    schema1:variableMeasured "Renta Media por Unidad Consumo" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_total_nacional_2016> a schema1:Observation ;
-    schema1:additionalType lfid:0001244 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2016> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2016"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Euro" ;
-    schema1:value "15842"^^xsd:float ;
-    schema1:variableMeasured "Renta Media por Unidad Consumo" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_total_nacional_2017> a schema1:Observation ;
-    schema1:additionalType lfid:0001244 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2017> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2017"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Euro" ;
-    schema1:value "16390"^^xsd:float ;
-    schema1:variableMeasured "Renta Media por Unidad Consumo" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_total_nacional_2018> a schema1:Observation ;
-    schema1:additionalType lfid:0001244 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2018> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2018"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Euro" ;
-    schema1:value "16937"^^xsd:float ;
-    schema1:variableMeasured "Renta Media por Unidad Consumo" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_total_nacional_2019> a schema1:Observation ;
-    schema1:additionalType lfid:0001244 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2019> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2019"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Euro" ;
-    schema1:value "17287"^^xsd:float ;
-    schema1:variableMeasured "Renta Media por Unidad Consumo" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_total_nacional_2020> a schema1:Observation ;
-    schema1:additionalType lfid:0001244 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2020> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2020"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Euro" ;
-    schema1:value "18116"^^xsd:float ;
-    schema1:variableMeasured "Renta Media por Unidad Consumo" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_total_nacional_2021> a schema1:Observation ;
-    schema1:additionalType lfid:0001244 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2021> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2021"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Euro" ;
-    schema1:value "18103"^^xsd:float ;
-    schema1:variableMeasured "Renta Media por Unidad Consumo" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_total_nacional_2022> a schema1:Observation ;
-    schema1:additionalType lfid:0001244 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2022> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2022"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Euro" ;
-    schema1:value "19160"^^xsd:float ;
-    schema1:variableMeasured "Renta Media por Unidad Consumo" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_total_nacional_2023> a schema1:Observation ;
-    schema1:additionalType lfid:0001244 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2023> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2023"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Euro" ;
-    schema1:value "20676"^^xsd:float ;
-    schema1:variableMeasured "Renta Media por Unidad Consumo" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/renta_unidad_consumo_total_nacional_2024> a schema1:Observation ;
-    schema1:additionalType lfid:0001244 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2024> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2024"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Euro" ;
-    schema1:value "21759"^^xsd:float ;
-    schema1:variableMeasured "Renta Media por Unidad Consumo" .
-
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Andalucia> a schema1:Dataset ;
     schema1:name "Datos Históricos andalucia" ;
     schema1:spatialCoverage ex:Region_andalucia ;
@@ -8230,6 +8230,12 @@
     schema1:variableMeasured "Renta Media por Unidad Consumo",
         "Renta Neta Media por Persona" .
 
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España> a schema1:Dataset ;
+    schema1:name "Datos Históricos españa" ;
+    schema1:spatialCoverage ex:Region_españa ;
+    schema1:variableMeasured "Renta Media por Unidad Consumo",
+        "Renta Neta Media por Persona" .
+
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Extremadura> a schema1:Dataset ;
     schema1:name "Datos Históricos extremadura" ;
     schema1:spatialCoverage ex:Region_extremadura ;
@@ -8275,12 +8281,6 @@
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Rioja> a schema1:Dataset ;
     schema1:name "Datos Históricos rioja" ;
     schema1:spatialCoverage ex:Region_rioja ;
-    schema1:variableMeasured "Renta Media por Unidad Consumo",
-        "Renta Neta Media por Persona" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional> a schema1:Dataset ;
-    schema1:name "Datos Históricos total_nacional" ;
-    schema1:spatialCoverage ex:Region_total_nacional ;
     schema1:variableMeasured "Renta Media por Unidad Consumo",
         "Renta Neta Media por Persona" .
 
@@ -8452,6 +8452,12 @@ ex:Region_comunidad_valenciana a schema1:Place ;
     schema1:sameAs <http://www.wikidata.org/entity/Q5720> ;
     owl:sameAs <http://www.wikidata.org/entity/Q5720> .
 
+ex:Region_españa a schema1:Place ;
+    schema1:containedInPlace <http://www.wikidata.org/entity/Q29> ;
+    schema1:name "españa" ;
+    schema1:sameAs <http://www.wikidata.org/entity/Q29> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q29> .
+
 ex:Region_extremadura a schema1:Place ;
     schema1:containedInPlace <http://www.wikidata.org/entity/Q29> ;
     schema1:name "extremadura" ;
@@ -8499,10 +8505,4 @@ ex:Region_rioja a schema1:Place ;
     schema1:name "rioja" ;
     schema1:sameAs <http://www.wikidata.org/entity/Q5727> ;
     owl:sameAs <http://www.wikidata.org/entity/Q5727> .
-
-ex:Region_total_nacional a schema1:Place ;
-    schema1:containedInPlace <http://www.wikidata.org/entity/Q29> ;
-    schema1:name "total_nacional" ;
-    schema1:sameAs <http://www.wikidata.org/entity/Q29> ;
-    owl:sameAs <http://www.wikidata.org/entity/Q29> .
 

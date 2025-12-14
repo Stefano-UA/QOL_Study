@@ -6658,6 +6658,611 @@
     schema1:value "5425182"^^xsd:float ;
     schema1:variableMeasured "Poblacion Total" .
 
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_1971> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1971> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "1971"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "34040642"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_1972> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1972> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "1972"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "34408338"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_1973> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1973> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "1973"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "34800600"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_1974> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1974> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "1974"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "35177294"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_1975> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1975> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "1975"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "35569375"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_1976> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1976> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "1976"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "35946425"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_1977> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1977> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "1977"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "36329199"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_1978> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1978> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "1978"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "36694077"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_1979> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1979> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "1979"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "37035719"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_1980> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1980> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "1980"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "37346940"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_1981> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1981> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "1981"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "37635389"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_1982> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1982> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "1982"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "37881873"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_1983> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1983> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "1983"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "38090151"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_1984> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1984> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "1984"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "38252899"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_1985> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1985> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "1985"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "38407829"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_1986> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1986> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "1986"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "38531195"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_1987> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1987> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "1987"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "38638052"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_1988> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1988> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "1988"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "38731578"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_1989> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1989> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "1989"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "38802300"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_1990> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1990> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "1990"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "38853227"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_1991> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1991> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "1991"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "38881416"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_1992> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1992> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "1992"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "39051336"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_1993> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1993> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "1993"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "39264034"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_1994> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1994> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "1994"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "39458489"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_1995> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1995> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "1995"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "39639726"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_1996> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1996> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "1996"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "39808374"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_1997> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1997> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "1997"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "39971329"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_1998> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1998> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "1998"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "40143449"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_1999> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1999> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "1999"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "40303568"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_2000> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2000> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2000"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "40470182"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_2001> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2001> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2001"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "40665545"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_2002> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2002> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2002"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "41035271"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_2003> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2003> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2003"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "41827836"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_2004> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2004> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2004"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "42547454"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_2005> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2005> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2005"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "43296335"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_2006> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2006> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2006"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "44009969"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_2007> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2007> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2007"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "44784659"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_2008> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2008> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2008"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "45668938"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_2009> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2009> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2009"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "46239271"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_2010> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2010> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2010"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "46486621"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_2011> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2011> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2011"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "46667175"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_2012> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2012> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2012"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "46818216"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_2013> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2013> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "46712650"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_2014> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2014> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "46495744"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_2015> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2015> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "46425722"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_2016> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2016> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "46418884"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_2017> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2017> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "46497393"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_2018> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2018> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "46645070"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_2019> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2019> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "46918951"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_2020> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2020> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "47318050"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_2021> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2021> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "47400798"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_2022> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2022> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "47486727"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_2023> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2023> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "48085361"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_2024> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2024> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "48619695"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_españa_2025> a schema1:Observation ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2025> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2025"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "Personas" ;
+    schema1:value "49128297"^^xsd:float ;
+    schema1:variableMeasured "Poblacion Total" .
+
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_extremadura_1971> a schema1:Observation ;
     schema1:areaServed ex:Region_extremadura ;
     schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Extremadura>,
@@ -11498,611 +12103,6 @@
     schema1:value "326803"^^xsd:float ;
     schema1:variableMeasured "Poblacion Total" .
 
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_1971> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1971> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "1971"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "34040642"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_1972> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1972> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "1972"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "34408338"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_1973> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1973> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "1973"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "34800600"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_1974> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1974> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "1974"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "35177294"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_1975> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1975> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "1975"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "35569375"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_1976> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1976> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "1976"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "35946425"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_1977> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1977> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "1977"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "36329199"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_1978> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1978> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "1978"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "36694077"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_1979> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1979> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "1979"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "37035719"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_1980> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1980> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "1980"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "37346940"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_1981> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1981> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "1981"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "37635389"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_1982> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1982> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "1982"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "37881873"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_1983> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1983> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "1983"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "38090151"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_1984> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1984> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "1984"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "38252899"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_1985> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1985> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "1985"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "38407829"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_1986> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1986> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "1986"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "38531195"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_1987> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1987> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "1987"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "38638052"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_1988> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1988> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "1988"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "38731578"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_1989> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1989> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "1989"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "38802300"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_1990> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1990> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "1990"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "38853227"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_1991> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1991> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "1991"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "38881416"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_1992> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1992> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "1992"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "39051336"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_1993> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1993> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "1993"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "39264034"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_1994> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1994> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "1994"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "39458489"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_1995> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1995> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "1995"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "39639726"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_1996> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1996> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "1996"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "39808374"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_1997> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1997> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "1997"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "39971329"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_1998> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1998> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "1998"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "40143449"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_1999> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1999> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "1999"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "40303568"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_2000> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2000> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2000"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "40470182"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_2001> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2001> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2001"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "40665545"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_2002> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2002> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2002"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "41035271"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_2003> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2003> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2003"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "41827836"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_2004> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2004> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2004"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "42547454"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_2005> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2005> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2005"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "43296335"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_2006> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2006> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2006"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "44009969"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_2007> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2007> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2007"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "44784659"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_2008> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2008> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2008"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "45668938"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_2009> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2009> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2009"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "46239271"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_2010> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2010> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2010"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "46486621"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_2011> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2011> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2011"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "46667175"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_2012> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2012> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2012"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "46818216"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_2013> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2013> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2013"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "46712650"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_2014> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2014> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2014"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "46495744"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_2015> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2015> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2015"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "46425722"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_2016> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2016> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2016"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "46418884"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_2017> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2017> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2017"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "46497393"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_2018> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2018> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2018"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "46645070"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_2019> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2019> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2019"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "46918951"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_2020> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2020> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2020"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "47318050"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_2021> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2021> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2021"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "47400798"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_2022> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2022> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2022"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "47486727"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_2023> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2023> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2023"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "48085361"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_2024> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2024> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2024"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "48619695"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/poblacion_total_nacional_2025> a schema1:Observation ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2025> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2025"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "Personas" ;
-    schema1:value "49128297"^^xsd:float ;
-    schema1:variableMeasured "Poblacion Total" .
-
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_1971> a schema1:Dataset ;
     schema1:name "Datos Año 1971" ;
     schema1:temporalCoverage "1971"^^xsd:gYear ;
@@ -12433,6 +12433,11 @@
     schema1:spatialCoverage ex:Region_comunidad_valenciana ;
     schema1:variableMeasured "Poblacion Total" .
 
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España> a schema1:Dataset ;
+    schema1:name "Datos Históricos españa" ;
+    schema1:spatialCoverage ex:Region_españa ;
+    schema1:variableMeasured "Poblacion Total" .
+
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Extremadura> a schema1:Dataset ;
     schema1:name "Datos Históricos extremadura" ;
     schema1:spatialCoverage ex:Region_extremadura ;
@@ -12471,11 +12476,6 @@
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Rioja> a schema1:Dataset ;
     schema1:name "Datos Históricos rioja" ;
     schema1:spatialCoverage ex:Region_rioja ;
-    schema1:variableMeasured "Poblacion Total" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional> a schema1:Dataset ;
-    schema1:name "Datos Históricos total_nacional" ;
-    schema1:spatialCoverage ex:Region_total_nacional ;
     schema1:variableMeasured "Poblacion Total" .
 
 ex:Region_andalucia a schema1:Place ;
@@ -12544,6 +12544,12 @@ ex:Region_comunidad_valenciana a schema1:Place ;
     schema1:sameAs <http://www.wikidata.org/entity/Q5720> ;
     owl:sameAs <http://www.wikidata.org/entity/Q5720> .
 
+ex:Region_españa a schema1:Place ;
+    schema1:containedInPlace <http://www.wikidata.org/entity/Q29> ;
+    schema1:name "españa" ;
+    schema1:sameAs <http://www.wikidata.org/entity/Q29> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q29> .
+
 ex:Region_extremadura a schema1:Place ;
     schema1:containedInPlace <http://www.wikidata.org/entity/Q29> ;
     schema1:name "extremadura" ;
@@ -12591,10 +12597,4 @@ ex:Region_rioja a schema1:Place ;
     schema1:name "rioja" ;
     schema1:sameAs <http://www.wikidata.org/entity/Q5727> ;
     owl:sameAs <http://www.wikidata.org/entity/Q5727> .
-
-ex:Region_total_nacional a schema1:Place ;
-    schema1:containedInPlace <http://www.wikidata.org/entity/Q29> ;
-    schema1:name "total_nacional" ;
-    schema1:sameAs <http://www.wikidata.org/entity/Q29> ;
-    owl:sameAs <http://www.wikidata.org/entity/Q29> .
 

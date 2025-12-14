@@ -224,7 +224,7 @@ for var in variables:
     outfile = os.path.join(OUTDIR, f'map_{var_escaped}.html')
     try:
         fig.write_html(outfile)
-        print(f'    Saved: {outfile}')
+        print(f'    Saved: {os.path.abspath(outfile)}')
     except Exception as e:
         print(f'    Error when saving: {e}')
 # <=====================================================================>

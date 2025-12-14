@@ -1424,6 +1424,175 @@
     schema1:value "1.0412059270118774"^^xsd:float ;
     schema1:variableMeasured "Monoxido de Carbono" .
 
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/co_en_aire_españa_2013> a schema1:Observation ;
+    schema1:additionalType chebi:17245,
+        lfid:0000786 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2013> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "1.3728094548736265"^^xsd:float ;
+    schema1:variableMeasured "Monoxido de Carbono" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/co_en_aire_españa_2014> a schema1:Observation ;
+    schema1:additionalType chebi:17245,
+        lfid:0000786 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2014> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "1.5028642880796403"^^xsd:float ;
+    schema1:variableMeasured "Monoxido de Carbono" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/co_en_aire_españa_2015> a schema1:Observation ;
+    schema1:additionalType chebi:17245,
+        lfid:0000786 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2015> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "1.5205030839129667"^^xsd:float ;
+    schema1:variableMeasured "Monoxido de Carbono" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/co_en_aire_españa_2016> a schema1:Observation ;
+    schema1:additionalType chebi:17245,
+        lfid:0000786 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2016> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "1.4276235803295128"^^xsd:float ;
+    schema1:variableMeasured "Monoxido de Carbono" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/co_en_aire_españa_2017> a schema1:Observation ;
+    schema1:additionalType chebi:17245,
+        lfid:0000786 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2017> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "1.1737333203357687"^^xsd:float ;
+    schema1:variableMeasured "Monoxido de Carbono" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/co_en_aire_españa_2018> a schema1:Observation ;
+    schema1:additionalType chebi:17245,
+        lfid:0000786 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2018> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "1.1922623935578844"^^xsd:float ;
+    schema1:variableMeasured "Monoxido de Carbono" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/co_en_aire_españa_2019> a schema1:Observation ;
+    schema1:additionalType chebi:17245,
+        lfid:0000786 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2019> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "1.185563830378484"^^xsd:float ;
+    schema1:variableMeasured "Monoxido de Carbono" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/co_en_aire_españa_2020> a schema1:Observation ;
+    schema1:additionalType chebi:17245,
+        lfid:0000786 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2020> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "1.1141872896969136"^^xsd:float ;
+    schema1:variableMeasured "Monoxido de Carbono" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/co_en_aire_españa_2021> a schema1:Observation ;
+    schema1:additionalType chebi:17245,
+        lfid:0000786 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2021> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "1.093693476305513"^^xsd:float ;
+    schema1:variableMeasured "Monoxido de Carbono" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/co_en_aire_españa_2022> a schema1:Observation ;
+    schema1:additionalType chebi:17245,
+        lfid:0000786 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2022> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "1.1237216910656107"^^xsd:float ;
+    schema1:variableMeasured "Monoxido de Carbono" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/co_en_aire_españa_2023> a schema1:Observation ;
+    schema1:additionalType chebi:17245,
+        lfid:0000786 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2023> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "1.096300841870375"^^xsd:float ;
+    schema1:variableMeasured "Monoxido de Carbono" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/co_en_aire_españa_2024> a schema1:Observation ;
+    schema1:additionalType chebi:17245,
+        lfid:0000786 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2024> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "1.0270162155680478"^^xsd:float ;
+    schema1:variableMeasured "Monoxido de Carbono" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/co_en_aire_españa_2025> a schema1:Observation ;
+    schema1:additionalType chebi:17245,
+        lfid:0000786 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2025> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2025"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "1.021602152558552"^^xsd:float ;
+    schema1:variableMeasured "Monoxido de Carbono" .
+
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/co_en_aire_extremadura_2017> a schema1:Observation ;
     schema1:additionalType chebi:17245,
         lfid:0000786 ;
@@ -2579,175 +2748,6 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "PPB" ;
     schema1:value "0.9120448671028278"^^xsd:float ;
-    schema1:variableMeasured "Monoxido de Carbono" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/co_en_aire_total_nacional_2013> a schema1:Observation ;
-    schema1:additionalType chebi:17245,
-        lfid:0000786 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2013> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2013"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "1.3728094548736265"^^xsd:float ;
-    schema1:variableMeasured "Monoxido de Carbono" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/co_en_aire_total_nacional_2014> a schema1:Observation ;
-    schema1:additionalType chebi:17245,
-        lfid:0000786 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2014> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2014"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "1.5028642880796403"^^xsd:float ;
-    schema1:variableMeasured "Monoxido de Carbono" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/co_en_aire_total_nacional_2015> a schema1:Observation ;
-    schema1:additionalType chebi:17245,
-        lfid:0000786 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2015> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2015"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "1.5205030839129667"^^xsd:float ;
-    schema1:variableMeasured "Monoxido de Carbono" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/co_en_aire_total_nacional_2016> a schema1:Observation ;
-    schema1:additionalType chebi:17245,
-        lfid:0000786 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2016> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2016"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "1.4276235803295128"^^xsd:float ;
-    schema1:variableMeasured "Monoxido de Carbono" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/co_en_aire_total_nacional_2017> a schema1:Observation ;
-    schema1:additionalType chebi:17245,
-        lfid:0000786 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2017> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2017"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "1.1737333203357687"^^xsd:float ;
-    schema1:variableMeasured "Monoxido de Carbono" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/co_en_aire_total_nacional_2018> a schema1:Observation ;
-    schema1:additionalType chebi:17245,
-        lfid:0000786 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2018> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2018"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "1.1922623935578844"^^xsd:float ;
-    schema1:variableMeasured "Monoxido de Carbono" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/co_en_aire_total_nacional_2019> a schema1:Observation ;
-    schema1:additionalType chebi:17245,
-        lfid:0000786 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2019> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2019"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "1.185563830378484"^^xsd:float ;
-    schema1:variableMeasured "Monoxido de Carbono" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/co_en_aire_total_nacional_2020> a schema1:Observation ;
-    schema1:additionalType chebi:17245,
-        lfid:0000786 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2020> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2020"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "1.1141872896969136"^^xsd:float ;
-    schema1:variableMeasured "Monoxido de Carbono" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/co_en_aire_total_nacional_2021> a schema1:Observation ;
-    schema1:additionalType chebi:17245,
-        lfid:0000786 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2021> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2021"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "1.093693476305513"^^xsd:float ;
-    schema1:variableMeasured "Monoxido de Carbono" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/co_en_aire_total_nacional_2022> a schema1:Observation ;
-    schema1:additionalType chebi:17245,
-        lfid:0000786 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2022> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2022"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "1.1237216910656107"^^xsd:float ;
-    schema1:variableMeasured "Monoxido de Carbono" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/co_en_aire_total_nacional_2023> a schema1:Observation ;
-    schema1:additionalType chebi:17245,
-        lfid:0000786 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2023> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2023"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "1.096300841870375"^^xsd:float ;
-    schema1:variableMeasured "Monoxido de Carbono" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/co_en_aire_total_nacional_2024> a schema1:Observation ;
-    schema1:additionalType chebi:17245,
-        lfid:0000786 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2024> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2024"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "1.0270162155680478"^^xsd:float ;
-    schema1:variableMeasured "Monoxido de Carbono" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/co_en_aire_total_nacional_2025> a schema1:Observation ;
-    schema1:additionalType chebi:17245,
-        lfid:0000786 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2025> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2025"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "1.021602152558552"^^xsd:float ;
     schema1:variableMeasured "Monoxido de Carbono" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/no2_en_aire_andalucia_2014> a schema1:Observation ;
@@ -4167,6 +4167,175 @@
     schema1:value "4.268047519014623"^^xsd:float ;
     schema1:variableMeasured "Dioxido de Nitrogeno" .
 
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/no2_en_aire_españa_2013> a schema1:Observation ;
+    schema1:additionalType chebi:29424,
+        lfid:0000787 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2013> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "14.666666666666666"^^xsd:float ;
+    schema1:variableMeasured "Dioxido de Nitrogeno" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/no2_en_aire_españa_2014> a schema1:Observation ;
+    schema1:additionalType chebi:29424,
+        lfid:0000787 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2014> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "10.37572130578577"^^xsd:float ;
+    schema1:variableMeasured "Dioxido de Nitrogeno" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/no2_en_aire_españa_2015> a schema1:Observation ;
+    schema1:additionalType chebi:29424,
+        lfid:0000787 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2015> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "9.76348793493116"^^xsd:float ;
+    schema1:variableMeasured "Dioxido de Nitrogeno" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/no2_en_aire_españa_2016> a schema1:Observation ;
+    schema1:additionalType chebi:29424,
+        lfid:0000787 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2016> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "8.811533177874283"^^xsd:float ;
+    schema1:variableMeasured "Dioxido de Nitrogeno" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/no2_en_aire_españa_2017> a schema1:Observation ;
+    schema1:additionalType chebi:29424,
+        lfid:0000787 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2017> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "9.855671177204703"^^xsd:float ;
+    schema1:variableMeasured "Dioxido de Nitrogeno" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/no2_en_aire_españa_2018> a schema1:Observation ;
+    schema1:additionalType chebi:29424,
+        lfid:0000787 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2018> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "8.694688001099895"^^xsd:float ;
+    schema1:variableMeasured "Dioxido de Nitrogeno" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/no2_en_aire_españa_2019> a schema1:Observation ;
+    schema1:additionalType chebi:29424,
+        lfid:0000787 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2019> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "8.575554862766772"^^xsd:float ;
+    schema1:variableMeasured "Dioxido de Nitrogeno" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/no2_en_aire_españa_2020> a schema1:Observation ;
+    schema1:additionalType chebi:29424,
+        lfid:0000787 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2020> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "7.102931914070646"^^xsd:float ;
+    schema1:variableMeasured "Dioxido de Nitrogeno" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/no2_en_aire_españa_2021> a schema1:Observation ;
+    schema1:additionalType chebi:29424,
+        lfid:0000787 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2021> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "7.153437514030035"^^xsd:float ;
+    schema1:variableMeasured "Dioxido de Nitrogeno" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/no2_en_aire_españa_2022> a schema1:Observation ;
+    schema1:additionalType chebi:29424,
+        lfid:0000787 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2022> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "7.548286316941311"^^xsd:float ;
+    schema1:variableMeasured "Dioxido de Nitrogeno" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/no2_en_aire_españa_2023> a schema1:Observation ;
+    schema1:additionalType chebi:29424,
+        lfid:0000787 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2023> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "7.342341166930991"^^xsd:float ;
+    schema1:variableMeasured "Dioxido de Nitrogeno" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/no2_en_aire_españa_2024> a schema1:Observation ;
+    schema1:additionalType chebi:29424,
+        lfid:0000787 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2024> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "6.878251933908236"^^xsd:float ;
+    schema1:variableMeasured "Dioxido de Nitrogeno" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/no2_en_aire_españa_2025> a schema1:Observation ;
+    schema1:additionalType chebi:29424,
+        lfid:0000787 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2025> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2025"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "6.393666260434326"^^xsd:float ;
+    schema1:variableMeasured "Dioxido de Nitrogeno" .
+
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/no2_en_aire_extremadura_2017> a schema1:Observation ;
     schema1:additionalType chebi:29424,
         lfid:0000787 ;
@@ -5322,175 +5491,6 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "PPB" ;
     schema1:value "5.841925931153539"^^xsd:float ;
-    schema1:variableMeasured "Dioxido de Nitrogeno" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/no2_en_aire_total_nacional_2013> a schema1:Observation ;
-    schema1:additionalType chebi:29424,
-        lfid:0000787 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2013> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2013"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "14.666666666666666"^^xsd:float ;
-    schema1:variableMeasured "Dioxido de Nitrogeno" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/no2_en_aire_total_nacional_2014> a schema1:Observation ;
-    schema1:additionalType chebi:29424,
-        lfid:0000787 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2014> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2014"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "10.37572130578577"^^xsd:float ;
-    schema1:variableMeasured "Dioxido de Nitrogeno" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/no2_en_aire_total_nacional_2015> a schema1:Observation ;
-    schema1:additionalType chebi:29424,
-        lfid:0000787 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2015> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2015"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "9.76348793493116"^^xsd:float ;
-    schema1:variableMeasured "Dioxido de Nitrogeno" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/no2_en_aire_total_nacional_2016> a schema1:Observation ;
-    schema1:additionalType chebi:29424,
-        lfid:0000787 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2016> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2016"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "8.811533177874283"^^xsd:float ;
-    schema1:variableMeasured "Dioxido de Nitrogeno" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/no2_en_aire_total_nacional_2017> a schema1:Observation ;
-    schema1:additionalType chebi:29424,
-        lfid:0000787 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2017> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2017"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "9.855671177204703"^^xsd:float ;
-    schema1:variableMeasured "Dioxido de Nitrogeno" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/no2_en_aire_total_nacional_2018> a schema1:Observation ;
-    schema1:additionalType chebi:29424,
-        lfid:0000787 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2018> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2018"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "8.694688001099895"^^xsd:float ;
-    schema1:variableMeasured "Dioxido de Nitrogeno" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/no2_en_aire_total_nacional_2019> a schema1:Observation ;
-    schema1:additionalType chebi:29424,
-        lfid:0000787 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2019> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2019"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "8.575554862766772"^^xsd:float ;
-    schema1:variableMeasured "Dioxido de Nitrogeno" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/no2_en_aire_total_nacional_2020> a schema1:Observation ;
-    schema1:additionalType chebi:29424,
-        lfid:0000787 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2020> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2020"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "7.102931914070646"^^xsd:float ;
-    schema1:variableMeasured "Dioxido de Nitrogeno" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/no2_en_aire_total_nacional_2021> a schema1:Observation ;
-    schema1:additionalType chebi:29424,
-        lfid:0000787 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2021> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2021"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "7.153437514030035"^^xsd:float ;
-    schema1:variableMeasured "Dioxido de Nitrogeno" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/no2_en_aire_total_nacional_2022> a schema1:Observation ;
-    schema1:additionalType chebi:29424,
-        lfid:0000787 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2022> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2022"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "7.548286316941311"^^xsd:float ;
-    schema1:variableMeasured "Dioxido de Nitrogeno" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/no2_en_aire_total_nacional_2023> a schema1:Observation ;
-    schema1:additionalType chebi:29424,
-        lfid:0000787 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2023> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2023"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "7.342341166930991"^^xsd:float ;
-    schema1:variableMeasured "Dioxido de Nitrogeno" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/no2_en_aire_total_nacional_2024> a schema1:Observation ;
-    schema1:additionalType chebi:29424,
-        lfid:0000787 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2024> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2024"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "6.878251933908236"^^xsd:float ;
-    schema1:variableMeasured "Dioxido de Nitrogeno" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/no2_en_aire_total_nacional_2025> a schema1:Observation ;
-    schema1:additionalType chebi:29424,
-        lfid:0000787 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2025> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2025"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "6.393666260434326"^^xsd:float ;
     schema1:variableMeasured "Dioxido de Nitrogeno" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/o3_en_aire_andalucia_2014> a schema1:Observation ;
@@ -6910,6 +6910,175 @@
     schema1:value "31.35561345553333"^^xsd:float ;
     schema1:variableMeasured "Ozono" .
 
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/o3_en_aire_españa_2013> a schema1:Observation ;
+    schema1:additionalType chebi:25812,
+        ecto:9000052 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2013> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "27.947460395155343"^^xsd:float ;
+    schema1:variableMeasured "Ozono" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/o3_en_aire_españa_2014> a schema1:Observation ;
+    schema1:additionalType chebi:25812,
+        ecto:9000052 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2014> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "27.2525321896565"^^xsd:float ;
+    schema1:variableMeasured "Ozono" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/o3_en_aire_españa_2015> a schema1:Observation ;
+    schema1:additionalType chebi:25812,
+        ecto:9000052 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2015> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "30.212366256611595"^^xsd:float ;
+    schema1:variableMeasured "Ozono" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/o3_en_aire_españa_2016> a schema1:Observation ;
+    schema1:additionalType chebi:25812,
+        ecto:9000052 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2016> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "29.72352660951265"^^xsd:float ;
+    schema1:variableMeasured "Ozono" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/o3_en_aire_españa_2017> a schema1:Observation ;
+    schema1:additionalType chebi:25812,
+        ecto:9000052 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2017> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "34.034291547820736"^^xsd:float ;
+    schema1:variableMeasured "Ozono" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/o3_en_aire_españa_2018> a schema1:Observation ;
+    schema1:additionalType chebi:25812,
+        ecto:9000052 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2018> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "33.996158985859715"^^xsd:float ;
+    schema1:variableMeasured "Ozono" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/o3_en_aire_españa_2019> a schema1:Observation ;
+    schema1:additionalType chebi:25812,
+        ecto:9000052 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2019> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "33.05850398956514"^^xsd:float ;
+    schema1:variableMeasured "Ozono" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/o3_en_aire_españa_2020> a schema1:Observation ;
+    schema1:additionalType chebi:25812,
+        ecto:9000052 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2020> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "31.678806085608667"^^xsd:float ;
+    schema1:variableMeasured "Ozono" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/o3_en_aire_españa_2021> a schema1:Observation ;
+    schema1:additionalType chebi:25812,
+        ecto:9000052 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2021> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "31.95523837358246"^^xsd:float ;
+    schema1:variableMeasured "Ozono" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/o3_en_aire_españa_2022> a schema1:Observation ;
+    schema1:additionalType chebi:25812,
+        ecto:9000052 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2022> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "32.651244377134546"^^xsd:float ;
+    schema1:variableMeasured "Ozono" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/o3_en_aire_españa_2023> a schema1:Observation ;
+    schema1:additionalType chebi:25812,
+        ecto:9000052 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2023> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "32.652066964484725"^^xsd:float ;
+    schema1:variableMeasured "Ozono" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/o3_en_aire_españa_2024> a schema1:Observation ;
+    schema1:additionalType chebi:25812,
+        ecto:9000052 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2024> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "31.595931010079862"^^xsd:float ;
+    schema1:variableMeasured "Ozono" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/o3_en_aire_españa_2025> a schema1:Observation ;
+    schema1:additionalType chebi:25812,
+        ecto:9000052 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2025> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2025"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "32.36324106764509"^^xsd:float ;
+    schema1:variableMeasured "Ozono" .
+
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/o3_en_aire_extremadura_2017> a schema1:Observation ;
     schema1:additionalType chebi:25812,
         ecto:9000052 ;
@@ -8065,175 +8234,6 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "PPB" ;
     schema1:value "25.938437320033625"^^xsd:float ;
-    schema1:variableMeasured "Ozono" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/o3_en_aire_total_nacional_2013> a schema1:Observation ;
-    schema1:additionalType chebi:25812,
-        ecto:9000052 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2013> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2013"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "27.947460395155343"^^xsd:float ;
-    schema1:variableMeasured "Ozono" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/o3_en_aire_total_nacional_2014> a schema1:Observation ;
-    schema1:additionalType chebi:25812,
-        ecto:9000052 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2014> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2014"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "27.2525321896565"^^xsd:float ;
-    schema1:variableMeasured "Ozono" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/o3_en_aire_total_nacional_2015> a schema1:Observation ;
-    schema1:additionalType chebi:25812,
-        ecto:9000052 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2015> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2015"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "30.212366256611595"^^xsd:float ;
-    schema1:variableMeasured "Ozono" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/o3_en_aire_total_nacional_2016> a schema1:Observation ;
-    schema1:additionalType chebi:25812,
-        ecto:9000052 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2016> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2016"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "29.72352660951265"^^xsd:float ;
-    schema1:variableMeasured "Ozono" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/o3_en_aire_total_nacional_2017> a schema1:Observation ;
-    schema1:additionalType chebi:25812,
-        ecto:9000052 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2017> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2017"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "34.034291547820736"^^xsd:float ;
-    schema1:variableMeasured "Ozono" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/o3_en_aire_total_nacional_2018> a schema1:Observation ;
-    schema1:additionalType chebi:25812,
-        ecto:9000052 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2018> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2018"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "33.996158985859715"^^xsd:float ;
-    schema1:variableMeasured "Ozono" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/o3_en_aire_total_nacional_2019> a schema1:Observation ;
-    schema1:additionalType chebi:25812,
-        ecto:9000052 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2019> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2019"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "33.05850398956514"^^xsd:float ;
-    schema1:variableMeasured "Ozono" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/o3_en_aire_total_nacional_2020> a schema1:Observation ;
-    schema1:additionalType chebi:25812,
-        ecto:9000052 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2020> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2020"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "31.678806085608667"^^xsd:float ;
-    schema1:variableMeasured "Ozono" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/o3_en_aire_total_nacional_2021> a schema1:Observation ;
-    schema1:additionalType chebi:25812,
-        ecto:9000052 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2021> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2021"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "31.95523837358246"^^xsd:float ;
-    schema1:variableMeasured "Ozono" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/o3_en_aire_total_nacional_2022> a schema1:Observation ;
-    schema1:additionalType chebi:25812,
-        ecto:9000052 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2022> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2022"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "32.651244377134546"^^xsd:float ;
-    schema1:variableMeasured "Ozono" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/o3_en_aire_total_nacional_2023> a schema1:Observation ;
-    schema1:additionalType chebi:25812,
-        ecto:9000052 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2023> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2023"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "32.652066964484725"^^xsd:float ;
-    schema1:variableMeasured "Ozono" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/o3_en_aire_total_nacional_2024> a schema1:Observation ;
-    schema1:additionalType chebi:25812,
-        ecto:9000052 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2024> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2024"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "31.595931010079862"^^xsd:float ;
-    schema1:variableMeasured "Ozono" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/o3_en_aire_total_nacional_2025> a schema1:Observation ;
-    schema1:additionalType chebi:25812,
-        ecto:9000052 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2025> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2025"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "32.36324106764509"^^xsd:float ;
     schema1:variableMeasured "Ozono" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm10_en_aire_andalucia_2014> a schema1:Observation ;
@@ -9653,6 +9653,175 @@
     schema1:value "13.022423533637625"^^xsd:float ;
     schema1:variableMeasured "Particulas Menores de 10 Micras" .
 
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm10_en_aire_españa_2013> a schema1:Observation ;
+    schema1:additionalType envo:01003002,
+        lfid:0000795 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2013> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "UGM3" ;
+    schema1:value "9.666666666666666"^^xsd:float ;
+    schema1:variableMeasured "Particulas Menores de 10 Micras" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm10_en_aire_españa_2014> a schema1:Observation ;
+    schema1:additionalType envo:01003002,
+        lfid:0000795 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2014> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "UGM3" ;
+    schema1:value "20.818362894596024"^^xsd:float ;
+    schema1:variableMeasured "Particulas Menores de 10 Micras" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm10_en_aire_españa_2015> a schema1:Observation ;
+    schema1:additionalType envo:01003002,
+        lfid:0000795 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2015> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "UGM3" ;
+    schema1:value "19.99918931393183"^^xsd:float ;
+    schema1:variableMeasured "Particulas Menores de 10 Micras" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm10_en_aire_españa_2016> a schema1:Observation ;
+    schema1:additionalType envo:01003002,
+        lfid:0000795 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2016> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "UGM3" ;
+    schema1:value "18.613060179246823"^^xsd:float ;
+    schema1:variableMeasured "Particulas Menores de 10 Micras" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm10_en_aire_españa_2017> a schema1:Observation ;
+    schema1:additionalType envo:01003002,
+        lfid:0000795 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2017> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "UGM3" ;
+    schema1:value "20.020477902471608"^^xsd:float ;
+    schema1:variableMeasured "Particulas Menores de 10 Micras" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm10_en_aire_españa_2018> a schema1:Observation ;
+    schema1:additionalType envo:01003002,
+        lfid:0000795 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2018> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "UGM3" ;
+    schema1:value "19.70771627308413"^^xsd:float ;
+    schema1:variableMeasured "Particulas Menores de 10 Micras" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm10_en_aire_españa_2019> a schema1:Observation ;
+    schema1:additionalType envo:01003002,
+        lfid:0000795 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2019> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "UGM3" ;
+    schema1:value "18.92189368031525"^^xsd:float ;
+    schema1:variableMeasured "Particulas Menores de 10 Micras" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm10_en_aire_españa_2020> a schema1:Observation ;
+    schema1:additionalType envo:01003002,
+        lfid:0000795 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2020> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "UGM3" ;
+    schema1:value "19.06545665083594"^^xsd:float ;
+    schema1:variableMeasured "Particulas Menores de 10 Micras" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm10_en_aire_españa_2021> a schema1:Observation ;
+    schema1:additionalType envo:01003002,
+        lfid:0000795 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2021> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "UGM3" ;
+    schema1:value "20.289940753337262"^^xsd:float ;
+    schema1:variableMeasured "Particulas Menores de 10 Micras" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm10_en_aire_españa_2022> a schema1:Observation ;
+    schema1:additionalType envo:01003002,
+        lfid:0000795 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2022> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "UGM3" ;
+    schema1:value "21.72625592322403"^^xsd:float ;
+    schema1:variableMeasured "Particulas Menores de 10 Micras" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm10_en_aire_españa_2023> a schema1:Observation ;
+    schema1:additionalType envo:01003002,
+        lfid:0000795 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2023> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "UGM3" ;
+    schema1:value "19.927661500463127"^^xsd:float ;
+    schema1:variableMeasured "Particulas Menores de 10 Micras" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm10_en_aire_españa_2024> a schema1:Observation ;
+    schema1:additionalType envo:01003002,
+        lfid:0000795 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2024> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "UGM3" ;
+    schema1:value "19.51681924712269"^^xsd:float ;
+    schema1:variableMeasured "Particulas Menores de 10 Micras" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm10_en_aire_españa_2025> a schema1:Observation ;
+    schema1:additionalType envo:01003002,
+        lfid:0000795 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2025> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2025"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "UGM3" ;
+    schema1:value "19.22428939527549"^^xsd:float ;
+    schema1:variableMeasured "Particulas Menores de 10 Micras" .
+
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm10_en_aire_extremadura_2017> a schema1:Observation ;
     schema1:additionalType envo:01003002,
         lfid:0000795 ;
@@ -10808,175 +10977,6 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "15.782568051319393"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 10 Micras" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm10_en_aire_total_nacional_2013> a schema1:Observation ;
-    schema1:additionalType envo:01003002,
-        lfid:0000795 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2013> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2013"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "UGM3" ;
-    schema1:value "9.666666666666666"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 10 Micras" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm10_en_aire_total_nacional_2014> a schema1:Observation ;
-    schema1:additionalType envo:01003002,
-        lfid:0000795 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2014> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2014"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "UGM3" ;
-    schema1:value "20.818362894596024"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 10 Micras" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm10_en_aire_total_nacional_2015> a schema1:Observation ;
-    schema1:additionalType envo:01003002,
-        lfid:0000795 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2015> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2015"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "UGM3" ;
-    schema1:value "19.99918931393183"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 10 Micras" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm10_en_aire_total_nacional_2016> a schema1:Observation ;
-    schema1:additionalType envo:01003002,
-        lfid:0000795 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2016> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2016"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "UGM3" ;
-    schema1:value "18.613060179246823"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 10 Micras" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm10_en_aire_total_nacional_2017> a schema1:Observation ;
-    schema1:additionalType envo:01003002,
-        lfid:0000795 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2017> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2017"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "UGM3" ;
-    schema1:value "20.020477902471608"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 10 Micras" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm10_en_aire_total_nacional_2018> a schema1:Observation ;
-    schema1:additionalType envo:01003002,
-        lfid:0000795 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2018> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2018"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "UGM3" ;
-    schema1:value "19.70771627308413"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 10 Micras" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm10_en_aire_total_nacional_2019> a schema1:Observation ;
-    schema1:additionalType envo:01003002,
-        lfid:0000795 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2019> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2019"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "UGM3" ;
-    schema1:value "18.92189368031525"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 10 Micras" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm10_en_aire_total_nacional_2020> a schema1:Observation ;
-    schema1:additionalType envo:01003002,
-        lfid:0000795 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2020> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2020"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "UGM3" ;
-    schema1:value "19.06545665083594"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 10 Micras" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm10_en_aire_total_nacional_2021> a schema1:Observation ;
-    schema1:additionalType envo:01003002,
-        lfid:0000795 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2021> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2021"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "UGM3" ;
-    schema1:value "20.289940753337262"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 10 Micras" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm10_en_aire_total_nacional_2022> a schema1:Observation ;
-    schema1:additionalType envo:01003002,
-        lfid:0000795 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2022> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2022"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "UGM3" ;
-    schema1:value "21.72625592322403"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 10 Micras" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm10_en_aire_total_nacional_2023> a schema1:Observation ;
-    schema1:additionalType envo:01003002,
-        lfid:0000795 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2023> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2023"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "UGM3" ;
-    schema1:value "19.927661500463127"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 10 Micras" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm10_en_aire_total_nacional_2024> a schema1:Observation ;
-    schema1:additionalType envo:01003002,
-        lfid:0000795 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2024> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2024"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "UGM3" ;
-    schema1:value "19.51681924712269"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 10 Micras" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm10_en_aire_total_nacional_2025> a schema1:Observation ;
-    schema1:additionalType envo:01003002,
-        lfid:0000795 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2025> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2025"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "UGM3" ;
-    schema1:value "19.22428939527549"^^xsd:float ;
     schema1:variableMeasured "Particulas Menores de 10 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_andalucia_2014> a schema1:Observation ;
@@ -12396,6 +12396,175 @@
     schema1:value "31.72856628831372"^^xsd:float ;
     schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_españa_2013> a schema1:Observation ;
+    schema1:additionalType envo:01003002,
+        lfid:0000795 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2013> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "UGM3" ;
+    schema1:value "41.83348813157957"^^xsd:float ;
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_españa_2014> a schema1:Observation ;
+    schema1:additionalType envo:01003002,
+        lfid:0000795 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2014> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "UGM3" ;
+    schema1:value "44.12747649830791"^^xsd:float ;
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_españa_2015> a schema1:Observation ;
+    schema1:additionalType envo:01003002,
+        lfid:0000795 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2015> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "UGM3" ;
+    schema1:value "44.62134584375516"^^xsd:float ;
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_españa_2016> a schema1:Observation ;
+    schema1:additionalType envo:01003002,
+        lfid:0000795 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2016> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "UGM3" ;
+    schema1:value "41.05869964271614"^^xsd:float ;
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_españa_2017> a schema1:Observation ;
+    schema1:additionalType envo:01003002,
+        lfid:0000795 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2017> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "UGM3" ;
+    schema1:value "36.29408854361861"^^xsd:float ;
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_españa_2018> a schema1:Observation ;
+    schema1:additionalType envo:01003002,
+        lfid:0000795 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2018> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "UGM3" ;
+    schema1:value "35.3596191304669"^^xsd:float ;
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_españa_2019> a schema1:Observation ;
+    schema1:additionalType envo:01003002,
+        lfid:0000795 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2019> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "UGM3" ;
+    schema1:value "34.5217782713911"^^xsd:float ;
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_españa_2020> a schema1:Observation ;
+    schema1:additionalType envo:01003002,
+        lfid:0000795 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2020> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "UGM3" ;
+    schema1:value "32.628874007523265"^^xsd:float ;
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_españa_2021> a schema1:Observation ;
+    schema1:additionalType envo:01003002,
+        lfid:0000795 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2021> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "UGM3" ;
+    schema1:value "33.225397620008025"^^xsd:float ;
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_españa_2022> a schema1:Observation ;
+    schema1:additionalType envo:01003002,
+        lfid:0000795 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2022> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "UGM3" ;
+    schema1:value "35.138010301531885"^^xsd:float ;
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_españa_2023> a schema1:Observation ;
+    schema1:additionalType envo:01003002,
+        lfid:0000795 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2023> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "UGM3" ;
+    schema1:value "32.9970377278472"^^xsd:float ;
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_españa_2024> a schema1:Observation ;
+    schema1:additionalType envo:01003002,
+        lfid:0000795 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2024> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "UGM3" ;
+    schema1:value "31.62992453217164"^^xsd:float ;
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_españa_2025> a schema1:Observation ;
+    schema1:additionalType envo:01003002,
+        lfid:0000795 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2025> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2025"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "UGM3" ;
+    schema1:value "31.18179584901522"^^xsd:float ;
+    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
+
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_extremadura_2017> a schema1:Observation ;
     schema1:additionalType envo:01003002,
         lfid:0000795 ;
@@ -13551,175 +13720,6 @@
     schema1:observationPeriod "P1Y" ;
     schema1:unitText "UGM3" ;
     schema1:value "27.792653953513508"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_total_nacional_2013> a schema1:Observation ;
-    schema1:additionalType envo:01003002,
-        lfid:0000795 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2013> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2013"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "UGM3" ;
-    schema1:value "41.83348813157957"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_total_nacional_2014> a schema1:Observation ;
-    schema1:additionalType envo:01003002,
-        lfid:0000795 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2014> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2014"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "UGM3" ;
-    schema1:value "44.12747649830791"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_total_nacional_2015> a schema1:Observation ;
-    schema1:additionalType envo:01003002,
-        lfid:0000795 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2015> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2015"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "UGM3" ;
-    schema1:value "44.62134584375516"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_total_nacional_2016> a schema1:Observation ;
-    schema1:additionalType envo:01003002,
-        lfid:0000795 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2016> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2016"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "UGM3" ;
-    schema1:value "41.05869964271614"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_total_nacional_2017> a schema1:Observation ;
-    schema1:additionalType envo:01003002,
-        lfid:0000795 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2017> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2017"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "UGM3" ;
-    schema1:value "36.29408854361861"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_total_nacional_2018> a schema1:Observation ;
-    schema1:additionalType envo:01003002,
-        lfid:0000795 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2018> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2018"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "UGM3" ;
-    schema1:value "35.3596191304669"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_total_nacional_2019> a schema1:Observation ;
-    schema1:additionalType envo:01003002,
-        lfid:0000795 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2019> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2019"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "UGM3" ;
-    schema1:value "34.5217782713911"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_total_nacional_2020> a schema1:Observation ;
-    schema1:additionalType envo:01003002,
-        lfid:0000795 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2020> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2020"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "UGM3" ;
-    schema1:value "32.628874007523265"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_total_nacional_2021> a schema1:Observation ;
-    schema1:additionalType envo:01003002,
-        lfid:0000795 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2021> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2021"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "UGM3" ;
-    schema1:value "33.225397620008025"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_total_nacional_2022> a schema1:Observation ;
-    schema1:additionalType envo:01003002,
-        lfid:0000795 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2022> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2022"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "UGM3" ;
-    schema1:value "35.138010301531885"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_total_nacional_2023> a schema1:Observation ;
-    schema1:additionalType envo:01003002,
-        lfid:0000795 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2023> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2023"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "UGM3" ;
-    schema1:value "32.9970377278472"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_total_nacional_2024> a schema1:Observation ;
-    schema1:additionalType envo:01003002,
-        lfid:0000795 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2024> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2024"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "UGM3" ;
-    schema1:value "31.62992453217164"^^xsd:float ;
-    schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/pm25_en_aire_total_nacional_2025> a schema1:Observation ;
-    schema1:additionalType envo:01003002,
-        lfid:0000795 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2025> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2025"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "UGM3" ;
-    schema1:value "31.18179584901522"^^xsd:float ;
     schema1:variableMeasured "Particulas Menores de 2.5 Micras" .
 
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/so2_en_aire_andalucia_2014> a schema1:Observation ;
@@ -15139,6 +15139,175 @@
     schema1:value "1.408543366477596"^^xsd:float ;
     schema1:variableMeasured "Dioxido de Azufre" .
 
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/so2_en_aire_españa_2013> a schema1:Observation ;
+    schema1:additionalType chebi:29820,
+        lfid:0000793 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2013> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2013"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "2.179957764079657"^^xsd:float ;
+    schema1:variableMeasured "Dioxido de Azufre" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/so2_en_aire_españa_2014> a schema1:Observation ;
+    schema1:additionalType chebi:29820,
+        lfid:0000793 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2014> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2014"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "2.6085152148844792"^^xsd:float ;
+    schema1:variableMeasured "Dioxido de Azufre" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/so2_en_aire_españa_2015> a schema1:Observation ;
+    schema1:additionalType chebi:29820,
+        lfid:0000793 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2015> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2015"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "2.7147908077033622"^^xsd:float ;
+    schema1:variableMeasured "Dioxido de Azufre" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/so2_en_aire_españa_2016> a schema1:Observation ;
+    schema1:additionalType chebi:29820,
+        lfid:0000793 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2016> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2016"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "2.3917867314144776"^^xsd:float ;
+    schema1:variableMeasured "Dioxido de Azufre" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/so2_en_aire_españa_2017> a schema1:Observation ;
+    schema1:additionalType chebi:29820,
+        lfid:0000793 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2017> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2017"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "2.246211982886273"^^xsd:float ;
+    schema1:variableMeasured "Dioxido de Azufre" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/so2_en_aire_españa_2018> a schema1:Observation ;
+    schema1:additionalType chebi:29820,
+        lfid:0000793 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2018> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2018"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "2.0796687023519"^^xsd:float ;
+    schema1:variableMeasured "Dioxido de Azufre" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/so2_en_aire_españa_2019> a schema1:Observation ;
+    schema1:additionalType chebi:29820,
+        lfid:0000793 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2019> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2019"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "2.1638985269741395"^^xsd:float ;
+    schema1:variableMeasured "Dioxido de Azufre" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/so2_en_aire_españa_2020> a schema1:Observation ;
+    schema1:additionalType chebi:29820,
+        lfid:0000793 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2020> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2020"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "1.8952543575415908"^^xsd:float ;
+    schema1:variableMeasured "Dioxido de Azufre" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/so2_en_aire_españa_2021> a schema1:Observation ;
+    schema1:additionalType chebi:29820,
+        lfid:0000793 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2021> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2021"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "1.920566802055422"^^xsd:float ;
+    schema1:variableMeasured "Dioxido de Azufre" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/so2_en_aire_españa_2022> a schema1:Observation ;
+    schema1:additionalType chebi:29820,
+        lfid:0000793 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2022> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2022"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "1.999180874412936"^^xsd:float ;
+    schema1:variableMeasured "Dioxido de Azufre" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/so2_en_aire_españa_2023> a schema1:Observation ;
+    schema1:additionalType chebi:29820,
+        lfid:0000793 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2023> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2023"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "1.8305920606182964"^^xsd:float ;
+    schema1:variableMeasured "Dioxido de Azufre" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/so2_en_aire_españa_2024> a schema1:Observation ;
+    schema1:additionalType chebi:29820,
+        lfid:0000793 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2024> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2024"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "1.741502602499696"^^xsd:float ;
+    schema1:variableMeasured "Dioxido de Azufre" .
+
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/so2_en_aire_españa_2025> a schema1:Observation ;
+    schema1:additionalType chebi:29820,
+        lfid:0000793 ;
+    schema1:areaServed ex:Region_españa ;
+    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España>,
+        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2025> ;
+    schema1:observationAbout ex:Region_españa ;
+    schema1:observationDate "2025"^^xsd:gYear ;
+    schema1:observationPeriod "P1Y" ;
+    schema1:unitText "PPB" ;
+    schema1:value "1.7768797515330197"^^xsd:float ;
+    schema1:variableMeasured "Dioxido de Azufre" .
+
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/so2_en_aire_extremadura_2017> a schema1:Observation ;
     schema1:additionalType chebi:29820,
         lfid:0000793 ;
@@ -16296,175 +16465,6 @@
     schema1:value "1.796940200920817"^^xsd:float ;
     schema1:variableMeasured "Dioxido de Azufre" .
 
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/so2_en_aire_total_nacional_2013> a schema1:Observation ;
-    schema1:additionalType chebi:29820,
-        lfid:0000793 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2013> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2013"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "2.179957764079657"^^xsd:float ;
-    schema1:variableMeasured "Dioxido de Azufre" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/so2_en_aire_total_nacional_2014> a schema1:Observation ;
-    schema1:additionalType chebi:29820,
-        lfid:0000793 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2014> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2014"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "2.6085152148844792"^^xsd:float ;
-    schema1:variableMeasured "Dioxido de Azufre" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/so2_en_aire_total_nacional_2015> a schema1:Observation ;
-    schema1:additionalType chebi:29820,
-        lfid:0000793 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2015> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2015"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "2.7147908077033622"^^xsd:float ;
-    schema1:variableMeasured "Dioxido de Azufre" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/so2_en_aire_total_nacional_2016> a schema1:Observation ;
-    schema1:additionalType chebi:29820,
-        lfid:0000793 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2016> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2016"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "2.3917867314144776"^^xsd:float ;
-    schema1:variableMeasured "Dioxido de Azufre" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/so2_en_aire_total_nacional_2017> a schema1:Observation ;
-    schema1:additionalType chebi:29820,
-        lfid:0000793 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2017> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2017"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "2.246211982886273"^^xsd:float ;
-    schema1:variableMeasured "Dioxido de Azufre" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/so2_en_aire_total_nacional_2018> a schema1:Observation ;
-    schema1:additionalType chebi:29820,
-        lfid:0000793 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2018> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2018"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "2.0796687023519"^^xsd:float ;
-    schema1:variableMeasured "Dioxido de Azufre" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/so2_en_aire_total_nacional_2019> a schema1:Observation ;
-    schema1:additionalType chebi:29820,
-        lfid:0000793 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2019> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2019"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "2.1638985269741395"^^xsd:float ;
-    schema1:variableMeasured "Dioxido de Azufre" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/so2_en_aire_total_nacional_2020> a schema1:Observation ;
-    schema1:additionalType chebi:29820,
-        lfid:0000793 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2020> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2020"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "1.8952543575415908"^^xsd:float ;
-    schema1:variableMeasured "Dioxido de Azufre" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/so2_en_aire_total_nacional_2021> a schema1:Observation ;
-    schema1:additionalType chebi:29820,
-        lfid:0000793 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2021> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2021"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "1.920566802055422"^^xsd:float ;
-    schema1:variableMeasured "Dioxido de Azufre" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/so2_en_aire_total_nacional_2022> a schema1:Observation ;
-    schema1:additionalType chebi:29820,
-        lfid:0000793 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2022> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2022"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "1.999180874412936"^^xsd:float ;
-    schema1:variableMeasured "Dioxido de Azufre" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/so2_en_aire_total_nacional_2023> a schema1:Observation ;
-    schema1:additionalType chebi:29820,
-        lfid:0000793 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2023> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2023"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "1.8305920606182964"^^xsd:float ;
-    schema1:variableMeasured "Dioxido de Azufre" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/so2_en_aire_total_nacional_2024> a schema1:Observation ;
-    schema1:additionalType chebi:29820,
-        lfid:0000793 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2024> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2024"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "1.741502602499696"^^xsd:float ;
-    schema1:variableMeasured "Dioxido de Azufre" .
-
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Observation/so2_en_aire_total_nacional_2025> a schema1:Observation ;
-    schema1:additionalType chebi:29820,
-        lfid:0000793 ;
-    schema1:areaServed ex:Region_total_nacional ;
-    schema1:isPartOf <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional>,
-        <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2025> ;
-    schema1:observationAbout ex:Region_total_nacional ;
-    schema1:observationDate "2025"^^xsd:gYear ;
-    schema1:observationPeriod "P1Y" ;
-    schema1:unitText "PPB" ;
-    schema1:value "1.7768797515330197"^^xsd:float ;
-    schema1:variableMeasured "Dioxido de Azufre" .
-
 <https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Year_2013> a schema1:Dataset ;
     schema1:name "Datos Año 2013" ;
     schema1:temporalCoverage "2013"^^xsd:gYear ;
@@ -16645,9 +16645,9 @@
         "Particulas Menores de 10 Micras",
         "Particulas Menores de 2.5 Micras" .
 
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Madrid> a schema1:Dataset ;
-    schema1:name "Datos Históricos madrid" ;
-    schema1:spatialCoverage ex:Region_madrid ;
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_España> a schema1:Dataset ;
+    schema1:name "Datos Históricos españa" ;
+    schema1:spatialCoverage ex:Region_españa ;
     schema1:variableMeasured "Dioxido de Azufre",
         "Dioxido de Nitrogeno",
         "Monoxido de Carbono",
@@ -16655,9 +16655,9 @@
         "Particulas Menores de 10 Micras",
         "Particulas Menores de 2.5 Micras" .
 
-<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Total_nacional> a schema1:Dataset ;
-    schema1:name "Datos Históricos total_nacional" ;
-    schema1:spatialCoverage ex:Region_total_nacional ;
+<https://csalas-alarcon.github.io/Grupo3_ADP/ontology/Dataset/Region_Madrid> a schema1:Dataset ;
+    schema1:name "Datos Históricos madrid" ;
+    schema1:spatialCoverage ex:Region_madrid ;
     schema1:variableMeasured "Dioxido de Azufre",
         "Dioxido de Nitrogeno",
         "Monoxido de Carbono",
@@ -16887,15 +16887,15 @@ ex:Region_rioja a schema1:Place ;
     schema1:sameAs <http://www.wikidata.org/entity/Q5727> ;
     owl:sameAs <http://www.wikidata.org/entity/Q5727> .
 
+ex:Region_españa a schema1:Place ;
+    schema1:containedInPlace <http://www.wikidata.org/entity/Q29> ;
+    schema1:name "españa" ;
+    schema1:sameAs <http://www.wikidata.org/entity/Q29> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q29> .
+
 ex:Region_madrid a schema1:Place ;
     schema1:containedInPlace <http://www.wikidata.org/entity/Q29> ;
     schema1:name "madrid" ;
     schema1:sameAs <http://www.wikidata.org/entity/Q5756> ;
     owl:sameAs <http://www.wikidata.org/entity/Q5756> .
-
-ex:Region_total_nacional a schema1:Place ;
-    schema1:containedInPlace <http://www.wikidata.org/entity/Q29> ;
-    schema1:name "total_nacional" ;
-    schema1:sameAs <http://www.wikidata.org/entity/Q29> ;
-    owl:sameAs <http://www.wikidata.org/entity/Q29> .
 
