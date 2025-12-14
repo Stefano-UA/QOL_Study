@@ -63,8 +63,9 @@ Las casillas **marcadas** con una *X* indican que ese miembro del equipo le ha d
     - /*logic.png*: Diseño lógico
     - /*logic.mwb*: Diseño lógico (modelo de MySQL Workbench)
     - /*physic.sql*: Diseño físico
-- ./**dist**: Agregados de datos final
+- ./**dist**: Distintos ficheros y datos finales
     - /**kettle**: Agregados generados por las transformaciones de Pentaho y Python
+    - /**web**: Directorio con la página web generada (autocontenido)
     - /*data.csv*: Agregado de datos final
 - ./**docs**: Documentación del trabajo
     - /*Presentation.pdf*: Presentación del trabajo
@@ -80,9 +81,15 @@ Las casillas **marcadas** con una *X* indican que ese miembro del equipo le ha d
     - /**code**: Código para generar las definiciones RDF
     - /*.ttl*: Definiciones RDF para cada categoría
 - ./**visuals**: Visualizaciones de datos
+    - /**extended**: Visualizaciones interactivas generadas con datos enriquecidos con Wikidata
     - /**code**: Código para generar las visualizaciones
     - /*.png*: Visualizaciones
-- *start.sh*: Script para ejecutar las transformaciones, generar las tripletas y generar las visualizaciones
+- ./**web**: Generación de página web para las visualizaciones
+    - /*build.sh*: Script encargado de generar la página web
+    - /*style.css*: Hoja de estilos de la página web
+    - /*.html*: Snippets de HTML que forman la página web
+
+- *start.sh*: Script para ejecutar las transformaciones, generar las tripletas, generar las visualizaciones y generar la página web de las visualizaciones
 
 > [!IMPORTANT]
 > **DISCLAIMER:** Se incluyen los binarios de **Pentaho Data Integration (PDI)** únicamente para asegurar la reproducibilidad del ETL sin configuraciones externas. La propiedad intelectual del software pertenece íntegramente a **Hitachi Vantara**.
@@ -437,12 +444,19 @@ Este gráfico de perfiles multivariables visualiza la optimización de objetivos
 
 La matriz sintetiza el peso cuantitativo de las variables, confirmando mediante los coeficientes Beta estandarizados que la desigualdad (GINI) es el vector con mayor magnitud de impacto, superando incluso a los indicadores económicos. Mientras que el PIB ejerce una tracción positiva significativa, los coeficientes negativos de la contaminación y la desigualdad revelan que el modelo de calidad de vida es más sensible a los detractores sociales y ambientales que a los incrementos puramente macroeconómicos, validando matemáticamente las tendencias observadas en los gráficos de dispersión.
 
+### Extended Visualizations
+
+Hemos generado, usando datos en formato RDF enriquecidos con Wikidata, varias visualizaciones interactivas (HTML) de nuestros datos.
+Estas visualizaciones se encuentran disponibles en la siguiente página web:
+
+- Visualizaciones: [Link](https://csalas-alarcon.github.io/Grupo3_ADP/)
+
 ## Documentación y Memoria
 
 Además de este mismo README.md se incluye una memoria del trabajo en la carpeta *./docs*.
 
 ## Last Edited
 
-- 13/12/25 - Stefano
+- 14/12/25 - Stefano
 - 10/12/25 - Linxi
 - 10/12/25 - Carlos
