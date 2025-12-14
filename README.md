@@ -449,7 +449,7 @@ La matriz sintetiza el peso cuantitativo de las variables, confirmando mediante 
 Hemos generado, usando datos en formato RDF enriquecidos con Wikidata, varias visualizaciones interactivas (HTML) de nuestros datos.
 Estas visualizaciones se encuentran disponibles en la siguiente página web:
 
-- Visualizaciones: [Link](https://csalas-alarcon.github.io/Grupo3_ADP/)
+- Visualizaciones: [Link](https://Stefano-UA.github.io/QOL_Study/)
 
 ## Documentación y Memoria
 

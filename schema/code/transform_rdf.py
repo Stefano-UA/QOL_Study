@@ -40,7 +40,7 @@ from processing import config as fconfig
 # <=================================================================================>
 #  Our own namespace
 # <=================================================================================>
-EX = Namespace('https://csalas-alarcon.github.io/Grupo3_ADP/ontology/')
+EX = Namespace('https://Stefano-UA.github.io/QOL_Study/ontology/')
 # <=================================================================================>
 #  CHEBI namespace -> http://purl.obolibrary.org
 # <=================================================================================>
