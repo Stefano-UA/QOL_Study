@@ -37,3 +37,8 @@ echo "Generating schemas..."
 echo "Generating visualizations..."
 ./visuals/code/start.sh
 # <============================================>
+#  Run web page generation process
+# <============================================>
+echo "Generating web page..."
+./web/build.sh
+# <============================================>
