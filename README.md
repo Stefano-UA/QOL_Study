@@ -40,7 +40,7 @@ Las casillas **marcadas** con una *X* indican que ese miembro del equipo le ha d
 | 2 | (X) | (X) | (X) | (X) |
 | 3 | (X) | (X) | (X) | (X) |
 | 4 | (X) | (X) | (X) | (X) |
-| 5 | (X) | (X) | ( ) | (X) |
+| 5 | (X) | (X) | (X) | (X) |
 | 6 | (X) | (X) | (X) | (X) |
 | 7 | (X) | (X) | (X) | (X) |
 
