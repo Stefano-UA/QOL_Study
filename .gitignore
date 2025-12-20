@@ -23,3 +23,5 @@ todo.txt
 
 # Pentaho DI Garbage
 kettle/pollution/kettle*shell
+
+docs/

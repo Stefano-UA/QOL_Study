@@ -11,7 +11,6 @@
 4. [Transformación y Limpieza](#transformación-y-limpieza)
 5. [Transformación a Tripletas](#transformación-a-tripletas)
 6. [Visualizaciones](#visualizaciones)
-7. [Documentación y Memoria](#documentación-y-memoria)
 
 ## Equipo (G3)
 
@@ -23,13 +22,12 @@
 ## Apartados
 
 1. - [X] Temática y Preguntas
-2. - [ ] Obtención de Datos
-3. - [ ] Diseño Conceptual, Lógico y Físico
-4. - [ ] Extracción y Preparación de Datos (pentaho)
-5. - [ ] Transformación de Datos (tripletas)
-6. - [ ] Visualizaciones
-7. - [ ] Memoria del Trabajo
-8. - [ ] Repositorio GitHub
+2. - [X] Obtención de Datos
+3. - [X] Diseño Conceptual, Lógico y Físico
+4. - [X] Extracción y Preparación de Datos (pentaho)
+5. - [X] Transformación de Datos (tripletas)
+6. - [X] Visualizaciones
+7. - [X] Repositorio GitHub
 
 ### Revisiones
 
@@ -39,13 +37,12 @@ Las casillas **marcadas** con una *X* indican que ese miembro del equipo le ha d
 | Apartado | Salas | David | Linxi | Stefano |
 |:-:|:---:|:---:|:---:|:---:|
 | 1 | (X) | (X) | (X) | (X) |
-| 2 | (X) | ( ) | (X) | (X) |
-| 3 | (X) | ( ) | (X) | (X) |
-| 4 | (X) | ( ) | (X) | (X) |
-| 5 | ( ) | ( ) | ( ) | (X) |
-| 6 | (X) | ( ) | (X) | (X) |
-| 7 | ( ) | ( ) | ( ) | ( ) |
-| 8 | ( ) | ( ) | ( ) | (X) |
+| 2 | (X) | (X) | (X) | (X) |
+| 3 | (X) | (X) | (X) | (X) |
+| 4 | (X) | (X) | (X) | (X) |
+| 5 | (X) | (X) | ( ) | (X) |
+| 6 | (X) | (X) | (X) | (X) |
+| 7 | (X) | (X) | (X) | (X) |
 
 ## Estructura del Repositorio
 
@@ -67,10 +64,6 @@ Las casillas **marcadas** con una *X* indican que ese miembro del equipo le ha d
     - /**kettle**: Agregados generados por las transformaciones de Pentaho y Python
     - /**web**: Directorio con la página web generada (autocontenido)
     - /*data.csv*: Agregado de datos final
-- ./**docs**: Documentación del trabajo
-    - /*Presentation.pdf*: Presentación del trabajo
-    - /*Memoria.pdf*: Memoria del trabajo
-    - /*Memoria.odt*: Memoria del trabajo
 - ./**kettle**: Trabajos y transformaciones
     - /**pollution**: Trabajos y transformaciones de pollution hechos en Python
     - /**steps**: Transformaciones de Pentaho para cada uno de los CSV de entrada
@@ -450,13 +443,3 @@ Hemos generado, usando datos en formato RDF enriquecidos con Wikidata, varias vi
 Estas visualizaciones se encuentran disponibles en la siguiente página web:
 
 - Visualizaciones: [Link](https://stefano-ua.github.io/QOL_Study/)
-
-## Documentación y Memoria
-
-Además de este mismo README.md se incluye una memoria del trabajo en la carpeta *./docs*.
-
-## Last Edited
-
-- 14/12/25 - Stefano
-- 10/12/25 - Linxi
-- 10/12/25 - Carlos
